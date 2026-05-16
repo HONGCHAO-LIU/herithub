@@ -1,0 +1,166 @@
+import heritageData from '@/data/heritage.json'
+import { HeritageItem } from '@/types/index'
+import Link from 'next/link'
+
+export const dynamic = 'force-dynamic'
+
+// 分类配置
+const categoryConfig: Record<string, { icon: string; color: string; desc: string }> = {
+  '国际组织': { icon: '🏛️', color: '#1E3A5F', desc: '联合国教科文组织等国际机构' },
+  '博物馆': { icon: '🏛️', color: '#8B4513', desc: '世界著名博物馆与中国博物馆' },
+  '政府机构': { icon: '🏢', color: '#2E7D32', desc: '政府文化遗产管理部门' },
+  '研究机构': { icon: '🔬', color: '#6A1B9A', desc: '文化遗产研究保护机构' },
+  '机构': { icon: '📋', color: '#455A64', desc: '其他文化遗产相关机构' },
+  '世界遗产': { icon: '🏰', color: '#C41E3A', desc: '中国世界遗产名录' },
+  '非物质文化遗产': { icon: '🎭', color: '#E65100', desc: '中国非物质文化遗产' },
+  '微信公众号': { icon: '📱', color: '#07C160', desc: '文化遗产相关公众号' },
+  '抖音': { icon: '🎵', color: '#000000', desc: '文化遗产短视频账号' },
+}
+
+export default function Home({
+  searchParams,
+}: {
+  searchParams: { search?: string; category?: string }
+}) {
+  const search = searchParams?.search || ''
+  const activeCategory = searchParams?.category || ''
+
+  // 按分类分组数据
+  const groupedData = heritageData.reduce((acc, item: HeritageItem) => {
+    const category = item.分类 || '其他'
+    if (!acc[category]) {
+      acc[category] = []
+    }
+    acc[category].push(item)
+    return acc
+  }, {} as Record<string, HeritageItem[]>)
+
+  // 搜索过滤
+  const filterItems = (items: HeritageItem[]) => {
+    if (!search) return items
+    const lowerSearch = search.toLowerCase()
+    return items.filter(
+      (item) =>
+        item.名称.toLowerCase().includes(lowerSearch) ||
+        item.描述?.toLowerCase().includes(lowerSearch) ||
+        item.地区?.toLowerCase().includes(lowerSearch)
+    )
+  }
+
+  const totalItems = heritageData.length
+
+  // 排序后的分类数组
+  const order = ['国际组织', '博物馆', '政府机构', '研究机构', '机构', '世界遗产', '非物质文化遗产', '微信公众号', '抖音']
+  const sortedCategories = Object.keys(groupedData).sort((a, b) => order.indexOf(a) - order.indexOf(b))
+
+  // 奇数放左列，偶数放右列
+  const leftColumns = sortedCategories.filter((_, i) => i % 2 === 0)
+  const rightColumns = sortedCategories.filter((_, i) => i % 2 === 1)
+
+  const renderCategory = (category: string, items: HeritageItem[]) => {
+    const filteredItems = filterItems(items)
+    if (filteredItems.length === 0) return null
+    const config = categoryConfig[category] || { icon: '📁', color: '#666', desc: '' }
+
+    return (
+      <section key={category} className="category-section">
+        <div className="category-header">
+          <h2 className="category-title">
+            <span className="category-icon" style={{ backgroundColor: config.color }}>
+              {config.icon}
+            </span>
+            {category}
+            <span className="category-count">{filteredItems.length}</span>
+          </h2>
+        </div>
+
+        <div className="category-items">
+          {filteredItems.map((item, idx) => (
+            <article key={idx} className="card compact">
+              <div className="card-header">
+                <span className="card-icon">{config.icon}</span>
+                <h3>
+                  <Link href={`/heritage/${encodeURIComponent(item.名称)}`}>
+                    {item.名称}
+                  </Link>
+                </h3>
+              </div>
+              <div className="card-body">
+                <p>{item.描述}</p>
+              </div>
+            </article>
+          ))}
+        </div>
+      </section>
+    )
+  }
+
+  return (
+    <main>
+      <div className="container">
+        {/* Hero区域 */}
+        <section className="hero" aria-labelledby="hero-title">
+          <header>
+            <h2 id="hero-title">🏛️ 探索文化遗产</h2>
+            <p>追寻文明足迹，感受历史脉搏。这里收录了世界遗产、非物质文化遗产、博物馆等珍贵的文化遗产资源。</p>
+          </header>
+          
+          {/* 搜索框 */}
+          <form className="search-form" role="search">
+            <input
+              type="search"
+              name="search"
+              placeholder="搜索文化遗产..."
+              defaultValue={search}
+              className="search-input-hero"
+              aria-label="搜索文化遗产"
+            />
+            <button type="submit" className="search-btn">🔍 搜索</button>
+            {activeCategory && (
+              <Link href="/" className="clear-filter">清除筛选</Link>
+            )}
+          </form>
+        </section>
+
+        {/* 统计信息 */}
+        <section className="stats" aria-label="网站统计">
+          <div className="stat-card">
+            <div className="stat-number">{totalItems}</div>
+            <div className="stat-label">文化遗产</div>
+          </div>
+          <div className="stat-card">
+            <div className="stat-number">{Object.keys(groupedData).length}</div>
+            <div className="stat-label">分类</div>
+          </div>
+          <div className="stat-card">
+            <div className="stat-number">{(heritageData as HeritageItem[]).filter((i: HeritageItem) => i.分类 === '世界遗产').length}</div>
+            <div className="stat-label">世界遗产</div>
+          </div>
+          <div className="stat-card">
+            <div className="stat-number">{(heritageData as HeritageItem[]).filter((i: HeritageItem) => i.分类 === '非物质文化遗产').length}</div>
+            <div className="stat-label">非遗项目</div>
+          </div>
+        </section>
+
+        {/* 左右两列展示 */}
+        <div className="two-column-sections">
+          <div className="left-column">
+            {leftColumns.map(cat => renderCategory(cat, groupedData[cat]))}
+          </div>
+          <div className="right-column">
+            {rightColumns.map(cat => renderCategory(cat, groupedData[cat]))}
+          </div>
+        </div>
+
+        {/* 无结果提示 */}
+        {search && Object.values(groupedData).every(items => filterItems(items).length === 0) && (
+          <div className="no-results">
+            <h3>未找到匹配的结果</h3>
+            <p>请尝试其他关键词</p>
+            <Link href="/" className="back-link">返回首页</Link>
+          </div>
+        )}
+      </div>
+    </main>
+  )
+}
