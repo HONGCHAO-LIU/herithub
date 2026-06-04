@@ -1,17 +1,19 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import NavHeader from './components/NavHeader'
+import Footer from './components/Footer'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://heritage.example.com'),
   title: {
-    default: '文化遗产目录 | 探索中华文明瑰宝',
-    template: '%s | 文化遗产目录',
+    default: '智汇遗藏 | 文化遗产领域一站式信息中枢',
+    template: '%s | 智汇遗藏',
   },
-  description: '收录世界遗产、非物质文化遗产、博物馆等文化遗产资源的目录网站。探索中华文明瑰宝，了解历史文化。',
-  keywords: ['文化遗产', '世界遗产', '非物质文化遗产', '博物馆', '文物保护', '历史文化', '中华文明'],
-  authors: [{ name: '文化遗产目录' }],
-  creator: '文化遗产目录',
-  publisher: '文化遗产目录',
+  description: '智汇遗藏——文化遗产领域一站式信息中枢。收录世界遗产、非物质文化遗产、博物馆等机构名录，汇集商业情报、学术会议与论文成果。',
+  keywords: ['文化遗产', '世界遗产', '非物质文化遗产', '博物馆', '文物保护', '历史文化', '中华文明', '商业情报', '学术动态', '智汇遗藏'],
+  authors: [{ name: '智汇遗藏' }],
+  creator: '智汇遗藏',
+  publisher: '智汇遗藏',
   robots: {
     index: true,
     follow: true,
@@ -27,22 +29,22 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'zh_CN',
     url: 'https://heritage.example.com',
-    siteName: '文化遗产目录',
-    title: '文化遗产目录 | 探索中华文明瑰宝',
-    description: '收录世界遗产、非物质文化遗产、博物馆等文化遗产资源的目录网站。探索中华文明瑰宝，了解历史文化。',
+    siteName: '智汇遗藏',
+    title: '智汇遗藏 | 文化遗产领域一站式信息中枢',
+    description: '智汇遗藏——文化遗产领域一站式信息中枢。收录世界遗产、非物质文化遗产、博物馆等机构名录，汇集商业情报、学术会议与论文成果。',
     images: [
       {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: '文化遗产目录',
+        alt: '智汇遗藏',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: '文化遗产目录 | 探索中华文明瑰宝',
-    description: '收录世界遗产、非物质文化遗产、博物馆等文化遗产资源的目录网站。',
+    title: '智汇遗藏 | 文化遗产领域一站式信息中枢',
+    description: '智汇遗藏——文化遗产领域一站式信息中枢。',
     images: ['/og-image.jpg'],
   },
   alternates: {
@@ -96,7 +98,11 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body>{children}</body>
+      <body>
+        <NavHeader />
+        {children}
+        <Footer />
+      </body>
     </html>
   )
 }

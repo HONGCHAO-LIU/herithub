@@ -58,6 +58,14 @@ const categoryConfig: Record<string, { icon: string; color: string }> = {
   '抖音': { icon: '🎵', color: '#000000' },
 }
 
+const linkStatusConfig: Record<string, { label: string; color: string }> = {
+  '正常': { label: '', color: '#2E7D32' },
+  '环境限制': { label: '网络限制', color: '#aaa' },
+  '可能失效': { label: '待验证', color: '#999' },
+  '链接失效': { label: '已失效', color: '#888' },
+  '内容不匹配': { label: '内容不匹配', color: '#999' },
+}
+
 const imageMap: Record<string, string> = {
   '国际组织': 'https://images.unsplash.com/photo-1569982175971-d92b01cf8694?w=800&h=400&fit=crop',
   '博物馆': 'https://images.unsplash.com/photo-1554907984-15263bfd63bd?w=800&h=400&fit=crop',
@@ -144,6 +152,16 @@ export default function HeritageDetail({ params }: Props) {
               <div className="info-item">
                 <span className="info-label">平台类型</span>
                 <span className="info-value">{item.平台类型 || item.分类}</span>
+              </div>
+              <div className="info-item">
+                <span className="info-label">链接状态</span>
+                {(() => {
+                  const status = item.链接状态 || ''
+                  const statusInfo = linkStatusConfig[status]
+                  const color = statusInfo ? statusInfo.color : undefined
+                  const label = statusInfo ? (statusInfo.label || status) : (status || '未知')
+                  return <span className="info-value" style={color ? { color } : undefined}>{label}</span>
+                })()}
               </div>
             </div>
           </section>

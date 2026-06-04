@@ -1,0 +1,204 @@
+# 智汇遗藏 每日自动化采集与部署管线
+# 时区基准: UTC+8 (北京时间)
+# GitHub Actions 实际调度使用 UTC 时间
+
+name: Daily Pipeline
+
+on:
+  schedule:
+    # 每日 6:00 UTC+8 → UTC 22:00 (前一天)
+    # 商业情报采集管线
+    - cron: '0 22 * * *'
+    # 每周一、四 8:00 UTC+8 → UTC 0:00
+    # 会议采集管线
+    - cron: '0 0 * * 1,4'
+    # 每周二、五 8:00 UTC+8 → UTC 0:00
+    # 论文采集管线
+    - cron: '0 0 * * 2,5'
+    # 每月 1 日 3:00 UTC+8 → UTC 19:00 (上月最后一天)
+    # 链接检查（近似：实际运行于 UTC 19:00 每月 1 日）
+    - cron: '0 19 1 * *'
+
+  # 允许手动触发
+  workflow_dispatch:
+    inputs:
+      pipeline:
+        description: '选择要运行的管线'
+        required: true
+        type: choice
+        default: 'all'
+        options:
+          - all
+          - business
+          - conferences
+          - papers
+          - link_check
+
+jobs:
+  # ========== 商业情报采集管线 ==========
+  business-pipeline:
+    name: 商业情报采集
+    if: |
+      github.event_name == 'workflow_dispatch' &&
+      (github.event.inputs.pipeline == 'all' || github.event.inputs.pipeline == 'business')
+      ||
+      github.event.schedule == '0 22 * * *'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 aiohttp
+
+      - name: Run crawl_business.py
+        working-directory: scripts
+        run: python crawl_business.py
+
+      - name: Run validate_prices.py
+        working-directory: scripts
+        run: python validate_prices.py
+
+      - name: Run merge_and_generate.py
+        working-directory: scripts
+        run: python merge_and_generate.py
+
+      - name: Run deploy.bat (converted to shell)
+        run: |
+          git config user.name "HeritageBot"
+          git config user.email "bot@heritage.example.com"
+          git add src/data/ scripts/logs/
+          git diff --cached --quiet || git commit -m "Auto: 商业情报更新 $(date +%Y-%m-%d)"
+          git push
+
+  # ========== 会议采集管线 ==========
+  conferences-pipeline:
+    name: 会议采集
+    if: |
+      github.event_name == 'workflow_dispatch' &&
+      (github.event.inputs.pipeline == 'all' || github.event.inputs.pipeline == 'conferences')
+      ||
+      github.event.schedule == '0 0 * * 1,4'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 aiohttp
+
+      - name: Run crawl_conferences.py
+        working-directory: scripts
+        run: python crawl_conferences.py
+
+      - name: Run merge_and_generate.py
+        working-directory: scripts
+        run: python merge_and_generate.py
+
+      - name: Git commit & push
+        run: |
+          git config user.name "HeritageBot"
+          git config user.email "bot@heritage.example.com"
+          git add src/data/ scripts/logs/
+          git diff --cached --quiet || git commit -m "Auto: 会议信息更新 $(date +%Y-%m-%d)"
+          git push
+
+  # ========== 论文采集管线 ==========
+  papers-pipeline:
+    name: 论文采集
+    if: |
+      github.event_name == 'workflow_dispatch' &&
+      (github.event.inputs.pipeline == 'all' || github.event.inputs.pipeline == 'papers')
+      ||
+      github.event.schedule == '0 0 * * 2,5'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 aiohttp
+
+      - name: Run crawl_papers.py
+        working-directory: scripts
+        run: python crawl_papers.py
+
+      - name: Run merge_and_generate.py
+        working-directory: scripts
+        run: python merge_and_generate.py
+
+      - name: Git commit & push
+        run: |
+          git config user.name "HeritageBot"
+          git config user.email "bot@heritage.example.com"
+          git add src/data/ scripts/logs/
+          git diff --cached --quiet || git commit -m "Auto: 论文数据更新 $(date +%Y-%m-%d)"
+          git push
+
+  # ========== 链接检查管线 ==========
+  link-check-pipeline:
+    name: 链接可达性检查
+    if: |
+      github.event_name == 'workflow_dispatch' &&
+      (github.event.inputs.pipeline == 'all' || github.event.inputs.pipeline == 'link_check')
+      ||
+      github.event.schedule == '0 19 1 * *'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 aiohttp
+
+      - name: Run check_links.py
+        working-directory: scripts
+        run: python check_links.py
+
+      - name: Run merge_and_generate.py
+        working-directory: scripts
+        run: python merge_and_generate.py
+
+      - name: Git commit & push
+        run: |
+          git config user.name "HeritageBot"
+          git config user.email "bot@heritage.example.com"
+          git add src/data/ scripts/logs/
+          git diff --cached --quiet || git commit -m "Auto: 链接检查 + 数据更新 $(date +%Y-%m-%d)"
+          git push

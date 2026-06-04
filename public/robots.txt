@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://heritage.example.com
+
+# Sitemaps
+Sitemap: https://heritage.example.com/sitemap.xml
