@@ -6,6 +6,7 @@ import { HeritageItem, BusinessIntelligence, AcademicConference, AcademicPaper }
 import Link from 'next/link'
 import HeroCarousel from './components/HeroCarousel'
 
+// Vercel build cache bust: 2026-06-08
 // ============ 分类颜色/图标配置 ============
 const categoryOrder = [
   '研究机构', '博物馆', '政府机构', '国际组织', '世界遗产', '非物质文化遗产'
