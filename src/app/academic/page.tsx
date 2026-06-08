@@ -65,7 +65,7 @@ export default function AcademicPage() {
       result = result.filter((p) => p.keywords.includes(paperKeyword));
     }
     if (paperYear) {
-      result = result.filter((p) => p.publishDate.startsWith(paperYear));
+      result = result.filter((p) => p.publishDate?.startsWith(paperYear));
     }
     return result;
   }, [search, paperJournal, paperKeyword, paperYear]);
@@ -100,7 +100,7 @@ export default function AcademicPage() {
 
   const allPaperYears = useMemo(() => {
     const y = new Set<string>();
-    papers.forEach((p) => y.add(p.publishDate.slice(0, 4)));
+    papers.forEach((p) => { if (p.publishDate) y.add(p.publishDate.slice(0, 4)) });
     return Array.from(y).sort().reverse();
   }, []);
 
