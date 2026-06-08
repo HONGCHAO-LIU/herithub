@@ -20,6 +20,12 @@ function writeSubmissions(data: any[]) {
   fs.writeFileSync(DATA_PATH, JSON.stringify(data, null, 2), 'utf-8');
 }
 
+/** GET: 查看所有用户提交（管理端） */
+export async function GET() {
+  const submissions = readSubmissions();
+  return NextResponse.json({ total: submissions.length, submissions });
+}
+
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();

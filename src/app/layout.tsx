@@ -2,11 +2,12 @@ import type { Metadata } from 'next'
 import './globals.css'
 import NavHeader from './components/NavHeader'
 import Footer from './components/Footer'
+import { Analytics } from '@vercel/analytics/react'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://heritage.example.com'),
+  metadataBase: new URL('https://herithub.org'),
   title: {
-    default: '智汇遗藏 | 文化遗产领域一站式信息中枢',
+    default: '智汇遗藏 | herithub',
     template: '%s | 智汇遗藏',
   },
   description: '智汇遗藏——文化遗产领域一站式信息中枢。收录世界遗产、非物质文化遗产、博物馆等机构名录，汇集商业情报、学术会议与论文成果。',

@@ -6,15 +6,10 @@ export default function Footer() {
   const [updateTime, setUpdateTime] = useState('—');
 
   useEffect(() => {
-    // 尝试从页面构建时间或数据文件最后更新时间获取
-    // 此处展示页面加载时的客户端时间作为近似值
-    const now = new Date();
-    const y = now.getFullYear();
-    const m = String(now.getMonth() + 1).padStart(2, '0');
-    const d = String(now.getDate()).padStart(2, '0');
-    const h = String(now.getHours()).padStart(2, '0');
-    const min = String(now.getMinutes()).padStart(2, '0');
-    setUpdateTime(`${y}-${m}-${d} ${h}:${min}`);
+    fetch('/last-update.json')
+      .then(res => res.json())
+      .then(data => { if (data?.formatted) setUpdateTime(data.formatted); })
+      .catch(() => {});
   }, []);
 
   return (

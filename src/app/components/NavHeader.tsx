@@ -11,9 +11,8 @@ const navLinks = [
   { href: '/academic', label: '学术动态' },
   { href: '/business/archive', label: '情报归档' },
   { href: '/academic/archive', label: '学术归档' },
-  { href: '/review', label: '审核看板' },
-  { href: '/contribute', label: '贡献' },
-  { href: '/subscribe', label: '订阅' },
+  { href: '/creators', label: '创作者' },
+  { href: '/forum', label: '论坛' },
   { href: '/about', label: '关于' },
 ];
 
@@ -31,7 +30,7 @@ export default function NavHeader() {
       <div className="header-inner">
         <div className="header-brand">
           <span className="brand-name">智汇遗藏</span>
-          <span className="brand-subtitle">文化遗产领域一站式信息中枢</span>
+          <span className="brand-subtitle">herithub · 文化遗产领域一站式信息中枢</span>
         </div>
 
         <nav className="header-nav">

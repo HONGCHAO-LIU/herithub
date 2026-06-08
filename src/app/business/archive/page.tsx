@@ -116,7 +116,7 @@ export default function BusinessArchivePage() {
               ))}
             </div>
           </section>
-        ))}
+        ))
       )}
 
       <div className="detail-back" style={{ marginTop: '2rem' }}>

@@ -21,6 +21,7 @@ export interface HeritageItem {
   验证时间?: string;
   可访问?: boolean;
   主题相关?: boolean;
+  链接状态?: string;
 }
 
 /** 商业情报 — 招标公告/项目合作/成交公告/报价基准/商业案例/服务商名录 */

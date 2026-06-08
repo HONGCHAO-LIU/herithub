@@ -20,17 +20,23 @@ function writeSubscriptions(data: any[]) {
   fs.writeFileSync(DATA_PATH, JSON.stringify(data, null, 2), 'utf-8');
 }
 
-/** GET: 按邮箱查询订阅 */
+/** GET: 查看订阅 — 支持邮箱查询与全部查询（管理端） */
 export async function GET(req: NextRequest) {
   const email = req.nextUrl.searchParams.get('email');
-  if (!email) {
-    return NextResponse.json({ error: '缺少 email 参数' }, { status: 400 });
-  }
+  const all = req.nextUrl.searchParams.get('all');
 
   const subs = readSubscriptions();
-  const mine = subs.filter((s: any) => s.email === email);
 
-  return NextResponse.json(mine);
+  if (email) {
+    const mine = subs.filter((s: any) => s.email === email);
+    return NextResponse.json(mine);
+  }
+
+  if (all === 'true') {
+    return NextResponse.json({ total: subs.length, subscriptions: subs });
+  }
+
+  return NextResponse.json({ error: '请提供 email 参数查询个人订阅，或 all=true 查看全部订阅' }, { status: 400 });
 }
 
 /** POST: 创建新订阅 */

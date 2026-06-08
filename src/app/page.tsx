@@ -4,6 +4,7 @@ import conferenceData from '@/data/academic_conferences.json'
 import paperData from '@/data/academic_papers.json'
 import { HeritageItem, BusinessIntelligence, AcademicConference, AcademicPaper } from '@/types/index'
 import Link from 'next/link'
+import HeroCarousel from './components/HeroCarousel'
 
 // ============ 分类颜色/图标配置 ============
 const categoryOrder = [
@@ -118,7 +119,7 @@ export default function Home({
       <div className="container">
         {/* ========== Hero 区 ========== */}
         <section className="hero-section" aria-labelledby="hero-title">
-          <h1 id="hero-title" className="hero-title">智汇遗藏</h1>
+          <h1 id="hero-title" className="hero-title">智汇遗藏 | herithub</h1>
           <p className="hero-subtitle">文化遗产领域一站式信息中枢</p>
           <p className="hero-desc">
             <span className="hero-highlight">商业情报</span> — 追踪招标/项目/案例等产业动态 ·&nbsp;
@@ -126,6 +127,9 @@ export default function Home({
             <span className="hero-highlight">机构名录</span> — 收录6大类文化遗产机构与遗产地
           </p>
         </section>
+
+        {/* ========== 首页大图轮播 ========== */}
+        <HeroCarousel />
 
         {/* ========== 搜索框（跳转机构名录） ========== */}
         <form className="home-search" role="search" action="/">

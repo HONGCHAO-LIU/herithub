@@ -132,11 +132,11 @@ export default function AboutPage() {
           <div className="contact-info">
             <div className="contact-row">
               <span className="contact-label">电子邮箱</span>
-              <span>heritage@example.com</span>
+              <span>siemreapboya@foxmail.com</span>
             </div>
             <div className="contact-row">
               <span className="contact-label">项目地址</span>
-              <span>https://heritage.example.com</span>
+              <span>https://herithub.org</span>
             </div>
           </div>
         </div>
@@ -199,6 +199,11 @@ export default function AboutPage() {
                 <td>按月份分组展示三个月前的历史条目</td>
               </tr>
               <tr>
+                <td><code>/heritage</code></td>
+                <td>机构名录</td>
+                <td>全量机构列表、搜索筛选、按分类浏览</td>
+              </tr>
+              <tr>
                 <td><code>/heritage/[id]</code></td>
                 <td>机构详情</td>
                 <td>机构简介、联系方式、分类标签、关联条目</td>
@@ -217,11 +222,6 @@ export default function AboutPage() {
                 <td><code>/subscribe</code></td>
                 <td>订阅管理</td>
                 <td>新建订阅、查询/取消订阅</td>
-              </tr>
-              <tr>
-                <td><code>/review</code></td>
-                <td>审核看板</td>
-                <td>待审核条目统计、三Tab审核列表</td>
               </tr>
             </tbody>
           </table>

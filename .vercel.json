@@ -1,7 +1,3 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
-  "builds": {
-    "rules": [{ "src": "/(.*)", "headers": [{ "key": "Cache-Control", "value": "no-store" }] }]
-  },
-  "routes": [{ "src": "/(.*)", "dest": "/index.html" }]
+  "framework": "nextjs"
 }
