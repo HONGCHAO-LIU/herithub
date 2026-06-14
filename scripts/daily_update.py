@@ -40,7 +40,7 @@ def step1_crawl():
     """运行爬虫采集新数据"""
     print("=" * 50)
     print("Step 1: 运行爬虫...")
-    for script in ['crawl_business.py']:
+    for script in ['crawl_business.py', 'crawl_conferences.py', 'crawl_papers.py']:
         result = run_cmd(f'python scripts/{script}', cwd=PROJECT_DIR)
         if result.returncode != 0:
             print(f"[WARN] 爬虫 {script} 失败，继续合并现有数据")
@@ -111,7 +111,51 @@ def step2_merge():
     with open(business_path, 'w', encoding='utf-8') as f:
         json.dump(existing, f, ensure_ascii=False, indent=2)
     print(f"  合并后总数: {len(existing)} 条")
+
+    # 合并学术会议
+    merge_simple(DATA_DIR / 'raw_conferences.json', DATA_DIR / 'academic_conferences.json', 'conferences')
+    # 合并学术论文
+    merge_simple(DATA_DIR / 'raw_papers.json', DATA_DIR / 'academic_papers.json', 'papers')
     return True
+
+
+def merge_simple(raw_path: Path, target_path: Path, label: str):
+    """通用合并：raw JSON → target JSON，按 title 去重"""
+    if not raw_path.exists():
+        print(f"  [{label}] 无 raw 文件，跳过")
+        return
+    with open(raw_path, 'r', encoding='utf-8') as f:
+        raw = json.load(f)
+    raw_items = raw.get('items', raw if isinstance(raw, list) else [])
+    print(f"  [{label}] 原始采集: {len(raw_items)} 条")
+
+    if not raw_items:
+        print(f"  [{label}] 无新数据，跳过")
+        return
+
+    existing = []
+    if target_path.exists():
+        with open(target_path, 'r', encoding='utf-8') as f:
+            existing = json.load(f)
+        if isinstance(existing, dict):
+            existing = existing.get('items', [])
+
+    def make_key(item):
+        return hashlib.md5(item.get('title', item.get('name', '')).strip().encode('utf-8')).hexdigest()
+
+    existing_keys = {make_key(i) for i in existing}
+    new_added = 0
+    for item in raw_items:
+        if make_key(item) in existing_keys:
+            continue
+        item['crawledAt'] = item.get('crawled_at', item.get('crawledAt', ''))
+        existing.append(item)
+        existing_keys.add(make_key(item))
+        new_added += 1
+    print(f"  [{label}] 新加入: {new_added} 条, 合并后: {len(existing)} 条")
+    with open(target_path, 'w', encoding='utf-8') as f:
+        json.dump(existing, f, ensure_ascii=False, indent=2)
+
 
 def step3_timestamp():
     """生成 last-update.json"""

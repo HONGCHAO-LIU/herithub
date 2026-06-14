@@ -75,19 +75,19 @@ SOURCE_CONFIGS = [
     {
         "name": "中国博物馆协会",
         "url": "https://www.chinamuseum.org.cn",
-        "list_url": "https://www.chinamuseum.org.cn/xhdt/index.html",
+        "list_url": "https://www.chinamuseum.org.cn/?pageIndex=0&phrase=true&word=",
         "timeout": 20,
     },
     {
         "name": "ICOMOS",
         "url": "https://www.icomos.org",
-        "list_url": "https://www.icomos.org/en/focus/events",
+        "list_url": "https://www.icomos.org/en/resources/resources-for-members/calendar-resources",
         "timeout": 30,
     },
     {
-        "name": "中国考古学会",
-        "url": "http://www.caass.org.cn",
-        "list_url": "http://www.caass.org.cn/channel/news.html",
+        "name": "中国考古网",
+        "url": "https://www.kaogu.cn",
+        "list_url": "https://www.kaogu.cn/cn/xueshuhuiyi/",
         "timeout": 20,
     },
 ]
@@ -148,11 +148,11 @@ def crawl_chinamuseum() -> list[dict]:
     results = []
     logger.info("--- 开始采集: 中国博物馆协会 ---")
     try:
-        resp = fetch_with_retry("https://www.chinamuseum.org.cn/xhdt/index.html", timeout=20)
+        resp = fetch_with_retry("https://www.chinamuseum.org.cn/?pageIndex=0&phrase=true&word=", timeout=20)
         if resp and resp.status_code == 200:
             resp.encoding = resp.apparent_encoding or "utf-8"
             soup = BeautifulSoup(resp.text, "html.parser")
-            items = soup.select(".news-list li, .list-item, .item, article")
+            items = soup.select(".news-list li, .list-item, .item, article, .xinwen-list li, .zxlb li")
             for item in items[:15]:
                 link_el = item.find("a")
                 if not link_el:
@@ -190,7 +190,7 @@ def crawl_icomos() -> list[dict]:
     results = []
     logger.info("--- 开始采集: ICOMOS ---")
     try:
-        resp = fetch_with_retry("https://www.icomos.org/en/focus/events", timeout=30)
+        resp = fetch_with_retry("https://www.icomos.org/en/resources/resources-for-members/calendar-resources", timeout=30)
         if resp and resp.status_code == 200:
             soup = BeautifulSoup(resp.text, "html.parser")
             items = soup.select(".event-item, .event, article, .card, .list-item")
@@ -228,16 +228,16 @@ def crawl_icomos() -> list[dict]:
     return results
 
 
-def crawl_caass() -> list[dict]:
-    """采集中国考古学会"""
+def crawl_kaogu() -> list[dict]:
+    """采集中国考古网"""
     results = []
-    logger.info("--- 开始采集: 中国考古学会 ---")
+    logger.info("--- 开始采集: 中国考古网 ---")
     try:
-        resp = fetch_with_retry("http://www.caass.org.cn/channel/news.html", timeout=20)
+        resp = fetch_with_retry("https://www.kaogu.cn/cn/xueshuhuiyi/", timeout=20)
         if resp and resp.status_code == 200:
             resp.encoding = resp.apparent_encoding or "utf-8"
             soup = BeautifulSoup(resp.text, "html.parser")
-            items = soup.select(".news-list li, .list-item, .item, a[title]")
+            items = soup.select(".news-list li, .list-item, .item, a[title], .hylb li, .xshy-list li")
             for item in items[:15]:
                 link_el = item if item.name == "a" else item.find("a")
                 if not link_el:
@@ -247,21 +247,21 @@ def crawl_caass() -> list[dict]:
                 if not title or len(title) < 4:
                     continue
                 if href and not href.startswith("http"):
-                    href = "http://www.caass.org.cn" + href
+                    href = "https://www.kaogu.cn" + href
                 date_el = item.find(class_=re.compile(r"date|time")) or item.find("span")
                 date_text = date_el.get_text(strip=True) if date_el else ""
                 conf_date = parse_date(date_text) or parse_date(title)
                 if not is_in_window(conf_date):
                     continue
                 results.append({
-                    "id": make_id(title, "中国考古学会", href),
+                    "id": make_id(title, "中国考古网", href),
                     "name": title,
                     "date": date_text if date_text else "待定",
                     "location": "",
                     "submission_deadline": "",
                     "url": href,
-                    "organizer": "中国考古学会",
-                    "source": "中国考古学会",
+                    "organizer": "中国考古网",
+                    "source": "中国考古网",
                     "crawled_at": datetime.now().isoformat(),
                 })
     except Exception as e:
@@ -294,7 +294,7 @@ def generate_seed_data() -> list[dict]:
             "date": f"{fmt(next_m)} - {fmt(next_m + timedelta(days=3))}",
             "location": "Florence, Italy",
             "submission_deadline": fmt(now + timedelta(days=5)),
-            "url": "https://www.icomos.org/en/focus/events",
+            "url": "https://www.icomos.org/en/resources/resources-for-members/calendar-resources",
             "organizer": "ICOMOS",
             "source": "ICOMOS",
         },
@@ -303,9 +303,9 @@ def generate_seed_data() -> list[dict]:
             "date": f"{fmt(next2_m)} - {fmt(next2_m + timedelta(days=4))}",
             "location": "西安 · 陕西历史博物馆",
             "submission_deadline": fmt(next_m),
-            "url": "http://www.caass.org.cn",
-            "organizer": "中国考古学会",
-            "source": "中国考古学会",
+            "url": "https://www.kaogu.cn",
+            "organizer": "中国考古网",
+            "source": "中国考古网",
         },
         {
             "name": "文化遗产保护青年学者论坛（2025年夏季）",
@@ -351,9 +351,9 @@ def main():
     except Exception as e:
         logger.error(f"ICOMOS采集失败: {e}")
     try:
-        all_results.extend(crawl_caass())
+        all_results.extend(crawl_kaogu())
     except Exception as e:
-        logger.error(f"中国考古学会采集失败: {e}")
+        logger.error(f"中国考古网采集失败: {e}")
 
     if not all_results:
         logger.warning("所有信源采集均无结果，使用种子数据")
