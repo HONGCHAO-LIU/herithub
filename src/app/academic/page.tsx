@@ -305,7 +305,7 @@ export default function AcademicPage() {
                     <span className={`verify-badge ${paper.verified ? 'verified' : 'unverified'}`}>
                       {paper.verified ? '已验证' : '待核实'}
                     </span>
-                    {(paper.sourceUrl.indexOf('xxxxx') !== -1 || paper.sourceUrl.startsWith('https://www.wenwu.gov.cn/')) && (
+                    {(paper.sourceUrl?.indexOf('xxxxx') !== -1 || paper.sourceUrl?.startsWith('https://www.wenwu.gov.cn/')) && (
                       <span className="verify-badge link-broken">链接失效</span>
                     )}
                   </div>
