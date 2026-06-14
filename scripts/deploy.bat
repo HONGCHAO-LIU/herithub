@@ -16,7 +16,7 @@ REM ===========================================
 setlocal enabledelayedexpansion
 
 REM 设置项目根目录
-set "PROJECT_DIR=C:\Users\Administrator\Favorites\workspace-work\versions\v1.2.8"
+set "PROJECT_DIR=C:\Users\Administrator\Favorites\workspace-work\versions\v1.3.3"
 cd /d "%PROJECT_DIR%" || (
     echo [ERROR] 无法进入项目目录: %PROJECT_DIR%
     exit /b 1
