@@ -33,14 +33,14 @@ export default function AcademicPage() {
           c.location.toLowerCase().includes(q) ||
           c.organizer.toLowerCase().includes(q) ||
           c.description.toLowerCase().includes(q) ||
-          c.tags.some((t) => t.toLowerCase().includes(q))
+          c.tags?.some((t) => t.toLowerCase().includes(q))
       );
     }
     if (confYear) {
       result = result.filter((c) => c.date.includes(confYear));
     }
     if (confTag) {
-      result = result.filter((c) => c.tags.includes(confTag));
+      result = result.filter((c) => c.tags?.includes(confTag));
     }
     return result;
   }, [search, confYear, confTag]);
@@ -55,14 +55,14 @@ export default function AcademicPage() {
           p.authors.toLowerCase().includes(q) ||
           p.journal.toLowerCase().includes(q) ||
           p.abstract.toLowerCase().includes(q) ||
-          p.keywords.some((k) => k.toLowerCase().includes(q))
+          p.keywords?.some((k) => k.toLowerCase().includes(q))
       );
     }
     if (paperJournal) {
       result = result.filter((p) => p.journal === paperJournal);
     }
     if (paperKeyword) {
-      result = result.filter((p) => p.keywords.includes(paperKeyword));
+      result = result.filter((p) => p.keywords?.includes(paperKeyword));
     }
     if (paperYear) {
       result = result.filter((p) => p.publishDate?.startsWith(paperYear));
@@ -82,7 +82,7 @@ export default function AcademicPage() {
 
   const allConfTags = useMemo(() => {
     const tags = new Set<string>();
-    conferences.forEach((c) => c.tags.forEach((t) => tags.add(t)));
+    conferences.forEach((c) => c.tags?.forEach((t: string) => tags.add(t)));
     return Array.from(tags).sort();
   }, []);
 
@@ -94,7 +94,7 @@ export default function AcademicPage() {
 
   const allPaperKeywords = useMemo(() => {
     const k = new Set<string>();
-    papers.forEach((p) => p.keywords.forEach((kw) => k.add(kw)));
+    papers.forEach((p) => p.keywords?.forEach((kw: string) => k.add(kw)));
     return Array.from(k).sort();
   }, []);
 
@@ -271,7 +271,7 @@ export default function AcademicPage() {
                     )}
                   </div>
                   <div className="conference-card-tags">
-                    {conf.tags.map((tag) => (
+                    {conf.tags?.map((tag) => (
                       <span key={tag} className="keyword-tag">{tag}</span>
                     ))}
                   </div>

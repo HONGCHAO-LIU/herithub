@@ -149,6 +149,8 @@ def merge_simple(raw_path: Path, target_path: Path, label: str):
         if make_key(item) in existing_keys:
             continue
         item['crawledAt'] = item.get('crawled_at', item.get('crawledAt', ''))
+        item.setdefault('tags', [])
+        item.setdefault('keywords', [])
         existing.append(item)
         existing_keys.add(make_key(item))
         new_added += 1

@@ -481,7 +481,9 @@
     "abstract": "Melodic material in Hindustani music is presented in relation to a tonic, usually sustained by the tanpura, a four-stringed drone instrument. Rooted in Hindustani music, 'The Moving Drone' sets the traditionally static drone into motion that, throughout the performance, gains increasing agency transitioning from reactive to more proactive roles. The work employs four independent loopers in Max/MSP to function as 'virtual' drones. They are populated cyclically in real-time as the vocalist improvi",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2606.13640v1",
-    "crawled_at": "2026-06-14T18:31:24.222186"
+    "crawled_at": "2026-06-14T18:31:24.222186",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "bb2e7d2229ee",
@@ -500,7 +502,9 @@
     "abstract": "Cultural garments pose a unique challenge for visual retrieval systems, as their identity often depends on subtle structural and symbolic details that are poorly captured by standard AI models. We introduce VietFashion, a new benchmark for sketch-text composed image retrieval centered on the Ao Dai, a traditional Vietnamese garment. VietFashion enables designers and researchers to retrieve culturally meaningful outfits using a combination of hand-drawn sketches, which convey garment structure, a",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2606.13427v1",
-    "crawled_at": "2026-06-14T18:31:24.222186"
+    "crawled_at": "2026-06-14T18:31:24.222186",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "57b478dab148",
@@ -522,7 +526,9 @@
     "abstract": "Language operates as a mechanism of both marginalization and resistance, especially for minority communities navigating insensitive and harmful speech online. As content moderation increasingly depends on large language models (LLMs), concerns arise about whether these systems can recognize culturally insensitive speech-language that disregards or marginalizes the cultural and religious perspectives of historically underrepresented communities, often through implicit erasure, misrepresentation, ",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2606.13397v1",
-    "crawled_at": "2026-06-14T18:31:24.222186"
+    "crawled_at": "2026-06-14T18:31:24.222186",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "a27c814443f0",
@@ -539,7 +545,9 @@
     "abstract": "This paper presents Custom ZeroCLIP, a retrieval-augmented vision-language framework for zero-shot captioning of Indonesian traditional garments. The dataset contains 3,800 expert-annotated images from all 38 Indonesian provinces. Using a province-level inductive zero-shot protocol, the model is trained on 24 seen provinces, validated on 6 seen provinces, and evaluated on 8 unseen provinces. The framework combines a frozen CLIP ViT-B/32 image encoder, a CLIP text encoder, a BERT text encoder, an",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2606.13275v1",
-    "crawled_at": "2026-06-14T18:31:24.222186"
+    "crawled_at": "2026-06-14T18:31:24.222186",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "c69d4b57e6da",
@@ -558,7 +566,9 @@
     "abstract": "Multinational companies increasingly require cross-jurisdictional contract review, yet existing legal NLP datasets are largely restricted to a single jurisdiction. We introduce LAUKIN (Legal equivalence dataset of Australia, UK, and INdia), a dataset of clause pairs (AU-UK, UK-IN, IN-AU) labelled for boolean legal equivalence. We develop a novel multi-stage retrieval and reranking pipeline to construct the initial clause pair mapping, with a subset of clause pairs subsequently annotated by legal",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2606.13184v1",
-    "crawled_at": "2026-06-14T18:31:24.222186"
+    "crawled_at": "2026-06-14T18:31:24.222186",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "55ad3d847b51",
@@ -583,7 +593,9 @@
     "abstract": "Wet-lab robots can improve the reproducibility, throughput, and safety of biomedical experiments, but scaling their learning requires customizable simulators for safe and reproducible task generation, open editable laboratory assets, and efficient pipelines that turn limited demonstrations into usable training data. We present Pipette, an embodied simulation platform, benchmark, and data-efficient augmentation framework for wet-lab robot learning. Pipette releases over 43 open-source and re-edit",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2606.12936v1",
-    "crawled_at": "2026-06-14T18:31:24.222186"
+    "crawled_at": "2026-06-14T18:31:24.222186",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "76a94cd66018",
@@ -603,7 +615,9 @@
     "abstract": "Collaboration is widely recognized as a cornerstone of 21st-century education, yet teachers still encounter persistent challenges in fostering productive peer interaction. LLM conversational peer agents introduce new possibilities for mediating in-person group work, raising questions about how persona design, particularly their voice characteristics, shapes learners' perceptions, trust, and interactional dynamics. While prior work has examined agent accent effects in one-to-one settings, little ",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2606.12805v1",
-    "crawled_at": "2026-06-14T18:31:24.223183"
+    "crawled_at": "2026-06-14T18:31:24.223183",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "a42b13c907cf",
@@ -621,7 +635,9 @@
     "abstract": "Transforming a dense, abstract proverb into an engaging and morally faithful narrative requires deep cultural understanding and robust semantic grounding. We frame this problem as a \\emph{constrained semantic decompression} task and study proverb-conditioned story generation as a testbed for abstraction-to-realization in large language models (LLMs). Focusing on Persian, we introduce the Proverb Aligned Narrative Dataset (PAND), pairing proverbs with human-written stories and explicit meanings. ",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2606.12599v1",
-    "crawled_at": "2026-06-14T18:31:24.223183"
+    "crawled_at": "2026-06-14T18:31:24.223183",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "0d835e80a20e",
@@ -638,7 +654,9 @@
     "abstract": "This is a response to the paper ''Why Slop Matters''. By offering both immanent and external critique, we argue that the authors' reasoning neglects the socio-technical context of AI slop. Our paper presents an ethical and social science informed response that centers the debate on the social function and aesthetic value of AI slop. We conclude that AI slop is an important research subject but call for a contextual and culturally-grounded debate on the issue. To that end, we discuss some key ele",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2606.12285v1",
-    "crawled_at": "2026-06-14T18:31:24.223183"
+    "crawled_at": "2026-06-14T18:31:24.223183",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "312844848cf1",
@@ -653,7 +671,9 @@
     "abstract": "Agricultural crops are a type of cultural trait and the way farmers of US counties select them can itself result in county-level cultural traits. Using real-world data from 1997 to 2022, we have developed a systematic framework to study the selective mechanisms behind these traits. Our findings indicate that environmental payoff-biased selection has driven counties to adopt traits that maximize their adaptability and yield within their specific environments. These empirical results align with ex",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2606.11995v1",
-    "crawled_at": "2026-06-14T18:31:24.223183"
+    "crawled_at": "2026-06-14T18:31:24.223183",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "b0208f344cb2",
@@ -665,7 +685,9 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.3390/books978-3-7258-5738-8",
-    "crawled_at": "2026-06-14T18:31:27.086830"
+    "crawled_at": "2026-06-14T18:31:27.086830",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "78fcd9f334c7",
@@ -677,7 +699,9 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.3390/books978-3-7258-6237-5",
-    "crawled_at": "2026-06-14T18:31:27.086830"
+    "crawled_at": "2026-06-14T18:31:27.086830",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "2b2cd415fc8b",
@@ -691,7 +715,9 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.1016/j.culher.2025.10.006",
-    "crawled_at": "2026-06-14T18:31:27.086830"
+    "crawled_at": "2026-06-14T18:31:27.086830",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "7d772dcf58b5",
@@ -703,7 +729,9 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.1016/s1296-2074(25)00193-1",
-    "crawled_at": "2026-06-14T18:31:27.086830"
+    "crawled_at": "2026-06-14T18:31:27.086830",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "b9cdfe8f7c32",
@@ -715,7 +743,9 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.1016/s1296-2074(26)00045-2",
-    "crawled_at": "2026-06-14T18:31:27.086830"
+    "crawled_at": "2026-06-14T18:31:27.086830",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "487d46909836",
@@ -727,7 +757,9 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.1016/s1296-2074(26)00023-3",
-    "crawled_at": "2026-06-14T18:31:27.087824"
+    "crawled_at": "2026-06-14T18:31:27.087824",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "c4b6a61cb52a",
@@ -739,7 +771,9 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.1016/s1296-2074(25)00248-1",
-    "crawled_at": "2026-06-14T18:31:27.087824"
+    "crawled_at": "2026-06-14T18:31:27.087824",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "7a33a8e9b760",
@@ -754,7 +788,9 @@
     "abstract": "As parallel workloads grow in complexity, managing fine-grained data dependencies becomes a critical challenge. Futures offer a promising model for handling these dependencies, particularly in irregular algorithms, but they also come with the restriction of value-immutability. This immutability limits the ability to perform in-place memory updates, a necessity for high-performance linear algebra where memory recycling is paramount. In this paper, we address these limitations by introducing a new",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2606.13623v1",
-    "crawled_at": "2026-06-14T18:31:28.708460"
+    "crawled_at": "2026-06-14T18:31:28.708460",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "cb01e326b87b",
@@ -772,7 +808,9 @@
     "abstract": "We propose a framework for designing Target-Date Funds (TDFs) around an explicit return objective while controlling risk directly at the portfolio level through a declining Conditional Value-at-Risk (CVaR) constraint. In this approach, the regulator or sponsor specifies a CVaR glidepath that gives the portfolio manager enough flexibility to reach a target return with a reasonably high probability. The target return is determined exogenously from pension-design inputs such as retirement age, cont",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2606.13618v1",
-    "crawled_at": "2026-06-14T18:31:28.709445"
+    "crawled_at": "2026-06-14T18:31:28.709445",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "cbe3bce07c86",
@@ -788,7 +826,9 @@
     "abstract": "Symmetries shape the quantum-information dynamics of many-body systems, but their effect on nonstabilizerness, the resource complementary to entanglement, is less understood. We compute the stabilizer Rényi entropy, a measure of nonstabilizerness, in $\\mathrm{U}(1)$-symmetric one-dimensional random circuits. The disorder-averaged dynamics is captured by a four-replica tensor network, which we evaluate by $S_4$-adapted infinite time-evolving block decimation (iTEBD) directly in the thermodynamic ",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2606.13606v1",
-    "crawled_at": "2026-06-14T18:31:28.709538"
+    "crawled_at": "2026-06-14T18:31:28.709538",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "4eb4ac41c46d",
@@ -805,7 +845,9 @@
     "abstract": "Dispatch in three-sided marketplaces provides a natural setting for reinforcement learning from world feedback: decisions are evaluated by delayed operational outcomes such as delivery speed, courier utilization, and merchant congestion. We present a deployed reinforcement learning system at DoorDash that adapts dispatch objective weights in a large-scale food-delivery marketplace using delayed signals. Rather than replacing the combinatorial assignment optimizer, a store-level policy learned fr",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2606.13604v1",
-    "crawled_at": "2026-06-14T18:31:28.709538"
+    "crawled_at": "2026-06-14T18:31:28.709538",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "41bc851fadba",
@@ -828,7 +870,9 @@
     "abstract": "Driven by conservative over-provisioning to guarantee service reliability, resource utilization in cloud data centers remains at low levels. To mitigate this, the forecast-then-optimize paradigm has emerged to optimize consolidation by anticipating future demands. While emerging time series foundation models promise to enhance this paradigm through zero-shot generalization, existing benchmarks focus solely on prediction error metrics. The actual decision utility of these advanced models remains ",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2606.13513v1",
-    "crawled_at": "2026-06-14T18:31:28.709538"
+    "crawled_at": "2026-06-14T18:31:28.709538",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "4a96ec19fec0",
@@ -844,7 +888,9 @@
     "abstract": "We introduce a new class of quadratic in the momenta Hamiltonians with potential on Banach spaces of infinite dimension which possess an infinite family of conserved quantities in involution with respect to a naturally defined Poisson structure. We show that the Hamiltonian flows of the constructed integrals are locally well defined and that they are related to a hierarchy of evolution PDEs via nonlinear analytic transformations of the phase space, called $Q$-transforms. Our framework offers a n",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2606.13446v1",
-    "crawled_at": "2026-06-14T18:31:28.709538"
+    "crawled_at": "2026-06-14T18:31:28.709538",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "52d5f6b16aaf",
@@ -859,7 +905,9 @@
     "abstract": "Evaluating the trainability of adaptive quantum chemistry algorithms under multi-reference static correlation requires understanding how representation topologies intertwine with molecular geometry. We systematically expose a deep physical dependence on point-group symmetry by evaluating a spin-conserved SUSD operator pool across highly stretched configurations (2 x Re) of asymmetric LiH, symmetric BeH2, and asymmetric H2O. Under asymmetric distortions, the non-local mapping constraints of the B",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2606.13387v1",
-    "crawled_at": "2026-06-14T18:31:28.709538"
+    "crawled_at": "2026-06-14T18:31:28.709538",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "fded118f682c",
@@ -876,7 +924,9 @@
     "abstract": "Contextual anomaly detection aims to identify abnormal behavior conditional on context variables, but practical deployments often face highly imbalanced context distributions where rare regimes can be critical information. Under such frequency bias, context-conditioned models can produce unstable decisions and excessive false alarms in rare contexts. We propose Rarity-Gated Feature-wise Linear Modulation (RGFiLM), a rarity-aware conditioning module that combines feature-wise modulation (i.e., co",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2606.13311v1",
-    "crawled_at": "2026-06-14T18:31:28.710045"
+    "crawled_at": "2026-06-14T18:31:28.710045",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "7c7c6a5d14d7",
@@ -893,7 +943,9 @@
     "abstract": "We present Archê, an orbital-free molecular dynamics (OFMD) code designed to produce equations of state (EOS) in the plasma state. Unlike in other OFMD codes, Archê uses a self-consistent field (SCF) approach to compute the electronic density. This allows us to implement two algorithms that accelerate SCF convergence by a factor of up to six. First, the density is initialized using the results from the previous MD timestep to define a one-center profile, which is then applied to the new nuclei p",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2606.13283v1",
-    "crawled_at": "2026-06-14T18:31:28.710045"
+    "crawled_at": "2026-06-14T18:31:28.710045",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "0df291f62d17",
@@ -907,7 +959,9 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.1163/9789004753525_007",
-    "crawled_at": "2026-06-14T18:31:34.879883"
+    "crawled_at": "2026-06-14T18:31:34.879883",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "a24e3e63dc98",
@@ -921,7 +975,9 @@
     "abstract": "<jats:p>Understanding the built heritage is the first step in its conservation. In the case of the vernacular heritage, a holistic approach must be adopted. Vernacular buildings and settlements are formed by aspects that are beyond their tangible and visual characteristics and attributes. Worldviews, values, beliefs, myths and other aspects of the intangible heritage of the community have contributed to the form, style and other tangible aspects of the built vernacular heritage. The natural envi",
     "source": "CrossRef",
     "url": "https://doi.org/10.4995/heritage2025.2025.19843",
-    "crawled_at": "2026-06-14T18:31:34.879883"
+    "crawled_at": "2026-06-14T18:31:34.879883",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "d98004633278",
@@ -933,7 +989,9 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.2307/jj.31272198.14",
-    "crawled_at": "2026-06-14T18:31:34.879883"
+    "crawled_at": "2026-06-14T18:31:34.879883",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "41aa3fdb3cc9",
@@ -945,7 +1003,9 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.58337/xmil8436",
-    "crawled_at": "2026-06-14T18:31:34.879883"
+    "crawled_at": "2026-06-14T18:31:34.879883",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "3c522b9e472b",
@@ -959,7 +1019,9 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.21275/sr251209113345",
-    "crawled_at": "2026-06-14T18:31:34.879883"
+    "crawled_at": "2026-06-14T18:31:34.879883",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "427b36d1f148",
@@ -971,7 +1033,9 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.58337/ffbw7493",
-    "crawled_at": "2026-06-14T18:31:34.879883"
+    "crawled_at": "2026-06-14T18:31:34.879883",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "a7a8a94a4034",
@@ -985,7 +1049,9 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.7767/9783205221296.348",
-    "crawled_at": "2026-06-14T18:31:34.879883"
+    "crawled_at": "2026-06-14T18:31:34.879883",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "601959a85121",
@@ -997,7 +1063,9 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.2307/jj.31272198.11",
-    "crawled_at": "2026-06-14T18:31:34.879883"
+    "crawled_at": "2026-06-14T18:31:34.879883",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "5fa07985fafe",
@@ -1011,7 +1079,9 @@
     "abstract": "<jats:p>Major human impacts on New Zealand’s ecology began about 800 years ago with immigration firstly from Polynesia, then Europe starting a few centuries later. The humans cleared habitat, hunted species to extinction, and introduced biota, including plants, birds, fish, invertebrates, and mammals. Over the last 70 years, government-funded campaigns have been waged against some of the introduced mammals that became considered harmful to native biota. These campaigns spread poisonous food bait",
     "source": "CrossRef",
     "url": "https://doi.org/10.3390/conservation5030047",
-    "crawled_at": "2026-06-14T18:31:34.879883"
+    "crawled_at": "2026-06-14T18:31:34.879883",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "51685542a1d6",
@@ -1026,7 +1096,9 @@
     "abstract": "<jats:p>Rural religious heritage is an important value for the future of historic villages and for their conservation. The religious heritage in rural areas of Burdur province, located in the Western Mediterranean Region of Türkiye, deserves special attention in this field both for its monuments and for the settlements and landscapes surrounding them. Documentation studies carried out in the rural area of Burdur show that the religious heritage assets and the historic villages in which they are ",
     "source": "CrossRef",
     "url": "https://doi.org/10.4995/heritage2025.2025.19278",
-    "crawled_at": "2026-06-14T18:31:34.879883"
+    "crawled_at": "2026-06-14T18:31:34.879883",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "db0c8cc33908",
@@ -1040,7 +1112,9 @@
     "abstract": "<p>The so-called crisis of representation, the profound questioning of knowledge claims based on positivist principles since the 1980s, has had an enormous impact upon anthropology and related academic disciplines and fields. In many ways, the debates and contestations rage on, and associated problems—methodological, epistemological, ethical, etc. —remain unresolved. Museums, which had been at the forefront of disciplines such as anthropology in the late nineteenth century, have become a focal p",
     "source": "CrossRef",
     "url": "https://doi.org/10.1093/obo/9780199766567-0312",
-    "crawled_at": "2026-06-14T18:31:38.865784"
+    "crawled_at": "2026-06-14T18:31:38.865784",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "8424947cd3b7",
@@ -1052,7 +1126,9 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.2307/jj.26931934.13",
-    "crawled_at": "2026-06-14T18:31:38.865784"
+    "crawled_at": "2026-06-14T18:31:38.865784",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "9033c5751fbc",
@@ -1066,7 +1142,9 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.14293/s2199-1006.1.sor-uncat.baip1k.v1.rtodvv",
-    "crawled_at": "2026-06-14T18:31:38.865784"
+    "crawled_at": "2026-06-14T18:31:38.865784",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "dce0075e93b5",
@@ -1081,7 +1159,9 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.4324/9781003334453",
-    "crawled_at": "2026-06-14T18:31:38.865784"
+    "crawled_at": "2026-06-14T18:31:38.865784",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "38340fad831a",
@@ -1096,7 +1176,9 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.4324/9781003334453-6",
-    "crawled_at": "2026-06-14T18:31:38.865784"
+    "crawled_at": "2026-06-14T18:31:38.865784",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "2bc2a7807ecd",
@@ -1108,7 +1190,9 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.2307/jj.26931934.8",
-    "crawled_at": "2026-06-14T18:31:38.865784"
+    "crawled_at": "2026-06-14T18:31:38.865784",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "75c47c258ddd",
@@ -1123,7 +1207,9 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.3724/2096-1715.2025.09.05.016",
-    "crawled_at": "2026-06-14T18:31:38.865784"
+    "crawled_at": "2026-06-14T18:31:38.865784",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "67db5bf36462",
@@ -1138,7 +1224,9 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.4324/9781003334453-10",
-    "crawled_at": "2026-06-14T18:31:38.865784"
+    "crawled_at": "2026-06-14T18:31:38.865784",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "69ead5171ca3",
@@ -1153,7 +1241,9 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.4324/9781003334453-7",
-    "crawled_at": "2026-06-14T18:31:38.865784"
+    "crawled_at": "2026-06-14T18:31:38.865784",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "83de8dc7b0d4",
@@ -1168,7 +1258,9 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.4324/9781003334453-2",
-    "crawled_at": "2026-06-14T18:31:38.865784"
+    "crawled_at": "2026-06-14T18:31:38.865784",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "66fa20572d02",
@@ -1182,7 +1274,9 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.4324/9781003619550-2",
-    "crawled_at": "2026-06-14T18:31:47.492139"
+    "crawled_at": "2026-06-14T18:31:47.492139",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "9f33c6ca989e",
@@ -1197,7 +1291,9 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.15863/tas.2025.06.146.17",
-    "crawled_at": "2026-06-14T18:31:47.492139"
+    "crawled_at": "2026-06-14T18:31:47.492139",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "d657fbc6a64e",
@@ -1215,7 +1311,9 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.1038/s40494-025-02150-7",
-    "crawled_at": "2026-06-14T18:31:47.492139"
+    "crawled_at": "2026-06-14T18:31:47.492139",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "5ff6db24379c",
@@ -1229,7 +1327,9 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.4324/9781032026565-23",
-    "crawled_at": "2026-06-14T18:31:47.492139"
+    "crawled_at": "2026-06-14T18:31:47.492139",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "ecb9200bbc80",
@@ -1244,7 +1344,9 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.1007/978-3-032-16141-3_9",
-    "crawled_at": "2026-06-14T18:31:47.492139"
+    "crawled_at": "2026-06-14T18:31:47.492139",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "344ade8c904d",
@@ -1260,7 +1362,9 @@
     "abstract": "<jats:p>Intangible cultural heritage (ICH) remains underutilized in cultural heritage tourism (CHT), which often prioritizes tangible assets because of their visibility and ease of interpretation. This chapter presents an applied methodological framework that supports destination teams and heritage stakeholders in moving from awareness of ICH to responsible implementation in tourism contexts. Adapted from the Intangible Heritage Playbook, the framework offers a structured yet flexible process pr",
     "source": "CrossRef",
     "url": "https://doi.org/10.5772/intechopen.1014535",
-    "crawled_at": "2026-06-14T18:31:47.492139"
+    "crawled_at": "2026-06-14T18:31:47.492139",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "2357fb603e98",
@@ -1274,7 +1378,9 @@
     "abstract": "<jats:p> The UNESCO Convention for the Safeguarding of the Intangible Cultural Heritage has come into effect on 2006. Since then, its complexity and its lack of constraint have generated a large number of problems and debates into the academic world. In the attempt to counter the criticism and answer some of the interrogations, this paper is dedicated to analysis of the ways how researchers and teachers could understand and transmit intangible cultural heritage. As the author has edited an acade",
     "source": "CrossRef",
     "url": "https://doi.org/10.55877/cc.vol28.615",
-    "crawled_at": "2026-06-14T18:31:47.492139"
+    "crawled_at": "2026-06-14T18:31:47.492139",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "a8b329bdda3a",
@@ -1288,7 +1394,9 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.4337/9781802207897.finland.ich",
-    "crawled_at": "2026-06-14T18:31:47.492139"
+    "crawled_at": "2026-06-14T18:31:47.492139",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "f0fcfd3d9cd4",
@@ -1305,7 +1413,9 @@
     "abstract": "Unmanned Aerial Vehicle (UAV) multispectral point clouds (MPC) provide high-dimensional spatial-spectral data for sub-canopy target detection; however, their efficacy is significantly compromised by severe illumination heterogeneity caused by vegetation shadows. To address this, we propose a prior-free anomaly detection framework capable of robustly handling lighting variations. First, we formulate solar angle estimation as an inverse optimization problem. By coupling spectral indices with a ray",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2606.09111v1",
-    "crawled_at": "2026-06-14T18:31:49.742277"
+    "crawled_at": "2026-06-14T18:31:49.742277",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "9a2152ee0ec0",
@@ -1328,7 +1438,9 @@
     "abstract": "Across the Northern Hemisphere, Indigenous hunters developed arrows capable of skipping across the water surface to strike waterfowl. Archaeological and ethnographic records reveal remarkably similar projectile designs spanning millennia and geographically distant cultures, suggesting a convergent technological solution. Despite extensive study of water-entry dynamics, the physical principles underlying this behaviour remain poorly understood. Here we show that successful water-skipping arises f",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2606.03015v1",
-    "crawled_at": "2026-06-14T18:31:49.742277"
+    "crawled_at": "2026-06-14T18:31:49.742277",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "f620d4879c44",
@@ -1346,7 +1458,9 @@
     "abstract": "We introduce and study a new model of correlated uniform attachment (UA) trees, where correlation is sprinkled throughout the time evolution of the process. In this model, two UA trees are grown in parallel, and at each time step a new node is added to each tree, with an edge between it and a uniformly chosen existing vertex in the respective tree. The two choices of attachment are correlated: with probability $α$, the edges attach to nodes with the same time label in both trees, and with probab",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2606.02472v1",
-    "crawled_at": "2026-06-14T18:31:49.742277"
+    "crawled_at": "2026-06-14T18:31:49.742277",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "a5520a3bf9b4",
@@ -1364,7 +1478,9 @@
     "abstract": "Purpose: Digitization projects in the humanities produce vast, heterogeneous archives of historical documents, making manual sorting impractical at scale. This work addresses the need for an automated system to classify scanned page images based on visual content type - text, tables, and graphics - enabling content-specific downstream processing such as Optical Character Recognition (OCR) or structured data extraction. Methods: An image classification system was developed and evaluated on a data",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2606.07558v1",
-    "crawled_at": "2026-06-14T18:31:49.742277"
+    "crawled_at": "2026-06-14T18:31:49.742277",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "d71710e6c007",
@@ -1381,7 +1497,9 @@
     "abstract": "We present a new absolute age determination for NGC 6791, one of the Milky Way's oldest and most metal-rich open clusters. Its unusual properties make it an important probe of inner-disk evolution and asteroseismic calibration, but its age has remained difficult to determine because of coupled uncertainties in reddening, distance, photometry, and stellar-model physics. Gaia DR3 photometry together with detached eclipsing binaries (DEBs) in NGC 6791 are combined with 10,000 Monte Carlo isochrone ",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2605.21682v1",
-    "crawled_at": "2026-06-14T18:31:49.742277"
+    "crawled_at": "2026-06-14T18:31:49.742277",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "6f68f4b19eb5",
@@ -1409,7 +1527,9 @@
     "abstract": "Theoretical models predict that subgiants within a narrow mass regime can retain detectable lithium enrichment signatures from planetary engulfment. We test this prediction using TOI-5882, selected because it occupies this favorable subgiant parameter space and hosts a massive brown dwarf ($22 \\, M_{ \\rm J}$, $P=7.1 \\,{\\rm d}$) companion capable of dynamically perturbing inner planets. We investigate whether: (1) TOI-5882 exhibits lithium enhancement among similar subgiants, (2) planetary materi",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2605.21407v1",
-    "crawled_at": "2026-06-14T18:31:49.742277"
+    "crawled_at": "2026-06-14T18:31:49.742277",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "cb8e213136fa",
@@ -1426,7 +1546,9 @@
     "abstract": "Underwater images suffer from severe wavelength-dependent light absorption and scattering, and turbidity due to suspended particles, degrading visual quality for applications in autonomous underwater vehicles (AUVs), marine biology, archaeology, and offshore infrastructure inspection. Classical IFM inadequately capture nonlinear underwater light behavior, while purely data-driven methods lack physical interpretability. This paper proposes a three-stage network named ADR, that extends the underwa",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2605.14677v1",
-    "crawled_at": "2026-06-14T18:31:49.742277"
+    "crawled_at": "2026-06-14T18:31:49.742277",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "49085e9c14d8",
@@ -1443,7 +1565,9 @@
     "abstract": "Jigsaw puzzle solving has been an increasingly popular task in the computer vision research community. Recent works have utilized cutting-edge architectures and computational approaches to reassemble groups of pieces into a coherent image, while achieving increasingly good results on well established datasets. However, most of these approaches share a common, restricting setting: operating solely on strictly square puzzle pieces. In this work, we introduce GAP, a set of novel jigsaw puzzles data",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2605.12077v1",
-    "crawled_at": "2026-06-14T18:31:49.742277"
+    "crawled_at": "2026-06-14T18:31:49.742277",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "7c975062d3d4",
@@ -1458,7 +1582,9 @@
     "abstract": "The formation timescale of the Milky Way thick disk is one of the central debates in Galactic archaeology. The age-metallicity relation (AMR), formation timescale, and chemical evolution gradients are frequently used to infer a rapid assembly, short-timescale enrichment, and bursty formation history of the thick disk. However, stellar ages are not directly observable, introducing the potential risk that inferred ages may harbor a systematic compression tied to observational quality. In this pape",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2605.10220v2",
-    "crawled_at": "2026-06-14T18:31:49.742277"
+    "crawled_at": "2026-06-14T18:31:49.742277",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "10bb27fff1e2",
@@ -1482,7 +1608,9 @@
     "abstract": "Monitoring archaeological sites at scale is vital for protecting cultural heritage, yet pinpointing when disturbances occur remains difficult because visual cues are subtle and ground-truth data are sparse. We introduce WATCH, a framework for month-level change-event localization over PlanetScope satellite mosaics (2017-2024, 4.7 m/px) that supports three complementary scoring approaches: (i) Temporal Embedding Distance (TED), a training-free method that scores month-to-month deviations from a l",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2605.08160v1",
-    "crawled_at": "2026-06-14T18:31:49.743370"
+    "crawled_at": "2026-06-14T18:31:49.743370",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "0f7a62a26dcb",
@@ -1496,7 +1624,9 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.1080/03122417.2025.2562675",
-    "crawled_at": "2026-06-14T18:31:54.731686"
+    "crawled_at": "2026-06-14T18:31:54.731686",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "65f827bd5499",
@@ -1511,7 +1641,9 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.1080/03090728.2025.2618904",
-    "crawled_at": "2026-06-14T18:31:54.731686"
+    "crawled_at": "2026-06-14T18:31:54.731686",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "f01631c59cd3",
@@ -1523,7 +1655,9 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.3828/churcharch.2025.25.8",
-    "crawled_at": "2026-06-14T18:31:54.731686"
+    "crawled_at": "2026-06-14T18:31:54.731686",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "d9e5a577cd6b",
@@ -1537,7 +1671,9 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.1080/0734578x.2026.2639786",
-    "crawled_at": "2026-06-14T18:31:54.731686"
+    "crawled_at": "2026-06-14T18:31:54.731686",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "3da8e14e803e",
@@ -1549,7 +1685,9 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.24072/pci.archaeo.100639.rev11",
-    "crawled_at": "2026-06-14T18:31:54.731686"
+    "crawled_at": "2026-06-14T18:31:54.731686",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "45dfce9d297a",
@@ -1561,7 +1699,9 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.24072/pci.archaeo.100639.d1",
-    "crawled_at": "2026-06-14T18:31:54.731686"
+    "crawled_at": "2026-06-14T18:31:54.731686",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "db60433da531",
@@ -1575,7 +1715,9 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.1080/03090728.2026.2658308",
-    "crawled_at": "2026-06-14T18:31:54.731686"
+    "crawled_at": "2026-06-14T18:31:54.731686",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "ff2809e348e7",
@@ -1589,7 +1731,9 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.1080/03122417.2025.2562671",
-    "crawled_at": "2026-06-14T18:31:54.731686"
+    "crawled_at": "2026-06-14T18:31:54.731686",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "cdf01d052ac3",
@@ -1601,7 +1745,9 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.24072/pci.archaeo.100639",
-    "crawled_at": "2026-06-14T18:31:54.731686"
+    "crawled_at": "2026-06-14T18:31:54.731686",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   },
   {
     "id": "9da72ff9f9aa",
@@ -1613,6 +1759,8 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.24072/pci.archaeo.100639.rev14",
-    "crawled_at": "2026-06-14T18:31:54.731686"
+    "crawled_at": "2026-06-14T18:31:54.731686",
+    "crawledAt": "2026-06-14T00:00:00Z",
+    "keywords": []
   }
 ]

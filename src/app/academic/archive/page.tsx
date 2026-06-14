@@ -19,6 +19,7 @@ export default function AcademicArchivePage() {
 
   const archivedConferences = useMemo(() => {
     return conferences.filter((c) => {
+      if (!c.crawledAt) return false;
       const itemMonth = c.crawledAt.slice(0, 7);
       return itemMonth < cutoff;
     });
@@ -26,6 +27,7 @@ export default function AcademicArchivePage() {
 
   const archivedPapers = useMemo(() => {
     return papers.filter((p) => {
+      if (!p.crawledAt) return false;
       const itemMonth = p.crawledAt.slice(0, 7);
       return itemMonth < cutoff;
     });
