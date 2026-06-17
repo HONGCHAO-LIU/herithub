@@ -70,4 +70,6 @@ export interface AcademicPaper {
   sourceUrl: string;
   verified: boolean;
   crawledAt: string;
+  paper_summary?: string;       // auto_summary.py 生成的中文摘要
+  english_abstract?: string;    // auto_summary.py 生成的英文摘要（原文精炼）
 }
