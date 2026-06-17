@@ -29,6 +29,14 @@ RAW_FILE = DATA_DIR / "raw_business.json"
 HISTORY_FILE = DATA_DIR / "business_intelligence.json"
 REPORT_FILE = DATA_DIR / "price_validation_report.json"
 
+# 导入 LLM 客户端（可选，未配置则跳过 AI 辅助判定）
+sys.path.insert(0, str(SCRIPT_DIR))
+try:
+    from llm_client import chat, is_available as llm_available
+except ImportError:
+    chat = None
+    def llm_available(): return False
+
 os.makedirs(LOGS_DIR, exist_ok=True)
 
 # ==================== 日志配置 ====================
@@ -208,6 +216,37 @@ def main():
             normal_count += 1
         else:
             skipped_count += 1
+
+    # 步骤3.5: AI 辅助异常判定（仅在 LLM 可用且有异常时执行）
+    ai_corrected = 0
+    if llm_available() and anomaly_count > 0:
+        logger.info(f"AI 辅助审核: {anomaly_count} 条异常待判定...")
+        anomalies = [r for r in validation_results if r["validation_status"] == "anomaly"]
+        for anom in anomalies:
+            try:
+                prompt = f"""你是文化遗产领域采购专家。以下招标条目被标记为价格异常（偏离历史中位数±30%），请判断这是否为合理报价。
+
+条目信息:
+- 标题: {anom.get('title', '')}
+- 类型: {anom.get('type', '')}
+- 金额: {anom.get('amount', '')}
+- 偏差: {anom.get('deviation_pct', 0):.1f}%
+- 历史中位数: {anom.get('baseline_median', 0) / 10000:.2f}万元
+
+请仅回复"合理"或"异常"，不要加任何解释。"""
+                result = chat([{"role": "user", "content": prompt}], max_tokens=10, temperature=0)
+                if result and "合理" in result:
+                    anom["validation_status"] = "normal"
+                    anom["ai_reviewed"] = True
+                    anom["ai_review_result"] = "合理（AI判定）"
+                    ai_corrected += 1
+                    logger.info(f"  AI 修正: [{anom['type']}] {anom['title'][:40]}... → 合理")
+            except Exception as e:
+                logger.warning(f"  AI 审核失败: {e}")
+        if ai_corrected > 0:
+            logger.info(f"AI 修正: {ai_corrected} 条异常被重新判定为合理")
+            anomaly_count -= ai_corrected
+            normal_count += ai_corrected
 
     # 步骤4: 写回验证状态到原始数据
     validation_map = {r["item_id"]: r["validation_status"] for r in validation_results}
