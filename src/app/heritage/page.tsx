@@ -4,6 +4,8 @@ import { useState, useMemo } from 'react';
 import heritageData from '@/data/heritage.json';
 import type { HeritageItem } from '@/types/index';
 import Link from 'next/link';
+import { getCurrentLocale, t } from '@/lib/i18n';
+import { uiDict } from '@/lib/dict';
 
 const categoryOrder = [
   '研究机构', '博物馆', '政府机构', '国际组织', '世界遗产', '非物质文化遗产'
@@ -21,6 +23,7 @@ const categoryConfig: Record<string, { icon: string; color: string; desc: string
 const data = heritageData as HeritageItem[];
 
 export default function HeritagePage() {
+  const locale = getCurrentLocale();
   const [search, setSearch] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string>('');
 
@@ -80,14 +83,14 @@ export default function HeritagePage() {
         {/* Left Filter Sidebar */}
         <aside className="filter-sidebar">
           <div className="filter-group">
-            <h3 className="filter-title">按分类</h3>
+            <h3 className="filter-title">{t('按分类', locale, uiDict)}</h3>
             <ul className="filter-list">
               <li>
                 <button
                   className={`filter-item ${selectedCategory === '' ? 'active' : ''}`}
                   onClick={() => setSelectedCategory('')}
                 >
-                  <span>全部分类</span>
+                  <span>{t('全部分类', locale, uiDict)}</span>
                   <span className="filter-count">{data.length}</span>
                 </button>
               </li>
@@ -101,7 +104,7 @@ export default function HeritagePage() {
                       className="filter-dot"
                       style={{ background: categoryConfig[c.key]?.color || '#999' }}
                     />
-                    <span>{c.label}</span>
+                    <span>{t(c.key, locale, uiDict)}</span>
                     <span className="filter-count">{c.count}</span>
                   </button>
                 </li>
@@ -114,7 +117,7 @@ export default function HeritagePage() {
         <section className="main-area">
           <div className="items-header">
             <h2>
-              机构列表 <span className="count">({filtered.length} 条)</span>
+              {t('机构列表', locale, uiDict)} <span className="count">({filtered.length} {t('条', locale, uiDict)})</span>
             </h2>
           </div>
 
@@ -125,7 +128,7 @@ export default function HeritagePage() {
           )}
 
           {filtered.length === 0 ? (
-            <div className="empty-state">未找到匹配的机构，请调整筛选条件。</div>
+            <div className="empty-state">{t('未找到匹配的机构，请调整筛选条件。', locale, uiDict)}</div>
           ) : (
             <div className="business-card-list">
               {filtered.map((item, idx) => {
@@ -147,7 +150,7 @@ export default function HeritagePage() {
                         className="business-category-tag"
                         style={{ background: config.color }}
                       >
-                        {config.icon} {item.分类}
+                        {config.icon} {t(item.分类, locale, uiDict)}
                       </span>
                       {item.地区 && (
                         <span className="business-type-tag">{item.地区}</span>
@@ -157,12 +160,12 @@ export default function HeritagePage() {
                       <p className="business-card-desc">{item.描述}</p>
                     )}
                     <div className="business-card-meta">
-                      <span>来源：{item.来源 || '—'}</span>
+                      <span>{t('来源：', locale, uiDict)}{item.来源 || '—'}</span>
                       {item.数据创建时间 && (
-                        <span>创建：{item.数据创建时间}</span>
+                        <span>{t('创建：', locale, uiDict)}{item.数据创建时间}</span>
                       )}
                       {item.验证时间 && (
-                        <span>核验：{item.验证时间}</span>
+                        <span>{t('核验：', locale, uiDict)}{item.验证时间}</span>
                       )}
                     </div>
                     <div className="business-card-tags-bottom">
