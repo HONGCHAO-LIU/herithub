@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 import NavHeader from './components/NavHeader'
 import Footer from './components/Footer'
+import SwRegister from './sw-register'
 import { Analytics } from '@vercel/analytics/react'
 
 export const metadata: Metadata = {
@@ -10,6 +11,7 @@ export const metadata: Metadata = {
     default: '智汇遗藏 | herithub',
     template: '%s | 智汇遗藏',
   },
+  themeColor: '#8B6914',
   description: '智汇遗藏——文化遗产领域一站式信息中枢。收录世界遗产、非物质文化遗产、博物馆等机构名录，汇集商业情报、学术会议与论文成果。',
   keywords: ['文化遗产', '世界遗产', '非物质文化遗产', '博物馆', '文物保护', '历史文化', '中华文明', '商业情报', '学术动态', '智汇遗藏'],
   authors: [{ name: '智汇遗藏' }],
@@ -61,6 +63,8 @@ export default function RootLayout({
   return (
     <html lang="zh-CN">
       <head>
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#8B6914" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -103,6 +107,7 @@ export default function RootLayout({
         <NavHeader />
         {children}
         <Footer />
+        <SwRegister />
       </body>
     </html>
   )
