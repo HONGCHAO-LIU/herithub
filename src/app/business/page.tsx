@@ -3,6 +3,8 @@
 import { useState, useMemo } from 'react';
 import businessData from '@/data/business_intelligence.json';
 import type { BusinessIntelligence } from '@/types/index';
+import { getCurrentLocale, t } from '@/lib/i18n';
+import { uiDict } from '@/lib/dict';
 
 const categoryLabels: Record<BusinessIntelligence['category'], string> = {
   '文创开发': '文创开发',
@@ -36,6 +38,7 @@ const categoryColors: Record<string, string> = {
 const data = businessData as BusinessIntelligence[];
 
 export default function BusinessPage() {
+  const locale = getCurrentLocale();
   const [search, setSearch] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string>('');
   const [selectedType, setSelectedType] = useState<string>('');
@@ -85,19 +88,21 @@ export default function BusinessPage() {
     <div className="container">
       {/* Hero */}
       <section className="hero">
-        <h2>商业情报</h2>
+        <h2>{t('商业情报', locale, uiDict)}</h2>
         <p>
-          覆盖文创开发、文旅融合、文化遗产数字化、专业服务、教育培训、内容与媒体、投融资与资产化七大领域，汇集招标公告、项目合作招募、成交公告、报价基准、商业案例与服务商名录。
+          {locale === 'en'
+            ? 'Covering 7 major domains: Cultural Creative Development, Cultural Tourism Integration, Cultural Heritage Digitization, Professional Services, Education & Training, Content & Media, Investment & Assetization — aggregating bid announcements, project cooperation calls, award notices, price benchmarks, case studies, and service provider directories.'
+            : '覆盖文创开发、文旅融合、文化遗产数字化、专业服务、教育培训、内容与媒体、投融资与资产化七大领域，汇集招标公告、项目合作招募、成交公告、报价基准、商业案例与服务商名录。'}
         </p>
         <div className="search-box">
           <input
             type="text"
-            placeholder="搜索标题、描述、标签或来源..."
+            placeholder={t('搜索标题、描述、标签或来源...', locale, uiDict)}
             value={search}
             onChange={(e) => setSearch(e.target.value)}
           />
           {search && (
-            <button onClick={() => setSearch('')}>清除</button>
+            <button onClick={() => setSearch('')}>{t('清除', locale, uiDict)}</button>
           )}
         </div>
       </section>
@@ -107,14 +112,14 @@ export default function BusinessPage() {
         {/* Left Filter Sidebar */}
         <aside className="filter-sidebar">
           <div className="filter-group">
-            <h3 className="filter-title">按领域</h3>
+            <h3 className="filter-title">{t('按领域', locale, uiDict)}</h3>
             <ul className="filter-list">
               <li>
                 <button
                   className={`filter-item ${selectedCategory === '' ? 'active' : ''}`}
                   onClick={() => setSelectedCategory('')}
                 >
-                  <span>全部领域</span>
+                  <span>{t('全部领域', locale, uiDict)}</span>
                   <span className="filter-count">{data.length}</span>
                 </button>
               </li>
@@ -128,7 +133,7 @@ export default function BusinessPage() {
                       className="filter-dot"
                       style={{ background: categoryColors[c.key] || '#999' }}
                     />
-                    <span>{c.label}</span>
+                    <span>{t(c.key, locale, uiDict)}</span>
                     <span className="filter-count">{c.count}</span>
                   </button>
                 </li>
@@ -137,25 +142,25 @@ export default function BusinessPage() {
           </div>
 
           <div className="filter-group">
-            <h3 className="filter-title">按类型</h3>
+            <h3 className="filter-title">{t('按类型', locale, uiDict)}</h3>
             <ul className="filter-list">
               <li>
                 <button
                   className={`filter-item ${selectedType === '' ? 'active' : ''}`}
                   onClick={() => setSelectedType('')}
                 >
-                  <span>全部类型</span>
+                  <span>{t('全部类型', locale, uiDict)}</span>
                   <span className="filter-count">{data.length}</span>
                 </button>
               </li>
-              {types.map((t) => (
-                <li key={t.key}>
+              {types.map((tp) => (
+                <li key={tp.key}>
                   <button
-                    className={`filter-item ${selectedType === t.key ? 'active' : ''}`}
-                    onClick={() => setSelectedType(selectedType === t.key ? '' : t.key)}
+                    className={`filter-item ${selectedType === tp.key ? 'active' : ''}`}
+                    onClick={() => setSelectedType(selectedType === tp.key ? '' : tp.key)}
                   >
-                    <span>{t.label}</span>
-                    <span className="filter-count">{t.count}</span>
+                    <span>{t(tp.key, locale, uiDict)}</span>
+                    <span className="filter-count">{tp.count}</span>
                   </button>
                 </li>
               ))}
@@ -167,12 +172,12 @@ export default function BusinessPage() {
         <section className="main-area">
           <div className="items-header">
             <h2>
-              情报列表 <span className="count">({filtered.length} 条)</span>
+              {t('情报列表', locale, uiDict)} <span className="count">({filtered.length} {t('条', locale, uiDict)})</span>
             </h2>
           </div>
 
           {filtered.length === 0 ? (
-            <div className="empty-state">未找到匹配的商业情报，请调整筛选条件。</div>
+            <div className="empty-state">{t('未找到匹配的商业情报，请调整筛选条件。', locale, uiDict)}</div>
           ) : (
             <div className="business-card-list">
               {filtered.map((item) => (
@@ -184,10 +189,10 @@ export default function BusinessPage() {
                       </a>
                     </h3>
                     <span className={`verify-badge ${item.verified ? 'verified' : 'unverified'}`}>
-                      {item.verified ? '已验证' : '待核实'}
+                      {item.verified ? t('已验证', locale, uiDict) : t('待核实', locale, uiDict)}
                     </span>
                     {(item.sourceUrl.indexOf('xxxxx') !== -1 || item.sourceUrl.endsWith('/')) && (
-                      <span className="verify-badge link-broken">链接失效</span>
+                      <span className="verify-badge link-broken">{t('链接失效', locale, uiDict)}</span>
                     )}
                   </div>
                   <div className="business-card-tags">
@@ -195,9 +200,9 @@ export default function BusinessPage() {
                       className="business-category-tag"
                       style={{ background: categoryColors[item.category] || '#999' }}
                     >
-                      {item.category}
+                      {t(item.category, locale, uiDict)}
                     </span>
-                    <span className="business-type-tag">{item.type}</span>
+                    <span className="business-type-tag">{t(item.type, locale, uiDict)}</span>
                     {item.amount && (
                       <span className="business-amount">{item.amount}</span>
                     )}
