@@ -1,0 +1,14 @@
+{
+  "name": "智汇遗藏 - 数字文化遗产聚合平台",
+  "short_name": "智汇遗藏",
+  "description": "整合世界遗产、学术会议、学术论文与商业情报的综合性数字文化遗产平台",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a1a2e",
+  "theme_color": "#8B6914",
+  "orientation": "any",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
