@@ -15,6 +15,11 @@ export default function PaperDetailPage() {
 
   const [feedbackOpen, setFeedbackOpen] = useState(false);
   const [feedbackSubmitted, setFeedbackSubmitted] = useState(false);
+  const [abstractLang, setAbstractLang] = useState<'zh' | 'en'>('zh');
+
+  const hasZhSummary = !!item?.paper_summary;
+  const hasEnAbstract = !!item?.english_abstract;
+  const hasBilingual = hasZhSummary && hasEnAbstract;
 
   if (!item) {
     return (
@@ -96,10 +101,46 @@ export default function PaperDetailPage() {
       </section>
 
       <section className="detail-section">
-        <h3 className="detail-section-title">摘要</h3>
+        <div className="detail-section-header-row">
+          <h3 className="detail-section-title">摘要</h3>
+          {hasBilingual && (
+            <div className="abstract-lang-toggle">
+              <button
+                className={`abstract-lang-btn ${abstractLang === 'zh' ? 'active' : ''}`}
+                onClick={() => setAbstractLang('zh')}
+              >
+                中文摘要
+              </button>
+              <button
+                className={`abstract-lang-btn ${abstractLang === 'en' ? 'active' : ''}`}
+                onClick={() => setAbstractLang('en')}
+              >
+                English Abstract
+              </button>
+            </div>
+          )}
+        </div>
+
+        {/* 原文摘要始终展示 */}
         <div className="detail-description">
           <p>{item.abstract}</p>
         </div>
+
+        {/* AI 精炼摘要 — 中文 */}
+        {hasZhSummary && abstractLang === 'zh' && (
+          <div className="detail-description detail-ai-summary">
+            <div className="detail-ai-summary-label">AI 精炼中文摘要</div>
+            <p>{item.paper_summary}</p>
+          </div>
+        )}
+
+        {/* AI 精炼摘要 — 英文 */}
+        {hasEnAbstract && abstractLang === 'en' && (
+          <div className="detail-description detail-ai-summary">
+            <div className="detail-ai-summary-label">AI Refined English Abstract</div>
+            <p>{item.english_abstract}</p>
+          </div>
+        )}
       </section>
 
       <section className="detail-section">
