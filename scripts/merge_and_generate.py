@@ -26,11 +26,12 @@
 import hashlib
 import json
 import logging
+import math
 import os
-import shutil
 import sys
 from datetime import datetime, timedelta
 from pathlib import Path
+from urllib.request import Request, urlopen
 
 # ==================== 路径配置 ====================
 SCRIPT_DIR = Path(__file__).resolve().parent
@@ -81,6 +82,95 @@ def make_dedup_key(item: dict) -> str:
     url = item.get("url", "") or item.get("link", "")
     raw = f"{title}|{url}".strip()
     return hashlib.md5(raw.encode("utf-8")).hexdigest()
+
+
+# ==================== 语义去重模块 ====================
+# 环境变量配置（未配置则跳过语义去重，优雅降级）
+EMBEDDING_API_KEY = os.environ.get("EMBEDDING_API_KEY", "")
+EMBEDDING_API_BASE = os.environ.get("EMBEDDING_API_BASE", "https://api.openai.com/v1")
+EMBEDDING_MODEL = os.environ.get("EMBEDDING_MODEL", "text-embedding-3-small")
+SEMANTIC_THRESHOLD = float(os.environ.get("SEMANTIC_DEDUP_THRESHOLD", "0.92"))
+
+
+def cosine_similarity(a: list[float], b: list[float]) -> float:
+    """计算两个向量的余弦相似度"""
+    dot = sum(x * y for x, y in zip(a, b))
+    norm_a = math.sqrt(sum(x * x for x in a))
+    norm_b = math.sqrt(sum(x * x for x in b))
+    if norm_a == 0 or norm_b == 0:
+        return 0.0
+    return dot / (norm_a * norm_b)
+
+
+def get_embeddings(texts: list[str]) -> list[list[float]] | None:
+    """通过 API 获取文本嵌入向量，失败返回 None"""
+    if not EMBEDDING_API_KEY or not texts:
+        return None
+
+    url = f"{EMBEDDING_API_BASE.rstrip('/')}/embeddings"
+    body = json.dumps({"model": EMBEDDING_MODEL, "input": texts}).encode("utf-8")
+    req = Request(url, data=body, headers={
+        "Authorization": f"Bearer {EMBEDDING_API_KEY}",
+        "Content-Type": "application/json",
+    })
+
+    try:
+        with urlopen(req, timeout=30) as resp:
+            result = json.loads(resp.read().decode("utf-8"))
+            embeddings = [d["embedding"] for d in result.get("data", [])]
+            if len(embeddings) != len(texts):
+                logger.warning(f"嵌入向量数量不匹配: 期望 {len(texts)}, 实际 {len(embeddings)}")
+                return None
+            return embeddings
+    except Exception as e:
+        logger.warning(f"获取嵌入向量失败: {e}")
+        return None
+
+
+def semantic_dedup(items: list[dict]) -> list[dict]:
+    """语义去重：基于嵌入向量的余弦相似度，超过阈值视为重复。
+    未配置 EMBEDDING_API_KEY 或条目数 ≤1 时跳过。
+    """
+    if not EMBEDDING_API_KEY or len(items) <= 1:
+        return items
+
+    # 提取标题文本（用于语义比较）
+    texts = [item.get("title", "") or item.get("name", "") for item in items]
+    # 跳过空标题
+    valid_indices = [i for i, t in enumerate(texts) if t.strip()]
+    if len(valid_indices) <= 1:
+        return items
+
+    valid_texts = [texts[i] for i in valid_indices]
+    embeddings = get_embeddings(valid_texts)
+    if embeddings is None:
+        logger.info("  语义去重: API 不可用，跳过")
+        return items
+
+    # 标记重复（保留先出现的）
+    removed = set()
+    for i in range(len(valid_indices)):
+        if i in removed:
+            continue
+        for j in range(i + 1, len(valid_indices)):
+            if j in removed:
+                continue
+            sim = cosine_similarity(embeddings[i], embeddings[j])
+            if sim >= SEMANTIC_THRESHOLD:
+                removed.add(j)
+                logger.debug(
+                    f"  语义重复 ({sim:.4f}): "
+                    f"「{valid_texts[i][:50]}」≈「{valid_texts[j][:50]}」"
+                )
+
+    if not removed:
+        return items
+
+    # 构造去重后的结果
+    removed_orig_indices = {valid_indices[j] for j in removed}
+    result = [item for idx, item in enumerate(items) if idx not in removed_orig_indices]
+    logger.info(f"  语义去重: 移除 {len(removed)} 条 (阈值 {SEMANTIC_THRESHOLD})")
+    return result
 
 
 def parse_date(date_str: str) -> datetime | None:
@@ -182,6 +272,11 @@ def merge_category(category: str) -> dict:
     if dup_count > 0:
         logger.info(f"  去重: 移除 {dup_count} 条重复")
 
+    # 语义去重（基于嵌入向量，未配置 API Key 则跳过）
+    before_sem = len(deduped)
+    deduped = semantic_dedup(deduped)
+    sem_dup = before_sem - len(deduped)
+
     # 按日期降序排列
     deduped.sort(
         key=lambda x: parse_date(x.get("publish_date", "") or x.get("date", "")
@@ -234,7 +329,7 @@ def merge_category(category: str) -> dict:
         "existing_count": len(existing_items),
         "fresh_count": len(fresh_items),
         "expired_count": len(expired_items),
-        "duplicate_removed": dup_count,
+        "duplicate_removed": dup_count + sem_dup,
         "final_count": len(deduped),
         "sources": source_count,
     }
