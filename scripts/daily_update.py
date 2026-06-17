@@ -16,7 +16,7 @@ import os
 from datetime import datetime
 from pathlib import Path
 
-PROJECT_DIR = Path(r'C:\Users\Administrator\Favorites\workspace-work\versions\v1.3.3')
+PROJECT_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = PROJECT_DIR / 'src' / 'data'
 VERCEL_TOKEN = os.environ.get('VERCEL_TOKEN', '')
 if not VERCEL_TOKEN:
@@ -27,6 +27,7 @@ if not VERCEL_TOKEN:
 if not VERCEL_TOKEN:
     print("[FATAL] 未找到 Vercel Token，请设置 VERCEL_TOKEN 环境变量或写入 .vercel/.token")
     sys.exit(1)
+os.environ['VERCEL_TOKEN'] = VERCEL_TOKEN
 
 def run_cmd(cmd, cwd=None):
     result = subprocess.run(cmd, shell=True, capture_output=True, text=True, cwd=cwd or PROJECT_DIR)
@@ -184,7 +185,7 @@ def step5_deploy():
     """Vercel 生产部署"""
     print("=" * 50)
     print("Step 5: Vercel 部署...")
-    result = run_cmd(f'vercel --prod --token {VERCEL_TOKEN} --yes', cwd=PROJECT_DIR)
+    result = run_cmd('vercel --prod --yes', cwd=PROJECT_DIR)
     return result.returncode == 0
 
 def main():
