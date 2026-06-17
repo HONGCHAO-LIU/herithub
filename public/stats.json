@@ -1,0 +1,199 @@
+{
+  "generatedAt": "2026-06-16T20:17:37.937Z",
+  "typeCounts": {
+    "heritage": 2002,
+    "conference": 27,
+    "paper": 96,
+    "business": 65
+  },
+  "topTags": [
+    {
+      "name": "世界遗产",
+      "count": 507
+    },
+    {
+      "name": "政府机构",
+      "count": 403
+    },
+    {
+      "name": "博物馆",
+      "count": 335
+    },
+    {
+      "name": "研究机构",
+      "count": 283
+    },
+    {
+      "name": "非物质文化遗产",
+      "count": 278
+    },
+    {
+      "name": "国际组织",
+      "count": 206
+    },
+    {
+      "name": "学术会议",
+      "count": 16
+    },
+    {
+      "name": "数字化",
+      "count": 12
+    },
+    {
+      "name": "文物保护",
+      "count": 7
+    },
+    {
+      "name": "非遗",
+      "count": 7
+    },
+    {
+      "name": "文化遗产",
+      "count": 4
+    },
+    {
+      "name": "数字化保护",
+      "count": 4
+    },
+    {
+      "name": "AI",
+      "count": 4
+    },
+    {
+      "name": "深度学习",
+      "count": 4
+    },
+    {
+      "name": "古建筑修缮",
+      "count": 4
+    }
+  ],
+  "topSources": [
+    {
+      "name": "UNESCO",
+      "count": 639
+    },
+    {
+      "name": "官网",
+      "count": 488
+    },
+    {
+      "name": "政府官网",
+      "count": 281
+    },
+    {
+      "name": "UNESCO官网",
+      "count": 123
+    },
+    {
+      "name": "高校",
+      "count": 120
+    },
+    {
+      "name": "ICOM官网",
+      "count": 64
+    },
+    {
+      "name": "中国非物质文化遗产网",
+      "count": 43
+    },
+    {
+      "name": "中国政府采购网",
+      "count": 30
+    },
+    {
+      "name": "arXiv preprint",
+      "count": 29
+    },
+    {
+      "name": "ICCROM官网",
+      "count": 26
+    }
+  ],
+  "monthlyTrend": [
+    {
+      "month": "2025-07",
+      "heritage": 0,
+      "conference": 0,
+      "paper": 0,
+      "business": 0
+    },
+    {
+      "month": "2025-08",
+      "heritage": 0,
+      "conference": 0,
+      "paper": 0,
+      "business": 0
+    },
+    {
+      "month": "2025-09",
+      "heritage": 0,
+      "conference": 1,
+      "paper": 0,
+      "business": 0
+    },
+    {
+      "month": "2025-10",
+      "heritage": 0,
+      "conference": 0,
+      "paper": 0,
+      "business": 0
+    },
+    {
+      "month": "2025-11",
+      "heritage": 0,
+      "conference": 0,
+      "paper": 0,
+      "business": 0
+    },
+    {
+      "month": "2025-12",
+      "heritage": 0,
+      "conference": 0,
+      "paper": 0,
+      "business": 0
+    },
+    {
+      "month": "2026-01",
+      "heritage": 0,
+      "conference": 0,
+      "paper": 0,
+      "business": 1
+    },
+    {
+      "month": "2026-02",
+      "heritage": 0,
+      "conference": 0,
+      "paper": 0,
+      "business": 1
+    },
+    {
+      "month": "2026-03",
+      "heritage": 0,
+      "conference": 3,
+      "paper": 8,
+      "business": 1
+    },
+    {
+      "month": "2026-04",
+      "heritage": 0,
+      "conference": 4,
+      "paper": 0,
+      "business": 0
+    },
+    {
+      "month": "2026-05",
+      "heritage": 0,
+      "conference": 5,
+      "paper": 0,
+      "business": 4
+    },
+    {
+      "month": "2026-06",
+      "heritage": 2002,
+      "conference": 12,
+      "paper": 88,
+      "business": 58
+    }
+  ]
+}
