@@ -5,10 +5,29 @@
 用途: 从中国博物馆协会、ICOMOS、中国考古学会等信源采集文化遗产领域学术会议信息。
       仅采集当前月份及未来两个月内的会议。
 
-目标信源:
+目标信源（已实现）:
   - 中国博物馆协会 (chinamuseum.org.cn)
   - ICOMOS (icomos.org)
-  - 中国考古学会
+  - 中国考古网 (kaogu.cn)
+
+建议扩展来源（待后续实现）:
+  【学会/协会年会类】
+  - 中国文物学会 (cchc.org.cn) — 文化遗产保护年会、专题研讨会
+  - 中国古迹遗址保护协会 / ICOMOS China (icomoschina.org.cn) — 古迹遗址保护论坛
+  - 中国考古学会 (archaeology.cssn.cn) — 考古学年会、田野考古汇报会
+  - 中国文物保护技术协会 — 文物保护技术年会
+  - 中国非物质文化遗产保护协会 (chinaintangibleculturalheritage.org) — 非遗保护论坛
+  - CCF 中国计算机学会 (ccf.org.cn) — 数字人文/文化遗产数字化相关推荐会议（如 CNCC 数字人文学术论坛）
+
+  【研究机构/院所类】
+  - 中国文化遗产研究院 (cach.org.cn) — 全国文物修复研讨会等
+  - 故宫博物院 (dpm.org.cn) — "故宫学"学术研讨会
+  - 敦煌研究院 (dha.ac.cn) — 敦煌学国际学术研讨会
+  - 南京博物院 (njmuseum.com) — 博物馆高质量发展论坛
+
+  【高校/学术平台类】
+  - 中国知网学术会议 (cnki.net) — 检索文化遗产领域会议论文
+  - 各高校考古文博学院官网（北大/复旦/吉大/川大/西北大学等）
 
 提取字段: 会议名称、时间、地点、投稿截止日期、官网链接、主办方
 
@@ -88,6 +107,18 @@ SOURCE_CONFIGS = [
         "name": "中国考古网",
         "url": "https://www.kaogu.cn",
         "list_url": "https://www.kaogu.cn/cn/xueshuhuiyi/",
+        "timeout": 20,
+    },
+    {
+        "name": "ICOMOS China",
+        "url": "https://www.icomoschina.org.cn",
+        "list_url": "https://www.icomoschina.org.cn/index.php?c=article&a=list&catid=5",
+        "timeout": 20,
+    },
+    {
+        "name": "中国文化遗产研究院",
+        "url": "https://www.cach.org.cn",
+        "list_url": "https://www.cach.org.cn/tabid/76/Default.aspx",
         "timeout": 20,
     },
 ]
@@ -270,6 +301,90 @@ def crawl_kaogu() -> list[dict]:
     return results
 
 
+def crawl_icomos_china() -> list[dict]:
+    """采集 ICOMOS China（中国古迹遗址保护协会）"""
+    results = []
+    logger.info("--- 开始采集: ICOMOS China ---")
+    try:
+        resp = fetch_with_retry("https://www.icomoschina.org.cn/index.php?c=article&a=list&catid=5", timeout=20)
+        if resp and resp.status_code == 200:
+            resp.encoding = resp.apparent_encoding or "utf-8"
+            soup = BeautifulSoup(resp.text, "html.parser")
+            items = soup.select(".news-list li, .list-item, .item, article, .article-list li, .xwdt li")
+            for item in items[:15]:
+                link_el = item.find("a")
+                if not link_el:
+                    continue
+                title = link_el.get_text(strip=True)
+                href = link_el.get("href", "")
+                if not title or len(title) < 4:
+                    continue
+                if href and not href.startswith("http"):
+                    href = "https://www.icomoschina.org.cn" + href
+                date_el = item.find(class_=re.compile(r"date|time")) or item.find("span")
+                date_text = date_el.get_text(strip=True) if date_el else ""
+                conf_date = parse_date(date_text) or parse_date(title)
+                if not is_in_window(conf_date):
+                    continue
+                results.append({
+                    "id": make_id(title, "ICOMOS China", href),
+                    "name": title,
+                    "date": date_text if date_text else "待定",
+                    "location": "",
+                    "submission_deadline": "",
+                    "url": href,
+                    "organizer": "ICOMOS China",
+                    "source": "ICOMOS China",
+                    "crawled_at": datetime.now().isoformat(),
+                })
+    except Exception as e:
+        logger.error(f"  采集异常: {e}")
+    logger.info(f"  采集到 {len(results)} 条")
+    return results
+
+
+def crawl_cach() -> list[dict]:
+    """采集中国文化遗产研究院"""
+    results = []
+    logger.info("--- 开始采集: 中国文化遗产研究院 ---")
+    try:
+        resp = fetch_with_retry("https://www.cach.org.cn/tabid/76/Default.aspx", timeout=20)
+        if resp and resp.status_code == 200:
+            resp.encoding = resp.apparent_encoding or "utf-8"
+            soup = BeautifulSoup(resp.text, "html.parser")
+            items = soup.select(".news-list li, .list-item, .item, article, .xwzx li, .list-con li")
+            for item in items[:15]:
+                link_el = item.find("a")
+                if not link_el:
+                    continue
+                title = link_el.get_text(strip=True)
+                href = link_el.get("href", "")
+                if not title or len(title) < 4:
+                    continue
+                if href and not href.startswith("http"):
+                    href = "https://www.cach.org.cn" + href
+                date_el = item.find(class_=re.compile(r"date|time")) or item.find("span")
+                date_text = date_el.get_text(strip=True) if date_el else ""
+                conf_date = parse_date(date_text) or parse_date(title)
+                if not is_in_window(conf_date):
+                    continue
+                results.append({
+                    "id": make_id(title, "中国文化遗产研究院", href),
+                    "name": title,
+                    "date": date_text if date_text else "待定",
+                    "location": "",
+                    "submission_deadline": "",
+                    "url": href,
+                    "organizer": "中国文化遗产研究院",
+                    "source": "中国文化遗产研究院",
+                    "crawled_at": datetime.now().isoformat(),
+                })
+    except Exception as e:
+        logger.error(f"  采集异常: {e}")
+    logger.info(f"  采集到 {len(results)} 条")
+    return results
+
+
 def generate_seed_data() -> list[dict]:
     """种子数据"""
     now = datetime.now()
@@ -354,6 +469,14 @@ def main():
         all_results.extend(crawl_kaogu())
     except Exception as e:
         logger.error(f"中国考古网采集失败: {e}")
+    try:
+        all_results.extend(crawl_icomos_china())
+    except Exception as e:
+        logger.error(f"ICOMOS China采集失败: {e}")
+    try:
+        all_results.extend(crawl_cach())
+    except Exception as e:
+        logger.error(f"中国文化遗产研究院采集失败: {e}")
 
     if not all_results:
         logger.warning("所有信源采集均无结果，使用种子数据")
