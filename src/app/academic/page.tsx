@@ -4,6 +4,8 @@ import { useState, useMemo } from 'react';
 import conferencesData from '@/data/academic_conferences.json';
 import papersData from '@/data/academic_papers.json';
 import type { AcademicConference, AcademicPaper } from '@/types/index';
+import { getCurrentLocale, t } from '@/lib/i18n';
+import { uiDict } from '@/lib/dict';
 
 const conferences = conferencesData as AcademicConference[];
 const papers = papersData as AcademicPaper[];
@@ -11,6 +13,7 @@ const papers = papersData as AcademicPaper[];
 type TabKey = 'conferences' | 'papers';
 
 export default function AcademicPage() {
+  const locale = getCurrentLocale();
   const [activeTab, setActiveTab] = useState<TabKey>('conferences');
   const [search, setSearch] = useState('');
 
@@ -131,13 +134,13 @@ export default function AcademicPage() {
           className={`academic-tab ${activeTab === 'conferences' ? 'active' : ''}`}
           onClick={() => setActiveTab('conferences')}
         >
-          学术会议 ({filteredConferences.length})
+          {t('学术会议', locale, uiDict)} ({filteredConferences.length})
         </button>
         <button
           className={`academic-tab ${activeTab === 'papers' ? 'active' : ''}`}
           onClick={() => setActiveTab('papers')}
         >
-          论文成果 ({filteredPapers.length})
+          {t('论文成果', locale, uiDict)} ({filteredPapers.length})
         </button>
       </div>
 
@@ -149,9 +152,9 @@ export default function AcademicPage() {
             value={confYear}
             onChange={(e) => setConfYear(e.target.value)}
           >
-            <option value="">全部年份</option>
+            <option value="">{t('全部年份', locale, uiDict)}</option>
             {allConfYears.map((y) => (
-              <option key={y} value={y}>{y}年</option>
+              <option key={y} value={y}>{y}{t('年', locale, uiDict)}</option>
             ))}
           </select>
           <select
@@ -159,7 +162,7 @@ export default function AcademicPage() {
             value={confTag}
             onChange={(e) => setConfTag(e.target.value)}
           >
-            <option value="">全部标签</option>
+            <option value="">{t('全部标签', locale, uiDict)}</option>
             {allConfTags.map((t) => (
               <option key={t} value={t}>{t}</option>
             ))}
@@ -169,7 +172,7 @@ export default function AcademicPage() {
               className="filter-clear-btn"
               onClick={() => { setConfYear(''); setConfTag(''); }}
             >
-              清除筛选
+              {t('清除筛选', locale, uiDict)}
             </button>
           )}
         </div>
@@ -183,7 +186,7 @@ export default function AcademicPage() {
             value={paperJournal}
             onChange={(e) => setPaperJournal(e.target.value)}
           >
-            <option value="">全部期刊</option>
+            <option value="">{t('全部期刊', locale, uiDict)}</option>
             {allJournals.map((j) => (
               <option key={j} value={j}>{j}</option>
             ))}
@@ -193,7 +196,7 @@ export default function AcademicPage() {
             value={paperKeyword}
             onChange={(e) => setPaperKeyword(e.target.value)}
           >
-            <option value="">全部关键词</option>
+            <option value="">{t('全部关键词', locale, uiDict)}</option>
             {allPaperKeywords.map((k) => (
               <option key={k} value={k}>{k}</option>
             ))}
@@ -203,9 +206,9 @@ export default function AcademicPage() {
             value={paperYear}
             onChange={(e) => setPaperYear(e.target.value)}
           >
-            <option value="">全部年份</option>
+            <option value="">{t('全部年份', locale, uiDict)}</option>
             {allPaperYears.map((y) => (
-              <option key={y} value={y}>{y}年</option>
+              <option key={y} value={y}>{y}{t('年', locale, uiDict)}</option>
             ))}
           </select>
           {(paperJournal || paperKeyword || paperYear) && (
@@ -213,7 +216,7 @@ export default function AcademicPage() {
               className="filter-clear-btn"
               onClick={() => { setPaperJournal(''); setPaperKeyword(''); setPaperYear(''); }}
             >
-              清除筛选
+              {t('清除筛选', locale, uiDict)}
             </button>
           )}
         </div>
@@ -224,11 +227,11 @@ export default function AcademicPage() {
         <section className="content-area">
           <div className="items-header">
             <h2>
-              学术会议 <span className="count">({filteredConferences.length} 场)</span>
+              {t('学术会议', locale, uiDict)} <span className="count">({filteredConferences.length} {t('场', locale, uiDict)})</span>
             </h2>
           </div>
           {filteredConferences.length === 0 ? (
-            <div className="empty-state">未找到匹配的会议，请调整搜索条件。</div>
+            <div className="empty-state">{t('未找到匹配的会议，请调整搜索条件。', locale, uiDict)}</div>
           ) : (
             <div className="conference-card-list">
               {filteredConferences.map((conf) => (
@@ -249,11 +252,11 @@ export default function AcademicPage() {
                   </div>
                   <div className="conference-card-info">
                     <div className="conference-info-row">
-                      <span className="conference-label">时间</span>
+                      <span className="conference-label">{t('时间', locale, uiDict)}</span>
                       <span>{conf.date}</span>
                     </div>
                     <div className="conference-info-row">
-                      <span className="conference-label">地点</span>
+                      <span className="conference-label">{t('地点', locale, uiDict)}</span>
                       <span>{conf.location}</span>
                     </div>
                     {conf.deadline && (
@@ -263,7 +266,7 @@ export default function AcademicPage() {
                       </div>
                     )}
                     <div className="conference-info-row">
-                      <span className="conference-label">主办</span>
+                      <span className="conference-label">{t('主办', locale, uiDict)}</span>
                       <span>{conf.organizer}</span>
                     </div>
                     {conf.description && (
@@ -287,11 +290,11 @@ export default function AcademicPage() {
         <section className="content-area">
           <div className="items-header">
             <h2>
-              论文成果 <span className="count">({filteredPapers.length} 篇)</span>
+              {t('论文成果', locale, uiDict)} <span className="count">({filteredPapers.length} {t('篇', locale, uiDict)})</span>
             </h2>
           </div>
           {filteredPapers.length === 0 ? (
-            <div className="empty-state">未找到匹配的论文，请调整搜索条件。</div>
+            <div className="empty-state">{t('未找到匹配的论文，请调整搜索条件。', locale, uiDict)}</div>
           ) : (
             <div className="paper-card-list">
               {filteredPapers.map((paper) => (
@@ -324,8 +327,8 @@ export default function AcademicPage() {
                     ))}
                   </div>
                   <div className="card-report-link">
-                    <a href={`/academic/paper/${paper.id}#feedback`} className="report-issue-link">报告问题</a>
-                    <a href={paper.sourceUrl} target="_blank" rel="noopener noreferrer" className="card-original-link">原始链接</a>
+                    <a href={`/academic/paper/${paper.id}#feedback`} className="report-issue-link">{t('报告问题', locale, uiDict)}</a>
+                    <a href={paper.sourceUrl} target="_blank" rel="noopener noreferrer" className="card-original-link">{t('原始链接', locale, uiDict)}</a>
                   </div>
                 </div>
               ))}
