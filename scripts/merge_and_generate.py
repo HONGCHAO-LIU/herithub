@@ -8,7 +8,10 @@
 输入:
   - src/data/raw_business.json
   - src/data/raw_conferences.json
+  - src/data/raw_conferences_ext.json
   - src/data/raw_papers.json
+  - src/data/raw_papers_ext.json
+  - src/data/raw_news.json
   - src/data/business_intelligence.json (现有)
   - src/data/academic_conferences.json (现有)
   - src/data/academic_papers.json (现有)
@@ -17,6 +20,7 @@
   - src/data/business_intelligence.json (合并后)
   - src/data/academic_conferences.json (合并后)
   - src/data/academic_papers.json (合并后)
+  - src/data/cultural_news.json (新：文化遗产资讯)
   - src/data/archive/ (过期数据)
   - src/data/merge_statistics.json (统计摘要)
 
@@ -43,12 +47,22 @@ LOGS_DIR = SCRIPT_DIR / "logs"
 RAW_FILES = {
     "business": DATA_DIR / "raw_business.json",
     "conferences": DATA_DIR / "raw_conferences.json",
+    "conferences_ext": DATA_DIR / "raw_conferences_ext.json",
     "papers": DATA_DIR / "raw_papers.json",
+    "papers_ext": DATA_DIR / "raw_papers_ext.json",
+    "news": DATA_DIR / "raw_news.json",
 }
 MERGED_FILES = {
     "business": DATA_DIR / "business_intelligence.json",
     "conferences": DATA_DIR / "academic_conferences.json",
     "papers": DATA_DIR / "academic_papers.json",
+    "news": DATA_DIR / "cultural_news.json",
+}
+
+# 互补合并关系：ext 类别的内容最终合并到主类别
+COMPLEMENT_MERGE = {
+    "conferences_ext": "conferences",
+    "papers_ext": "papers",
 }
 STATS_FILE = DATA_DIR / "merge_statistics.json"
 
@@ -72,7 +86,10 @@ NOW = datetime.now()
 FRESHNESS = {
     "business": timedelta(days=90),       # 商业情报: 3个月
     "conferences": timedelta(days=60),    # 会议: 当前+未来2月
+    "conferences_ext": timedelta(days=60),
     "papers": timedelta(days=365),        # 论文: 12个月
+    "papers_ext": timedelta(days=365),
+    "news": timedelta(days=30),           # 资讯: 30天
 }
 
 # ==================== 工具函数 ====================
@@ -231,10 +248,18 @@ def save_json(file_path: Path, data: dict):
 
 # ==================== 合并逻辑 ====================
 def merge_category(category: str) -> dict:
-    """合并单个类别的数据"""
+    """合并单个类别的数据。
+    ext 类别（conferences_ext / papers_ext）会合并到其主类别。
+    """
     logger.info(f"--- 合并类别: {category} ---")
-    raw_file = RAW_FILES[category]
-    merged_file = MERGED_FILES[category]
+    raw_file = RAW_FILES.get(category)
+    merged_file = MERGED_FILES.get(category)
+    
+    # ext 类别合并到主类别
+    if category in COMPLEMENT_MERGE:
+        main_cat = COMPLEMENT_MERGE[category]
+        merged_file = MERGED_FILES[main_cat]
+        logger.info(f"  → 互补合并到主类别: {main_cat}")
 
     # 加载原始数据
     raw_data = load_json(raw_file)
@@ -342,8 +367,12 @@ def main():
     logger.info("=" * 60)
 
     results = {}
-    for category in ["business", "conferences", "papers"]:
+    for category in ["business", "conferences", "conferences_ext", "papers", "papers_ext", "news"]:
         try:
+            raw_file = RAW_FILES.get(category)
+            if raw_file and not raw_file.exists():
+                logger.info(f"跳过 {category}: 原始文件不存在")
+                continue
             results[category] = merge_category(category)
         except Exception as e:
             logger.error(f"合并 {category} 失败: {e}")
