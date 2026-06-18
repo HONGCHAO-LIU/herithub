@@ -1,0 +1,97 @@
+{
+  "generated_at": "2026-06-18T23:27:38.514940",
+  "summary": {
+    "total_final_items": 224,
+    "total_expired_archived": 9
+  },
+  "details": {
+    "business": {
+      "category": "business",
+      "raw_count": 10,
+      "existing_count": 65,
+      "fresh_count": 75,
+      "expired_count": 0,
+      "duplicate_removed": 0,
+      "final_count": 75,
+      "sources": {
+        "中国政府采购网": 40,
+        "国家文物局": 1,
+        "福建省考古研究院": 1,
+        "北京古代建筑博物馆": 1,
+        "威海市文登区文化和旅游局": 1,
+        "济宁市兖州区文化和旅游局": 1,
+        "芜湖市": 1,
+        "霍山县文化旅游体育局": 1,
+        "浚县文旅融合发展服务中心": 1,
+        "乐安县文化广电旅游局": 1,
+        "苏州市城市公园管理处": 1,
+        "咸阳博物院": 1,
+        "繁峙县": 1,
+        "文化和旅游部": 1,
+        "山东省文化馆": 1,
+        "成都市非遗保护中心": 1,
+        "陕西省考古研究院": 1,
+        "世界技能博物馆": 1,
+        "首都博物馆官网": 1,
+        "西安市公共资源交易中心": 1,
+        "全国公共资源交易平台": 1,
+        "泸州市公共资源交易平台": 1,
+        "广西公共资源交易平台": 1,
+        "长春市公共资源交易中心": 1,
+        "江西省公共资源交易平台": 1,
+        "山西省政府采购网": 1,
+        "长沙市文化旅游广电局": 1,
+        "中国文化遗产研究院 / 中国政府采购网": 1,
+        "余庆县文化旅游局 / 贵州省公共资源交易网": 1,
+        "上海市文化和旅游局": 1,
+        "北京市文化和旅游局": 1,
+        "新疆维吾尔自治区 / 中国政府采购网": 1,
+        "厦门市文化遗产保护中心 / 全国公共资源交易平台": 1,
+        "杭州市园林文物局 / 浙江省公共资源交易网": 1,
+        "敦煌研究院 / 甘肃省公共资源交易网": 1,
+        "陕西省文物局 / 中国政府采购网": 1
+      }
+    },
+    "conferences": {
+      "category": "conferences",
+      "raw_count": 16,
+      "existing_count": 27,
+      "fresh_count": 34,
+      "expired_count": 9,
+      "duplicate_removed": 12,
+      "final_count": 22,
+      "sources": {
+        "unknown": 10,
+        "ICOMOS": 3,
+        "中国博物馆协会": 9
+      }
+    },
+    "papers": {
+      "category": "papers",
+      "raw_count": 74,
+      "existing_count": 96,
+      "fresh_count": 170,
+      "expired_count": 0,
+      "duplicate_removed": 74,
+      "final_count": 96,
+      "sources": {
+        "CrossRef": 45,
+        "arXiv": 29,
+        "unknown": 22
+      }
+    },
+    "news": {
+      "category": "news",
+      "raw_count": 31,
+      "existing_count": 0,
+      "fresh_count": 31,
+      "expired_count": 0,
+      "duplicate_removed": 0,
+      "final_count": 31,
+      "sources": {
+        "中国社会科学网": 29,
+        "中国文物报": 2
+      }
+    }
+  }
+}

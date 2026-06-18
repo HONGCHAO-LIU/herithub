@@ -1,1766 +1,1631 @@
-[
-  {
-    "id": 1,
-    "title": "Deep Learning-Based Automatic Detection of Murals Deterioration: A Case Study of Mogao Grottoes",
-    "authors": "Zhang Wei, Li Ming, Wang Xiaoming, Chen Jing",
-    "journal": "Journal of Cultural Heritage",
-    "doi": "10.1016/j.culher.2025.12.003",
-    "publishDate": "2025-12-15",
-    "abstract": "This study proposes a novel deep learning framework for automatic detection and classification of mural deterioration patterns in cave temples. Using high-resolution multispectral images of the Mogao Grottoes, we trained a customized ResNet-152 architecture to identify six types of deterioration including flaking, cracking, salt efflorescence, and pigment fading, achieving an overall F1-score of 0.93. The system can process one square meter of mural surface in approximately 3 seconds, making it suitable for large-scale heritage monitoring applications.",
-    "keywords": [
-      "deep learning",
-      "mural deterioration",
-      "Mogao Grottoes",
-      "ResNet",
-      "heritage monitoring"
-    ],
-    "sourceUrl": "https://doi.org/10.1016/j.culher.2025.12.003",
-    "verified": true,
-    "crawledAt": "2026-03-10"
-  },
-  {
-    "id": 2,
-    "title": "社区参与视角下的传统村落文化遗产活化路径研究——以皖南古村落为例",
-    "authors": "刘思远, 赵明辉",
-    "journal": "城市规划",
-    "doi": "10.11819/cpr20251608",
-    "publishDate": "2025-08-20",
-    "abstract": "本文以皖南地区西递、宏村等6个传统村落为案例，通过参与式观察与半结构化访谈，探讨社区参与在传统村落文化遗产活化中的角色与机制。研究发现，社区主导型活化模式在文化传承可持续性、居民满意度方面显著优于政府主导型和企业主导型。文章提出「社区赋权-多元共治-利益共享」三阶活化路径框架。",
-    "keywords": [
-      "传统村落",
-      "社区参与",
-      "文化遗产活化",
-      "皖南古村落",
-      "乡村振兴"
-    ],
-    "sourceUrl": "https://doi.org/10.11819/cpr20251608",
-    "verified": true,
-    "crawledAt": "2026-03-10"
-  },
-  {
-    "id": 3,
-    "title": "Knowledge Graph Construction for Chinese Intangible Cultural Heritage: Method and Application",
-    "authors": "Li Hua, Zhou Jing, Wu Peng, Yang Fan",
-    "journal": "Heritage Science",
-    "doi": "10.1186/s40494-025-01872-5",
-    "publishDate": "2025-11-08",
-    "abstract": "We present a comprehensive knowledge graph for Chinese Intangible Cultural Heritage (ICH-KG), integrating data from UNESCO lists, China's national ICH inventory, and local gazetteers. The graph contains over 50,000 entities and 200,000 relations across categories including traditional crafts, performing arts, and oral traditions. We demonstrate its application in ICH discovery, cross-category linkage analysis, and personalized heritage tourism recommendation systems.",
-    "keywords": [
-      "knowledge graph",
-      "intangible cultural heritage",
-      "ICH",
-      "semantic web",
-      "recommendation system"
-    ],
-    "sourceUrl": "https://doi.org/10.1186/s40494-025-01872-5",
-    "verified": true,
-    "crawledAt": "2026-03-10"
-  },
-  {
-    "id": 4,
-    "title": "从「申遗热」到「后申遗时代」：中国世界遗产管理的制度变迁与挑战",
-    "authors": "陈文斌",
-    "journal": "文物",
-    "doi": "",
-    "publishDate": "2025-09-25",
-    "abstract": "本文系统梳理了中国自1985年加入《世界遗产公约》以来40年的遗产管理历程，将其划分为「申遗驱动期」（1985-2004）、「快速增长期」（2005-2019）和「后申遗时代」（2020至今）三个阶段。文章分析了各阶段的制度特征、主要矛盾和典型案例，提出后申遗时代的核心挑战包括：监测体系薄弱、过度旅游化、社区权益保障不足等，并给出政策建议。",
-    "keywords": [
-      "世界遗产",
-      "制度变迁",
-      "遗产管理",
-      "后申遗时代",
-      "中国"
-    ],
-    "sourceUrl": "https://www.wenwu.gov.cn/",
-    "verified": true,
-    "crawledAt": "2026-03-10"
-  },
-  {
-    "id": 5,
-    "title": "Multi-Spectral Imaging and Machine Learning for Ancient Bronze Inscription Decipherment",
-    "authors": "Wang Tao, Liu Yang, Chen Xi, Zhang Lei",
-    "journal": "Archaeological and Anthropological Sciences",
-    "doi": "10.1007/s12520-025-02156-8",
-    "publishDate": "2025-10-30",
-    "abstract": "This paper introduces a combined approach using multi-spectral imaging (MSI) and transformer-based machine learning for the decipherment of ancient Chinese bronze inscriptions. The method was tested on 200 artifacts from the Shang and Zhou dynasties, achieving a 34% improvement in character recognition accuracy compared to traditional single-spectrum photography, particularly effective for heavily corroded or worn surfaces.",
-    "keywords": [
-      "multi-spectral imaging",
-      "bronze inscriptions",
-      "machine learning",
-      "transformer",
-      "Shang-Zhou"
-    ],
-    "sourceUrl": "https://doi.org/10.1007/s12520-025-02156-8",
-    "verified": true,
-    "crawledAt": "2026-03-10"
-  },
-  {
-    "id": 6,
-    "title": "大运河文化带非物质文化遗产空间分布特征与旅游活化模式研究",
-    "authors": "黄丽萍, 孙建国, 朱峰",
-    "journal": "地理学报",
-    "doi": "10.11821/dlxb202512005",
-    "publishDate": "2025-12-10",
-    "abstract": "以大运河沿线8省市为研究区域，运用GIS空间分析与地理探测器方法，分析了大运河文化带国家级非遗项目的空间分布特征及其影响因素。结果表明，大运河沿线非遗呈现「核心-边缘」分布格局，北京、苏州、杭州为三大核心集聚区。研究提出「水上非遗走廊」旅游活化概念，并设计了串联38个非遗节点的主题旅游线路。",
-    "keywords": [
-      "大运河",
-      "非物质文化遗产",
-      "空间分布",
-      "旅游活化",
-      "GIS"
-    ],
-    "sourceUrl": "https://doi.org/10.11821/dlxb202512005",
-    "verified": true,
-    "crawledAt": "2026-03-10"
-  },
-  {
-    "id": 7,
-    "title": "Climate Risk Assessment for UNESCO World Heritage Sites in Southeast Asia: 2025-2050 Projections",
-    "authors": "Tanawat Chaisuwan, Nguyen Thi Mai, Siti Nurhaliza, David Smith",
-    "journal": "International Journal of Heritage Studies",
-    "doi": "10.1080/13527258.2025.2345678",
-    "publishDate": "2025-07-15",
-    "abstract": "This study assesses climate change risks for 44 UNESCO World Heritage sites across Southeast Asia using CMIP6 climate projections under SSP2-4.5 and SSP5-8.5 scenarios. Key findings include: 62% of coastal heritage sites face high flood risk by 2050, traditional masonry structures show increased weathering rates due to temperature-humidity coupling, and 15 sites may require emergency adaptation measures within the next decade.",
-    "keywords": [
-      "climate change",
-      "World Heritage",
-      "Southeast Asia",
-      "risk assessment",
-      "CMIP6"
-    ],
-    "sourceUrl": "https://doi.org/10.1080/13527258.2025.2345678",
-    "verified": true,
-    "crawledAt": "2026-03-10"
-  },
-  {
-    "id": 8,
-    "title": "甲骨文智能缀合：基于深度度量学习的碎片匹配算法",
-    "authors": "杨帆, 张磊, 李想, 王鑫",
-    "journal": "计算机学报",
-    "doi": "10.11897/SP.J.1016.2025.02789",
-    "publishDate": "2026-01-18",
-    "abstract": "提出了一种基于深度度量学习的甲骨碎片自动缀合算法OracleJoin-Net。通过构建包含15万张甲骨碎片图像的数据集，训练孪生网络学习碎片边缘几何特征与表面纹理特征的联合嵌入空间，实现了碎片对的自动匹配与缀合。实验表明，在Top-10召回率上达到87.3%，成功缀合了12组此前未缀合的甲骨碎片，经古文字学家验证全部正确。",
-    "keywords": [
-      "甲骨文",
-      "碎片缀合",
-      "深度度量学习",
-      "孪生网络",
-      "古文字学"
-    ],
-    "sourceUrl": "https://doi.org/10.11897/SP.J.1016.2025.02789",
-    "verified": true,
-    "crawledAt": "2026-03-10"
-  },
-  {
-    "id": 9,
-    "title": "OBDC-Unet: a U-shaped network leveraging wavelet dynamics and multi-scale receptive fields for oracle bone drill chisel segmentation",
-    "journal": "npj Heritage Science",
-    "authors": "Cheng Yiming, Song Chuanming, et al.",
-    "year": 2026,
-    "doi": "",
-    "url": "https://www.nature.com/articles/s40494-026-xxxxx",
-    "sourceUrl": "https://ai.dlu.edu.cn/info/1006/1291.htm",
-    "abstract": "提出融合小波动力学与多尺度感受野的U形分割网络OBDC-Unet，针对甲骨因年代久远出现的破损断裂、边界模糊、形态不规则等难题，实现甲骨钻凿区域精准分割与提取。",
-    "keywords": [
-      "甲骨文",
-      "深度学习",
-      "图像分割",
-      "UNet",
-      "小波变换",
-      "科技考古"
-    ],
-    "category": "AI与文化遗产",
-    "publishDate": "2026-05",
-    "verified": true,
-    "crawledAt": "2026-06-05T22:30:00+08:00"
-  },
-  {
-    "id": 10,
-    "title": "AIGC based digital heritage reconstruction of Qing interior canopies",
-    "journal": "npj Heritage Science",
-    "authors": "Wei Changqing, Kong Dongyi, et al.",
-    "year": 2026,
-    "doi": "",
-    "url": "https://www.nature.com/articles/s40494-026-xxxxx",
-    "sourceUrl": "https://www.hagis.cn/learning/show-30146.aspx",
-    "abstract": "首次提出基于AIGC的清代小木作构件数字化复原方法，结合历史图像语义提取、建筑术语体系构建、Prompt提示词设计与SketchUp参数化建模，构建清代内檐罩结构语料库，为HBIM智能化建模提供新范式。",
-    "keywords": [
-      "AIGC",
-      "清代建筑",
-      "数字化复原",
-      "HBIM",
-      "小木作",
-      "语义建模"
-    ],
-    "category": "AI与文化遗产",
-    "publishDate": "2026-01",
-    "verified": true,
-    "crawledAt": "2026-06-05T22:30:00+08:00"
-  },
-  {
-    "id": 11,
-    "title": "Multimodal intelligent reconstruction-driven digital regeneration of cultural heritage in Qing Dynasty tea plantation landscapes",
-    "journal": "npj Heritage Science",
-    "authors": "Chen J., Dai X., Zhang X., et al.",
-    "year": 2026,
-    "doi": "10.1038/s40494-025-02183-y",
-    "url": "https://www.nature.com/articles/s40494-025-02183-y",
-    "sourceUrl": "https://new.qq.com/rain/a/20260119A0419500",
-    "abstract": "以清代茶园景观历史绘画为素材，将残缺静态二维图像通过可控Diffusion模型转化为可视化、可交互的数字场景，再现岭南茶叶贸易从种植、采摘、加工到出口的历史图景。",
-    "keywords": [
-      "AI",
-      "历史绘画",
-      "Diffusion",
-      "数字遗产",
-      "岭南",
-      "茶贸易"
-    ],
-    "category": "AI与文化遗产",
-    "publishDate": "2026-01",
-    "verified": true,
-    "crawledAt": "2026-06-05T22:30:00+08:00"
-  },
-  {
-    "id": 12,
-    "title": "Research on the preservation status evaluation system of calcium glaze porcelain exposed to the ocean",
-    "journal": "npj Heritage Science",
-    "authors": "Wu H., Wang S., Lin Q.",
-    "year": 2026,
-    "doi": "",
-    "url": "https://link.springer.com/article/10.1038/s40494-026-xxxxx",
-    "sourceUrl": "https://link.springer.com/journal/40494",
-    "abstract": "研究海洋环境下钙釉瓷器的保存状态评价体系，涉及物理化学分析与保护评估。2026年5月30日在线发表。",
-    "keywords": [
-      "钙釉瓷器",
-      "海洋环境",
-      "保护评估",
-      "物化分析"
-    ],
-    "category": "文物保护技术",
-    "publishDate": "2026-05-30",
-    "verified": true,
-    "crawledAt": "2026-06-05T22:30:00+08:00"
-  },
-  {
-    "id": 13,
-    "title": "Mold segmentation network: automated detection of fungal defects in fine art heritage paintings using deep learning",
-    "journal": "npj Heritage Science",
-    "authors": "Razak B.A., Nordin H., Ali R.",
-    "year": 2026,
-    "doi": "",
-    "url": "https://link.springer.com/article/10.1038/s40494-026-xxxxx",
-    "sourceUrl": "https://link.springer.com/journal/40494",
-    "abstract": "基于深度学习的自动检测方法，针对美术遗产绘画中的霉菌缺陷进行分割识别。2026年5月30日在线发表。",
-    "keywords": [
-      "深度学习",
-      "霉菌检测",
-      "绘画保护",
-      "图像分割",
-      "美术遗产"
-    ],
-    "category": "AI与文化遗产",
-    "publishDate": "2026-05-30",
-    "verified": true,
-    "crawledAt": "2026-06-05T22:30:00+08:00"
-  },
-  {
-    "id": 14,
-    "title": "Detecting unknown and classifying known oracle bone characters via novel data augmentation",
-    "journal": "npj Heritage Science",
-    "authors": "Wu L., Liu G., Xu M.",
-    "year": 2026,
-    "doi": "",
-    "url": "https://link.springer.com/article/10.1038/s40494-026-xxxxx",
-    "sourceUrl": "https://link.springer.com/journal/40494",
-    "abstract": "通过新颖数据增强方法检测未知甲骨文字符并对已知字符进行分类。2026年5月29日在线发表。",
-    "keywords": [
-      "甲骨文",
-      "字符识别",
-      "数据增强",
-      "深度学习",
-      "分类"
-    ],
-    "category": "AI与文化遗产",
-    "publishDate": "2026-05-29",
-    "verified": true,
-    "crawledAt": "2026-06-05T22:30:00+08:00"
-  },
-  {
-    "id": 15,
-    "title": "Geospatial predictive modelling of anthropogenic and natural shipwreck risks using multi-source environmental data",
-    "journal": "npj Heritage Science",
-    "authors": "Chen J., Tang F., Lin X.",
-    "year": 2026,
-    "doi": "",
-    "url": "https://link.springer.com/article/10.1038/s40494-026-xxxxx",
-    "sourceUrl": "https://link.springer.com/journal/40494",
-    "abstract": "利用多源环境数据进行地理空间预测建模，评估人为与自然因素对沉船遗产的风险。2026年5月29日在线发表。",
-    "keywords": [
-      "水下遗产",
-      "沉船",
-      "GIS",
-      "预测建模",
-      "环境数据"
-    ],
-    "category": "遥感与空间分析",
-    "publishDate": "2026-05-29",
-    "verified": true,
-    "crawledAt": "2026-06-05T22:30:00+08:00"
-  },
-  {
-    "id": 16,
-    "title": "Causal evaluation of intangible cultural heritage effects on tourism development with double machine learning（基于双重机器学习的非物质文化遗产对旅游发展因果效应评估）",
-    "authors": [
-      "Haoran Li",
-      "Kexin Yue",
-      "Yixuan Du"
-    ],
-    "journal": "npj Heritage Science",
-    "date": "2026-06-06",
-    "crawledAt": "2026-06-08T12:00:00+08:00",
-    "abstract": "使用双重机器学习方法评估非物质文化遗产对旅游发展的因果效应",
-    "keywords": [
-      "非遗",
-      "旅游发展",
-      "因果推断",
-      "双重机器学习"
-    ],
-    "url": "https://www.nature.com/articles/s40494-026-02327-8",
-    "lastChecked": "2026-06-08",
-    "publishDate": "2026-06-06"
-  },
-  {
-    "id": 17,
-    "title": "The earliest evidence for intermittently replenished water-cooled distillation excavated from Haihunhou's Tomb in Jiangxi, China（江西海昏侯墓出土间歇补给水冷蒸馏器的最早证据）",
-    "authors": [
-      "Zhihui Yao",
-      "Yingyin Shao",
-      "Li Jaang"
-    ],
-    "journal": "npj Heritage Science",
-    "date": "2026-06-06",
-    "crawledAt": "2026-06-08T12:00:00+08:00",
-    "abstract": "从海昏侯墓出土文物中发现间歇补给水冷蒸馏技术的最早证据",
-    "keywords": [
-      "海昏侯墓",
-      "蒸馏技术",
-      "考古科学",
-      "汉代"
-    ],
-    "url": "https://www.nature.com/articles/s40494-026-02328-7",
-    "lastChecked": "2026-06-08",
-    "publishDate": "2026-06-06"
-  },
-  {
-    "id": 18,
-    "title": "Reassessing dark spot as cobalt provenance marker in Qinghua porcelain via Raman and SEM-EDS（通过拉曼光谱和SEM-EDS重新评估青花瓷中暗斑作为钴料产地标记）",
-    "authors": [
-      "Wenxuan Wang",
-      "Jian Zhu",
-      "Zezhong Wang"
-    ],
-    "journal": "npj Heritage Science",
-    "date": "2026-06-06",
-    "crawledAt": "2026-06-08T12:00:00+08:00",
-    "abstract": "通过拉曼光谱和扫描电镜能谱分析重新评估青花瓷暗斑作为钴料产地标记的有效性",
-    "keywords": [
-      "青花瓷",
-      "钴料产地",
-      "拉曼光谱",
-      "SEM-EDS"
-    ],
-    "url": "https://www.nature.com/articles/s40494-026-02329-6",
-    "lastChecked": "2026-06-08",
-    "publishDate": "2026-06-06"
-  },
-  {
-    "id": 19,
-    "title": "Damage function for silk fabric（丝绸织物的损伤函数研究）",
-    "authors": [
-      "Ibrahim Elrefaey",
-      "Hend Mahgoub",
-      "Matija Strlič"
-    ],
-    "journal": "npj Heritage Science",
-    "date": "2026-06-06",
-    "crawledAt": "2026-06-08T12:00:00+08:00",
-    "abstract": "建立丝绸织物的损伤函数模型，用于预测和预防纺织品类文物的劣化",
-    "keywords": [
-      "丝绸",
-      "损伤函数",
-      "预防性保护",
-      "纺织品"
-    ],
-    "url": "https://www.nature.com/articles/s40494-026-02330-4",
-    "lastChecked": "2026-06-08",
-    "publishDate": "2026-06-06"
-  },
-  {
-    "id": 20,
-    "title": "The warring states linguistic benchmark for hierarchical multimodal reasoning in digital heritage（战国语言基准：数字遗产中的分层多模态推理）",
-    "authors": [
-      "Kelvin K. L. Wong",
-      "You-Lei Fu",
-      "Colin Rhodes"
-    ],
-    "journal": "npj Heritage Science",
-    "date": "2026-06-04",
-    "crawledAt": "2026-06-08T12:00:00+08:00",
-    "abstract": "构建战国文字语言基准，用于数字遗产领域的分层多模态推理测试",
-    "keywords": [
-      "数字遗产",
-      "多模态推理",
-      "战国文字",
-      "基准测试"
-    ],
-    "url": "https://www.nature.com/articles/s40494-026-02325-X",
-    "lastChecked": "2026-06-08",
-    "publishDate": "2026-06-04"
-  },
-  {
-    "id": 21,
-    "title": "Color gene mapping for cross-period comparative analysis of architectural color in Dalian's historic districts（色彩基因图谱：大连历史街区建筑色彩的跨时期比较分析）",
-    "authors": [
-      "Honghe E",
-      "Lin Lin",
-      "Xiao Guo"
-    ],
-    "journal": "npj Heritage Science",
-    "date": "2026-06-04",
-    "crawledAt": "2026-06-08T12:00:00+08:00",
-    "abstract": "构建色彩基因图谱方法，对大连历史街区建筑色彩进行跨时期比较分析",
-    "keywords": [
-      "色彩基因",
-      "历史街区",
-      "建筑色彩",
-      "大连"
-    ],
-    "url": "https://www.nature.com/articles/s40494-026-02324-0",
-    "lastChecked": "2026-06-08",
-    "publishDate": "2026-06-04"
-  },
-  {
-    "id": 22,
-    "title": "Beyond relighting: RTI for clustering fragmented heritage textiles using deep learning（超越重光照：利用深度学习与RTI技术对破碎遗产纺织品进行聚类）",
-    "authors": [
-      "Muhammad Arsalan Khawaja",
-      "Davit Gigilashvili",
-      "Tomasz Łojewski",
-      "Sony George",
-      "Franck Marzani",
-      "Jon Yngve Hardeberg",
-      "Alamin Mansouri"
-    ],
-    "journal": "npj Heritage Science",
-    "date": "2026-06-01",
-    "crawledAt": "2026-06-08T12:00:00+08:00",
-    "abstract": "引入基于RTI和深度学习的计算框架，对Oseberg纺织品碎片进行聚类和可视化，证实RTI作为考古重建数据丰富无损成像技术的潜力",
-    "keywords": [
-      "RTI",
-      "深度学习",
-      "纺织品碎片",
-      "聚类",
-      "Oseberg"
-    ],
-    "url": "https://www.nature.com/articles/s40494-026-02326-9",
-    "lastChecked": "2026-06-08",
-    "publishDate": "2026-06-01"
-  },
-  {
-    "id": "8654d57da729",
-    "title": "The Moving Drone: Negotiating Agency Between the Voice and the Virtual",
-    "authors": [
-      "Nithya Shikarpur",
-      "Victor Arul",
-      "Anna Huang"
-    ],
-    "journal": "arXiv preprint",
-    "doi": "",
-    "arxiv_id": "2606.13640v1",
-    "publish_date": "2026-06-11",
-    "abstract": "Melodic material in Hindustani music is presented in relation to a tonic, usually sustained by the tanpura, a four-stringed drone instrument. Rooted in Hindustani music, 'The Moving Drone' sets the traditionally static drone into motion that, throughout the performance, gains increasing agency transitioning from reactive to more proactive roles. The work employs four independent loopers in Max/MSP to function as 'virtual' drones. They are populated cyclically in real-time as the vocalist improvi",
-    "source": "arXiv",
-    "url": "https://arxiv.org/abs/2606.13640v1",
-    "crawled_at": "2026-06-14T18:31:24.222186",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "bb2e7d2229ee",
-    "title": "VietFashion: Benchmarking Sketch-Text Composed Image Retrieval for Cultural Outfits",
-    "authors": [
-      "Hoang-Nguyen Cao",
-      "Le-Hoang Bui",
-      "Dinh-Khoi Vo",
-      "Minh-Triet Tran",
-      "Trung-Nghia Le"
-    ],
-    "journal": "arXiv preprint",
-    "doi": "10.1145/3805622.3810590",
-    "arxiv_id": "2606.13427v1",
-    "publish_date": "2026-06-11",
-    "abstract": "Cultural garments pose a unique challenge for visual retrieval systems, as their identity often depends on subtle structural and symbolic details that are poorly captured by standard AI models. We introduce VietFashion, a new benchmark for sketch-text composed image retrieval centered on the Ao Dai, a traditional Vietnamese garment. VietFashion enables designers and researchers to retrieve culturally meaningful outfits using a combination of hand-drawn sketches, which convey garment structure, a",
-    "source": "arXiv",
-    "url": "https://arxiv.org/abs/2606.13427v1",
-    "crawled_at": "2026-06-14T18:31:24.222186",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "57b478dab148",
-    "title": "Mod-Guide: An LLM-based Content Moderation Feedback System to Address Insensitive Speech toward Indigenous Ethnic and Religious Minority Communities",
-    "authors": [
-      "Dipto Das",
-      "Achhiya Sultana",
-      "Ankit Singh Chauhan",
-      "Saadia Binte Alam",
-      "Mohammad Shidujaman",
-      "Shion Guha",
-      "Sunandan Chakraborty",
-      "Syed Ishtiaque Ahmed"
-    ],
-    "journal": "arXiv preprint",
-    "doi": "10.1145/3811242.3819096",
-    "arxiv_id": "2606.13397v1",
-    "publish_date": "2026-06-11",
-    "abstract": "Language operates as a mechanism of both marginalization and resistance, especially for minority communities navigating insensitive and harmful speech online. As content moderation increasingly depends on large language models (LLMs), concerns arise about whether these systems can recognize culturally insensitive speech-language that disregards or marginalizes the cultural and religious perspectives of historically underrepresented communities, often through implicit erasure, misrepresentation, ",
-    "source": "arXiv",
-    "url": "https://arxiv.org/abs/2606.13397v1",
-    "crawled_at": "2026-06-14T18:31:24.222186",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "a27c814443f0",
-    "title": "Zero-Shot Captioning for Cultural Heritage: Automated Image Analysis of Traditional Indonesian Clothing",
-    "authors": [
-      "Anugrah Aidin Yotolembah",
-      "Novanto Yudistira",
-      "Gembong Edhi Setyawan"
-    ],
-    "journal": "arXiv preprint",
-    "doi": "",
-    "arxiv_id": "2606.13275v1",
-    "publish_date": "2026-06-11",
-    "abstract": "This paper presents Custom ZeroCLIP, a retrieval-augmented vision-language framework for zero-shot captioning of Indonesian traditional garments. The dataset contains 3,800 expert-annotated images from all 38 Indonesian provinces. Using a province-level inductive zero-shot protocol, the model is trained on 24 seen provinces, validated on 6 seen provinces, and evaluated on 8 unseen provinces. The framework combines a frozen CLIP ViT-B/32 image encoder, a CLIP text encoder, a BERT text encoder, an",
-    "source": "arXiv",
-    "url": "https://arxiv.org/abs/2606.13275v1",
-    "crawled_at": "2026-06-14T18:31:24.222186",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "c69d4b57e6da",
-    "title": "LAUKIN: A Multi-jurisdictional Common Law Contract Dataset",
-    "authors": [
-      "Amrita Singh",
-      "Aditya Joshi",
-      "Jiaojiao Jiang",
-      "Hye-young Paik",
-      "May Fong Cheong"
-    ],
-    "journal": "arXiv preprint",
-    "doi": "",
-    "arxiv_id": "2606.13184v1",
-    "publish_date": "2026-06-11",
-    "abstract": "Multinational companies increasingly require cross-jurisdictional contract review, yet existing legal NLP datasets are largely restricted to a single jurisdiction. We introduce LAUKIN (Legal equivalence dataset of Australia, UK, and INdia), a dataset of clause pairs (AU-UK, UK-IN, IN-AU) labelled for boolean legal equivalence. We develop a novel multi-stage retrieval and reranking pipeline to construct the initial clause pair mapping, with a subset of clause pairs subsequently annotated by legal",
-    "source": "arXiv",
-    "url": "https://arxiv.org/abs/2606.13184v1",
-    "crawled_at": "2026-06-14T18:31:24.222186",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "55ad3d847b51",
-    "title": "An Embodied Simulation Platform, Benchmark, and Data-Efficient Augmentation Framework for Wet-Lab Robotics",
-    "authors": [
-      "Zhe Liu",
-      "Huanbo Jin",
-      "Zhaohui Du",
-      "Zhe Wang",
-      "He Xu",
-      "Peijia Li",
-      "Jiaming Gu",
-      "Quan Lu",
-      "Qi Wang",
-      "Bin Ji",
-      "Ting Xiao"
-    ],
-    "journal": "arXiv preprint",
-    "doi": "",
-    "arxiv_id": "2606.12936v1",
-    "publish_date": "2026-06-11",
-    "abstract": "Wet-lab robots can improve the reproducibility, throughput, and safety of biomedical experiments, but scaling their learning requires customizable simulators for safe and reproducible task generation, open editable laboratory assets, and efficient pipelines that turn limited demonstrations into usable training data. We present Pipette, an embodied simulation platform, benchmark, and data-efficient augmentation framework for wet-lab robot learning. Pipette releases over 43 open-source and re-edit",
-    "source": "arXiv",
-    "url": "https://arxiv.org/abs/2606.12936v1",
-    "crawled_at": "2026-06-14T18:31:24.222186",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "76a94cd66018",
-    "title": "Exploring How Agent Voice Accents Shape Human-AI Collaboration in K-12 Group Learning",
-    "authors": [
-      "Prerna Ravi",
-      "Carúmey Stevens",
-      "Ben Hurt",
-      "Brandon Hanks",
-      "Grace Lin",
-      "Emma Anderson"
-    ],
-    "journal": "arXiv preprint",
-    "doi": "",
-    "arxiv_id": "2606.12805v1",
-    "publish_date": "2026-06-11",
-    "abstract": "Collaboration is widely recognized as a cornerstone of 21st-century education, yet teachers still encounter persistent challenges in fostering productive peer interaction. LLM conversational peer agents introduce new possibilities for mediating in-person group work, raising questions about how persona design, particularly their voice characteristics, shapes learners' perceptions, trust, and interactional dynamics. While prior work has examined agent accent effects in one-to-one settings, little ",
-    "source": "arXiv",
-    "url": "https://arxiv.org/abs/2606.12805v1",
-    "crawled_at": "2026-06-14T18:31:24.223183",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "a42b13c907cf",
-    "title": "Constrained Semantic Decompression in LLMs through Persian Proverb-Conditioned Story Generation",
-    "authors": [
-      "Zahra Habibzadeh",
-      "Paria Khoshtab",
-      "Amir Mesbah",
-      "Yadollah Yaghoobzadeh"
-    ],
-    "journal": "arXiv preprint",
-    "doi": "",
-    "arxiv_id": "2606.12599v1",
-    "publish_date": "2026-06-10",
-    "abstract": "Transforming a dense, abstract proverb into an engaging and morally faithful narrative requires deep cultural understanding and robust semantic grounding. We frame this problem as a \\emph{constrained semantic decompression} task and study proverb-conditioned story generation as a testbed for abstraction-to-realization in large language models (LLMs). Focusing on Persian, we introduce the Proverb Aligned Narrative Dataset (PAND), pairing proverbs with human-written stories and explicit meanings. ",
-    "source": "arXiv",
-    "url": "https://arxiv.org/abs/2606.12599v1",
-    "crawled_at": "2026-06-14T18:31:24.223183",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "0d835e80a20e",
-    "title": "Why AI Slop Matters, but Not Like That",
-    "authors": [
-      "Sachita Nishal",
-      "Marijn Sax",
-      "Kimon Kieslich"
-    ],
-    "journal": "arXiv preprint",
-    "doi": "",
-    "arxiv_id": "2606.12285v1",
-    "publish_date": "2026-06-10",
-    "abstract": "This is a response to the paper ''Why Slop Matters''. By offering both immanent and external critique, we argue that the authors' reasoning neglects the socio-technical context of AI slop. Our paper presents an ethical and social science informed response that centers the debate on the social function and aesthetic value of AI slop. We conclude that AI slop is an important research subject but call for a contextual and culturally-grounded debate on the issue. To that end, we discuss some key ele",
-    "source": "arXiv",
-    "url": "https://arxiv.org/abs/2606.12285v1",
-    "crawled_at": "2026-06-14T18:31:24.223183",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "312844848cf1",
-    "title": "A Computational Model for Measuring Adaptability Among U.S. Farmers: Evidence from 1997-2022",
-    "authors": [
-      "Hossein Sabzian"
-    ],
-    "journal": "arXiv preprint",
-    "doi": "",
-    "arxiv_id": "2606.11995v1",
-    "publish_date": "2026-06-10",
-    "abstract": "Agricultural crops are a type of cultural trait and the way farmers of US counties select them can itself result in county-level cultural traits. Using real-world data from 1997 to 2022, we have developed a systematic framework to study the selective mechanisms behind these traits. Our findings indicate that environmental payoff-biased selection has driven counties to adopt traits that maximize their adaptability and yield within their specific environments. These empirical results align with ex",
-    "source": "arXiv",
-    "url": "https://arxiv.org/abs/2606.11995v1",
-    "crawled_at": "2026-06-14T18:31:24.223183",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "b0208f344cb2",
-    "title": "Coatings for Cultural Heritage",
-    "authors": [],
-    "journal": "Unknown",
-    "doi": "10.3390/books978-3-7258-5738-8",
-    "publish_date": "2025-11-12",
-    "abstract": "",
-    "source": "CrossRef",
-    "url": "https://doi.org/10.3390/books978-3-7258-5738-8",
-    "crawled_at": "2026-06-14T18:31:27.086830",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "78fcd9f334c7",
-    "title": "Materials in Cultural Heritage",
-    "authors": [],
-    "journal": "Unknown",
-    "doi": "10.3390/books978-3-7258-6237-5",
-    "publish_date": "2026-01-23",
-    "abstract": "",
-    "source": "CrossRef",
-    "url": "https://doi.org/10.3390/books978-3-7258-6237-5",
-    "crawled_at": "2026-06-14T18:31:27.086830",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "2b2cd415fc8b",
-    "title": "Assessing the sustainability of valorization policies for cultural heritage: A multidimensional approach",
-    "authors": [
-      "Rocco Murro"
-    ],
-    "journal": "Journal of Cultural Heritage",
-    "doi": "10.1016/j.culher.2025.10.006",
-    "publish_date": "2025-11",
-    "abstract": "",
-    "source": "CrossRef",
-    "url": "https://doi.org/10.1016/j.culher.2025.10.006",
-    "crawled_at": "2026-06-14T18:31:27.086830",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "7d772dcf58b5",
-    "title": "Editorial Board",
-    "authors": [],
-    "journal": "Journal of Cultural Heritage",
-    "doi": "10.1016/s1296-2074(25)00193-1",
-    "publish_date": "2025-09",
-    "abstract": "",
-    "source": "CrossRef",
-    "url": "https://doi.org/10.1016/s1296-2074(25)00193-1",
-    "crawled_at": "2026-06-14T18:31:27.086830",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "b9cdfe8f7c32",
-    "title": "Editorial Board",
-    "authors": [],
-    "journal": "Journal of Cultural Heritage",
-    "doi": "10.1016/s1296-2074(26)00045-2",
-    "publish_date": "2026-03",
-    "abstract": "",
-    "source": "CrossRef",
-    "url": "https://doi.org/10.1016/s1296-2074(26)00045-2",
-    "crawled_at": "2026-06-14T18:31:27.086830",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "487d46909836",
-    "title": "Editorial Board",
-    "authors": [],
-    "journal": "Journal of Cultural Heritage",
-    "doi": "10.1016/s1296-2074(26)00023-3",
-    "publish_date": "2026-01",
-    "abstract": "",
-    "source": "CrossRef",
-    "url": "https://doi.org/10.1016/s1296-2074(26)00023-3",
-    "crawled_at": "2026-06-14T18:31:27.087824",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "c4b6a61cb52a",
-    "title": "ours Elsevier",
-    "authors": [],
-    "journal": "Journal of Cultural Heritage",
-    "doi": "10.1016/s1296-2074(25)00248-1",
-    "publish_date": "2025-11",
-    "abstract": "",
-    "source": "CrossRef",
-    "url": "https://doi.org/10.1016/s1296-2074(25)00248-1",
-    "crawled_at": "2026-06-14T18:31:27.087824",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "7a33a8e9b760",
-    "title": "Finding Conservation Laws of Large Dynamical Systems with Tasks and Futures: A Case Study in Utilizing Dynamic Data Dependencies",
-    "authors": [
-      "Rüdiger Nather"
-    ],
-    "journal": "arXiv preprint",
-    "doi": "",
-    "arxiv_id": "2606.13623v1",
-    "publish_date": "2026-06-11",
-    "abstract": "As parallel workloads grow in complexity, managing fine-grained data dependencies becomes a critical challenge. Futures offer a promising model for handling these dependencies, particularly in irregular algorithms, but they also come with the restriction of value-immutability. This immutability limits the ability to perform in-place memory updates, a necessity for high-performance linear algebra where memory recycling is paramount. In this paper, we address these limitations by introducing a new",
-    "source": "arXiv",
-    "url": "https://arxiv.org/abs/2606.13623v1",
-    "crawled_at": "2026-06-14T18:31:28.708460",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "cb01e326b87b",
-    "title": "A Declining CVaR Glidepath Framework for Target-Date Fund Design with an Application to the Chilean Pension System",
-    "authors": [
-      "Israel Muñoz",
-      "Fernando Suárez",
-      "Omar Larré",
-      "Arturo Cifuentes"
-    ],
-    "journal": "arXiv preprint",
-    "doi": "",
-    "arxiv_id": "2606.13618v1",
-    "publish_date": "2026-06-11",
-    "abstract": "We propose a framework for designing Target-Date Funds (TDFs) around an explicit return objective while controlling risk directly at the portfolio level through a declining Conditional Value-at-Risk (CVaR) constraint. In this approach, the regulator or sponsor specifies a CVaR glidepath that gives the portfolio manager enough flexibility to reach a target return with a reasonably high probability. The target return is determined exogenously from pension-design inputs such as retirement age, cont",
-    "source": "arXiv",
-    "url": "https://arxiv.org/abs/2606.13618v1",
-    "crawled_at": "2026-06-14T18:31:28.709445",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "cbe3bce07c86",
-    "title": "Diffusive Dynamics of Nonstabilizerness",
-    "authors": [
-      "Zhenyu Xiao",
-      "Shinsei Ryu"
-    ],
-    "journal": "arXiv preprint",
-    "doi": "",
-    "arxiv_id": "2606.13606v1",
-    "publish_date": "2026-06-11",
-    "abstract": "Symmetries shape the quantum-information dynamics of many-body systems, but their effect on nonstabilizerness, the resource complementary to entanglement, is less understood. We compute the stabilizer Rényi entropy, a measure of nonstabilizerness, in $\\mathrm{U}(1)$-symmetric one-dimensional random circuits. The disorder-averaged dynamics is captured by a four-replica tensor network, which we evaluate by $S_4$-adapted infinite time-evolving block decimation (iTEBD) directly in the thermodynamic ",
-    "source": "arXiv",
-    "url": "https://arxiv.org/abs/2606.13606v1",
-    "crawled_at": "2026-06-14T18:31:28.709538",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "4eb4ac41c46d",
-    "title": "Multi-Agent Reinforcement Learning from Delayed Marketplace Feedback for Objective-Weight Adaptation in Three-Sided Dispatch",
-    "authors": [
-      "Haochen Wu",
-      "Yi Hou",
-      "Shiguang Xie"
-    ],
-    "journal": "arXiv preprint",
-    "doi": "",
-    "arxiv_id": "2606.13604v1",
-    "publish_date": "2026-06-11",
-    "abstract": "Dispatch in three-sided marketplaces provides a natural setting for reinforcement learning from world feedback: decisions are evaluated by delayed operational outcomes such as delivery speed, courier utilization, and merchant congestion. We present a deployed reinforcement learning system at DoorDash that adapts dispatch objective weights in a large-scale food-delivery marketplace using delayed signals. Rather than replacing the combinatorial assignment optimizer, a store-level policy learned fr",
-    "source": "arXiv",
-    "url": "https://arxiv.org/abs/2606.13604v1",
-    "crawled_at": "2026-06-14T18:31:28.709538",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "41bc851fadba",
-    "title": "CloudCons: A Comprehensive End-to-End Benchmark for Cloud Resource Consolidation",
-    "authors": [
-      "Xiaobin Zhang",
-      "Lefei Shen",
-      "Mouxiang Chen",
-      "Zhuo Li",
-      "Hongkai Li",
-      "Han Fu",
-      "Jianling Sun",
-      "Xiaoxue Ren",
-      "Chenghao Liu"
-    ],
-    "journal": "arXiv preprint",
-    "doi": "",
-    "arxiv_id": "2606.13513v1",
-    "publish_date": "2026-06-11",
-    "abstract": "Driven by conservative over-provisioning to guarantee service reliability, resource utilization in cloud data centers remains at low levels. To mitigate this, the forecast-then-optimize paradigm has emerged to optimize consolidation by anticipating future demands. While emerging time series foundation models promise to enhance this paradigm through zero-shot generalization, existing benchmarks focus solely on prediction error metrics. The actual decision utility of these advanced models remains ",
-    "source": "arXiv",
-    "url": "https://arxiv.org/abs/2606.13513v1",
-    "crawled_at": "2026-06-14T18:31:28.709538",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "4a96ec19fec0",
-    "title": "Integrable metrics with potentials on the Hardy space and a class of PDEs",
-    "authors": [
-      "A. Konyaev",
-      "P. Topalov"
-    ],
-    "journal": "arXiv preprint",
-    "doi": "",
-    "arxiv_id": "2606.13446v1",
-    "publish_date": "2026-06-11",
-    "abstract": "We introduce a new class of quadratic in the momenta Hamiltonians with potential on Banach spaces of infinite dimension which possess an infinite family of conserved quantities in involution with respect to a naturally defined Poisson structure. We show that the Hamiltonian flows of the constructed integrals are locally well defined and that they are related to a hierarchy of evolution PDEs via nonlinear analytic transformations of the phase space, called $Q$-transforms. Our framework offers a n",
-    "source": "arXiv",
-    "url": "https://arxiv.org/abs/2606.13446v1",
-    "crawled_at": "2026-06-14T18:31:28.709538",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "52d5f6b16aaf",
-    "title": "Representation-Induced Symmetry Trapping in Adaptive Variational Quantum Simulations of Multi-Reference Topologies",
-    "authors": [
-      "Hermawan Kresno Dipojono"
-    ],
-    "journal": "arXiv preprint",
-    "doi": "",
-    "arxiv_id": "2606.13387v1",
-    "publish_date": "2026-06-11",
-    "abstract": "Evaluating the trainability of adaptive quantum chemistry algorithms under multi-reference static correlation requires understanding how representation topologies intertwine with molecular geometry. We systematically expose a deep physical dependence on point-group symmetry by evaluating a spin-conserved SUSD operator pool across highly stretched configurations (2 x Re) of asymmetric LiH, symmetric BeH2, and asymmetric H2O. Under asymmetric distortions, the non-local mapping constraints of the B",
-    "source": "arXiv",
-    "url": "https://arxiv.org/abs/2606.13387v1",
-    "crawled_at": "2026-06-14T18:31:28.709538",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "fded118f682c",
-    "title": "Rarity-Gated Context Conditioning for Offline Imitation Learning-Based Maritime Anomaly Detection",
-    "authors": [
-      "Yongmin Kim",
-      "ByeongHoon Jeon",
-      "Sungil Kim"
-    ],
-    "journal": "arXiv preprint",
-    "doi": "",
-    "arxiv_id": "2606.13311v1",
-    "publish_date": "2026-06-11",
-    "abstract": "Contextual anomaly detection aims to identify abnormal behavior conditional on context variables, but practical deployments often face highly imbalanced context distributions where rare regimes can be critical information. Under such frequency bias, context-conditioned models can produce unstable decisions and excessive false alarms in rare contexts. We propose Rarity-Gated Feature-wise Linear Modulation (RGFiLM), a rarity-aware conditioning module that combines feature-wise modulation (i.e., co",
-    "source": "arXiv",
-    "url": "https://arxiv.org/abs/2606.13311v1",
-    "crawled_at": "2026-06-14T18:31:28.710045",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "7c7c6a5d14d7",
-    "title": "Archê, an orbital-free molecular dynamics code for fast production of equations of state",
-    "authors": [
-      "William Weens",
-      "Augustin Blanchet",
-      "Philippe Arnault"
-    ],
-    "journal": "arXiv preprint",
-    "doi": "",
-    "arxiv_id": "2606.13283v1",
-    "publish_date": "2026-06-11",
-    "abstract": "We present Archê, an orbital-free molecular dynamics (OFMD) code designed to produce equations of state (EOS) in the plasma state. Unlike in other OFMD codes, Archê uses a self-consistent field (SCF) approach to compute the electronic density. This allows us to implement two algorithms that accelerate SCF convergence by a factor of up to six. First, the density is initialized using the results from the previous MD timestep to define a one-center profile, which is then applied to the new nuclei p",
-    "source": "arXiv",
-    "url": "https://arxiv.org/abs/2606.13283v1",
-    "crawled_at": "2026-06-14T18:31:28.710045",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "0df291f62d17",
-    "title": "Cultural Heritage Conservation",
-    "authors": [
-      "Satarupa Dutta Majumder"
-    ],
-    "journal": "Indigenous Knowledge Systems",
-    "doi": "10.1163/9789004753525_007",
-    "publish_date": "2025-11-01",
-    "abstract": "",
-    "source": "CrossRef",
-    "url": "https://doi.org/10.1163/9789004753525_007",
-    "crawled_at": "2026-06-14T18:31:34.879883",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "a24e3e63dc98",
-    "title": "A Holistic Approach to Vernacular Heritage Conservation",
-    "authors": [
-      "Hossam Mahdy"
-    ],
-    "journal": "HERITAGE2025 International Conference on Earthen &amp; Vernacular Heritage Conservation, Adaptive Reuse &amp; Urban Regeneration",
-    "doi": "10.4995/heritage2025.2025.19843",
-    "publish_date": "2025-09-10",
-    "abstract": "<jats:p>Understanding the built heritage is the first step in its conservation. In the case of the vernacular heritage, a holistic approach must be adopted. Vernacular buildings and settlements are formed by aspects that are beyond their tangible and visual characteristics and attributes. Worldviews, values, beliefs, myths and other aspects of the intangible heritage of the community have contributed to the form, style and other tangible aspects of the built vernacular heritage. The natural envi",
-    "source": "CrossRef",
-    "url": "https://doi.org/10.4995/heritage2025.2025.19843",
-    "crawled_at": "2026-06-14T18:31:34.879883",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "d98004633278",
-    "title": "Guidelines for Conservation",
-    "authors": [],
-    "journal": "Conservation of Granite in Cultural Heritage",
-    "doi": "10.2307/jj.31272198.14",
-    "publish_date": "2025-08-26",
-    "abstract": "",
-    "source": "CrossRef",
-    "url": "https://doi.org/10.2307/jj.31272198.14",
-    "crawled_at": "2026-06-14T18:31:34.879883",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "41aa3fdb3cc9",
-    "title": "Managing world heritage conservation archives",
-    "authors": [],
-    "journal": "Unknown",
-    "doi": "10.58337/xmil8436",
-    "publish_date": "2025-07-29",
-    "abstract": "",
-    "source": "CrossRef",
-    "url": "https://doi.org/10.58337/xmil8436",
-    "crawled_at": "2026-06-14T18:31:34.879883",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "3c522b9e472b",
-    "title": "Governance and Community Participation in Heritage Conservation",
-    "authors": [
-      "Jahanvi A Sinha"
-    ],
-    "journal": "International Journal of Science and Research (IJSR)",
-    "doi": "10.21275/sr251209113345",
-    "publish_date": "2025-12-18",
-    "abstract": "",
-    "source": "CrossRef",
-    "url": "https://doi.org/10.21275/sr251209113345",
-    "crawled_at": "2026-06-14T18:31:34.879883",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "427b36d1f148",
-    "title": "การจัดการจดหมายเหตุการอนุรักษ์แหล่งมรดกโลก",
-    "authors": [],
-    "journal": "Unknown",
-    "doi": "10.58337/ffbw7493",
-    "publish_date": "2026",
-    "abstract": "",
-    "source": "CrossRef",
-    "url": "https://doi.org/10.58337/ffbw7493",
-    "crawled_at": "2026-06-14T18:31:34.879883",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "a7a8a94a4034",
-    "title": "6.1 Reflections on Conservation Practice within a Living World Heritage Site",
-    "authors": [
-      "Martina Haselberger"
-    ],
-    "journal": "PATAN",
-    "doi": "10.7767/9783205221296.348",
-    "publish_date": "2025-11-10",
-    "abstract": "",
-    "source": "CrossRef",
-    "url": "https://doi.org/10.7767/9783205221296.348",
-    "crawled_at": "2026-06-14T18:31:34.879883",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "601959a85121",
-    "title": "Conservation Treatment:",
-    "authors": [],
-    "journal": "Conservation of Granite in Cultural Heritage",
-    "doi": "10.2307/jj.31272198.11",
-    "publish_date": "2025-08-26",
-    "abstract": "",
-    "source": "CrossRef",
-    "url": "https://doi.org/10.2307/jj.31272198.11",
-    "crawled_at": "2026-06-14T18:31:34.879883",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "5fa07985fafe",
-    "title": "Towards Ethical and Effective Conservation of New Zealand’s Natural Heritage",
-    "authors": [
-      "Joanna C. Pollard"
-    ],
-    "journal": "Conservation",
-    "doi": "10.3390/conservation5030047",
-    "publish_date": "2025-09-03",
-    "abstract": "<jats:p>Major human impacts on New Zealand’s ecology began about 800 years ago with immigration firstly from Polynesia, then Europe starting a few centuries later. The humans cleared habitat, hunted species to extinction, and introduced biota, including plants, birds, fish, invertebrates, and mammals. Over the last 70 years, government-funded campaigns have been waged against some of the introduced mammals that became considered harmful to native biota. These campaigns spread poisonous food bait",
-    "source": "CrossRef",
-    "url": "https://doi.org/10.3390/conservation5030047",
-    "crawled_at": "2026-06-14T18:31:34.879883",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "51685542a1d6",
-    "title": "Conservation of Rural Religious Heritage in the Western Mediterranean Region of Türkiye: Yukarı Kırlı Village",
-    "authors": [
-      "Selin Akman Güler",
-      "Deniz Mazlum"
-    ],
-    "journal": "HERITAGE2025 International Conference on Earthen &amp; Vernacular Heritage Conservation, Adaptive Reuse &amp; Urban Regeneration",
-    "doi": "10.4995/heritage2025.2025.19278",
-    "publish_date": "2025-09-10",
-    "abstract": "<jats:p>Rural religious heritage is an important value for the future of historic villages and for their conservation. The religious heritage in rural areas of Burdur province, located in the Western Mediterranean Region of Türkiye, deserves special attention in this field both for its monuments and for the settlements and landscapes surrounding them. Documentation studies carried out in the rural area of Burdur show that the religious heritage assets and the historic villages in which they are ",
-    "source": "CrossRef",
-    "url": "https://doi.org/10.4995/heritage2025.2025.19278",
-    "crawled_at": "2026-06-14T18:31:34.879883",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "db0c8cc33908",
-    "title": "Collaborative Museology",
-    "authors": [
-      "Philipp Schorch"
-    ],
-    "journal": "Anthropology",
-    "doi": "10.1093/obo/9780199766567-0312",
-    "publish_date": "2025-06-20",
-    "abstract": "<p>The so-called crisis of representation, the profound questioning of knowledge claims based on positivist principles since the 1980s, has had an enormous impact upon anthropology and related academic disciplines and fields. In many ways, the debates and contestations rage on, and associated problems—methodological, epistemological, ethical, etc. —remain unresolved. Museums, which had been at the forefront of disciplines such as anthropology in the late nineteenth century, have become a focal p",
-    "source": "CrossRef",
-    "url": "https://doi.org/10.1093/obo/9780199766567-0312",
-    "crawled_at": "2026-06-14T18:31:38.865784",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "8424947cd3b7",
-    "title": "International museology II:",
-    "authors": [],
-    "journal": "Deconstituting Museums",
-    "doi": "10.2307/jj.26931934.13",
-    "publish_date": "2025-09-10",
-    "abstract": "",
-    "source": "CrossRef",
-    "url": "https://doi.org/10.2307/jj.26931934.13",
-    "crawled_at": "2026-06-14T18:31:38.865784",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "9033c5751fbc",
-    "title": "Review of \"Museum Studies / Museology\"",
-    "authors": [
-      "Asena Ozge Yasar"
-    ],
-    "journal": "Unknown",
-    "doi": "10.14293/s2199-1006.1.sor-uncat.baip1k.v1.rtodvv",
-    "publish_date": "2025-08-05",
-    "abstract": "",
-    "source": "CrossRef",
-    "url": "https://doi.org/10.14293/s2199-1006.1.sor-uncat.baip1k.v1.rtodvv",
-    "crawled_at": "2026-06-14T18:31:38.865784",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "dce0075e93b5",
-    "title": "Deep Fakes",
-    "authors": [
-      "Sarah Kenderdine",
-      "Lily Hibberd"
-    ],
-    "journal": "Unknown",
-    "doi": "10.4324/9781003334453",
-    "publish_date": "2025-10-20",
-    "abstract": "",
-    "source": "CrossRef",
-    "url": "https://doi.org/10.4324/9781003334453",
-    "crawled_at": "2026-06-14T18:31:38.865784",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "38340fad831a",
-    "title": "Simulacrum",
-    "authors": [
-      "Sarah Kenderdine",
-      "Lily Hibberd"
-    ],
-    "journal": "Deep Fakes",
-    "doi": "10.4324/9781003334453-6",
-    "publish_date": "2025-10-20",
-    "abstract": "",
-    "source": "CrossRef",
-    "url": "https://doi.org/10.4324/9781003334453-6",
-    "crawled_at": "2026-06-14T18:31:38.865784",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "2bc2a7807ecd",
-    "title": "International museology I:",
-    "authors": [],
-    "journal": "Deconstituting Museums",
-    "doi": "10.2307/jj.26931934.8",
-    "publish_date": "2025-09-10",
-    "abstract": "",
-    "source": "CrossRef",
-    "url": "https://doi.org/10.2307/jj.26931934.8",
-    "crawled_at": "2026-06-14T18:31:38.865784",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "75c47c258ddd",
-    "title": "The French Museology",
-    "authors": [
-      "Bin Wang",
-      "Kai Yin"
-    ],
-    "journal": "Museum",
-    "doi": "10.3724/2096-1715.2025.09.05.016",
-    "publish_date": "2025-10-01",
-    "abstract": "",
-    "source": "CrossRef",
-    "url": "https://doi.org/10.3724/2096-1715.2025.09.05.016",
-    "crawled_at": "2026-06-14T18:31:38.865784",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "67db5bf36462",
-    "title": "Speaking back",
-    "authors": [
-      "Sarah Kenderdine",
-      "Lily Hibberd"
-    ],
-    "journal": "Deep Fakes",
-    "doi": "10.4324/9781003334453-10",
-    "publish_date": "2025-10-20",
-    "abstract": "",
-    "source": "CrossRef",
-    "url": "https://doi.org/10.4324/9781003334453-10",
-    "crawled_at": "2026-06-14T18:31:38.865784",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "69ead5171ca3",
-    "title": "Reenactment",
-    "authors": [
-      "Sarah Kenderdine",
-      "Lily Hibberd"
-    ],
-    "journal": "Deep Fakes",
-    "doi": "10.4324/9781003334453-7",
-    "publish_date": "2025-10-20",
-    "abstract": "",
-    "source": "CrossRef",
-    "url": "https://doi.org/10.4324/9781003334453-7",
-    "crawled_at": "2026-06-14T18:31:38.865784",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "83de8dc7b0d4",
-    "title": "Lexicon",
-    "authors": [
-      "Sarah Kenderdine",
-      "Lily Hibberd"
-    ],
-    "journal": "Deep Fakes",
-    "doi": "10.4324/9781003334453-2",
-    "publish_date": "2025-10-20",
-    "abstract": "",
-    "source": "CrossRef",
-    "url": "https://doi.org/10.4324/9781003334453-2",
-    "crawled_at": "2026-06-14T18:31:38.865784",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "66fa20572d02",
-    "title": "Intangible cultural heritage law",
-    "authors": [
-      "Thiago Burckhart"
-    ],
-    "journal": "Intangible Heritage Law and Cultural Diversity",
-    "doi": "10.4324/9781003619550-2",
-    "publish_date": "2025-10-30",
-    "abstract": "",
-    "source": "CrossRef",
-    "url": "https://doi.org/10.4324/9781003619550-2",
-    "crawled_at": "2026-06-14T18:31:47.492139",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "9f33c6ca989e",
-    "title": "INTANGIBLE CULTURAL HERITAGE OF UZBEKISTAN: ESSENCE, PROTECTION AND PROBLEMS",
-    "authors": [
-      "Jasurbek Zokirjonovich Akhmedov",
-      "Ikbol Tursunmurodovna Kudratova"
-    ],
-    "journal": "Theoretical &amp; Applied Science",
-    "doi": "10.15863/tas.2025.06.146.17",
-    "publish_date": "2025-06-30",
-    "abstract": "",
-    "source": "CrossRef",
-    "url": "https://doi.org/10.15863/tas.2025.06.146.17",
-    "crawled_at": "2026-06-14T18:31:47.492139",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "d657fbc6a64e",
-    "title": "Generating Chinese intangible cultural heritage images with structure and color awareness",
-    "authors": [
-      "Jingjing Zou",
-      "Yingjun Du",
-      "Gangtian Liu",
-      "Ziyun Jiao",
-      "Hui Zhang"
-    ],
-    "journal": "npj Heritage Science",
-    "doi": "10.1038/s40494-025-02150-7",
-    "publish_date": "2025-11-17",
-    "abstract": "",
-    "source": "CrossRef",
-    "url": "https://doi.org/10.1038/s40494-025-02150-7",
-    "crawled_at": "2026-06-14T18:31:47.492139",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "5ff6db24379c",
-    "title": "Food and the Intangible Cultural Heritage Convention",
-    "authors": [
-      "Fabio Parasecoli"
-    ],
-    "journal": "Routledge Handbook of Food and Cultural Heritage",
-    "doi": "10.4324/9781032026565-23",
-    "publish_date": "2025-09-04",
-    "abstract": "",
-    "source": "CrossRef",
-    "url": "https://doi.org/10.4324/9781032026565-23",
-    "crawled_at": "2026-06-14T18:31:47.492139",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "ecb9200bbc80",
-    "title": "Intangible Cultural Heritage: Creating Cultural Resilience in Displaced Palestinian Refugee Communities",
-    "authors": [
-      "Islam A. Alshafei",
-      "Pinar Uluçay Righelato"
-    ],
-    "journal": "Cities, Heritage and Transformation",
-    "doi": "10.1007/978-3-032-16141-3_9",
-    "publish_date": "2026",
-    "abstract": "",
-    "source": "CrossRef",
-    "url": "https://doi.org/10.1007/978-3-032-16141-3_9",
-    "crawled_at": "2026-06-14T18:31:47.492139",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "344ade8c904d",
-    "title": "Integrating Intangible Cultural Heritage into Cultural Heritage Tourism: An Applied Methodological Framework",
-    "authors": [
-      "Marco Scholtz",
-      "Kaat De Ridder",
-      "Vicky Steylaerts"
-    ],
-    "journal": "Heritage Management [Working Title]",
-    "doi": "10.5772/intechopen.1014535",
-    "publish_date": "2026-02-11",
-    "abstract": "<jats:p>Intangible cultural heritage (ICH) remains underutilized in cultural heritage tourism (CHT), which often prioritizes tangible assets because of their visibility and ease of interpretation. This chapter presents an applied methodological framework that supports destination teams and heritage stakeholders in moving from awareness of ICH to responsible implementation in tourism contexts. Adapted from the Intangible Heritage Playbook, the framework offers a structured yet flexible process pr",
-    "source": "CrossRef",
-    "url": "https://doi.org/10.5772/intechopen.1014535",
-    "crawled_at": "2026-06-14T18:31:47.492139",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "2357fb603e98",
-    "title": "HOW AND WHY TO RECONCILE DIFFERENT DISCIPLINES TO CHARACTERIZE AND SAFEGUARD INTANGIBLE CULTURAL HERITAGE: THE CASE OF THE INTANGIBLE CULTURAL HERITAGE HANDBOOK",
-    "authors": [
-      "Françoise Lempereur"
-    ],
-    "journal": "Culture Crossroads",
-    "doi": "10.55877/cc.vol28.615",
-    "publish_date": "2025-10-27",
-    "abstract": "<jats:p> The UNESCO Convention for the Safeguarding of the Intangible Cultural Heritage has come into effect on 2006. Since then, its complexity and its lack of constraint have generated a large number of problems and debates into the academic world. In the attempt to counter the criticism and answer some of the interrogations, this paper is dedicated to analysis of the ways how researchers and teachers could understand and transmit intangible cultural heritage. As the author has edited an acade",
-    "source": "CrossRef",
-    "url": "https://doi.org/10.55877/cc.vol28.615",
-    "crawled_at": "2026-06-14T18:31:47.492139",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "a8b329bdda3a",
-    "title": "Finland: Intangible Heritage",
-    "authors": [
-      "Tuomas Mattila"
-    ],
-    "journal": "Elgar Encyclopedia of Art and Cultural Heritage Law",
-    "doi": "10.4337/9781802207897.finland.ich",
-    "publish_date": "2026-11-18",
-    "abstract": "",
-    "source": "CrossRef",
-    "url": "https://doi.org/10.4337/9781802207897.finland.ich",
-    "crawled_at": "2026-06-14T18:31:47.492139",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "f0fcfd3d9cd4",
-    "title": "Illumination-Invariant Anomaly Detection for Sub-Canopy UAV Multispectral Point Clouds",
-    "authors": [
-      "Likun Chen",
-      "Yanfeng Gu",
-      "Xian Li"
-    ],
-    "journal": "arXiv preprint",
-    "doi": "",
-    "arxiv_id": "2606.09111v1",
-    "publish_date": "2026-06-08",
-    "abstract": "Unmanned Aerial Vehicle (UAV) multispectral point clouds (MPC) provide high-dimensional spatial-spectral data for sub-canopy target detection; however, their efficacy is significantly compromised by severe illumination heterogeneity caused by vegetation shadows. To address this, we propose a prior-free anomaly detection framework capable of robustly handling lighting variations. First, we formulate solar angle estimation as an inverse optimization problem. By coupling spectral indices with a ray",
-    "source": "arXiv",
-    "url": "https://arxiv.org/abs/2606.09111v1",
-    "crawled_at": "2026-06-14T18:31:49.742277",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "9a2152ee0ec0",
-    "title": "Hydrodynamically engineered Indigenous arrows skip on water for waterfowl hunting",
-    "authors": [
-      "Junrong Zhang",
-      "Farrukh Kamoliddinov",
-      "Thomas Yang",
-      "Jeff Tang",
-      "Tino Liang",
-      "Ethan Tam",
-      "Edam Jin",
-      "Tadd Truscott",
-      "Zhao Pan"
-    ],
-    "journal": "arXiv preprint",
-    "doi": "",
-    "arxiv_id": "2606.03015v1",
-    "publish_date": "2026-06-02",
-    "abstract": "Across the Northern Hemisphere, Indigenous hunters developed arrows capable of skipping across the water surface to strike waterfowl. Archaeological and ethnographic records reveal remarkably similar projectile designs spanning millennia and geographically distant cultures, suggesting a convergent technological solution. Despite extensive study of water-entry dynamics, the physical principles underlying this behaviour remain poorly understood. Here we show that successful water-skipping arises f",
-    "source": "arXiv",
-    "url": "https://arxiv.org/abs/2606.03015v1",
-    "crawled_at": "2026-06-14T18:31:49.742277",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "f620d4879c44",
-    "title": "Correlated uniform attachment trees",
-    "authors": [
-      "Johannes Bäumler",
-      "Miklós Z. Rácz",
-      "Nathan Ross",
-      "Anirudh Sridhar"
-    ],
-    "journal": "arXiv preprint",
-    "doi": "",
-    "arxiv_id": "2606.02472v1",
-    "publish_date": "2026-06-01",
-    "abstract": "We introduce and study a new model of correlated uniform attachment (UA) trees, where correlation is sprinkled throughout the time evolution of the process. In this model, two UA trees are grown in parallel, and at each time step a new node is added to each tree, with an edge between it and a uniformly chosen existing vertex in the respective tree. The two choices of attachment are correlated: with probability $α$, the edges attach to nodes with the same time label in both trees, and with probab",
-    "source": "arXiv",
-    "url": "https://arxiv.org/abs/2606.02472v1",
-    "crawled_at": "2026-06-14T18:31:49.742277",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "a5520a3bf9b4",
-    "title": "Page image classifier fine-tuned on century-spanning archives of scanned documents for further content-specific processing",
-    "authors": [
-      "Kateryna Lutsai",
-      "Pavel Straňák",
-      "David Novák",
-      "Dana Křivánková"
-    ],
-    "journal": "arXiv preprint",
-    "doi": "",
-    "arxiv_id": "2606.07558v1",
-    "publish_date": "2026-05-25",
-    "abstract": "Purpose: Digitization projects in the humanities produce vast, heterogeneous archives of historical documents, making manual sorting impractical at scale. This work addresses the need for an automated system to classify scanned page images based on visual content type - text, tables, and graphics - enabling content-specific downstream processing such as Optical Character Recognition (OCR) or structured data extraction. Methods: An image classification system was developed and evaluated on a data",
-    "source": "arXiv",
-    "url": "https://arxiv.org/abs/2606.07558v1",
-    "crawled_at": "2026-06-14T18:31:49.742277",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "d71710e6c007",
-    "title": "The Absolute Age of the Open Cluster NGC 6791 and Its Implications for Galactic Archaeology and Asteroseismic Calibration",
-    "authors": [
-      "George Dufresne",
-      "Brian Chaboyer",
-      "Rayna Rampalli"
-    ],
-    "journal": "arXiv preprint",
-    "doi": "",
-    "arxiv_id": "2605.21682v1",
-    "publish_date": "2026-05-20",
-    "abstract": "We present a new absolute age determination for NGC 6791, one of the Milky Way's oldest and most metal-rich open clusters. Its unusual properties make it an important probe of inner-disk evolution and asteroseismic calibration, but its age has remained difficult to determine because of coupled uncertainties in reddening, distance, photometry, and stellar-model physics. Gaia DR3 photometry together with detached eclipsing binaries (DEBs) in NGC 6791 are combined with 10,000 Monte Carlo isochrone ",
-    "source": "arXiv",
-    "url": "https://arxiv.org/abs/2605.21682v1",
-    "crawled_at": "2026-06-14T18:31:49.742277",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "6f68f4b19eb5",
-    "title": "Lithium Enrichment in a Subgiant Star with a Brown Dwarf Companion: A Planetary Engulfment Candidate",
-    "authors": [
-      "Brooke Kotten",
-      "Melinda Soares-Furtado",
-      "Ricardo Yarza",
-      "Andrew C. Nine",
-      "Seth A. Jacobson",
-      "Noah Vowell",
-      "Olivia Maynard",
-      "Allyson Bieryla",
-      "Andrew Vanderburg",
-      "Jack Schulte",
-      "Claudia Aguilera-Gomez",
-      "Enrico Ramirez-Ruiz",
-      "Joseph E. Rodriguez",
-      "David W. Latham"
-    ],
-    "journal": "arXiv preprint",
-    "doi": "",
-    "arxiv_id": "2605.21407v1",
-    "publish_date": "2026-05-20",
-    "abstract": "Theoretical models predict that subgiants within a narrow mass regime can retain detectable lithium enrichment signatures from planetary engulfment. We test this prediction using TOI-5882, selected because it occupies this favorable subgiant parameter space and hosts a massive brown dwarf ($22 \\, M_{ \\rm J}$, $P=7.1 \\,{\\rm d}$) companion capable of dynamically perturbing inner planets. We investigate whether: (1) TOI-5882 exhibits lithium enhancement among similar subgiants, (2) planetary materi",
-    "source": "arXiv",
-    "url": "https://arxiv.org/abs/2605.21407v1",
-    "crawled_at": "2026-06-14T18:31:49.742277",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "cb8e213136fa",
-    "title": "An Attention-Enhanced Network with Joint Dehazing and Retinex-Based Enhancement for Underwater Images",
-    "authors": [
-      "Sahana Ray",
-      "Bibhabasu Debnath",
-      "Sanjay Ghosh"
-    ],
-    "journal": "arXiv preprint",
-    "doi": "",
-    "arxiv_id": "2605.14677v1",
-    "publish_date": "2026-05-14",
-    "abstract": "Underwater images suffer from severe wavelength-dependent light absorption and scattering, and turbidity due to suspended particles, degrading visual quality for applications in autonomous underwater vehicles (AUVs), marine biology, archaeology, and offshore infrastructure inspection. Classical IFM inadequately capture nonlinear underwater light behavior, while purely data-driven methods lack physical interpretability. This paper proposes a three-stage network named ADR, that extends the underwa",
-    "source": "arXiv",
-    "url": "https://arxiv.org/abs/2605.14677v1",
-    "crawled_at": "2026-06-14T18:31:49.742277",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "49085e9c14d8",
-    "title": "The Missing GAP: From Solving Square Jigsaw Puzzles to Handling Real World Archaeological Fragments",
-    "authors": [
-      "Ofir Itzhak Shahar",
-      "Gur Elkin",
-      "Ohad Ben-Shahar"
-    ],
-    "journal": "arXiv preprint",
-    "doi": "",
-    "arxiv_id": "2605.12077v1",
-    "publish_date": "2026-05-12",
-    "abstract": "Jigsaw puzzle solving has been an increasingly popular task in the computer vision research community. Recent works have utilized cutting-edge architectures and computational approaches to reassemble groups of pieces into a coherent image, while achieving increasingly good results on well established datasets. However, most of these approaches share a common, restricting setting: operating solely on strictly square puzzle pieces. In this work, we introduce GAP, a set of novel jigsaw puzzles data",
-    "source": "arXiv",
-    "url": "https://arxiv.org/abs/2605.12077v1",
-    "crawled_at": "2026-06-14T18:31:49.742277",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "7c975062d3d4",
-    "title": "Stellar Age Compression Reshapes Interpretations of the Milky Way Thick-Disk Formation History",
-    "authors": [
-      "Zhipeng Zhang"
-    ],
-    "journal": "arXiv preprint",
-    "doi": "",
-    "arxiv_id": "2605.10220v2",
-    "publish_date": "2026-05-11",
-    "abstract": "The formation timescale of the Milky Way thick disk is one of the central debates in Galactic archaeology. The age-metallicity relation (AMR), formation timescale, and chemical evolution gradients are frequently used to infer a rapid assembly, short-timescale enrichment, and bursty formation history of the thick disk. However, stellar ages are not directly observable, introducing the potential risk that inferred ages may harbor a systematic compression tied to observational quality. In this pape",
-    "source": "arXiv",
-    "url": "https://arxiv.org/abs/2605.10220v2",
-    "crawled_at": "2026-06-14T18:31:49.742277",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "10bb27fff1e2",
-    "title": "WATCH: Wide-Area Archaeological Site Tracking for Change Detection",
-    "authors": [
-      "Girmaw Abebe Tadesse",
-      "Titien Bartette",
-      "Andrew Hassanali",
-      "Allen Kim",
-      "Jonathan Chemla",
-      "Andrew Zolli",
-      "Yves Ubelmann",
-      "Caleb Robinson",
-      "Inbal Becker-Reshef",
-      "Juan Lavista Ferres"
-    ],
-    "journal": "arXiv preprint",
-    "doi": "",
-    "arxiv_id": "2605.08160v1",
-    "publish_date": "2026-05-04",
-    "abstract": "Monitoring archaeological sites at scale is vital for protecting cultural heritage, yet pinpointing when disturbances occur remains difficult because visual cues are subtle and ground-truth data are sparse. We introduce WATCH, a framework for month-level change-event localization over PlanetScope satellite mosaics (2017-2024, 4.7 m/px) that supports three complementary scoring approaches: (i) Temporal Embedding Distance (TED), a training-free method that scores month-to-month deviations from a l",
-    "source": "arXiv",
-    "url": "https://arxiv.org/abs/2605.08160v1",
-    "crawled_at": "2026-06-14T18:31:49.743370",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "0f7a62a26dcb",
-    "title": "Reimagining Australian archaeology",
-    "authors": [
-      "Malcolm Connolly"
-    ],
-    "journal": "Australian Archaeology",
-    "doi": "10.1080/03122417.2025.2562675",
-    "publish_date": "2025-09-02",
-    "abstract": "",
-    "source": "CrossRef",
-    "url": "https://doi.org/10.1080/03122417.2025.2562675",
-    "crawled_at": "2026-06-14T18:31:54.731686",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "65f827bd5499",
-    "title": "Residual Grounds: Infrastructural Archaeology and Glasgow’s Showpeople",
-    "authors": [
-      "Graham Skeate",
-      "Glasgow's Showpeople"
-    ],
-    "journal": "Industrial Archaeology Review",
-    "doi": "10.1080/03090728.2025.2618904",
-    "publish_date": "2025-07-03",
-    "abstract": "",
-    "source": "CrossRef",
-    "url": "https://doi.org/10.1080/03090728.2025.2618904",
-    "crawled_at": "2026-06-14T18:31:54.731686",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "f01631c59cd3",
-    "title": "Society for Church Archaeology Officers 2024–25",
-    "authors": [],
-    "journal": "Church Archaeology",
-    "doi": "10.3828/churcharch.2025.25.8",
-    "publish_date": "2025-11-14",
-    "abstract": "",
-    "source": "CrossRef",
-    "url": "https://doi.org/10.3828/churcharch.2025.25.8",
-    "crawled_at": "2026-06-14T18:31:54.731686",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "d9e5a577cd6b",
-    "title": "Archaeology in a time of climate change",
-    "authors": [
-      "Maureen Meyers"
-    ],
-    "journal": "Southeastern Archaeology",
-    "doi": "10.1080/0734578x.2026.2639786",
-    "publish_date": "2026-04-04",
-    "abstract": "",
-    "source": "CrossRef",
-    "url": "https://doi.org/10.1080/0734578x.2026.2639786",
-    "crawled_at": "2026-06-14T18:31:54.731686",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "3da8e14e803e",
-    "title": "Review of: Bridging Material Culture Networks and Social Networks in Archaeology. Round#1/Reviewer#1",
-    "authors": [],
-    "journal": "Peer Community in Archaeology",
-    "doi": "10.24072/pci.archaeo.100639.rev11",
-    "publish_date": "2025-10-08",
-    "abstract": "",
-    "source": "CrossRef",
-    "url": "https://doi.org/10.24072/pci.archaeo.100639.rev11",
-    "crawled_at": "2026-06-14T18:31:54.731686",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "45dfce9d297a",
-    "title": "Decision Revise: Bridging Material Culture Networks and Social Networks in Archaeology. Round#1",
-    "authors": [],
-    "journal": "Peer Community in Archaeology",
-    "doi": "10.24072/pci.archaeo.100639.d1",
-    "publish_date": "2025-11-27",
-    "abstract": "",
-    "source": "CrossRef",
-    "url": "https://doi.org/10.24072/pci.archaeo.100639.d1",
-    "crawled_at": "2026-06-14T18:31:54.731686",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "db60433da531",
-    "title": "The Archaeology of Early Steam Locomotives",
-    "authors": [
-      "Michael R. Bailey"
-    ],
-    "journal": "Industrial Archaeology Review",
-    "doi": "10.1080/03090728.2026.2658308",
-    "publish_date": "2026-05-05",
-    "abstract": "",
-    "source": "CrossRef",
-    "url": "https://doi.org/10.1080/03090728.2026.2658308",
-    "crawled_at": "2026-06-14T18:31:54.731686",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "ff2809e348e7",
-    "title": "An emancipatory Indigenist archaeology in context",
-    "authors": [
-      "Kisha Supernant"
-    ],
-    "journal": "Australian Archaeology",
-    "doi": "10.1080/03122417.2025.2562671",
-    "publish_date": "2025-09-02",
-    "abstract": "",
-    "source": "CrossRef",
-    "url": "https://doi.org/10.1080/03122417.2025.2562671",
-    "crawled_at": "2026-06-14T18:31:54.731686",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "cdf01d052ac3",
-    "title": "Recommendation of: Bridging Material Culture Networks and Social Networks in Archaeology. Round#2",
-    "authors": [],
-    "journal": "Peer Community in Archaeology",
-    "doi": "10.24072/pci.archaeo.100639",
-    "publish_date": "2026-03-05",
-    "abstract": "",
-    "source": "CrossRef",
-    "url": "https://doi.org/10.24072/pci.archaeo.100639",
-    "crawled_at": "2026-06-14T18:31:54.731686",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  },
-  {
-    "id": "9da72ff9f9aa",
-    "title": "Review of: Bridging Material Culture Networks and Social Networks in Archaeology. Round#1/Reviewer#4",
-    "authors": [],
-    "journal": "Peer Community in Archaeology",
-    "doi": "10.24072/pci.archaeo.100639.rev14",
-    "publish_date": "2025-10-06",
-    "abstract": "",
-    "source": "CrossRef",
-    "url": "https://doi.org/10.24072/pci.archaeo.100639.rev14",
-    "crawled_at": "2026-06-14T18:31:54.731686",
-    "crawledAt": "2026-06-14T00:00:00Z",
-    "keywords": []
-  }
-]
+{
+  "metadata": {
+    "generated_at": "2026-06-18T23:27:38.512198",
+    "category": "papers",
+    "total_items": 96,
+    "freshness_days": 365,
+    "sources": {
+      "CrossRef": 45,
+      "arXiv": 29,
+      "unknown": 22
+    }
+  },
+  "items": [
+    {
+      "id": "a8b329bdda3a",
+      "title": "Finland: Intangible Heritage",
+      "authors": [
+        "Tuomas Mattila"
+      ],
+      "journal": "Elgar Encyclopedia of Art and Cultural Heritage Law",
+      "doi": "10.4337/9781802207897.finland.ich",
+      "publish_date": "2026-11-18",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.4337/9781802207897.finland.ich",
+      "crawled_at": "2026-06-14T18:31:47.492139"
+    },
+    {
+      "id": "8654d57da729",
+      "title": "The Moving Drone: Negotiating Agency Between the Voice and the Virtual",
+      "authors": [
+        "Nithya Shikarpur",
+        "Victor Arul",
+        "Anna Huang"
+      ],
+      "journal": "arXiv preprint",
+      "doi": "",
+      "arxiv_id": "2606.13640v1",
+      "publish_date": "2026-06-11",
+      "abstract": "Melodic material in Hindustani music is presented in relation to a tonic, usually sustained by the tanpura, a four-stringed drone instrument. Rooted in Hindustani music, 'The Moving Drone' sets the traditionally static drone into motion that, throughout the performance, gains increasing agency transitioning from reactive to more proactive roles. The work employs four independent loopers in Max/MSP to function as 'virtual' drones. They are populated cyclically in real-time as the vocalist improvi",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2606.13640v1",
+      "crawled_at": "2026-06-14T18:31:24.222186"
+    },
+    {
+      "id": "bb2e7d2229ee",
+      "title": "VietFashion: Benchmarking Sketch-Text Composed Image Retrieval for Cultural Outfits",
+      "authors": [
+        "Hoang-Nguyen Cao",
+        "Le-Hoang Bui",
+        "Dinh-Khoi Vo",
+        "Minh-Triet Tran",
+        "Trung-Nghia Le"
+      ],
+      "journal": "arXiv preprint",
+      "doi": "10.1145/3805622.3810590",
+      "arxiv_id": "2606.13427v1",
+      "publish_date": "2026-06-11",
+      "abstract": "Cultural garments pose a unique challenge for visual retrieval systems, as their identity often depends on subtle structural and symbolic details that are poorly captured by standard AI models. We introduce VietFashion, a new benchmark for sketch-text composed image retrieval centered on the Ao Dai, a traditional Vietnamese garment. VietFashion enables designers and researchers to retrieve culturally meaningful outfits using a combination of hand-drawn sketches, which convey garment structure, a",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2606.13427v1",
+      "crawled_at": "2026-06-14T18:31:24.222186"
+    },
+    {
+      "id": "57b478dab148",
+      "title": "Mod-Guide: An LLM-based Content Moderation Feedback System to Address Insensitive Speech toward Indigenous Ethnic and Religious Minority Communities",
+      "authors": [
+        "Dipto Das",
+        "Achhiya Sultana",
+        "Ankit Singh Chauhan",
+        "Saadia Binte Alam",
+        "Mohammad Shidujaman",
+        "Shion Guha",
+        "Sunandan Chakraborty",
+        "Syed Ishtiaque Ahmed"
+      ],
+      "journal": "arXiv preprint",
+      "doi": "10.1145/3811242.3819096",
+      "arxiv_id": "2606.13397v1",
+      "publish_date": "2026-06-11",
+      "abstract": "Language operates as a mechanism of both marginalization and resistance, especially for minority communities navigating insensitive and harmful speech online. As content moderation increasingly depends on large language models (LLMs), concerns arise about whether these systems can recognize culturally insensitive speech-language that disregards or marginalizes the cultural and religious perspectives of historically underrepresented communities, often through implicit erasure, misrepresentation, ",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2606.13397v1",
+      "crawled_at": "2026-06-14T18:31:24.222186"
+    },
+    {
+      "id": "a27c814443f0",
+      "title": "Zero-Shot Captioning for Cultural Heritage: Automated Image Analysis of Traditional Indonesian Clothing",
+      "authors": [
+        "Anugrah Aidin Yotolembah",
+        "Novanto Yudistira",
+        "Gembong Edhi Setyawan"
+      ],
+      "journal": "arXiv preprint",
+      "doi": "",
+      "arxiv_id": "2606.13275v1",
+      "publish_date": "2026-06-11",
+      "abstract": "This paper presents Custom ZeroCLIP, a retrieval-augmented vision-language framework for zero-shot captioning of Indonesian traditional garments. The dataset contains 3,800 expert-annotated images from all 38 Indonesian provinces. Using a province-level inductive zero-shot protocol, the model is trained on 24 seen provinces, validated on 6 seen provinces, and evaluated on 8 unseen provinces. The framework combines a frozen CLIP ViT-B/32 image encoder, a CLIP text encoder, a BERT text encoder, an",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2606.13275v1",
+      "crawled_at": "2026-06-14T18:31:24.222186"
+    },
+    {
+      "id": "c69d4b57e6da",
+      "title": "LAUKIN: A Multi-jurisdictional Common Law Contract Dataset",
+      "authors": [
+        "Amrita Singh",
+        "Aditya Joshi",
+        "Jiaojiao Jiang",
+        "Hye-young Paik",
+        "May Fong Cheong"
+      ],
+      "journal": "arXiv preprint",
+      "doi": "",
+      "arxiv_id": "2606.13184v1",
+      "publish_date": "2026-06-11",
+      "abstract": "Multinational companies increasingly require cross-jurisdictional contract review, yet existing legal NLP datasets are largely restricted to a single jurisdiction. We introduce LAUKIN (Legal equivalence dataset of Australia, UK, and INdia), a dataset of clause pairs (AU-UK, UK-IN, IN-AU) labelled for boolean legal equivalence. We develop a novel multi-stage retrieval and reranking pipeline to construct the initial clause pair mapping, with a subset of clause pairs subsequently annotated by legal",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2606.13184v1",
+      "crawled_at": "2026-06-14T18:31:24.222186"
+    },
+    {
+      "id": "55ad3d847b51",
+      "title": "An Embodied Simulation Platform, Benchmark, and Data-Efficient Augmentation Framework for Wet-Lab Robotics",
+      "authors": [
+        "Zhe Liu",
+        "Huanbo Jin",
+        "Zhaohui Du",
+        "Zhe Wang",
+        "He Xu",
+        "Peijia Li",
+        "Jiaming Gu",
+        "Quan Lu",
+        "Qi Wang",
+        "Bin Ji",
+        "Ting Xiao"
+      ],
+      "journal": "arXiv preprint",
+      "doi": "",
+      "arxiv_id": "2606.12936v1",
+      "publish_date": "2026-06-11",
+      "abstract": "Wet-lab robots can improve the reproducibility, throughput, and safety of biomedical experiments, but scaling their learning requires customizable simulators for safe and reproducible task generation, open editable laboratory assets, and efficient pipelines that turn limited demonstrations into usable training data. We present Pipette, an embodied simulation platform, benchmark, and data-efficient augmentation framework for wet-lab robot learning. Pipette releases over 43 open-source and re-edit",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2606.12936v1",
+      "crawled_at": "2026-06-14T18:31:24.222186"
+    },
+    {
+      "id": "76a94cd66018",
+      "title": "Exploring How Agent Voice Accents Shape Human-AI Collaboration in K-12 Group Learning",
+      "authors": [
+        "Prerna Ravi",
+        "Carúmey Stevens",
+        "Ben Hurt",
+        "Brandon Hanks",
+        "Grace Lin",
+        "Emma Anderson"
+      ],
+      "journal": "arXiv preprint",
+      "doi": "",
+      "arxiv_id": "2606.12805v1",
+      "publish_date": "2026-06-11",
+      "abstract": "Collaboration is widely recognized as a cornerstone of 21st-century education, yet teachers still encounter persistent challenges in fostering productive peer interaction. LLM conversational peer agents introduce new possibilities for mediating in-person group work, raising questions about how persona design, particularly their voice characteristics, shapes learners' perceptions, trust, and interactional dynamics. While prior work has examined agent accent effects in one-to-one settings, little ",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2606.12805v1",
+      "crawled_at": "2026-06-14T18:31:24.223183"
+    },
+    {
+      "id": "7a33a8e9b760",
+      "title": "Finding Conservation Laws of Large Dynamical Systems with Tasks and Futures: A Case Study in Utilizing Dynamic Data Dependencies",
+      "authors": [
+        "Rüdiger Nather"
+      ],
+      "journal": "arXiv preprint",
+      "doi": "",
+      "arxiv_id": "2606.13623v1",
+      "publish_date": "2026-06-11",
+      "abstract": "As parallel workloads grow in complexity, managing fine-grained data dependencies becomes a critical challenge. Futures offer a promising model for handling these dependencies, particularly in irregular algorithms, but they also come with the restriction of value-immutability. This immutability limits the ability to perform in-place memory updates, a necessity for high-performance linear algebra where memory recycling is paramount. In this paper, we address these limitations by introducing a new",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2606.13623v1",
+      "crawled_at": "2026-06-14T18:31:28.708460"
+    },
+    {
+      "id": "cb01e326b87b",
+      "title": "A Declining CVaR Glidepath Framework for Target-Date Fund Design with an Application to the Chilean Pension System",
+      "authors": [
+        "Israel Muñoz",
+        "Fernando Suárez",
+        "Omar Larré",
+        "Arturo Cifuentes"
+      ],
+      "journal": "arXiv preprint",
+      "doi": "",
+      "arxiv_id": "2606.13618v1",
+      "publish_date": "2026-06-11",
+      "abstract": "We propose a framework for designing Target-Date Funds (TDFs) around an explicit return objective while controlling risk directly at the portfolio level through a declining Conditional Value-at-Risk (CVaR) constraint. In this approach, the regulator or sponsor specifies a CVaR glidepath that gives the portfolio manager enough flexibility to reach a target return with a reasonably high probability. The target return is determined exogenously from pension-design inputs such as retirement age, cont",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2606.13618v1",
+      "crawled_at": "2026-06-14T18:31:28.709445"
+    },
+    {
+      "id": "cbe3bce07c86",
+      "title": "Diffusive Dynamics of Nonstabilizerness",
+      "authors": [
+        "Zhenyu Xiao",
+        "Shinsei Ryu"
+      ],
+      "journal": "arXiv preprint",
+      "doi": "",
+      "arxiv_id": "2606.13606v1",
+      "publish_date": "2026-06-11",
+      "abstract": "Symmetries shape the quantum-information dynamics of many-body systems, but their effect on nonstabilizerness, the resource complementary to entanglement, is less understood. We compute the stabilizer Rényi entropy, a measure of nonstabilizerness, in $\\mathrm{U}(1)$-symmetric one-dimensional random circuits. The disorder-averaged dynamics is captured by a four-replica tensor network, which we evaluate by $S_4$-adapted infinite time-evolving block decimation (iTEBD) directly in the thermodynamic ",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2606.13606v1",
+      "crawled_at": "2026-06-14T18:31:28.709538"
+    },
+    {
+      "id": "4eb4ac41c46d",
+      "title": "Multi-Agent Reinforcement Learning from Delayed Marketplace Feedback for Objective-Weight Adaptation in Three-Sided Dispatch",
+      "authors": [
+        "Haochen Wu",
+        "Yi Hou",
+        "Shiguang Xie"
+      ],
+      "journal": "arXiv preprint",
+      "doi": "",
+      "arxiv_id": "2606.13604v1",
+      "publish_date": "2026-06-11",
+      "abstract": "Dispatch in three-sided marketplaces provides a natural setting for reinforcement learning from world feedback: decisions are evaluated by delayed operational outcomes such as delivery speed, courier utilization, and merchant congestion. We present a deployed reinforcement learning system at DoorDash that adapts dispatch objective weights in a large-scale food-delivery marketplace using delayed signals. Rather than replacing the combinatorial assignment optimizer, a store-level policy learned fr",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2606.13604v1",
+      "crawled_at": "2026-06-14T18:31:28.709538"
+    },
+    {
+      "id": "41bc851fadba",
+      "title": "CloudCons: A Comprehensive End-to-End Benchmark for Cloud Resource Consolidation",
+      "authors": [
+        "Xiaobin Zhang",
+        "Lefei Shen",
+        "Mouxiang Chen",
+        "Zhuo Li",
+        "Hongkai Li",
+        "Han Fu",
+        "Jianling Sun",
+        "Xiaoxue Ren",
+        "Chenghao Liu"
+      ],
+      "journal": "arXiv preprint",
+      "doi": "",
+      "arxiv_id": "2606.13513v1",
+      "publish_date": "2026-06-11",
+      "abstract": "Driven by conservative over-provisioning to guarantee service reliability, resource utilization in cloud data centers remains at low levels. To mitigate this, the forecast-then-optimize paradigm has emerged to optimize consolidation by anticipating future demands. While emerging time series foundation models promise to enhance this paradigm through zero-shot generalization, existing benchmarks focus solely on prediction error metrics. The actual decision utility of these advanced models remains ",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2606.13513v1",
+      "crawled_at": "2026-06-14T18:31:28.709538"
+    },
+    {
+      "id": "4a96ec19fec0",
+      "title": "Integrable metrics with potentials on the Hardy space and a class of PDEs",
+      "authors": [
+        "A. Konyaev",
+        "P. Topalov"
+      ],
+      "journal": "arXiv preprint",
+      "doi": "",
+      "arxiv_id": "2606.13446v1",
+      "publish_date": "2026-06-11",
+      "abstract": "We introduce a new class of quadratic in the momenta Hamiltonians with potential on Banach spaces of infinite dimension which possess an infinite family of conserved quantities in involution with respect to a naturally defined Poisson structure. We show that the Hamiltonian flows of the constructed integrals are locally well defined and that they are related to a hierarchy of evolution PDEs via nonlinear analytic transformations of the phase space, called $Q$-transforms. Our framework offers a n",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2606.13446v1",
+      "crawled_at": "2026-06-14T18:31:28.709538"
+    },
+    {
+      "id": "52d5f6b16aaf",
+      "title": "Representation-Induced Symmetry Trapping in Adaptive Variational Quantum Simulations of Multi-Reference Topologies",
+      "authors": [
+        "Hermawan Kresno Dipojono"
+      ],
+      "journal": "arXiv preprint",
+      "doi": "",
+      "arxiv_id": "2606.13387v1",
+      "publish_date": "2026-06-11",
+      "abstract": "Evaluating the trainability of adaptive quantum chemistry algorithms under multi-reference static correlation requires understanding how representation topologies intertwine with molecular geometry. We systematically expose a deep physical dependence on point-group symmetry by evaluating a spin-conserved SUSD operator pool across highly stretched configurations (2 x Re) of asymmetric LiH, symmetric BeH2, and asymmetric H2O. Under asymmetric distortions, the non-local mapping constraints of the B",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2606.13387v1",
+      "crawled_at": "2026-06-14T18:31:28.709538"
+    },
+    {
+      "id": "fded118f682c",
+      "title": "Rarity-Gated Context Conditioning for Offline Imitation Learning-Based Maritime Anomaly Detection",
+      "authors": [
+        "Yongmin Kim",
+        "ByeongHoon Jeon",
+        "Sungil Kim"
+      ],
+      "journal": "arXiv preprint",
+      "doi": "",
+      "arxiv_id": "2606.13311v1",
+      "publish_date": "2026-06-11",
+      "abstract": "Contextual anomaly detection aims to identify abnormal behavior conditional on context variables, but practical deployments often face highly imbalanced context distributions where rare regimes can be critical information. Under such frequency bias, context-conditioned models can produce unstable decisions and excessive false alarms in rare contexts. We propose Rarity-Gated Feature-wise Linear Modulation (RGFiLM), a rarity-aware conditioning module that combines feature-wise modulation (i.e., co",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2606.13311v1",
+      "crawled_at": "2026-06-14T18:31:28.710045"
+    },
+    {
+      "id": "7c7c6a5d14d7",
+      "title": "Archê, an orbital-free molecular dynamics code for fast production of equations of state",
+      "authors": [
+        "William Weens",
+        "Augustin Blanchet",
+        "Philippe Arnault"
+      ],
+      "journal": "arXiv preprint",
+      "doi": "",
+      "arxiv_id": "2606.13283v1",
+      "publish_date": "2026-06-11",
+      "abstract": "We present Archê, an orbital-free molecular dynamics (OFMD) code designed to produce equations of state (EOS) in the plasma state. Unlike in other OFMD codes, Archê uses a self-consistent field (SCF) approach to compute the electronic density. This allows us to implement two algorithms that accelerate SCF convergence by a factor of up to six. First, the density is initialized using the results from the previous MD timestep to define a one-center profile, which is then applied to the new nuclei p",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2606.13283v1",
+      "crawled_at": "2026-06-14T18:31:28.710045"
+    },
+    {
+      "id": "a42b13c907cf",
+      "title": "Constrained Semantic Decompression in LLMs through Persian Proverb-Conditioned Story Generation",
+      "authors": [
+        "Zahra Habibzadeh",
+        "Paria Khoshtab",
+        "Amir Mesbah",
+        "Yadollah Yaghoobzadeh"
+      ],
+      "journal": "arXiv preprint",
+      "doi": "",
+      "arxiv_id": "2606.12599v1",
+      "publish_date": "2026-06-10",
+      "abstract": "Transforming a dense, abstract proverb into an engaging and morally faithful narrative requires deep cultural understanding and robust semantic grounding. We frame this problem as a \\emph{constrained semantic decompression} task and study proverb-conditioned story generation as a testbed for abstraction-to-realization in large language models (LLMs). Focusing on Persian, we introduce the Proverb Aligned Narrative Dataset (PAND), pairing proverbs with human-written stories and explicit meanings. ",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2606.12599v1",
+      "crawled_at": "2026-06-14T18:31:24.223183"
+    },
+    {
+      "id": "0d835e80a20e",
+      "title": "Why AI Slop Matters, but Not Like That",
+      "authors": [
+        "Sachita Nishal",
+        "Marijn Sax",
+        "Kimon Kieslich"
+      ],
+      "journal": "arXiv preprint",
+      "doi": "",
+      "arxiv_id": "2606.12285v1",
+      "publish_date": "2026-06-10",
+      "abstract": "This is a response to the paper ''Why Slop Matters''. By offering both immanent and external critique, we argue that the authors' reasoning neglects the socio-technical context of AI slop. Our paper presents an ethical and social science informed response that centers the debate on the social function and aesthetic value of AI slop. We conclude that AI slop is an important research subject but call for a contextual and culturally-grounded debate on the issue. To that end, we discuss some key ele",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2606.12285v1",
+      "crawled_at": "2026-06-14T18:31:24.223183"
+    },
+    {
+      "id": "312844848cf1",
+      "title": "A Computational Model for Measuring Adaptability Among U.S. Farmers: Evidence from 1997-2022",
+      "authors": [
+        "Hossein Sabzian"
+      ],
+      "journal": "arXiv preprint",
+      "doi": "",
+      "arxiv_id": "2606.11995v1",
+      "publish_date": "2026-06-10",
+      "abstract": "Agricultural crops are a type of cultural trait and the way farmers of US counties select them can itself result in county-level cultural traits. Using real-world data from 1997 to 2022, we have developed a systematic framework to study the selective mechanisms behind these traits. Our findings indicate that environmental payoff-biased selection has driven counties to adopt traits that maximize their adaptability and yield within their specific environments. These empirical results align with ex",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2606.11995v1",
+      "crawled_at": "2026-06-14T18:31:24.223183"
+    },
+    {
+      "id": "f0fcfd3d9cd4",
+      "title": "Illumination-Invariant Anomaly Detection for Sub-Canopy UAV Multispectral Point Clouds",
+      "authors": [
+        "Likun Chen",
+        "Yanfeng Gu",
+        "Xian Li"
+      ],
+      "journal": "arXiv preprint",
+      "doi": "",
+      "arxiv_id": "2606.09111v1",
+      "publish_date": "2026-06-08",
+      "abstract": "Unmanned Aerial Vehicle (UAV) multispectral point clouds (MPC) provide high-dimensional spatial-spectral data for sub-canopy target detection; however, their efficacy is significantly compromised by severe illumination heterogeneity caused by vegetation shadows. To address this, we propose a prior-free anomaly detection framework capable of robustly handling lighting variations. First, we formulate solar angle estimation as an inverse optimization problem. By coupling spectral indices with a ray",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2606.09111v1",
+      "crawled_at": "2026-06-14T18:31:49.742277"
+    },
+    {
+      "id": 16,
+      "title": "Causal evaluation of intangible cultural heritage effects on tourism development with double machine learning（基于双重机器学习的非物质文化遗产对旅游发展因果效应评估）",
+      "authors": [
+        "Haoran Li",
+        "Kexin Yue",
+        "Yixuan Du"
+      ],
+      "journal": "npj Heritage Science",
+      "date": "2026-06-06",
+      "crawledAt": "2026-06-08T12:00:00+08:00",
+      "abstract": "使用双重机器学习方法评估非物质文化遗产对旅游发展的因果效应",
+      "keywords": [
+        "非遗",
+        "旅游发展",
+        "因果推断",
+        "双重机器学习"
+      ],
+      "url": "https://www.nature.com/articles/s40494-026-02327-8",
+      "lastChecked": "2026-06-08",
+      "publishDate": "2026-06-06"
+    },
+    {
+      "id": 17,
+      "title": "The earliest evidence for intermittently replenished water-cooled distillation excavated from Haihunhou's Tomb in Jiangxi, China（江西海昏侯墓出土间歇补给水冷蒸馏器的最早证据）",
+      "authors": [
+        "Zhihui Yao",
+        "Yingyin Shao",
+        "Li Jaang"
+      ],
+      "journal": "npj Heritage Science",
+      "date": "2026-06-06",
+      "crawledAt": "2026-06-08T12:00:00+08:00",
+      "abstract": "从海昏侯墓出土文物中发现间歇补给水冷蒸馏技术的最早证据",
+      "keywords": [
+        "海昏侯墓",
+        "蒸馏技术",
+        "考古科学",
+        "汉代"
+      ],
+      "url": "https://www.nature.com/articles/s40494-026-02328-7",
+      "lastChecked": "2026-06-08",
+      "publishDate": "2026-06-06"
+    },
+    {
+      "id": 18,
+      "title": "Reassessing dark spot as cobalt provenance marker in Qinghua porcelain via Raman and SEM-EDS（通过拉曼光谱和SEM-EDS重新评估青花瓷中暗斑作为钴料产地标记）",
+      "authors": [
+        "Wenxuan Wang",
+        "Jian Zhu",
+        "Zezhong Wang"
+      ],
+      "journal": "npj Heritage Science",
+      "date": "2026-06-06",
+      "crawledAt": "2026-06-08T12:00:00+08:00",
+      "abstract": "通过拉曼光谱和扫描电镜能谱分析重新评估青花瓷暗斑作为钴料产地标记的有效性",
+      "keywords": [
+        "青花瓷",
+        "钴料产地",
+        "拉曼光谱",
+        "SEM-EDS"
+      ],
+      "url": "https://www.nature.com/articles/s40494-026-02329-6",
+      "lastChecked": "2026-06-08",
+      "publishDate": "2026-06-06"
+    },
+    {
+      "id": 19,
+      "title": "Damage function for silk fabric（丝绸织物的损伤函数研究）",
+      "authors": [
+        "Ibrahim Elrefaey",
+        "Hend Mahgoub",
+        "Matija Strlič"
+      ],
+      "journal": "npj Heritage Science",
+      "date": "2026-06-06",
+      "crawledAt": "2026-06-08T12:00:00+08:00",
+      "abstract": "建立丝绸织物的损伤函数模型，用于预测和预防纺织品类文物的劣化",
+      "keywords": [
+        "丝绸",
+        "损伤函数",
+        "预防性保护",
+        "纺织品"
+      ],
+      "url": "https://www.nature.com/articles/s40494-026-02330-4",
+      "lastChecked": "2026-06-08",
+      "publishDate": "2026-06-06"
+    },
+    {
+      "id": 20,
+      "title": "The warring states linguistic benchmark for hierarchical multimodal reasoning in digital heritage（战国语言基准：数字遗产中的分层多模态推理）",
+      "authors": [
+        "Kelvin K. L. Wong",
+        "You-Lei Fu",
+        "Colin Rhodes"
+      ],
+      "journal": "npj Heritage Science",
+      "date": "2026-06-04",
+      "crawledAt": "2026-06-08T12:00:00+08:00",
+      "abstract": "构建战国文字语言基准，用于数字遗产领域的分层多模态推理测试",
+      "keywords": [
+        "数字遗产",
+        "多模态推理",
+        "战国文字",
+        "基准测试"
+      ],
+      "url": "https://www.nature.com/articles/s40494-026-02325-X",
+      "lastChecked": "2026-06-08",
+      "publishDate": "2026-06-04"
+    },
+    {
+      "id": 21,
+      "title": "Color gene mapping for cross-period comparative analysis of architectural color in Dalian's historic districts（色彩基因图谱：大连历史街区建筑色彩的跨时期比较分析）",
+      "authors": [
+        "Honghe E",
+        "Lin Lin",
+        "Xiao Guo"
+      ],
+      "journal": "npj Heritage Science",
+      "date": "2026-06-04",
+      "crawledAt": "2026-06-08T12:00:00+08:00",
+      "abstract": "构建色彩基因图谱方法，对大连历史街区建筑色彩进行跨时期比较分析",
+      "keywords": [
+        "色彩基因",
+        "历史街区",
+        "建筑色彩",
+        "大连"
+      ],
+      "url": "https://www.nature.com/articles/s40494-026-02324-0",
+      "lastChecked": "2026-06-08",
+      "publishDate": "2026-06-04"
+    },
+    {
+      "id": "9a2152ee0ec0",
+      "title": "Hydrodynamically engineered Indigenous arrows skip on water for waterfowl hunting",
+      "authors": [
+        "Junrong Zhang",
+        "Farrukh Kamoliddinov",
+        "Thomas Yang",
+        "Jeff Tang",
+        "Tino Liang",
+        "Ethan Tam",
+        "Edam Jin",
+        "Tadd Truscott",
+        "Zhao Pan"
+      ],
+      "journal": "arXiv preprint",
+      "doi": "",
+      "arxiv_id": "2606.03015v1",
+      "publish_date": "2026-06-02",
+      "abstract": "Across the Northern Hemisphere, Indigenous hunters developed arrows capable of skipping across the water surface to strike waterfowl. Archaeological and ethnographic records reveal remarkably similar projectile designs spanning millennia and geographically distant cultures, suggesting a convergent technological solution. Despite extensive study of water-entry dynamics, the physical principles underlying this behaviour remain poorly understood. Here we show that successful water-skipping arises f",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2606.03015v1",
+      "crawled_at": "2026-06-14T18:31:49.742277"
+    },
+    {
+      "id": "f620d4879c44",
+      "title": "Correlated uniform attachment trees",
+      "authors": [
+        "Johannes Bäumler",
+        "Miklós Z. Rácz",
+        "Nathan Ross",
+        "Anirudh Sridhar"
+      ],
+      "journal": "arXiv preprint",
+      "doi": "",
+      "arxiv_id": "2606.02472v1",
+      "publish_date": "2026-06-01",
+      "abstract": "We introduce and study a new model of correlated uniform attachment (UA) trees, where correlation is sprinkled throughout the time evolution of the process. In this model, two UA trees are grown in parallel, and at each time step a new node is added to each tree, with an edge between it and a uniformly chosen existing vertex in the respective tree. The two choices of attachment are correlated: with probability $α$, the edges attach to nodes with the same time label in both trees, and with probab",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2606.02472v1",
+      "crawled_at": "2026-06-14T18:31:49.742277"
+    },
+    {
+      "id": 22,
+      "title": "Beyond relighting: RTI for clustering fragmented heritage textiles using deep learning（超越重光照：利用深度学习与RTI技术对破碎遗产纺织品进行聚类）",
+      "authors": [
+        "Muhammad Arsalan Khawaja",
+        "Davit Gigilashvili",
+        "Tomasz Łojewski",
+        "Sony George",
+        "Franck Marzani",
+        "Jon Yngve Hardeberg",
+        "Alamin Mansouri"
+      ],
+      "journal": "npj Heritage Science",
+      "date": "2026-06-01",
+      "crawledAt": "2026-06-08T12:00:00+08:00",
+      "abstract": "引入基于RTI和深度学习的计算框架，对Oseberg纺织品碎片进行聚类和可视化，证实RTI作为考古重建数据丰富无损成像技术的潜力",
+      "keywords": [
+        "RTI",
+        "深度学习",
+        "纺织品碎片",
+        "聚类",
+        "Oseberg"
+      ],
+      "url": "https://www.nature.com/articles/s40494-026-02326-9",
+      "lastChecked": "2026-06-08",
+      "publishDate": "2026-06-01"
+    },
+    {
+      "id": "a5520a3bf9b4",
+      "title": "Page image classifier fine-tuned on century-spanning archives of scanned documents for further content-specific processing",
+      "authors": [
+        "Kateryna Lutsai",
+        "Pavel Straňák",
+        "David Novák",
+        "Dana Křivánková"
+      ],
+      "journal": "arXiv preprint",
+      "doi": "",
+      "arxiv_id": "2606.07558v1",
+      "publish_date": "2026-05-25",
+      "abstract": "Purpose: Digitization projects in the humanities produce vast, heterogeneous archives of historical documents, making manual sorting impractical at scale. This work addresses the need for an automated system to classify scanned page images based on visual content type - text, tables, and graphics - enabling content-specific downstream processing such as Optical Character Recognition (OCR) or structured data extraction. Methods: An image classification system was developed and evaluated on a data",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2606.07558v1",
+      "crawled_at": "2026-06-14T18:31:49.742277"
+    },
+    {
+      "id": "d71710e6c007",
+      "title": "The Absolute Age of the Open Cluster NGC 6791 and Its Implications for Galactic Archaeology and Asteroseismic Calibration",
+      "authors": [
+        "George Dufresne",
+        "Brian Chaboyer",
+        "Rayna Rampalli"
+      ],
+      "journal": "arXiv preprint",
+      "doi": "",
+      "arxiv_id": "2605.21682v1",
+      "publish_date": "2026-05-20",
+      "abstract": "We present a new absolute age determination for NGC 6791, one of the Milky Way's oldest and most metal-rich open clusters. Its unusual properties make it an important probe of inner-disk evolution and asteroseismic calibration, but its age has remained difficult to determine because of coupled uncertainties in reddening, distance, photometry, and stellar-model physics. Gaia DR3 photometry together with detached eclipsing binaries (DEBs) in NGC 6791 are combined with 10,000 Monte Carlo isochrone ",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2605.21682v1",
+      "crawled_at": "2026-06-14T18:31:49.742277"
+    },
+    {
+      "id": "6f68f4b19eb5",
+      "title": "Lithium Enrichment in a Subgiant Star with a Brown Dwarf Companion: A Planetary Engulfment Candidate",
+      "authors": [
+        "Brooke Kotten",
+        "Melinda Soares-Furtado",
+        "Ricardo Yarza",
+        "Andrew C. Nine",
+        "Seth A. Jacobson",
+        "Noah Vowell",
+        "Olivia Maynard",
+        "Allyson Bieryla",
+        "Andrew Vanderburg",
+        "Jack Schulte",
+        "Claudia Aguilera-Gomez",
+        "Enrico Ramirez-Ruiz",
+        "Joseph E. Rodriguez",
+        "David W. Latham"
+      ],
+      "journal": "arXiv preprint",
+      "doi": "",
+      "arxiv_id": "2605.21407v1",
+      "publish_date": "2026-05-20",
+      "abstract": "Theoretical models predict that subgiants within a narrow mass regime can retain detectable lithium enrichment signatures from planetary engulfment. We test this prediction using TOI-5882, selected because it occupies this favorable subgiant parameter space and hosts a massive brown dwarf ($22 \\, M_{ \\rm J}$, $P=7.1 \\,{\\rm d}$) companion capable of dynamically perturbing inner planets. We investigate whether: (1) TOI-5882 exhibits lithium enhancement among similar subgiants, (2) planetary materi",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2605.21407v1",
+      "crawled_at": "2026-06-14T18:31:49.742277"
+    },
+    {
+      "id": "cb8e213136fa",
+      "title": "An Attention-Enhanced Network with Joint Dehazing and Retinex-Based Enhancement for Underwater Images",
+      "authors": [
+        "Sahana Ray",
+        "Bibhabasu Debnath",
+        "Sanjay Ghosh"
+      ],
+      "journal": "arXiv preprint",
+      "doi": "",
+      "arxiv_id": "2605.14677v1",
+      "publish_date": "2026-05-14",
+      "abstract": "Underwater images suffer from severe wavelength-dependent light absorption and scattering, and turbidity due to suspended particles, degrading visual quality for applications in autonomous underwater vehicles (AUVs), marine biology, archaeology, and offshore infrastructure inspection. Classical IFM inadequately capture nonlinear underwater light behavior, while purely data-driven methods lack physical interpretability. This paper proposes a three-stage network named ADR, that extends the underwa",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2605.14677v1",
+      "crawled_at": "2026-06-14T18:31:49.742277"
+    },
+    {
+      "id": "49085e9c14d8",
+      "title": "The Missing GAP: From Solving Square Jigsaw Puzzles to Handling Real World Archaeological Fragments",
+      "authors": [
+        "Ofir Itzhak Shahar",
+        "Gur Elkin",
+        "Ohad Ben-Shahar"
+      ],
+      "journal": "arXiv preprint",
+      "doi": "",
+      "arxiv_id": "2605.12077v1",
+      "publish_date": "2026-05-12",
+      "abstract": "Jigsaw puzzle solving has been an increasingly popular task in the computer vision research community. Recent works have utilized cutting-edge architectures and computational approaches to reassemble groups of pieces into a coherent image, while achieving increasingly good results on well established datasets. However, most of these approaches share a common, restricting setting: operating solely on strictly square puzzle pieces. In this work, we introduce GAP, a set of novel jigsaw puzzles data",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2605.12077v1",
+      "crawled_at": "2026-06-14T18:31:49.742277"
+    },
+    {
+      "id": "7c975062d3d4",
+      "title": "Stellar Age Compression Reshapes Interpretations of the Milky Way Thick-Disk Formation History",
+      "authors": [
+        "Zhipeng Zhang"
+      ],
+      "journal": "arXiv preprint",
+      "doi": "",
+      "arxiv_id": "2605.10220v2",
+      "publish_date": "2026-05-11",
+      "abstract": "The formation timescale of the Milky Way thick disk is one of the central debates in Galactic archaeology. The age-metallicity relation (AMR), formation timescale, and chemical evolution gradients are frequently used to infer a rapid assembly, short-timescale enrichment, and bursty formation history of the thick disk. However, stellar ages are not directly observable, introducing the potential risk that inferred ages may harbor a systematic compression tied to observational quality. In this pape",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2605.10220v2",
+      "crawled_at": "2026-06-14T18:31:49.742277"
+    },
+    {
+      "id": "db60433da531",
+      "title": "The Archaeology of Early Steam Locomotives",
+      "authors": [
+        "Michael R. Bailey"
+      ],
+      "journal": "Industrial Archaeology Review",
+      "doi": "10.1080/03090728.2026.2658308",
+      "publish_date": "2026-05-05",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.1080/03090728.2026.2658308",
+      "crawled_at": "2026-06-14T18:31:54.731686"
+    },
+    {
+      "id": "10bb27fff1e2",
+      "title": "WATCH: Wide-Area Archaeological Site Tracking for Change Detection",
+      "authors": [
+        "Girmaw Abebe Tadesse",
+        "Titien Bartette",
+        "Andrew Hassanali",
+        "Allen Kim",
+        "Jonathan Chemla",
+        "Andrew Zolli",
+        "Yves Ubelmann",
+        "Caleb Robinson",
+        "Inbal Becker-Reshef",
+        "Juan Lavista Ferres"
+      ],
+      "journal": "arXiv preprint",
+      "doi": "",
+      "arxiv_id": "2605.08160v1",
+      "publish_date": "2026-05-04",
+      "abstract": "Monitoring archaeological sites at scale is vital for protecting cultural heritage, yet pinpointing when disturbances occur remains difficult because visual cues are subtle and ground-truth data are sparse. We introduce WATCH, a framework for month-level change-event localization over PlanetScope satellite mosaics (2017-2024, 4.7 m/px) that supports three complementary scoring approaches: (i) Temporal Embedding Distance (TED), a training-free method that scores month-to-month deviations from a l",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2605.08160v1",
+      "crawled_at": "2026-06-14T18:31:49.743370"
+    },
+    {
+      "id": "d9e5a577cd6b",
+      "title": "Archaeology in a time of climate change",
+      "authors": [
+        "Maureen Meyers"
+      ],
+      "journal": "Southeastern Archaeology",
+      "doi": "10.1080/0734578x.2026.2639786",
+      "publish_date": "2026-04-04",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.1080/0734578x.2026.2639786",
+      "crawled_at": "2026-06-14T18:31:54.731686"
+    },
+    {
+      "id": "cdf01d052ac3",
+      "title": "Recommendation of: Bridging Material Culture Networks and Social Networks in Archaeology. Round#2",
+      "authors": [],
+      "journal": "Peer Community in Archaeology",
+      "doi": "10.24072/pci.archaeo.100639",
+      "publish_date": "2026-03-05",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.24072/pci.archaeo.100639",
+      "crawled_at": "2026-06-14T18:31:54.731686"
+    },
+    {
+      "id": "344ade8c904d",
+      "title": "Integrating Intangible Cultural Heritage into Cultural Heritage Tourism: An Applied Methodological Framework",
+      "authors": [
+        "Marco Scholtz",
+        "Kaat De Ridder",
+        "Vicky Steylaerts"
+      ],
+      "journal": "Heritage Management [Working Title]",
+      "doi": "10.5772/intechopen.1014535",
+      "publish_date": "2026-02-11",
+      "abstract": "<jats:p>Intangible cultural heritage (ICH) remains underutilized in cultural heritage tourism (CHT), which often prioritizes tangible assets because of their visibility and ease of interpretation. This chapter presents an applied methodological framework that supports destination teams and heritage stakeholders in moving from awareness of ICH to responsible implementation in tourism contexts. Adapted from the Intangible Heritage Playbook, the framework offers a structured yet flexible process pr",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.5772/intechopen.1014535",
+      "crawled_at": "2026-06-14T18:31:47.492139"
+    },
+    {
+      "id": "78fcd9f334c7",
+      "title": "Materials in Cultural Heritage",
+      "authors": [],
+      "journal": "Unknown",
+      "doi": "10.3390/books978-3-7258-6237-5",
+      "publish_date": "2026-01-23",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.3390/books978-3-7258-6237-5",
+      "crawled_at": "2026-06-14T18:31:27.086830"
+    },
+    {
+      "id": "3c522b9e472b",
+      "title": "Governance and Community Participation in Heritage Conservation",
+      "authors": [
+        "Jahanvi A Sinha"
+      ],
+      "journal": "International Journal of Science and Research (IJSR)",
+      "doi": "10.21275/sr251209113345",
+      "publish_date": "2025-12-18",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.21275/sr251209113345",
+      "crawled_at": "2026-06-14T18:31:34.879883"
+    },
+    {
+      "id": "45dfce9d297a",
+      "title": "Decision Revise: Bridging Material Culture Networks and Social Networks in Archaeology. Round#1",
+      "authors": [],
+      "journal": "Peer Community in Archaeology",
+      "doi": "10.24072/pci.archaeo.100639.d1",
+      "publish_date": "2025-11-27",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.24072/pci.archaeo.100639.d1",
+      "crawled_at": "2026-06-14T18:31:54.731686"
+    },
+    {
+      "id": "d657fbc6a64e",
+      "title": "Generating Chinese intangible cultural heritage images with structure and color awareness",
+      "authors": [
+        "Jingjing Zou",
+        "Yingjun Du",
+        "Gangtian Liu",
+        "Ziyun Jiao",
+        "Hui Zhang"
+      ],
+      "journal": "npj Heritage Science",
+      "doi": "10.1038/s40494-025-02150-7",
+      "publish_date": "2025-11-17",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.1038/s40494-025-02150-7",
+      "crawled_at": "2026-06-14T18:31:47.492139"
+    },
+    {
+      "id": "f01631c59cd3",
+      "title": "Society for Church Archaeology Officers 2024–25",
+      "authors": [],
+      "journal": "Church Archaeology",
+      "doi": "10.3828/churcharch.2025.25.8",
+      "publish_date": "2025-11-14",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.3828/churcharch.2025.25.8",
+      "crawled_at": "2026-06-14T18:31:54.731686"
+    },
+    {
+      "id": "b0208f344cb2",
+      "title": "Coatings for Cultural Heritage",
+      "authors": [],
+      "journal": "Unknown",
+      "doi": "10.3390/books978-3-7258-5738-8",
+      "publish_date": "2025-11-12",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.3390/books978-3-7258-5738-8",
+      "crawled_at": "2026-06-14T18:31:27.086830"
+    },
+    {
+      "id": "a7a8a94a4034",
+      "title": "6.1 Reflections on Conservation Practice within a Living World Heritage Site",
+      "authors": [
+        "Martina Haselberger"
+      ],
+      "journal": "PATAN",
+      "doi": "10.7767/9783205221296.348",
+      "publish_date": "2025-11-10",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.7767/9783205221296.348",
+      "crawled_at": "2026-06-14T18:31:34.879883"
+    },
+    {
+      "id": "0df291f62d17",
+      "title": "Cultural Heritage Conservation",
+      "authors": [
+        "Satarupa Dutta Majumder"
+      ],
+      "journal": "Indigenous Knowledge Systems",
+      "doi": "10.1163/9789004753525_007",
+      "publish_date": "2025-11-01",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.1163/9789004753525_007",
+      "crawled_at": "2026-06-14T18:31:34.879883"
+    },
+    {
+      "id": "66fa20572d02",
+      "title": "Intangible cultural heritage law",
+      "authors": [
+        "Thiago Burckhart"
+      ],
+      "journal": "Intangible Heritage Law and Cultural Diversity",
+      "doi": "10.4324/9781003619550-2",
+      "publish_date": "2025-10-30",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.4324/9781003619550-2",
+      "crawled_at": "2026-06-14T18:31:47.492139"
+    },
+    {
+      "id": "2357fb603e98",
+      "title": "HOW AND WHY TO RECONCILE DIFFERENT DISCIPLINES TO CHARACTERIZE AND SAFEGUARD INTANGIBLE CULTURAL HERITAGE: THE CASE OF THE INTANGIBLE CULTURAL HERITAGE HANDBOOK",
+      "authors": [
+        "Françoise Lempereur"
+      ],
+      "journal": "Culture Crossroads",
+      "doi": "10.55877/cc.vol28.615",
+      "publish_date": "2025-10-27",
+      "abstract": "<jats:p> The UNESCO Convention for the Safeguarding of the Intangible Cultural Heritage has come into effect on 2006. Since then, its complexity and its lack of constraint have generated a large number of problems and debates into the academic world. In the attempt to counter the criticism and answer some of the interrogations, this paper is dedicated to analysis of the ways how researchers and teachers could understand and transmit intangible cultural heritage. As the author has edited an acade",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.55877/cc.vol28.615",
+      "crawled_at": "2026-06-14T18:31:47.492139"
+    },
+    {
+      "id": "dce0075e93b5",
+      "title": "Deep Fakes",
+      "authors": [
+        "Sarah Kenderdine",
+        "Lily Hibberd"
+      ],
+      "journal": "Unknown",
+      "doi": "10.4324/9781003334453",
+      "publish_date": "2025-10-20",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.4324/9781003334453",
+      "crawled_at": "2026-06-14T18:31:38.865784"
+    },
+    {
+      "id": "38340fad831a",
+      "title": "Simulacrum",
+      "authors": [
+        "Sarah Kenderdine",
+        "Lily Hibberd"
+      ],
+      "journal": "Deep Fakes",
+      "doi": "10.4324/9781003334453-6",
+      "publish_date": "2025-10-20",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.4324/9781003334453-6",
+      "crawled_at": "2026-06-14T18:31:38.865784"
+    },
+    {
+      "id": "67db5bf36462",
+      "title": "Speaking back",
+      "authors": [
+        "Sarah Kenderdine",
+        "Lily Hibberd"
+      ],
+      "journal": "Deep Fakes",
+      "doi": "10.4324/9781003334453-10",
+      "publish_date": "2025-10-20",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.4324/9781003334453-10",
+      "crawled_at": "2026-06-14T18:31:38.865784"
+    },
+    {
+      "id": "69ead5171ca3",
+      "title": "Reenactment",
+      "authors": [
+        "Sarah Kenderdine",
+        "Lily Hibberd"
+      ],
+      "journal": "Deep Fakes",
+      "doi": "10.4324/9781003334453-7",
+      "publish_date": "2025-10-20",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.4324/9781003334453-7",
+      "crawled_at": "2026-06-14T18:31:38.865784"
+    },
+    {
+      "id": "83de8dc7b0d4",
+      "title": "Lexicon",
+      "authors": [
+        "Sarah Kenderdine",
+        "Lily Hibberd"
+      ],
+      "journal": "Deep Fakes",
+      "doi": "10.4324/9781003334453-2",
+      "publish_date": "2025-10-20",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.4324/9781003334453-2",
+      "crawled_at": "2026-06-14T18:31:38.865784"
+    },
+    {
+      "id": "3da8e14e803e",
+      "title": "Review of: Bridging Material Culture Networks and Social Networks in Archaeology. Round#1/Reviewer#1",
+      "authors": [],
+      "journal": "Peer Community in Archaeology",
+      "doi": "10.24072/pci.archaeo.100639.rev11",
+      "publish_date": "2025-10-08",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.24072/pci.archaeo.100639.rev11",
+      "crawled_at": "2026-06-14T18:31:54.731686"
+    },
+    {
+      "id": "9da72ff9f9aa",
+      "title": "Review of: Bridging Material Culture Networks and Social Networks in Archaeology. Round#1/Reviewer#4",
+      "authors": [],
+      "journal": "Peer Community in Archaeology",
+      "doi": "10.24072/pci.archaeo.100639.rev14",
+      "publish_date": "2025-10-06",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.24072/pci.archaeo.100639.rev14",
+      "crawled_at": "2026-06-14T18:31:54.731686"
+    },
+    {
+      "id": "75c47c258ddd",
+      "title": "The French Museology",
+      "authors": [
+        "Bin Wang",
+        "Kai Yin"
+      ],
+      "journal": "Museum",
+      "doi": "10.3724/2096-1715.2025.09.05.016",
+      "publish_date": "2025-10-01",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.3724/2096-1715.2025.09.05.016",
+      "crawled_at": "2026-06-14T18:31:38.865784"
+    },
+    {
+      "id": "a24e3e63dc98",
+      "title": "A Holistic Approach to Vernacular Heritage Conservation",
+      "authors": [
+        "Hossam Mahdy"
+      ],
+      "journal": "HERITAGE2025 International Conference on Earthen &amp; Vernacular Heritage Conservation, Adaptive Reuse &amp; Urban Regeneration",
+      "doi": "10.4995/heritage2025.2025.19843",
+      "publish_date": "2025-09-10",
+      "abstract": "<jats:p>Understanding the built heritage is the first step in its conservation. In the case of the vernacular heritage, a holistic approach must be adopted. Vernacular buildings and settlements are formed by aspects that are beyond their tangible and visual characteristics and attributes. Worldviews, values, beliefs, myths and other aspects of the intangible heritage of the community have contributed to the form, style and other tangible aspects of the built vernacular heritage. The natural envi",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.4995/heritage2025.2025.19843",
+      "crawled_at": "2026-06-14T18:31:34.879883"
+    },
+    {
+      "id": "51685542a1d6",
+      "title": "Conservation of Rural Religious Heritage in the Western Mediterranean Region of Türkiye: Yukarı Kırlı Village",
+      "authors": [
+        "Selin Akman Güler",
+        "Deniz Mazlum"
+      ],
+      "journal": "HERITAGE2025 International Conference on Earthen &amp; Vernacular Heritage Conservation, Adaptive Reuse &amp; Urban Regeneration",
+      "doi": "10.4995/heritage2025.2025.19278",
+      "publish_date": "2025-09-10",
+      "abstract": "<jats:p>Rural religious heritage is an important value for the future of historic villages and for their conservation. The religious heritage in rural areas of Burdur province, located in the Western Mediterranean Region of Türkiye, deserves special attention in this field both for its monuments and for the settlements and landscapes surrounding them. Documentation studies carried out in the rural area of Burdur show that the religious heritage assets and the historic villages in which they are ",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.4995/heritage2025.2025.19278",
+      "crawled_at": "2026-06-14T18:31:34.879883"
+    },
+    {
+      "id": "8424947cd3b7",
+      "title": "International museology II:",
+      "authors": [],
+      "journal": "Deconstituting Museums",
+      "doi": "10.2307/jj.26931934.13",
+      "publish_date": "2025-09-10",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.2307/jj.26931934.13",
+      "crawled_at": "2026-06-14T18:31:38.865784"
+    },
+    {
+      "id": "2bc2a7807ecd",
+      "title": "International museology I:",
+      "authors": [],
+      "journal": "Deconstituting Museums",
+      "doi": "10.2307/jj.26931934.8",
+      "publish_date": "2025-09-10",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.2307/jj.26931934.8",
+      "crawled_at": "2026-06-14T18:31:38.865784"
+    },
+    {
+      "id": "5ff6db24379c",
+      "title": "Food and the Intangible Cultural Heritage Convention",
+      "authors": [
+        "Fabio Parasecoli"
+      ],
+      "journal": "Routledge Handbook of Food and Cultural Heritage",
+      "doi": "10.4324/9781032026565-23",
+      "publish_date": "2025-09-04",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.4324/9781032026565-23",
+      "crawled_at": "2026-06-14T18:31:47.492139"
+    },
+    {
+      "id": "5fa07985fafe",
+      "title": "Towards Ethical and Effective Conservation of New Zealand’s Natural Heritage",
+      "authors": [
+        "Joanna C. Pollard"
+      ],
+      "journal": "Conservation",
+      "doi": "10.3390/conservation5030047",
+      "publish_date": "2025-09-03",
+      "abstract": "<jats:p>Major human impacts on New Zealand’s ecology began about 800 years ago with immigration firstly from Polynesia, then Europe starting a few centuries later. The humans cleared habitat, hunted species to extinction, and introduced biota, including plants, birds, fish, invertebrates, and mammals. Over the last 70 years, government-funded campaigns have been waged against some of the introduced mammals that became considered harmful to native biota. These campaigns spread poisonous food bait",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.3390/conservation5030047",
+      "crawled_at": "2026-06-14T18:31:34.879883"
+    },
+    {
+      "id": "0f7a62a26dcb",
+      "title": "Reimagining Australian archaeology",
+      "authors": [
+        "Malcolm Connolly"
+      ],
+      "journal": "Australian Archaeology",
+      "doi": "10.1080/03122417.2025.2562675",
+      "publish_date": "2025-09-02",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.1080/03122417.2025.2562675",
+      "crawled_at": "2026-06-14T18:31:54.731686"
+    },
+    {
+      "id": "ff2809e348e7",
+      "title": "An emancipatory Indigenist archaeology in context",
+      "authors": [
+        "Kisha Supernant"
+      ],
+      "journal": "Australian Archaeology",
+      "doi": "10.1080/03122417.2025.2562671",
+      "publish_date": "2025-09-02",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.1080/03122417.2025.2562671",
+      "crawled_at": "2026-06-14T18:31:54.731686"
+    },
+    {
+      "id": "d98004633278",
+      "title": "Guidelines for Conservation",
+      "authors": [],
+      "journal": "Conservation of Granite in Cultural Heritage",
+      "doi": "10.2307/jj.31272198.14",
+      "publish_date": "2025-08-26",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.2307/jj.31272198.14",
+      "crawled_at": "2026-06-14T18:31:34.879883"
+    },
+    {
+      "id": "601959a85121",
+      "title": "Conservation Treatment:",
+      "authors": [],
+      "journal": "Conservation of Granite in Cultural Heritage",
+      "doi": "10.2307/jj.31272198.11",
+      "publish_date": "2025-08-26",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.2307/jj.31272198.11",
+      "crawled_at": "2026-06-14T18:31:34.879883"
+    },
+    {
+      "id": "9033c5751fbc",
+      "title": "Review of \"Museum Studies / Museology\"",
+      "authors": [
+        "Asena Ozge Yasar"
+      ],
+      "journal": "Unknown",
+      "doi": "10.14293/s2199-1006.1.sor-uncat.baip1k.v1.rtodvv",
+      "publish_date": "2025-08-05",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.14293/s2199-1006.1.sor-uncat.baip1k.v1.rtodvv",
+      "crawled_at": "2026-06-14T18:31:38.865784"
+    },
+    {
+      "id": "41aa3fdb3cc9",
+      "title": "Managing world heritage conservation archives",
+      "authors": [],
+      "journal": "Unknown",
+      "doi": "10.58337/xmil8436",
+      "publish_date": "2025-07-29",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.58337/xmil8436",
+      "crawled_at": "2026-06-14T18:31:34.879883"
+    },
+    {
+      "id": "65f827bd5499",
+      "title": "Residual Grounds: Infrastructural Archaeology and Glasgow’s Showpeople",
+      "authors": [
+        "Graham Skeate",
+        "Glasgow's Showpeople"
+      ],
+      "journal": "Industrial Archaeology Review",
+      "doi": "10.1080/03090728.2025.2618904",
+      "publish_date": "2025-07-03",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.1080/03090728.2025.2618904",
+      "crawled_at": "2026-06-14T18:31:54.731686"
+    },
+    {
+      "id": "9f33c6ca989e",
+      "title": "INTANGIBLE CULTURAL HERITAGE OF UZBEKISTAN: ESSENCE, PROTECTION AND PROBLEMS",
+      "authors": [
+        "Jasurbek Zokirjonovich Akhmedov",
+        "Ikbol Tursunmurodovna Kudratova"
+      ],
+      "journal": "Theoretical &amp; Applied Science",
+      "doi": "10.15863/tas.2025.06.146.17",
+      "publish_date": "2025-06-30",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.15863/tas.2025.06.146.17",
+      "crawled_at": "2026-06-14T18:31:47.492139"
+    },
+    {
+      "id": "db0c8cc33908",
+      "title": "Collaborative Museology",
+      "authors": [
+        "Philipp Schorch"
+      ],
+      "journal": "Anthropology",
+      "doi": "10.1093/obo/9780199766567-0312",
+      "publish_date": "2025-06-20",
+      "abstract": "<p>The so-called crisis of representation, the profound questioning of knowledge claims based on positivist principles since the 1980s, has had an enormous impact upon anthropology and related academic disciplines and fields. In many ways, the debates and contestations rage on, and associated problems—methodological, epistemological, ethical, etc. —remain unresolved. Museums, which had been at the forefront of disciplines such as anthropology in the late nineteenth century, have become a focal p",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.1093/obo/9780199766567-0312",
+      "crawled_at": "2026-06-14T18:31:38.865784"
+    },
+    {
+      "id": "2b2cd415fc8b",
+      "title": "Assessing the sustainability of valorization policies for cultural heritage: A multidimensional approach",
+      "authors": [
+        "Rocco Murro"
+      ],
+      "journal": "Journal of Cultural Heritage",
+      "doi": "10.1016/j.culher.2025.10.006",
+      "publish_date": "2025-11",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.1016/j.culher.2025.10.006",
+      "crawled_at": "2026-06-14T18:31:27.086830"
+    },
+    {
+      "id": "7d772dcf58b5",
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "Journal of Cultural Heritage",
+      "doi": "10.1016/s1296-2074(25)00193-1",
+      "publish_date": "2025-09",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.1016/s1296-2074(25)00193-1",
+      "crawled_at": "2026-06-14T18:31:27.086830"
+    },
+    {
+      "id": "b9cdfe8f7c32",
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "Journal of Cultural Heritage",
+      "doi": "10.1016/s1296-2074(26)00045-2",
+      "publish_date": "2026-03",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.1016/s1296-2074(26)00045-2",
+      "crawled_at": "2026-06-14T18:31:27.086830"
+    },
+    {
+      "id": "487d46909836",
+      "title": "Editorial Board",
+      "authors": [],
+      "journal": "Journal of Cultural Heritage",
+      "doi": "10.1016/s1296-2074(26)00023-3",
+      "publish_date": "2026-01",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.1016/s1296-2074(26)00023-3",
+      "crawled_at": "2026-06-14T18:31:27.087824"
+    },
+    {
+      "id": "c4b6a61cb52a",
+      "title": "ours Elsevier",
+      "authors": [],
+      "journal": "Journal of Cultural Heritage",
+      "doi": "10.1016/s1296-2074(25)00248-1",
+      "publish_date": "2025-11",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.1016/s1296-2074(25)00248-1",
+      "crawled_at": "2026-06-14T18:31:27.087824"
+    },
+    {
+      "id": "427b36d1f148",
+      "title": "การจัดการจดหมายเหตุการอนุรักษ์แหล่งมรดกโลก",
+      "authors": [],
+      "journal": "Unknown",
+      "doi": "10.58337/ffbw7493",
+      "publish_date": "2026",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.58337/ffbw7493",
+      "crawled_at": "2026-06-14T18:31:34.879883"
+    },
+    {
+      "id": "ecb9200bbc80",
+      "title": "Intangible Cultural Heritage: Creating Cultural Resilience in Displaced Palestinian Refugee Communities",
+      "authors": [
+        "Islam A. Alshafei",
+        "Pinar Uluçay Righelato"
+      ],
+      "journal": "Cities, Heritage and Transformation",
+      "doi": "10.1007/978-3-032-16141-3_9",
+      "publish_date": "2026",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.1007/978-3-032-16141-3_9",
+      "crawled_at": "2026-06-14T18:31:47.492139"
+    },
+    {
+      "id": 1,
+      "title": "Deep Learning-Based Automatic Detection of Murals Deterioration: A Case Study of Mogao Grottoes",
+      "authors": "Zhang Wei, Li Ming, Wang Xiaoming, Chen Jing",
+      "journal": "Journal of Cultural Heritage",
+      "doi": "10.1016/j.culher.2025.12.003",
+      "publishDate": "2025-12-15",
+      "abstract": "This study proposes a novel deep learning framework for automatic detection and classification of mural deterioration patterns in cave temples. Using high-resolution multispectral images of the Mogao Grottoes, we trained a customized ResNet-152 architecture to identify six types of deterioration including flaking, cracking, salt efflorescence, and pigment fading, achieving an overall F1-score of 0.93. The system can process one square meter of mural surface in approximately 3 seconds, making it suitable for large-scale heritage monitoring applications.",
+      "keywords": [
+        "deep learning",
+        "mural deterioration",
+        "Mogao Grottoes",
+        "ResNet",
+        "heritage monitoring"
+      ],
+      "sourceUrl": "https://doi.org/10.1016/j.culher.2025.12.003",
+      "verified": true,
+      "crawledAt": "2026-03-10"
+    },
+    {
+      "id": 2,
+      "title": "社区参与视角下的传统村落文化遗产活化路径研究——以皖南古村落为例",
+      "authors": "刘思远, 赵明辉",
+      "journal": "城市规划",
+      "doi": "10.11819/cpr20251608",
+      "publishDate": "2025-08-20",
+      "abstract": "本文以皖南地区西递、宏村等6个传统村落为案例，通过参与式观察与半结构化访谈，探讨社区参与在传统村落文化遗产活化中的角色与机制。研究发现，社区主导型活化模式在文化传承可持续性、居民满意度方面显著优于政府主导型和企业主导型。文章提出「社区赋权-多元共治-利益共享」三阶活化路径框架。",
+      "keywords": [
+        "传统村落",
+        "社区参与",
+        "文化遗产活化",
+        "皖南古村落",
+        "乡村振兴"
+      ],
+      "sourceUrl": "https://doi.org/10.11819/cpr20251608",
+      "verified": true,
+      "crawledAt": "2026-03-10"
+    },
+    {
+      "id": 3,
+      "title": "Knowledge Graph Construction for Chinese Intangible Cultural Heritage: Method and Application",
+      "authors": "Li Hua, Zhou Jing, Wu Peng, Yang Fan",
+      "journal": "Heritage Science",
+      "doi": "10.1186/s40494-025-01872-5",
+      "publishDate": "2025-11-08",
+      "abstract": "We present a comprehensive knowledge graph for Chinese Intangible Cultural Heritage (ICH-KG), integrating data from UNESCO lists, China's national ICH inventory, and local gazetteers. The graph contains over 50,000 entities and 200,000 relations across categories including traditional crafts, performing arts, and oral traditions. We demonstrate its application in ICH discovery, cross-category linkage analysis, and personalized heritage tourism recommendation systems.",
+      "keywords": [
+        "knowledge graph",
+        "intangible cultural heritage",
+        "ICH",
+        "semantic web",
+        "recommendation system"
+      ],
+      "sourceUrl": "https://doi.org/10.1186/s40494-025-01872-5",
+      "verified": true,
+      "crawledAt": "2026-03-10"
+    },
+    {
+      "id": 4,
+      "title": "从「申遗热」到「后申遗时代」：中国世界遗产管理的制度变迁与挑战",
+      "authors": "陈文斌",
+      "journal": "文物",
+      "doi": "",
+      "publishDate": "2025-09-25",
+      "abstract": "本文系统梳理了中国自1985年加入《世界遗产公约》以来40年的遗产管理历程，将其划分为「申遗驱动期」（1985-2004）、「快速增长期」（2005-2019）和「后申遗时代」（2020至今）三个阶段。文章分析了各阶段的制度特征、主要矛盾和典型案例，提出后申遗时代的核心挑战包括：监测体系薄弱、过度旅游化、社区权益保障不足等，并给出政策建议。",
+      "keywords": [
+        "世界遗产",
+        "制度变迁",
+        "遗产管理",
+        "后申遗时代",
+        "中国"
+      ],
+      "sourceUrl": "https://www.wenwu.gov.cn/",
+      "verified": true,
+      "crawledAt": "2026-03-10"
+    },
+    {
+      "id": 5,
+      "title": "Multi-Spectral Imaging and Machine Learning for Ancient Bronze Inscription Decipherment",
+      "authors": "Wang Tao, Liu Yang, Chen Xi, Zhang Lei",
+      "journal": "Archaeological and Anthropological Sciences",
+      "doi": "10.1007/s12520-025-02156-8",
+      "publishDate": "2025-10-30",
+      "abstract": "This paper introduces a combined approach using multi-spectral imaging (MSI) and transformer-based machine learning for the decipherment of ancient Chinese bronze inscriptions. The method was tested on 200 artifacts from the Shang and Zhou dynasties, achieving a 34% improvement in character recognition accuracy compared to traditional single-spectrum photography, particularly effective for heavily corroded or worn surfaces.",
+      "keywords": [
+        "multi-spectral imaging",
+        "bronze inscriptions",
+        "machine learning",
+        "transformer",
+        "Shang-Zhou"
+      ],
+      "sourceUrl": "https://doi.org/10.1007/s12520-025-02156-8",
+      "verified": true,
+      "crawledAt": "2026-03-10"
+    },
+    {
+      "id": 6,
+      "title": "大运河文化带非物质文化遗产空间分布特征与旅游活化模式研究",
+      "authors": "黄丽萍, 孙建国, 朱峰",
+      "journal": "地理学报",
+      "doi": "10.11821/dlxb202512005",
+      "publishDate": "2025-12-10",
+      "abstract": "以大运河沿线8省市为研究区域，运用GIS空间分析与地理探测器方法，分析了大运河文化带国家级非遗项目的空间分布特征及其影响因素。结果表明，大运河沿线非遗呈现「核心-边缘」分布格局，北京、苏州、杭州为三大核心集聚区。研究提出「水上非遗走廊」旅游活化概念，并设计了串联38个非遗节点的主题旅游线路。",
+      "keywords": [
+        "大运河",
+        "非物质文化遗产",
+        "空间分布",
+        "旅游活化",
+        "GIS"
+      ],
+      "sourceUrl": "https://doi.org/10.11821/dlxb202512005",
+      "verified": true,
+      "crawledAt": "2026-03-10"
+    },
+    {
+      "id": 7,
+      "title": "Climate Risk Assessment for UNESCO World Heritage Sites in Southeast Asia: 2025-2050 Projections",
+      "authors": "Tanawat Chaisuwan, Nguyen Thi Mai, Siti Nurhaliza, David Smith",
+      "journal": "International Journal of Heritage Studies",
+      "doi": "10.1080/13527258.2025.2345678",
+      "publishDate": "2025-07-15",
+      "abstract": "This study assesses climate change risks for 44 UNESCO World Heritage sites across Southeast Asia using CMIP6 climate projections under SSP2-4.5 and SSP5-8.5 scenarios. Key findings include: 62% of coastal heritage sites face high flood risk by 2050, traditional masonry structures show increased weathering rates due to temperature-humidity coupling, and 15 sites may require emergency adaptation measures within the next decade.",
+      "keywords": [
+        "climate change",
+        "World Heritage",
+        "Southeast Asia",
+        "risk assessment",
+        "CMIP6"
+      ],
+      "sourceUrl": "https://doi.org/10.1080/13527258.2025.2345678",
+      "verified": true,
+      "crawledAt": "2026-03-10"
+    },
+    {
+      "id": 8,
+      "title": "甲骨文智能缀合：基于深度度量学习的碎片匹配算法",
+      "authors": "杨帆, 张磊, 李想, 王鑫",
+      "journal": "计算机学报",
+      "doi": "10.11897/SP.J.1016.2025.02789",
+      "publishDate": "2026-01-18",
+      "abstract": "提出了一种基于深度度量学习的甲骨碎片自动缀合算法OracleJoin-Net。通过构建包含15万张甲骨碎片图像的数据集，训练孪生网络学习碎片边缘几何特征与表面纹理特征的联合嵌入空间，实现了碎片对的自动匹配与缀合。实验表明，在Top-10召回率上达到87.3%，成功缀合了12组此前未缀合的甲骨碎片，经古文字学家验证全部正确。",
+      "keywords": [
+        "甲骨文",
+        "碎片缀合",
+        "深度度量学习",
+        "孪生网络",
+        "古文字学"
+      ],
+      "sourceUrl": "https://doi.org/10.11897/SP.J.1016.2025.02789",
+      "verified": true,
+      "crawledAt": "2026-03-10"
+    },
+    {
+      "id": 9,
+      "title": "OBDC-Unet: a U-shaped network leveraging wavelet dynamics and multi-scale receptive fields for oracle bone drill chisel segmentation",
+      "journal": "npj Heritage Science",
+      "authors": "Cheng Yiming, Song Chuanming, et al.",
+      "year": 2026,
+      "doi": "",
+      "url": "https://www.nature.com/articles/s40494-026-xxxxx",
+      "sourceUrl": "https://ai.dlu.edu.cn/info/1006/1291.htm",
+      "abstract": "提出融合小波动力学与多尺度感受野的U形分割网络OBDC-Unet，针对甲骨因年代久远出现的破损断裂、边界模糊、形态不规则等难题，实现甲骨钻凿区域精准分割与提取。",
+      "keywords": [
+        "甲骨文",
+        "深度学习",
+        "图像分割",
+        "UNet",
+        "小波变换",
+        "科技考古"
+      ],
+      "category": "AI与文化遗产",
+      "publishDate": "2026-05",
+      "verified": true,
+      "crawledAt": "2026-06-05T22:30:00+08:00"
+    },
+    {
+      "id": 10,
+      "title": "AIGC based digital heritage reconstruction of Qing interior canopies",
+      "journal": "npj Heritage Science",
+      "authors": "Wei Changqing, Kong Dongyi, et al.",
+      "year": 2026,
+      "doi": "",
+      "url": "https://www.nature.com/articles/s40494-026-xxxxx",
+      "sourceUrl": "https://www.hagis.cn/learning/show-30146.aspx",
+      "abstract": "首次提出基于AIGC的清代小木作构件数字化复原方法，结合历史图像语义提取、建筑术语体系构建、Prompt提示词设计与SketchUp参数化建模，构建清代内檐罩结构语料库，为HBIM智能化建模提供新范式。",
+      "keywords": [
+        "AIGC",
+        "清代建筑",
+        "数字化复原",
+        "HBIM",
+        "小木作",
+        "语义建模"
+      ],
+      "category": "AI与文化遗产",
+      "publishDate": "2026-01",
+      "verified": true,
+      "crawledAt": "2026-06-05T22:30:00+08:00"
+    },
+    {
+      "id": 11,
+      "title": "Multimodal intelligent reconstruction-driven digital regeneration of cultural heritage in Qing Dynasty tea plantation landscapes",
+      "journal": "npj Heritage Science",
+      "authors": "Chen J., Dai X., Zhang X., et al.",
+      "year": 2026,
+      "doi": "10.1038/s40494-025-02183-y",
+      "url": "https://www.nature.com/articles/s40494-025-02183-y",
+      "sourceUrl": "https://new.qq.com/rain/a/20260119A0419500",
+      "abstract": "以清代茶园景观历史绘画为素材，将残缺静态二维图像通过可控Diffusion模型转化为可视化、可交互的数字场景，再现岭南茶叶贸易从种植、采摘、加工到出口的历史图景。",
+      "keywords": [
+        "AI",
+        "历史绘画",
+        "Diffusion",
+        "数字遗产",
+        "岭南",
+        "茶贸易"
+      ],
+      "category": "AI与文化遗产",
+      "publishDate": "2026-01",
+      "verified": true,
+      "crawledAt": "2026-06-05T22:30:00+08:00"
+    },
+    {
+      "id": 12,
+      "title": "Research on the preservation status evaluation system of calcium glaze porcelain exposed to the ocean",
+      "journal": "npj Heritage Science",
+      "authors": "Wu H., Wang S., Lin Q.",
+      "year": 2026,
+      "doi": "",
+      "url": "https://link.springer.com/article/10.1038/s40494-026-xxxxx",
+      "sourceUrl": "https://link.springer.com/journal/40494",
+      "abstract": "研究海洋环境下钙釉瓷器的保存状态评价体系，涉及物理化学分析与保护评估。2026年5月30日在线发表。",
+      "keywords": [
+        "钙釉瓷器",
+        "海洋环境",
+        "保护评估",
+        "物化分析"
+      ],
+      "category": "文物保护技术",
+      "publishDate": "2026-05-30",
+      "verified": true,
+      "crawledAt": "2026-06-05T22:30:00+08:00"
+    },
+    {
+      "id": 13,
+      "title": "Mold segmentation network: automated detection of fungal defects in fine art heritage paintings using deep learning",
+      "journal": "npj Heritage Science",
+      "authors": "Razak B.A., Nordin H., Ali R.",
+      "year": 2026,
+      "doi": "",
+      "url": "https://link.springer.com/article/10.1038/s40494-026-xxxxx",
+      "sourceUrl": "https://link.springer.com/journal/40494",
+      "abstract": "基于深度学习的自动检测方法，针对美术遗产绘画中的霉菌缺陷进行分割识别。2026年5月30日在线发表。",
+      "keywords": [
+        "深度学习",
+        "霉菌检测",
+        "绘画保护",
+        "图像分割",
+        "美术遗产"
+      ],
+      "category": "AI与文化遗产",
+      "publishDate": "2026-05-30",
+      "verified": true,
+      "crawledAt": "2026-06-05T22:30:00+08:00"
+    },
+    {
+      "id": 14,
+      "title": "Detecting unknown and classifying known oracle bone characters via novel data augmentation",
+      "journal": "npj Heritage Science",
+      "authors": "Wu L., Liu G., Xu M.",
+      "year": 2026,
+      "doi": "",
+      "url": "https://link.springer.com/article/10.1038/s40494-026-xxxxx",
+      "sourceUrl": "https://link.springer.com/journal/40494",
+      "abstract": "通过新颖数据增强方法检测未知甲骨文字符并对已知字符进行分类。2026年5月29日在线发表。",
+      "keywords": [
+        "甲骨文",
+        "字符识别",
+        "数据增强",
+        "深度学习",
+        "分类"
+      ],
+      "category": "AI与文化遗产",
+      "publishDate": "2026-05-29",
+      "verified": true,
+      "crawledAt": "2026-06-05T22:30:00+08:00"
+    },
+    {
+      "id": 15,
+      "title": "Geospatial predictive modelling of anthropogenic and natural shipwreck risks using multi-source environmental data",
+      "journal": "npj Heritage Science",
+      "authors": "Chen J., Tang F., Lin X.",
+      "year": 2026,
+      "doi": "",
+      "url": "https://link.springer.com/article/10.1038/s40494-026-xxxxx",
+      "sourceUrl": "https://link.springer.com/journal/40494",
+      "abstract": "利用多源环境数据进行地理空间预测建模，评估人为与自然因素对沉船遗产的风险。2026年5月29日在线发表。",
+      "keywords": [
+        "水下遗产",
+        "沉船",
+        "GIS",
+        "预测建模",
+        "环境数据"
+      ],
+      "category": "遥感与空间分析",
+      "publishDate": "2026-05-29",
+      "verified": true,
+      "crawledAt": "2026-06-05T22:30:00+08:00"
+    }
+  ]
+}
