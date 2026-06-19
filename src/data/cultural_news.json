@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-06-19T03:56:45.303484",
+    "generated_at": "2026-06-19T22:42:25.035718",
     "category": "news",
-    "total_items": 31,
+    "total_items": 34,
     "freshness_days": 30,
     "sources": {
-      "中国社会科学网": 29,
+      "中国社会科学网": 32,
       "中国文物报": 2
     }
   },
@@ -16,8 +16,8 @@
       "url": "https://cssn.cn/ggzp/",
       "source": "中国社会科学网",
       "category": "考古资讯",
-      "date": "2026-06-18",
-      "crawledAt": "2026-06-18T23:27:29.858330"
+      "date": "2026-06-19",
+      "crawledAt": "2026-06-19T22:42:16.767552"
     },
     {
       "id": "cssn-cb9601fedacf",
@@ -25,8 +25,8 @@
       "url": "https://www.cssn.cn/skgz/bwyc/202606/t20260617_6054395.shtml",
       "source": "中国社会科学网",
       "category": "考古资讯",
-      "date": "2026-06-18",
-      "crawledAt": "2026-06-18T23:27:29.858554"
+      "date": "2026-06-19",
+      "crawledAt": "2026-06-19T22:42:16.767823"
     },
     {
       "id": "cssn-1764c0afc35d",
@@ -34,8 +34,8 @@
       "url": "https://www.cssn.cn/skgz/bwyc/202606/t20260615_6053887.shtml",
       "source": "中国社会科学网",
       "category": "考古资讯",
-      "date": "2026-06-18",
-      "crawledAt": "2026-06-18T23:27:29.858655"
+      "date": "2026-06-19",
+      "crawledAt": "2026-06-19T22:42:16.767942"
     },
     {
       "id": "cssn-201e21ff1ee1",
@@ -43,8 +43,8 @@
       "url": "https://www.cssn.cn/lsx/slcz/202605/t20260528_5993999.shtml",
       "source": "中国社会科学网",
       "category": "考古资讯",
-      "date": "2026-06-18",
-      "crawledAt": "2026-06-18T23:27:29.858761"
+      "date": "2026-06-19",
+      "crawledAt": "2026-06-19T22:42:16.768066"
     },
     {
       "id": "cssn-5f6ef52c8a6d",
@@ -52,8 +52,8 @@
       "url": "https://cssn.cn./202605/t20260519_5991462.shtml",
       "source": "中国社会科学网",
       "category": "考古资讯",
-      "date": "2026-06-18",
-      "crawledAt": "2026-06-18T23:27:29.858852"
+      "date": "2026-06-19",
+      "crawledAt": "2026-06-19T22:42:16.768178"
     },
     {
       "id": "cssn-c638036f4942",
@@ -61,8 +61,8 @@
       "url": "https://cssn.cn../../skgz/bwyc/202605/t20260515_5989864.shtml",
       "source": "中国社会科学网",
       "category": "考古资讯",
-      "date": "2026-06-18",
-      "crawledAt": "2026-06-18T23:27:29.858945"
+      "date": "2026-06-19",
+      "crawledAt": "2026-06-19T22:42:16.768287"
     },
     {
       "id": "cssn-e5360e703969",
@@ -70,8 +70,8 @@
       "url": "https://cssn.cn./202604/t20260414_5980336.shtml",
       "source": "中国社会科学网",
       "category": "考古资讯",
-      "date": "2026-06-18",
-      "crawledAt": "2026-06-18T23:27:29.859073"
+      "date": "2026-06-19",
+      "crawledAt": "2026-06-19T22:42:16.768439"
     },
     {
       "id": "cssn-53ac809fa135",
@@ -79,8 +79,8 @@
       "url": "https://mp.weixin.qq.com/s/d0OVPHA-qq1HpvuthUmzkw",
       "source": "中国社会科学网",
       "category": "考古资讯",
-      "date": "2026-06-18",
-      "crawledAt": "2026-06-18T23:27:29.859130"
+      "date": "2026-06-19",
+      "crawledAt": "2026-06-19T22:42:16.768507"
     },
     {
       "id": "cssn-64747b247b57",
@@ -88,8 +88,8 @@
       "url": "https://mp.weixin.qq.com/s/BVCY_S-rNHcoKaOdO_gU7Q",
       "source": "中国社会科学网",
       "category": "考古资讯",
-      "date": "2026-06-18",
-      "crawledAt": "2026-06-18T23:27:29.859194"
+      "date": "2026-06-19",
+      "crawledAt": "2026-06-19T22:42:16.768572"
     },
     {
       "id": "cssn-7972a9f24438",
@@ -97,8 +97,125 @@
       "url": "https://mp.weixin.qq.com/s/iJjUWekX6G8iqgfAdv-3Vw",
       "source": "中国社会科学网",
       "category": "考古资讯",
-      "date": "2026-06-18",
-      "crawledAt": "2026-06-18T23:27:29.859246"
+      "date": "2026-06-19",
+      "crawledAt": "2026-06-19T22:42:16.768644"
+    },
+    {
+      "id": "cssn-a0664894644a",
+      "title": "神话，是历史的观念",
+      "url": "https://www.cssn.cn/dsskhs/202606/t20260611_6053432.shtml",
+      "source": "中国社会科学网",
+      "category": "考古资讯",
+      "date": "2026-06-19",
+      "crawledAt": "2026-06-19T22:42:16.769103"
+    },
+    {
+      "id": "cssn-370994ff4374",
+      "title": "《回忆郭沫若作品编校集》出版座谈会在",
+      "url": "https://www.cssn.cn/dsskhs/202606/t20260611_6053397.shtml",
+      "source": "中国社会科学网",
+      "category": "考古资讯",
+      "date": "2026-06-19",
+      "crawledAt": "2026-06-19T22:42:16.769165"
+    },
+    {
+      "id": "cssn-df035ade7f1a",
+      "title": "公共交通绿色转型的理论逻辑与实践经验",
+      "url": "https://www.cssn.cn/dsskhs/202606/t20260608_6049306.shtml",
+      "source": "中国社会科学网",
+      "category": "考古资讯",
+      "date": "2026-06-19",
+      "crawledAt": "2026-06-19T22:42:16.769226"
+    },
+    {
+      "id": "cssn-a1f9a5c1bc6e",
+      "title": "跨学科聚焦人工智能多领域应用",
+      "url": "https://www.cssn.cn/skgz/202410/t20241011_5790125.shtml",
+      "source": "中国社会科学网",
+      "category": "考古资讯",
+      "date": "2026-06-19",
+      "crawledAt": "2026-06-19T22:42:16.769299"
+    },
+    {
+      "id": "cssn-8ea67ea86a0d",
+      "title": "“两个结合”与构建中国自主知识体系",
+      "url": "https://www.cssn.cn/skgz/bwyc/202606/t20260618_6054802.shtml",
+      "source": "中国社会科学网",
+      "category": "考古资讯",
+      "date": "2026-06-19",
+      "crawledAt": "2026-06-19T22:42:16.769370"
+    },
+    {
+      "id": "cssn-faa957446d58",
+      "title": "青年学者共探地缘政治学学科建设",
+      "url": "https://www.cssn.cn/skgz/bwyc/202606/t20260619_6055052.shtml",
+      "source": "中国社会科学网",
+      "category": "考古资讯",
+      "date": "2026-06-19",
+      "crawledAt": "2026-06-19T22:42:16.769442"
+    },
+    {
+      "id": "cssn-2782e3c56106",
+      "title": "立足强国建设全局 共探未来产业发展",
+      "url": "https://www.cssn.cn/skgz/bwyc/202606/t20260619_6055051.shtml",
+      "source": "中国社会科学网",
+      "category": "考古资讯",
+      "date": "2026-06-19",
+      "crawledAt": "2026-06-19T22:42:16.769516"
+    },
+    {
+      "id": "cssn-ab0eb8d1bacd",
+      "title": "对话农业合作 共护粮食安全",
+      "url": "https://www.cssn.cn/skgz/bwyc/202606/t20260619_6055050.shtml",
+      "source": "中国社会科学网",
+      "category": "考古资讯",
+      "date": "2026-06-19",
+      "crawledAt": "2026-06-19T22:42:16.769592"
+    },
+    {
+      "id": "cssn-d34c2bc3ef94",
+      "title": "开启富有现代性的古典对话",
+      "url": "https://www.cssn.cn/skgz/bwyc/202606/t20260618_6054982.shtml",
+      "source": "中国社会科学网",
+      "category": "考古资讯",
+      "date": "2026-06-19",
+      "crawledAt": "2026-06-19T22:42:16.769664"
+    },
+    {
+      "id": "cssn-6be33bf75baf",
+      "title": "警惕社会科学研究“空心化”",
+      "url": "https://www.cssn.cn/skgz/bwyc/202606/t20260618_6054669.shtml",
+      "source": "中国社会科学网",
+      "category": "考古资讯",
+      "date": "2026-06-19",
+      "crawledAt": "2026-06-19T22:42:16.769761"
+    },
+    {
+      "id": "cssn-9aada28ba115",
+      "title": "加强刑事执行法治建设与机制创新",
+      "url": "https://www.cssn.cn/skgz/bwyc/202606/t20260618_6054684.shtml",
+      "source": "中国社会科学网",
+      "category": "考古资讯",
+      "date": "2026-06-19",
+      "crawledAt": "2026-06-19T22:42:16.769836"
+    },
+    {
+      "id": "cssn-9aef1efc8c47",
+      "title": "打造高质量特色思政课",
+      "url": "https://www.cssn.cn/skgz/bwyc/202606/t20260618_6054685.shtml",
+      "source": "中国社会科学网",
+      "category": "考古资讯",
+      "date": "2026-06-19",
+      "crawledAt": "2026-06-19T22:42:16.769910"
+    },
+    {
+      "id": "cssn-337223a3c027",
+      "title": "第二届西藏国际传播大会举行",
+      "url": "https://www.cssn.cn/skgz/bwyc/202606/t20260618_6054686.shtml",
+      "source": "中国社会科学网",
+      "category": "考古资讯",
+      "date": "2026-06-19",
+      "crawledAt": "2026-06-19T22:42:16.769989"
     },
     {
       "id": "cssn-5a92162604ff",
@@ -107,97 +224,7 @@
       "source": "中国社会科学网",
       "category": "考古资讯",
       "date": "2026-06-18",
-      "crawledAt": "2026-06-18T23:27:29.859303"
-    },
-    {
-      "id": "cssn-a0664894644a",
-      "title": "神话，是历史的观念",
-      "url": "https://www.cssn.cn/dsskhs/202606/t20260611_6053432.shtml",
-      "source": "中国社会科学网",
-      "category": "考古资讯",
-      "date": "2026-06-18",
-      "crawledAt": "2026-06-18T23:27:29.859604"
-    },
-    {
-      "id": "cssn-370994ff4374",
-      "title": "《回忆郭沫若作品编校集》出版座谈会在",
-      "url": "https://www.cssn.cn/dsskhs/202606/t20260611_6053397.shtml",
-      "source": "中国社会科学网",
-      "category": "考古资讯",
-      "date": "2026-06-18",
-      "crawledAt": "2026-06-18T23:27:29.859656"
-    },
-    {
-      "id": "cssn-df035ade7f1a",
-      "title": "公共交通绿色转型的理论逻辑与实践经验",
-      "url": "https://www.cssn.cn/dsskhs/202606/t20260608_6049306.shtml",
-      "source": "中国社会科学网",
-      "category": "考古资讯",
-      "date": "2026-06-18",
-      "crawledAt": "2026-06-18T23:27:29.859708"
-    },
-    {
-      "id": "cssn-a1f9a5c1bc6e",
-      "title": "跨学科聚焦人工智能多领域应用",
-      "url": "https://www.cssn.cn/skgz/202410/t20241011_5790125.shtml",
-      "source": "中国社会科学网",
-      "category": "考古资讯",
-      "date": "2026-06-18",
-      "crawledAt": "2026-06-18T23:27:29.859769"
-    },
-    {
-      "id": "cssn-8ea67ea86a0d",
-      "title": "“两个结合”与构建中国自主知识体系",
-      "url": "https://www.cssn.cn/skgz/bwyc/202606/t20260618_6054802.shtml",
-      "source": "中国社会科学网",
-      "category": "考古资讯",
-      "date": "2026-06-18",
-      "crawledAt": "2026-06-18T23:27:29.859830"
-    },
-    {
-      "id": "cssn-d34c2bc3ef94",
-      "title": "开启富有现代性的古典对话",
-      "url": "https://www.cssn.cn/skgz/bwyc/202606/t20260618_6054982.shtml",
-      "source": "中国社会科学网",
-      "category": "考古资讯",
-      "date": "2026-06-18",
-      "crawledAt": "2026-06-18T23:27:29.859890"
-    },
-    {
-      "id": "cssn-6be33bf75baf",
-      "title": "警惕社会科学研究“空心化”",
-      "url": "https://www.cssn.cn/skgz/bwyc/202606/t20260618_6054669.shtml",
-      "source": "中国社会科学网",
-      "category": "考古资讯",
-      "date": "2026-06-18",
-      "crawledAt": "2026-06-18T23:27:29.859951"
-    },
-    {
-      "id": "cssn-9aada28ba115",
-      "title": "加强刑事执行法治建设与机制创新",
-      "url": "https://www.cssn.cn/skgz/bwyc/202606/t20260618_6054684.shtml",
-      "source": "中国社会科学网",
-      "category": "考古资讯",
-      "date": "2026-06-18",
-      "crawledAt": "2026-06-18T23:27:29.860012"
-    },
-    {
-      "id": "cssn-9aef1efc8c47",
-      "title": "打造高质量特色思政课",
-      "url": "https://www.cssn.cn/skgz/bwyc/202606/t20260618_6054685.shtml",
-      "source": "中国社会科学网",
-      "category": "考古资讯",
-      "date": "2026-06-18",
-      "crawledAt": "2026-06-18T23:27:29.860072"
-    },
-    {
-      "id": "cssn-337223a3c027",
-      "title": "第二届西藏国际传播大会举行",
-      "url": "https://www.cssn.cn/skgz/bwyc/202606/t20260618_6054686.shtml",
-      "source": "中国社会科学网",
-      "category": "考古资讯",
-      "date": "2026-06-18",
-      "crawledAt": "2026-06-18T23:27:29.860133"
+      "crawledAt": "2026-06-19T22:42:16.768735"
     },
     {
       "id": "cssn-1cb8e674d1d2",
@@ -233,7 +260,7 @@
       "source": "中国社会科学网",
       "category": "考古资讯",
       "date": "2026-06-17",
-      "crawledAt": "2026-06-18T23:27:29.859354"
+      "crawledAt": "2026-06-19T22:42:16.768803"
     },
     {
       "id": "cssn-fa07976bb76a",
@@ -242,7 +269,7 @@
       "source": "中国社会科学网",
       "category": "考古资讯",
       "date": "2026-06-16",
-      "crawledAt": "2026-06-18T23:27:29.859404"
+      "crawledAt": "2026-06-19T22:42:16.768863"
     },
     {
       "id": "cssn-063f7dc77a5a",
@@ -251,7 +278,7 @@
       "source": "中国社会科学网",
       "category": "考古资讯",
       "date": "2026-06-15",
-      "crawledAt": "2026-06-18T23:27:29.859454"
+      "crawledAt": "2026-06-19T22:42:16.768922"
     },
     {
       "id": "cssn-812d2933f84e",
@@ -260,7 +287,7 @@
       "source": "中国社会科学网",
       "category": "考古资讯",
       "date": "2026-06-12",
-      "crawledAt": "2026-06-18T23:27:29.859503"
+      "crawledAt": "2026-06-19T22:42:16.768982"
     },
     {
       "id": "cssn-e8f01b4a8a3c",
@@ -269,7 +296,7 @@
       "source": "中国社会科学网",
       "category": "考古资讯",
       "date": "2026-06-11",
-      "crawledAt": "2026-06-18T23:27:29.859552"
+      "crawledAt": "2026-06-19T22:42:16.769040"
     },
     {
       "id": "zwb-623bd58dd28d",
