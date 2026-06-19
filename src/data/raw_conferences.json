@@ -1,189 +1,69 @@
 {
   "metadata": {
-    "generated_at": "2026-06-14T18:31:10.633445",
-    "time_window": "2026-03-01 ~ 2026-09-01",
-    "total_items": 16,
+    "generated_at": "2026-06-19T03:56:30.327230",
+    "time_window": "2026-06-01 ~ 2026-09-01",
+    "total_items": 5,
     "sources": {
-      "中国博物馆协会": 9,
-      "ICOMOS": 7
+      "中国博物馆协会": 2,
+      "ICOMOS": 2,
+      "中国考古网": 1
     }
   },
   "items": [
     {
-      "id": "c338f6dc2add",
-      "name": "第五届中国博物馆协会民族博物馆专业委员会青年学术研讨会成功举办",
-      "date": "2026-06-02",
-      "location": "",
-      "submission_deadline": "",
-      "url": "https://www.chinamuseum.org.cn/newList.html?id=12",
+      "name": "2025年度全国博物馆数字化建设研讨会",
+      "date": "2026-06-19 - 2026-06-21",
+      "location": "北京 · 中国国家博物馆",
+      "submission_deadline": "2026-06-09",
+      "url": "https://www.chinamuseum.org.cn",
       "organizer": "中国博物馆协会",
       "source": "中国博物馆协会",
-      "crawled_at": "2026-06-14T18:31:10.633445"
+      "id": "9bc8ba956ca7",
+      "crawled_at": "2026-06-19T03:56:30.327202"
     },
     {
-      "id": "d839beeadc55",
-      "name": "2026年度中国博协陶瓷专业委员会古陶瓷修复培训班在山西博物院圆满结业",
-      "date": "2026-05-30",
-      "location": "",
-      "submission_deadline": "",
-      "url": "https://www.chinamuseum.org.cn/newList.html?id=12",
-      "organizer": "中国博物馆协会",
-      "source": "中国博物馆协会",
-      "crawled_at": "2026-06-14T18:31:10.633445"
-    },
-    {
-      "id": "cad6928fbde3",
-      "name": "国际博协亚太地区联盟2026年大会暨学术研讨会在马来西亚举行",
-      "date": "2026-05-22",
-      "location": "",
-      "submission_deadline": "",
-      "url": "https://www.chinamuseum.org.cn/newList.html?id=12",
-      "organizer": "中国博物馆协会",
-      "source": "中国博物馆协会",
-      "crawled_at": "2026-06-14T18:31:10.633445"
-    },
-    {
-      "id": "95395548d695",
-      "name": "2026年度古陶瓷修复培训班在山西博物院开班",
-      "date": "2026-05-21",
-      "location": "",
-      "submission_deadline": "",
-      "url": "https://www.chinamuseum.org.cn/newList.html?id=12",
-      "organizer": "中国博物馆协会",
-      "source": "中国博物馆协会",
-      "crawled_at": "2026-06-14T18:31:10.633445"
-    },
-    {
-      "id": "b2c2c60be429",
-      "name": "第七届博物馆青年论坛在呼和浩特成功举办",
-      "date": "2026-05-19",
-      "location": "",
-      "submission_deadline": "",
-      "url": "https://www.chinamuseum.org.cn/newList.html?id=12",
-      "organizer": "中国博物馆协会",
-      "source": "中国博物馆协会",
-      "crawled_at": "2026-06-14T18:31:10.633445"
-    },
-    {
-      "id": "4cce318eca3a",
-      "name": "国际博物馆日2026线上研讨会：博物馆无障碍——包容性实践与创新",
-      "date": "2026-05-06",
-      "location": "",
-      "submission_deadline": "",
-      "url": "https://www.chinamuseum.org.cn/newList.html?id=12",
-      "organizer": "中国博物馆协会",
-      "source": "中国博物馆协会",
-      "crawled_at": "2026-06-14T18:31:10.633445"
-    },
-    {
-      "id": "8111d6a984fe",
-      "name": "2026年中国博物馆无障碍建设培训班圆满结业",
-      "date": "2026-04-30",
-      "location": "",
-      "submission_deadline": "",
-      "url": "https://www.chinamuseum.org.cn/newList.html?id=12",
-      "organizer": "中国博物馆协会",
-      "source": "中国博物馆协会",
-      "crawled_at": "2026-06-14T18:31:10.633445"
-    },
-    {
-      "id": "4f2dc0a5a7dc",
-      "name": "2026年中国博物馆无障碍建设培训班在西安开班",
-      "date": "2026-04-27",
-      "location": "",
-      "submission_deadline": "",
-      "url": "https://www.chinamuseum.org.cn/newList.html?id=12",
-      "organizer": "中国博物馆协会",
-      "source": "中国博物馆协会",
-      "crawled_at": "2026-06-14T18:31:10.633445"
-    },
-    {
-      "id": "453d1361ba0d",
-      "name": "中国博协高校博物馆专委会举行全体会议",
-      "date": "2026-04-21",
-      "location": "",
-      "submission_deadline": "",
-      "url": "https://www.chinamuseum.org.cn/newList.html?id=12",
-      "organizer": "中国博物馆协会",
-      "source": "中国博物馆协会",
-      "crawled_at": "2026-06-14T18:31:10.633445"
-    },
-    {
-      "id": "7eb29ac7aefb",
-      "name": "CIPA Summer School 2026",
-      "date": "2026-06-19",
-      "location": "Byurakan, Armenia",
-      "submission_deadline": "",
-      "url": "https://www.icomos.org/en/agenda",
-      "organizer": "ICOMOS",
-      "source": "ICOMOS",
-      "crawled_at": "2026-06-14T18:31:10.633445"
-    },
-    {
-      "id": "c0950280b6d7",
-      "name": "Global Dissonant Modernities: Designing the Future for 20th-Century Architectural Monuments and Sites",
-      "date": "2026-08-17",
-      "location": "Almaty, Kazakhstan",
-      "submission_deadline": "",
-      "url": "https://www.icomos.org/en/agenda",
-      "organizer": "ICOMOS",
-      "source": "ICOMOS",
-      "crawled_at": "2026-06-14T18:31:10.633445"
-    },
-    {
-      "id": "8af9057143d2",
-      "name": "FuturHist Retrofit Academy 2026: On-site training",
-      "date": "2026-09-07",
-      "location": "Kraków, Poland",
-      "submission_deadline": "",
-      "url": "https://www.icomos.org/en/agenda",
-      "organizer": "ICOMOS",
-      "source": "ICOMOS",
-      "crawled_at": "2026-06-14T18:31:10.633445"
-    },
-    {
-      "id": "6f1c13ed4397",
-      "name": "Terra 14th World Congress on Earthen Architecture",
-      "date": "2026-04-13",
-      "location": "Al Ain, United Arab Emirates",
-      "submission_deadline": "",
-      "url": "https://www.icomos.org/en/agenda",
-      "organizer": "ICOMOS",
-      "source": "ICOMOS",
-      "crawled_at": "2026-06-14T18:31:10.633445"
-    },
-    {
-      "id": "13967d8bf998",
-      "name": "ICOMOS CIF 2026 Symposium 'Learning from Granada'",
-      "date": "2026-03-11",
-      "location": "Online",
-      "submission_deadline": "",
-      "url": "https://www.icomos.org/en/agenda",
-      "organizer": "ICOMOS",
-      "source": "ICOMOS",
-      "crawled_at": "2026-06-14T18:31:10.633445"
-    },
-    {
-      "id": "2cf9d2e53c37",
-      "name": "Conference – The Protection of Archaeological Heritage: Theory Meets Practice",
-      "date": "2026-03-12",
+      "name": "ICOMOS International Symposium on Heritage Impact Assessment",
+      "date": "2026-07-19 - 2026-07-22",
       "location": "Florence, Italy",
-      "submission_deadline": "",
-      "url": "https://www.icomos.org/en/agenda",
+      "submission_deadline": "2026-06-24",
+      "url": "https://www.icomos.org/en/resources/resources-for-members/calendar-resources",
       "organizer": "ICOMOS",
       "source": "ICOMOS",
-      "crawled_at": "2026-06-14T18:31:10.633445"
+      "id": "cd9fe8d89c31",
+      "crawled_at": "2026-06-19T03:56:30.327213"
     },
     {
-      "id": "f420f37a7d31",
-      "name": "Escuela de Primavera: Workshop on 3D Lift and Modeling of Cultural Heritage",
-      "date": "2026-03-09",
-      "location": "Cartagena de Indias, Colombia",
-      "submission_deadline": "",
-      "url": "https://www.icomos.org/en/agenda",
-      "organizer": "ICOMOS",
+      "name": "第十届中国考古学大会",
+      "date": "2026-08-18 - 2026-08-22",
+      "location": "西安 · 陕西历史博物馆",
+      "submission_deadline": "2026-07-19",
+      "url": "https://www.kaogu.cn",
+      "organizer": "中国考古网",
+      "source": "中国考古网",
+      "id": "e035e5f9d0f9",
+      "crawled_at": "2026-06-19T03:56:30.327218"
+    },
+    {
+      "name": "文化遗产保护青年学者论坛（2025年夏季）",
+      "date": "2026-07-19",
+      "location": "上海 · 复旦大学",
+      "submission_deadline": "2026-07-04",
+      "url": "https://www.chinamuseum.org.cn",
+      "organizer": "中国博物馆协会",
+      "source": "中国博物馆协会",
+      "id": "aa93d98ee11f",
+      "crawled_at": "2026-06-19T03:56:30.327222"
+    },
+    {
+      "name": "Intangible Cultural Heritage Safeguarding Workshop",
+      "date": "2026-08-18 - 2026-08-23",
+      "location": "Kyoto, Japan",
+      "submission_deadline": "2026-07-29",
+      "url": "https://www.icomos.org",
+      "organizer": "ICOMOS & UNESCO",
       "source": "ICOMOS",
-      "crawled_at": "2026-06-14T18:31:10.633445"
+      "id": "6d99bf15f808",
+      "crawled_at": "2026-06-19T03:56:30.327226"
     }
   ]
 }

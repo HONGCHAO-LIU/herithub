@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-18T23:27:38.514940",
+  "generated_at": "2026-06-19T03:56:45.303972",
   "summary": {
-    "total_final_items": 224,
-    "total_expired_archived": 9
+    "total_final_items": 256,
+    "total_expired_archived": 0
   },
   "details": {
     "business": {
       "category": "business",
       "raw_count": 10,
-      "existing_count": 65,
-      "fresh_count": 75,
+      "existing_count": 75,
+      "fresh_count": 85,
       "expired_count": 0,
-      "duplicate_removed": 0,
+      "duplicate_removed": 10,
       "final_count": 75,
       "sources": {
         "中国政府采购网": 40,
@@ -54,16 +54,32 @@
     },
     "conferences": {
       "category": "conferences",
-      "raw_count": 16,
-      "existing_count": 27,
-      "fresh_count": 34,
-      "expired_count": 9,
-      "duplicate_removed": 12,
-      "final_count": 22,
+      "raw_count": 5,
+      "existing_count": 22,
+      "fresh_count": 27,
+      "expired_count": 0,
+      "duplicate_removed": 0,
+      "final_count": 27,
       "sources": {
         "unknown": 10,
-        "ICOMOS": 3,
-        "中国博物馆协会": 9
+        "ICOMOS": 5,
+        "中国考古网": 1,
+        "中国博物馆协会": 11
+      }
+    },
+    "conferences_ext": {
+      "category": "conferences_ext",
+      "raw_count": 0,
+      "existing_count": 27,
+      "fresh_count": 27,
+      "expired_count": 0,
+      "duplicate_removed": 0,
+      "final_count": 27,
+      "sources": {
+        "unknown": 10,
+        "ICOMOS": 5,
+        "中国考古网": 1,
+        "中国博物馆协会": 11
       }
     },
     "papers": {
@@ -83,10 +99,10 @@
     "news": {
       "category": "news",
       "raw_count": 31,
-      "existing_count": 0,
-      "fresh_count": 31,
+      "existing_count": 31,
+      "fresh_count": 62,
       "expired_count": 0,
-      "duplicate_removed": 0,
+      "duplicate_removed": 31,
       "final_count": 31,
       "sources": {
         "中国社会科学网": 29,
