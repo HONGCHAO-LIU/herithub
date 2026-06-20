@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-20T02:58:09.762564",
+  "generated_at": "2026-06-20T22:56:53.219720",
   "summary": {
-    "total_final_items": 256,
-    "total_expired_archived": 3
+    "total_final_items": 259,
+    "total_expired_archived": 8
   },
   "details": {
     "business": {
       "category": "business",
       "raw_count": 10,
-      "existing_count": 75,
-      "fresh_count": 85,
+      "existing_count": 65,
+      "fresh_count": 75,
       "expired_count": 0,
-      "duplicate_removed": 10,
+      "duplicate_removed": 0,
       "final_count": 75,
       "sources": {
         "中国政府采购网": 40,
@@ -56,9 +56,9 @@
       "category": "conferences",
       "raw_count": 5,
       "existing_count": 27,
-      "fresh_count": 31,
-      "expired_count": 1,
-      "duplicate_removed": 5,
+      "fresh_count": 26,
+      "expired_count": 6,
+      "duplicate_removed": 0,
       "final_count": 26,
       "sources": {
         "unknown": 10,
@@ -98,15 +98,15 @@
     },
     "news": {
       "category": "news",
-      "raw_count": 29,
+      "raw_count": 32,
       "existing_count": 34,
-      "fresh_count": 63,
+      "fresh_count": 66,
       "expired_count": 0,
       "duplicate_removed": 29,
-      "final_count": 34,
+      "final_count": 37,
       "sources": {
         "中国社会科学网": 32,
-        "中国文物报": 2
+        "中国文物报": 5
       }
     }
   }

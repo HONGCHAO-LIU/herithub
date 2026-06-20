@@ -1,0 +1,112 @@
+{
+  "metadata": {
+    "archived_at": "2026-06-20T22:56:53.211957",
+    "category": "conferences",
+    "total_items": 6,
+    "reason": "超出 60 天时效"
+  },
+  "items": [
+    {
+      "id": 9,
+      "name": "CIPA 2025 — 30th International Symposium on Heritage Documentation",
+      "date": "2025-09-01 ~ 2025-09-05",
+      "location": "Seoul, South Korea",
+      "deadline": "2025-04-15",
+      "website": "https://www.cipaheritagedocumentation.org/cipa2025/",
+      "organizer": "ICOMOS CIPA",
+      "tags": [
+        "遗产文档",
+        "摄影测量",
+        "激光扫描",
+        "BIM",
+        "HBIM",
+        "数字孪生"
+      ],
+      "description": "CIPA第30届国际遗产文档研讨会，聚焦摄影测量、激光扫描、BIM/HBIM、数字孪生等遗产记录与保护技术。会议论文集已发表于ISPRS Archives。",
+      "sourceUrl": "https://www.cipaheritagedocumentation.org/cipa2025/",
+      "verified": true,
+      "crawledAt": "2025-09-10T00:00:00+08:00",
+      "keywords": []
+    },
+    {
+      "id": "453d1361ba0d",
+      "name": "中国博协高校博物馆专委会举行全体会议",
+      "date": "2026-04-21",
+      "location": "",
+      "submission_deadline": "",
+      "url": "https://www.chinamuseum.org.cn/newList.html?id=12",
+      "organizer": "中国博物馆协会",
+      "source": "中国博物馆协会",
+      "crawled_at": "2026-06-14T18:31:10.633445",
+      "crawledAt": "2026-04-21",
+      "tags": [
+        "学术会议"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "6f1c13ed4397",
+      "name": "Terra 14th World Congress on Earthen Architecture",
+      "date": "2026-04-13",
+      "location": "Al Ain, United Arab Emirates",
+      "submission_deadline": "",
+      "url": "https://www.icomos.org/en/agenda",
+      "organizer": "ICOMOS",
+      "source": "ICOMOS",
+      "crawled_at": "2026-06-14T18:31:10.633445",
+      "crawledAt": "2026-04-13",
+      "tags": [
+        "学术会议"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "13967d8bf998",
+      "name": "ICOMOS CIF 2026 Symposium 'Learning from Granada'",
+      "date": "2026-03-11",
+      "location": "Online",
+      "submission_deadline": "",
+      "url": "https://www.icomos.org/en/agenda",
+      "organizer": "ICOMOS",
+      "source": "ICOMOS",
+      "crawled_at": "2026-06-14T18:31:10.633445",
+      "crawledAt": "2026-03-11",
+      "tags": [
+        "学术会议"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "2cf9d2e53c37",
+      "name": "Conference – The Protection of Archaeological Heritage: Theory Meets Practice",
+      "date": "2026-03-12",
+      "location": "Florence, Italy",
+      "submission_deadline": "",
+      "url": "https://www.icomos.org/en/agenda",
+      "organizer": "ICOMOS",
+      "source": "ICOMOS",
+      "crawled_at": "2026-06-14T18:31:10.633445",
+      "crawledAt": "2026-03-12",
+      "tags": [
+        "学术会议"
+      ],
+      "keywords": []
+    },
+    {
+      "id": "f420f37a7d31",
+      "name": "Escuela de Primavera: Workshop on 3D Lift and Modeling of Cultural Heritage",
+      "date": "2026-03-09",
+      "location": "Cartagena de Indias, Colombia",
+      "submission_deadline": "",
+      "url": "https://www.icomos.org/en/agenda",
+      "organizer": "ICOMOS",
+      "source": "ICOMOS",
+      "crawled_at": "2026-06-14T18:31:10.633445",
+      "crawledAt": "2026-03-09",
+      "tags": [
+        "学术会议"
+      ],
+      "keywords": []
+    }
+  ]
+}
