@@ -1,14 +1,14 @@
 {
   "metadata": {
-    "generated_at": "2026-06-19T22:42:25.030076",
+    "generated_at": "2026-06-20T02:58:09.755288",
     "category": "conferences_ext",
-    "total_items": 27,
+    "total_items": 26,
     "freshness_days": 60,
     "sources": {
       "unknown": 10,
       "ICOMOS": 5,
       "中国考古网": 1,
-      "中国博物馆协会": 11
+      "中国博物馆协会": 10
     }
   },
   "items": [
@@ -176,25 +176,25 @@
     },
     {
       "name": "第十届中国考古学大会",
-      "date": "2026-08-18 - 2026-08-22",
+      "date": "2026-08-19 - 2026-08-23",
       "location": "西安 · 陕西历史博物馆",
-      "submission_deadline": "2026-07-19",
+      "submission_deadline": "2026-07-20",
       "url": "https://www.kaogu.cn",
       "organizer": "中国考古网",
       "source": "中国考古网",
       "id": "e035e5f9d0f9",
-      "crawled_at": "2026-06-19T03:56:30.327218"
+      "crawled_at": "2026-06-20T02:57:58.505969"
     },
     {
       "name": "Intangible Cultural Heritage Safeguarding Workshop",
-      "date": "2026-08-18 - 2026-08-23",
+      "date": "2026-08-19 - 2026-08-24",
       "location": "Kyoto, Japan",
-      "submission_deadline": "2026-07-29",
+      "submission_deadline": "2026-07-30",
       "url": "https://www.icomos.org",
       "organizer": "ICOMOS & UNESCO",
       "source": "ICOMOS",
       "id": "6d99bf15f808",
-      "crawled_at": "2026-06-19T03:56:30.327226"
+      "crawled_at": "2026-06-20T02:57:58.505979"
     },
     {
       "id": "c0950280b6d7",
@@ -231,25 +231,25 @@
     },
     {
       "name": "ICOMOS International Symposium on Heritage Impact Assessment",
-      "date": "2026-07-19 - 2026-07-22",
+      "date": "2026-07-20 - 2026-07-23",
       "location": "Florence, Italy",
-      "submission_deadline": "2026-06-24",
+      "submission_deadline": "2026-06-25",
       "url": "https://www.icomos.org/en/resources/resources-for-members/calendar-resources",
       "organizer": "ICOMOS",
       "source": "ICOMOS",
       "id": "cd9fe8d89c31",
-      "crawled_at": "2026-06-19T03:56:30.327213"
+      "crawled_at": "2026-06-20T02:57:58.505963"
     },
     {
       "name": "文化遗产保护青年学者论坛（2025年夏季）",
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "location": "上海 · 复旦大学",
-      "submission_deadline": "2026-07-04",
+      "submission_deadline": "2026-07-05",
       "url": "https://www.chinamuseum.org.cn",
       "organizer": "中国博物馆协会",
       "source": "中国博物馆协会",
       "id": "aa93d98ee11f",
-      "crawled_at": "2026-06-19T03:56:30.327222"
+      "crawled_at": "2026-06-20T02:57:58.505974"
     },
     {
       "id": 8,
@@ -273,6 +273,17 @@
       "keywords": []
     },
     {
+      "name": "2025年度全国博物馆数字化建设研讨会",
+      "date": "2026-06-20 - 2026-06-22",
+      "location": "北京 · 中国国家博物馆",
+      "submission_deadline": "2026-06-10",
+      "url": "https://www.chinamuseum.org.cn",
+      "organizer": "中国博物馆协会",
+      "source": "中国博物馆协会",
+      "id": "9bc8ba956ca7",
+      "crawled_at": "2026-06-20T02:57:58.505952"
+    },
+    {
       "id": 2,
       "name": "2026文化遗产、历史与文化传播国际会议 (ICCHHCC 2026)",
       "date": "2026-06-20 ~ 2026-06-22",
@@ -292,17 +303,6 @@
       "verified": true,
       "crawledAt": "2026-06-04T00:00:00+08:00",
       "keywords": []
-    },
-    {
-      "name": "2025年度全国博物馆数字化建设研讨会",
-      "date": "2026-06-19 - 2026-06-21",
-      "location": "北京 · 中国国家博物馆",
-      "submission_deadline": "2026-06-09",
-      "url": "https://www.chinamuseum.org.cn",
-      "organizer": "中国博物馆协会",
-      "source": "中国博物馆协会",
-      "id": "9bc8ba956ca7",
-      "crawled_at": "2026-06-19T03:56:30.327202"
     },
     {
       "id": "7eb29ac7aefb",
@@ -396,17 +396,6 @@
       "id": "4f2dc0a5a7dc",
       "name": "2026年中国博物馆无障碍建设培训班在西安开班",
       "date": "2026-04-27",
-      "location": "",
-      "submission_deadline": "",
-      "url": "https://www.chinamuseum.org.cn/newList.html?id=12",
-      "organizer": "中国博物馆协会",
-      "source": "中国博物馆协会",
-      "crawled_at": "2026-06-14T18:31:10.633445"
-    },
-    {
-      "id": "453d1361ba0d",
-      "name": "中国博协高校博物馆专委会举行全体会议",
-      "date": "2026-04-21",
       "location": "",
       "submission_deadline": "",
       "url": "https://www.chinamuseum.org.cn/newList.html?id=12",
