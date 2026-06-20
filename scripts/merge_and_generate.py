@@ -264,11 +264,23 @@ def merge_category(category: str) -> dict:
     # 加载原始数据
     raw_data = load_json(raw_file)
     raw_items = raw_data.get("items", []) if isinstance(raw_data, dict) else raw_data
+    if isinstance(raw_items, dict):
+        raw_items = raw_items.get("items", [])
+    elif isinstance(raw_items, list):
+        pass
+    else:
+        raw_items = []
     logger.info(f"  原始数据: {len(raw_items)} 条")
 
     # 加载现有合并数据
     existing_data = load_json(merged_file)
     existing_items = existing_data.get("items", []) if isinstance(existing_data, dict) else existing_data
+    if isinstance(existing_items, dict):
+        existing_items = existing_items.get("items", [])
+    elif isinstance(existing_items, list):
+        pass
+    else:
+        existing_items = []
     logger.info(f"  现有数据: {len(existing_items)} 条")
 
     # 合并
@@ -310,27 +322,16 @@ def merge_category(category: str) -> dict:
         reverse=True,
     )
 
-    # 生成输出
-    output = {
-        "metadata": {
-            "generated_at": datetime.now().isoformat(),
-            "category": category,
-            "total_items": len(deduped),
-            "freshness_days": FRESHNESS[category].days,
-            "sources": {},
-        },
-        "items": deduped,
-    }
-
     # 统计来源
     source_count = {}
     for item in deduped:
         src = item.get("source", "unknown")
         source_count[src] = source_count.get(src, 0) + 1
-    output["metadata"]["sources"] = source_count
 
-    # 写入合并文件
-    save_json(merged_file, output)
+    # 写入合并文件（直接输出数组，保持与前端 import 兼容）
+    logger.info(f"  已写入: {merged_file} ({len(deduped)} 条)")
+    with open(merged_file, "w", encoding="utf-8") as f:
+        json.dump(deduped, f, ensure_ascii=False, indent=2)
 
     # 归档过期数据
     if expired_items:
