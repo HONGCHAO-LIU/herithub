@@ -18,7 +18,11 @@ import os
 import sys
 import time
 import logging
+import socket
 from pathlib import Path
+
+# 全局网络超时，防止 GitHub Actions runner 上长时间挂起
+socket.setdefaulttimeout(30)
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
@@ -121,11 +125,11 @@ def crawl_cnki_rss():
     logger.info(f"  CNKI RSS 总计: {len(results)} 条")
     return results
 
-# ========== 信源 2: arXiv 中科院镜像 ==========
+# ========== 信源 2: arXiv 官方 RSS（中科院镜像已不可用）==========
 ARXIV_FEEDS = [
-    ("cs.DL", "http://arxivsi.las.ac.cn/rss/cs.DL"),           # 数字图书馆
-    ("cs.CY", "http://arxivsi.las.ac.cn/rss/cs.CY"),           # 计算与社会
-    ("physics.soc-ph", "http://arxivsi.las.ac.cn/rss/physics.soc-ph"),  # 物理与社会
+    ("cs.DL", "https://rss.arxiv.org/rss/cs.DL"),           # 数字图书馆
+    ("cs.CY", "https://rss.arxiv.org/rss/cs.CY"),           # 计算与社会
+    ("physics.soc-ph", "https://rss.arxiv.org/rss/physics.soc-ph"),  # 物理与社会
 ]
 
 HERITAGE_KEYWORDS = [
