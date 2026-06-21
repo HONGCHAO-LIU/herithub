@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-20T22:56:53.219720",
+  "generated_at": "2026-06-21T03:45:04.211387",
   "summary": {
     "total_final_items": 259,
-    "total_expired_archived": 8
+    "total_expired_archived": 1
   },
   "details": {
     "business": {
       "category": "business",
       "raw_count": 10,
-      "existing_count": 65,
-      "fresh_count": 75,
+      "existing_count": 75,
+      "fresh_count": 85,
       "expired_count": 0,
-      "duplicate_removed": 0,
+      "duplicate_removed": 10,
       "final_count": 75,
       "sources": {
         "中国政府采购网": 40,
@@ -55,10 +55,10 @@
     "conferences": {
       "category": "conferences",
       "raw_count": 5,
-      "existing_count": 27,
-      "fresh_count": 26,
-      "expired_count": 6,
-      "duplicate_removed": 0,
+      "existing_count": 26,
+      "fresh_count": 31,
+      "expired_count": 0,
+      "duplicate_removed": 5,
       "final_count": 26,
       "sources": {
         "unknown": 10,
@@ -85,9 +85,9 @@
     "papers": {
       "category": "papers",
       "raw_count": 74,
-      "existing_count": 96,
+      "existing_count": 95,
       "fresh_count": 168,
-      "expired_count": 2,
+      "expired_count": 1,
       "duplicate_removed": 73,
       "final_count": 95,
       "sources": {
@@ -99,10 +99,10 @@
     "news": {
       "category": "news",
       "raw_count": 32,
-      "existing_count": 34,
-      "fresh_count": 66,
+      "existing_count": 37,
+      "fresh_count": 69,
       "expired_count": 0,
-      "duplicate_removed": 29,
+      "duplicate_removed": 32,
       "final_count": 37,
       "sources": {
         "中国社会科学网": 32,
