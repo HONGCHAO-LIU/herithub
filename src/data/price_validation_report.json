@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "generated_at": "2026-06-22T23:11:03.395104",
+    "threshold": "±30%",
+    "total_validated": 9,
+    "normal_count": 0,
+    "anomaly_count": 0,
+    "skipped_count": 9
+  },
+  "baselines": {
+    "成交公告": {
+      "median": 121.0,
+      "mean": 279.83,
+      "count": 46
+    },
+    "招标公告": {
+      "median": 150.0,
+      "mean": 166.13,
+      "count": 8
+    }
+  },
+  "anomalies": [],
+  "all_results": [
+    {
+      "item_id": "0411346ae310",
+      "title": "昆明冶金高等专科学校文创艺术馆二期项目招标公告",
+      "type": "招标公告",
+      "amount_raw": "",
+      "amount_parsed": null,
+      "validation_status": "skipped",
+      "deviation": null,
+      "baseline_median": null,
+      "message": "无有效金额，跳过验证"
+    },
+    {
+      "item_id": "53773523ff5c",
+      "title": "四川天府新区文创和会展局2026年四川天府新区第十三届全民健身运动会赛事执行服务项目中标（成交）结果公告",
+      "type": "中标结果",
+      "amount_raw": "",
+      "amount_parsed": null,
+      "validation_status": "skipped",
+      "deviation": null,
+      "baseline_median": null,
+      "message": "无有效金额，跳过验证"
+    },
+    {
+      "item_id": "7e8a2f1ae7d3",
+      "title": "青海君昱工程项目管理有限公司关于2026年青海福彩IP形象打造及文创产品开发（第二次）的竞争性磋商公告",
+      "type": "项目合作",
+      "amount_raw": "",
+      "amount_parsed": null,
+      "validation_status": "skipped",
+      "deviation": null,
+      "baseline_median": null,
+      "message": "无有效金额，跳过验证"
+    },
+    {
+      "item_id": "4bb17f148ebd",
+      "title": "西安市中心血站献血文创品设计制作采购项目(二次)采购更正公告（第一次）",
+      "type": "采购意向",
+      "amount_raw": "",
+      "amount_parsed": null,
+      "validation_status": "skipped",
+      "deviation": null,
+      "baseline_median": null,
+      "message": "无有效金额，跳过验证"
+    },
+    {
+      "item_id": "5c6499acf3c4",
+      "title": "郑州市商贸管理学校文创机房设备建设项目-中标公告",
+      "type": "中标结果",
+      "amount_raw": "",
+      "amount_parsed": null,
+      "validation_status": "skipped",
+      "deviation": null,
+      "baseline_median": null,
+      "message": "无有效金额，跳过验证"
+    },
+    {
+      "item_id": "29ea505a4a56",
+      "title": "浙江豪圣建设项目管理有限公司关于数字文化创意实验教学中心建设（二次）中标(成交)结果公告",
+      "type": "中标结果",
+      "amount_raw": "",
+      "amount_parsed": null,
+      "validation_status": "skipped",
+      "deviation": null,
+      "baseline_median": null,
+      "message": "无有效金额，跳过验证"
+    },
+    {
+      "item_id": "9c0072e1e6d6",
+      "title": "2026年（第三届）“舍不得的丽江——丽江礼物”文化创意和共创产品设计征集暨文创人才大赛执行服务采购项目的竞争性磋商公告",
+      "type": "采购意向",
+      "amount_raw": "",
+      "amount_parsed": null,
+      "validation_status": "skipped",
+      "deviation": null,
+      "baseline_median": null,
+      "message": "无有效金额，跳过验证"
+    },
+    {
+      "item_id": "91f43c2ce7dc",
+      "title": "沈阳建筑大学(BIPV)绿色低碳实验平台设备更新项目—建筑美学与创意设计工坊子模块（第二次）结果公告",
+      "type": "项目合作",
+      "amount_raw": "",
+      "amount_parsed": null,
+      "validation_status": "skipped",
+      "deviation": null,
+      "baseline_median": null,
+      "message": "无有效金额，跳过验证"
+    },
+    {
+      "item_id": "ba94adaa7003",
+      "title": "沈阳建筑大学(BIPV)绿色低碳实验平台设备更新项目—建筑美学与创意设计工坊子模块（第二次）结果公告",
+      "type": "项目合作",
+      "amount_raw": "",
+      "amount_parsed": null,
+      "validation_status": "skipped",
+      "deviation": null,
+      "baseline_median": null,
+      "message": "无有效金额，跳过验证"
+    }
+  ]
+}
