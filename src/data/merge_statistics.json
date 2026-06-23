@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-22T23:11:03.470000",
+  "generated_at": "2026-06-23T02:51:13.927266",
   "summary": {
-    "total_final_items": 268,
-    "total_expired_archived": 1
+    "total_final_items": 413,
+    "total_expired_archived": 0
   },
   "details": {
     "business": {
       "category": "business",
       "raw_count": 9,
-      "existing_count": 75,
-      "fresh_count": 84,
+      "existing_count": 84,
+      "fresh_count": 93,
       "expired_count": 0,
-      "duplicate_removed": 0,
+      "duplicate_removed": 9,
       "final_count": 84,
       "sources": {
         "中国政府采购网": 49,
@@ -84,15 +84,29 @@
     },
     "papers": {
       "category": "papers",
-      "raw_count": 74,
+      "raw_count": 75,
       "existing_count": 95,
-      "fresh_count": 168,
-      "expired_count": 1,
-      "duplicate_removed": 73,
-      "final_count": 95,
+      "fresh_count": 170,
+      "expired_count": 0,
+      "duplicate_removed": 50,
+      "final_count": 120,
       "sources": {
-        "CrossRef": 44,
-        "arXiv": 29,
+        "CrossRef": 48,
+        "arXiv": 50,
+        "unknown": 22
+      }
+    },
+    "papers_ext": {
+      "category": "papers_ext",
+      "raw_count": 0,
+      "existing_count": 120,
+      "fresh_count": 120,
+      "expired_count": 0,
+      "duplicate_removed": 0,
+      "final_count": 120,
+      "sources": {
+        "CrossRef": 48,
+        "arXiv": 50,
         "unknown": 22
       }
     },
