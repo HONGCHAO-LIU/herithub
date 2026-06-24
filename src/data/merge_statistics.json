@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-24T02:53:14.904682",
+  "generated_at": "2026-06-24T22:58:06.374753",
   "summary": {
-    "total_final_items": 425,
+    "total_final_items": 430,
     "total_expired_archived": 0
   },
   "details": {
@@ -112,14 +112,14 @@
     },
     "news": {
       "category": "news",
-      "raw_count": 31,
+      "raw_count": 29,
       "existing_count": 49,
-      "fresh_count": 80,
+      "fresh_count": 78,
       "expired_count": 0,
-      "duplicate_removed": 31,
-      "final_count": 49,
+      "duplicate_removed": 24,
+      "final_count": 54,
       "sources": {
-        "中国社会科学网": 42,
+        "中国社会科学网": 47,
         "中国文物报": 7
       }
     }
