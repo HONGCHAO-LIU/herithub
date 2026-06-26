@@ -1,8 +1,27 @@
 {
   "metadata": {
-    "generated_at": "2026-06-23T02:51:13.821955",
-    "total_items": 0,
-    "sources": {}
+    "generated_at": "2026-06-26T02:56:55.548186",
+    "total_items": 1,
+    "sources": {
+      "arXiv": 1
+    }
   },
-  "items": []
+  "items": [
+    {
+      "id": "arxiv-4721a3cf61c0",
+      "title": "Opinion Dynamics over Migration Networks",
+      "authors": [
+        "L\\H{o}rinc M\\'arton, Stefanie Winkelmann, Mauricio J. del Razo, Nata\\v{s}a Djurdjevac Conrad"
+      ],
+      "journal": "arXiv physics.soc-ph",
+      "abstract": "arXiv:2606.25682v1 Announce Type: new Abstract: Opinions play a crucial role in shaping collective phenomena such as political polarization, cultural integration and demographic change. By continuously changing social environments in which opinions evolve, human migration serves as an important driver of collective opinion formation. While migration and opinion dynamics have both been extensively studied, the few existing models that couple the two are primarily deterministic and therefore canno",
+      "doi": "https://arxiv.org/abs/",
+      "publishDate": "Thu, 25 Jun 2026 00:00:00 -0400",
+      "url": "https://arxiv.org/abs/2606.25682",
+      "keywords": [],
+      "source": "arXiv",
+      "year": 2026,
+      "crawledAt": "2026-06-26T02:56:54.547198"
+    }
+  ]
 }
