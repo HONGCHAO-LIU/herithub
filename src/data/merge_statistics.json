@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T22:51:53.556446",
+  "generated_at": "2026-06-28T03:25:57.910835",
   "summary": {
     "total_final_items": 524,
     "total_expired_archived": 0
@@ -98,11 +98,11 @@
     },
     "papers_ext": {
       "category": "papers_ext",
-      "raw_count": 4,
+      "raw_count": 0,
       "existing_count": 157,
-      "fresh_count": 161,
+      "fresh_count": 157,
       "expired_count": 0,
-      "duplicate_removed": 4,
+      "duplicate_removed": 0,
       "final_count": 157,
       "sources": {
         "CrossRef": 57,
@@ -113,10 +113,10 @@
     "news": {
       "category": "news",
       "raw_count": 32,
-      "existing_count": 72,
-      "fresh_count": 104,
+      "existing_count": 76,
+      "fresh_count": 108,
       "expired_count": 0,
-      "duplicate_removed": 28,
+      "duplicate_removed": 32,
       "final_count": 76,
       "sources": {
         "中国社会科学网": 58,

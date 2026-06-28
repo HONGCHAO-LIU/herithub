@@ -1,75 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-06-27T02:46:17.127219",
-    "total_items": 4,
-    "sources": {
-      "arXiv": 4
-    }
+    "generated_at": "2026-06-28T03:25:57.839171",
+    "total_items": 0,
+    "sources": {}
   },
-  "items": [
-    {
-      "id": "arxiv-3b183093a62a",
-      "title": "Codex Mutabilis: Preserving The Reasons For Changes In Scientific Names",
-      "authors": [
-        "Richard Littauer, Jessamyn West"
-      ],
-      "journal": "arXiv cs.DL",
-      "abstract": "arXiv:2606.27271v1 Announce Type: new Abstract: Digital preservation infrastructures often prioritize the stability of content and metadata. In taxonomy, species names are formed according to the Articles listed in the International Code of Zoological Nomenclature. The reasons for these changes are rarely recorded in detail or made machine-readable. This paper examines this preservation gap. Here, we cover issues in the Code by looking at approaches to recording nomenclatural changes related to ",
-      "doi": "https://arxiv.org/abs/",
-      "publishDate": "Fri, 26 Jun 2026 00:00:00 -0400",
-      "url": "https://arxiv.org/abs/2606.27271",
-      "keywords": [],
-      "source": "arXiv",
-      "year": 2026,
-      "crawledAt": "2026-06-27T02:46:13.953054"
-    },
-    {
-      "id": "arxiv-04fafa8ee64e",
-      "title": "How Surprising Is Historical Italian to Language Models? Tokenization Tax, Comprehension Tax, and a Simple Mitigation",
-      "authors": [
-        "Maria Levchenko"
-      ],
-      "journal": "arXiv cs.DL",
-      "abstract": "arXiv:2606.27275v1 Announce Type: cross Abstract: Large language models (LLMs) are increasingly critical to digital library workflows, yet their ability to process historical language remains poorly understood. Historical difficulty is typically treated as a monolithic barrier, conflating orthographic variation, linguistic distance, and pretraining exposure. In this paper, we propose a diagnostic framework that decomposes this difficulty into four distinct dimensions: tokenization cost, predicti",
-      "doi": "https://arxiv.org/abs/",
-      "publishDate": "Fri, 26 Jun 2026 00:00:00 -0400",
-      "url": "https://arxiv.org/abs/2606.27275",
-      "keywords": [],
-      "source": "arXiv",
-      "year": 2026,
-      "crawledAt": "2026-06-27T02:46:13.953555"
-    },
-    {
-      "id": "arxiv-c6903775cf07",
-      "title": "Dream machine -- the next creative economy",
-      "authors": [
-        "Peter Woodbridge, John J. O'Hare"
-      ],
-      "journal": "arXiv cs.CY",
-      "abstract": "arXiv:2606.26114v1 Announce Type: new Abstract: We examine the structural transformation of creative industries under generative artificial intelligence, drawing on 374 primary sources spanning policy documents, industry data, creator surveys, and platform analytics. Beginning with the December 2024 release of OpenAI's Sora video model as a watershed event, we trace the historical pattern of creative resistance to technological disruption, then develop an analytical framework -- the Human-AI Age",
-      "doi": "https://arxiv.org/abs/",
-      "publishDate": "Fri, 26 Jun 2026 00:00:00 -0400",
-      "url": "https://arxiv.org/abs/2606.26114",
-      "keywords": [],
-      "source": "arXiv",
-      "year": 2026,
-      "crawledAt": "2026-06-27T02:46:15.046695"
-    },
-    {
-      "id": "arxiv-06ab0e560a75",
-      "title": "Somatic in the East, Psychological in the West?: Investigating Clinically-Grounded Cross-Cultural Depression Symptom Expression in LLMs",
-      "authors": [
-        "Shintaro Sakai, Jisun An, Migyeong Kang, Haewoon Kwak"
-      ],
-      "journal": "arXiv cs.CY",
-      "abstract": "arXiv:2508.03247v2 Announce Type: replace-cross Abstract: Prior clinical psychology research shows that Western individuals with depression tend to report psychological symptoms, while Eastern individuals report somatic ones. We test whether Large Language Models (LLMs), which are increasingly used in mental health, reproduce these cultural patterns by prompting them with Western or Eastern personas. Results show that LLMs largely fail to replicate the patterns when prompted in English, though p",
-      "doi": "https://arxiv.org/abs/",
-      "publishDate": "Fri, 26 Jun 2026 00:00:00 -0400",
-      "url": "https://arxiv.org/abs/2508.03247",
-      "keywords": [],
-      "source": "arXiv",
-      "year": 2026,
-      "crawledAt": "2026-06-27T02:46:15.048314"
-    }
-  ]
+  "items": []
 }
