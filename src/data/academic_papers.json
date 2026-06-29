@@ -11,7 +11,7 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.4337/9781802207897.finland.ich",
-    "crawled_at": "2026-06-28T03:25:55.379575"
+    "crawled_at": "2026-06-29T03:31:19.849595"
   },
   {
     "id": "0fe9eac26dac",
@@ -26,6 +26,188 @@
     "source": "CrossRef",
     "url": "https://doi.org/10.4337/9781802207897.ireland.ich",
     "crawled_at": "2026-06-27T02:46:12.066623"
+  },
+  {
+    "id": "cf5519afe136",
+    "title": "Unconditional Well-posedness for the MMT Equation on the Torus",
+    "authors": [
+      "Mahendra Panthee",
+      "James Patterson",
+      "Yuzhao Wang"
+    ],
+    "journal": "arXiv preprint",
+    "doi": "",
+    "arxiv_id": "2606.28290v1",
+    "publish_date": "2026-06-26",
+    "abstract": "We consider the initial value problem (IVP) for a two-parameter family of derivative nonlinear Schrödinger equations on the torus, known as the Majda-McLaughlin-Tabak (MMT) model arising in weak wave turbulence theory. For positive derivative order, we show that the flow map is not $C^3$ at the origin. Using an enhanced energy method, we prove unconditional local well-posedness in Sobolev spaces. At the energy regularity, conservation of the Hamiltonian and a mass-type quantity yields unconditio",
+    "source": "arXiv",
+    "url": "https://arxiv.org/abs/2606.28290v1",
+    "crawled_at": "2026-06-29T03:31:07.339904"
+  },
+  {
+    "id": "fc84f75d98c9",
+    "title": "Neutrino oscillation data and a pseudo-Dirac heavy neutral lepton",
+    "authors": [
+      "Jan Hajer"
+    ],
+    "journal": "arXiv preprint",
+    "doi": "",
+    "arxiv_id": "2606.28272v1",
+    "publish_date": "2026-06-26",
+    "abstract": "Symmetry-protected seesaw models can accommodate light-neutrino oscillation data while keeping heavy neutral leptons (HNLs) within collider reach. In these models, the smallness of the light-neutrino masses is protected by an approximate lepton number (LN)-like symmetry that is broken only by small parameters. We study the minimal scenario in which the new states form one pseudo-Dirac HNL pair. The exact LN-conserving Dirac limit is diagonalised without expanding in the active-sterile mixing, an",
+    "source": "arXiv",
+    "url": "https://arxiv.org/abs/2606.28272v1",
+    "crawled_at": "2026-06-29T03:31:07.339986"
+  },
+  {
+    "id": "6fc68aabcd53",
+    "title": "Some geometric perspectives on Contact Hamiltonian Dynamics",
+    "authors": [
+      "Javier Pérez Álvarez"
+    ],
+    "journal": "arXiv preprint",
+    "doi": "",
+    "arxiv_id": "2606.28265v1",
+    "publish_date": "2026-06-26",
+    "abstract": "This article presents a unified overview of contact Hamiltonian geometry as a natural framework for the description of dissipative and non-conservative systems. Starting from the symplectic cover of a contact manifold, we clarify the structural relation between contact and symplectic dynamics and show how dissipation is geometrically encoded through the contact structure and the Reeb vector field. Following the introduction, which provides a guided overview of the subject through key references,",
+    "source": "arXiv",
+    "url": "https://arxiv.org/abs/2606.28265v1",
+    "crawled_at": "2026-06-29T03:31:07.340061"
+  },
+  {
+    "id": "e094f3511ec2",
+    "title": "Cancellation of one-loop time dependence in superhorizon curvature perturbations from all scales",
+    "authors": [
+      "Keisuke Inomata"
+    ],
+    "journal": "arXiv preprint",
+    "doi": "",
+    "arxiv_id": "2606.28247v1",
+    "publish_date": "2026-06-26",
+    "abstract": "We show the conservation of the superhorizon curvature perturbations at one-loop level in spatially-flat gauge, including contributions from loop wavenumbers on all scales. In contrast to previous works, we do not assume a hierarchy $k \\gg q$ between the wavenumber of the loop integral, $k$, and that of the power spectrum, $q$, and we explicitly include the regime $k \\lesssim q$. Taking into account the nonlinear relation between the inflaton fluctuation and the curvature perturbation with the $",
+    "source": "arXiv",
+    "url": "https://arxiv.org/abs/2606.28247v1",
+    "crawled_at": "2026-06-29T03:31:07.340121"
+  },
+  {
+    "id": "5756f09df55b",
+    "title": "Physics-Informed Neural Network with Transfer Learning for State Estimation in Lithium-Ion Batteries using the Single Particle Model with Electrolyte",
+    "authors": [
+      "Gift Modekwe",
+      "Qiugang Lu"
+    ],
+    "journal": "arXiv preprint",
+    "doi": "",
+    "arxiv_id": "2606.28220v1",
+    "publish_date": "2026-06-26",
+    "abstract": "Physics-informed neural networks (PINNs) have emerged as a powerful tool for solving nonlinear partial differential equations (PDEs), including battery electrochemical models. They typically en-force conservation laws within the loss function to ensure physically consistent solutions. Tradi-tional numerical methods such as finite difference, finite volume, and finite element techniques, re-ly on discretization and can be computationally expensive for nonlinear systems. To address this challenge,",
+    "source": "arXiv",
+    "url": "https://arxiv.org/abs/2606.28220v1",
+    "crawled_at": "2026-06-29T03:31:07.340204"
+  },
+  {
+    "id": "a7824d5c1fe2",
+    "title": "Specification-aware Robustness Margins for Symbolic Controllers",
+    "authors": [
+      "Youssef Ait Si",
+      "Antoine Girard",
+      "Adnane Saoud"
+    ],
+    "journal": "arXiv preprint",
+    "doi": "",
+    "arxiv_id": "2606.28143v1",
+    "publish_date": "2026-06-26",
+    "abstract": "We address the problem of robust controller synthesis for a class of linear temporal logic (LTL) specifications over families of perturbed systems using symbolic control techniques. Given a dynamical system, a specification, and a symbolic controller synthesized using the fixed-point algorithm of the specification, the objective is to find the maximal perturbation we can apply to the system while the system continues to satisfy the same specification under the same controller. We first provide g",
+    "source": "arXiv",
+    "url": "https://arxiv.org/abs/2606.28143v1",
+    "crawled_at": "2026-06-29T03:31:07.340311"
+  },
+  {
+    "id": "616f86144eb9",
+    "title": "A Reproducible Pipeline for Symmetry-Respecting Excited States on Near-Term Quantum Computers: The H2O/STO-3G Case",
+    "authors": [
+      "Huajing Song"
+    ],
+    "journal": "arXiv preprint",
+    "doi": "",
+    "arxiv_id": "2606.28130v1",
+    "publish_date": "2026-06-26",
+    "abstract": "Variational excited-state quantum algorithms fail for reasons usually studied in isolation: barren plateaus, symmetry contamination, finite-sampling instability, and hardware cost. Using one small but complete system -- H$_2$O in the STO-3G basis (12 qubits, Jordan--Wigner) -- we assemble these into a single reproducible pipeline, checking every claim against exact diagonalization. The bare qubit Hamiltonian interleaves cation ($N{=}7$) states below the neutral manifold; hardware-efficient and n",
+    "source": "arXiv",
+    "url": "https://arxiv.org/abs/2606.28130v1",
+    "crawled_at": "2026-06-29T03:31:07.340390"
+  },
+  {
+    "id": "9ab626bdbc0a",
+    "title": "Physics-constrained neural networks for surrogate modeling of lossless periodic structures",
+    "authors": [
+      "Eric Prehn",
+      "Peter Jung"
+    ],
+    "journal": "arXiv preprint",
+    "doi": "",
+    "arxiv_id": "2606.28119v1",
+    "publish_date": "2026-06-26",
+    "abstract": "We introduce a physics-constrained neural network (PCNN) for the rapid prediction of rigorous coupled-wave analysis (RCWA) outputs in the form of Jones matrices. Starting from energy conservation in lossless layered periodic structures, we use the fact that RCWA outputs lie on a Stiefel manifold. This energy constraint is enforced as a hard condition by projecting onto the manifold using differentiable symmetric orthogonalization. The resulting surrogate enforces energy conservation by construct",
+    "source": "arXiv",
+    "url": "https://arxiv.org/abs/2606.28119v1",
+    "crawled_at": "2026-06-29T03:31:07.340447"
+  },
+  {
+    "id": "0d368fb0c138",
+    "title": "A Structure-Preserving Neural-Spectral Method for Reconstructing Controls of Wave Equations",
+    "authors": [
+      "Tan-Phuc Nguyen",
+      "Minh-Binh Tran",
+      "Son Tu"
+    ],
+    "journal": "arXiv preprint",
+    "doi": "",
+    "arxiv_id": "2606.28029v1",
+    "publish_date": "2026-06-26",
+    "abstract": "The numerical reconstruction of controls for partial differential equations remains comparatively underdeveloped, despite the extensive analytical literature on controllability. This difficulty is particularly pronounced for wave equations, whose conservative structure, oscillatory dynamics, and high-frequency behavior make direct discretization and optimization challenging. In this work, we introduce a Neural-Spectral method for approximating controls of wave equations. The method represents bo",
+    "source": "arXiv",
+    "url": "https://arxiv.org/abs/2606.28029v1",
+    "crawled_at": "2026-06-29T03:31:07.340535"
+  },
+  {
+    "id": "e150ff2f71d3",
+    "title": "Decentralized Stability of IBR-dominated Power Grids Using Block Diagonal Dominance",
+    "authors": [
+      "Youhong Chen",
+      "Xiaoyu Tan",
+      "Muhammad Sharjeel Javaid",
+      "David Angeli",
+      "Balarko Chaudhuri"
+    ],
+    "journal": "arXiv preprint",
+    "doi": "",
+    "arxiv_id": "2606.28023v1",
+    "publish_date": "2026-06-26",
+    "abstract": "The growing penetration of inverter-based resources (IBRs) necessitates stability assessment methods that are scalable, decentralized, and model-agnostic. This paper develops a block diagonal dominance (BDD) criterion for decentralized small-signal stability of IBR-dominated power grids. The proposed approach forms the basis for an enhanced IBR connection compliance condition from a small-signal stability perspective that can be evaluated locally for IBRs to be connected to the grid. The propose",
+    "source": "arXiv",
+    "url": "https://arxiv.org/abs/2606.28023v1",
+    "crawled_at": "2026-06-29T03:31:07.340607"
+  },
+  {
+    "id": "196d1389e0e2",
+    "title": "Productionized Fairness Measurement Under Privacy Constraints",
+    "authors": [
+      "Osonde A. Osoba",
+      "Yuzi He",
+      "Saikrishna Badrinarayanan",
+      "Varun Mithal",
+      "Sakshi Jain",
+      "Natesh S. Pillai"
+    ],
+    "journal": "arXiv preprint",
+    "doi": "",
+    "arxiv_id": "2606.27558v1",
+    "publish_date": "2026-06-25",
+    "abstract": "Fairness measurements in the form of disaggregated evaluations often rely on demographic signals that are legally constrained or culturally sensitive. Race and ethnicity signals are among the more difficult signals to curate and use for this task. This paper presents Privacy-Preserving Probabilistic Race/Ethnicity Estimation (PPRE) as a method for enabling fairness measurements with respect to race/ethnicity for U.S.\\ LinkedIn members in a privacy-preserving manner. PPRE applies privacy technolo",
+    "source": "arXiv",
+    "url": "https://arxiv.org/abs/2606.27558v1",
+    "crawled_at": "2026-06-29T03:31:02.804844"
   },
   {
     "id": "224d1372bf8c",
@@ -44,7 +226,7 @@
     "abstract": "Translation cascades for reasoning translate the query from another language to English, reason in English, and translate the answer back to the original language. This is a competitive approach to multilingual reasoning, but structurally lossy, since each stage discards information later stages may need, including cues for cultural grounding, register, and disambiguation. We examine the benefits of a simple and training-free intervention: a context-aware translation cascade, which additionally ",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2606.27306v1",
-    "crawled_at": "2026-06-28T03:25:48.213897"
+    "crawled_at": "2026-06-29T03:31:02.804946"
   },
   {
     "id": "9bbca0a74a54",
@@ -74,7 +256,7 @@
     "abstract": "The Interstellar Medium (ISM) is the reservoir of baryonic matter from which stars and planetary systems are formed. It is also the repository of the material that is expelled at the end of the stellar evolutionary cycle feeding the baryonic matter reservoir. These evolutionary phases in the ISM together form a complex interplay driving planet and star formation and thus the evolution of our own Milky Way as well as galaxies at low and high redshifts. The design of the Line Emission Terahertz Ob",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2606.27060v1",
-    "crawled_at": "2026-06-28T03:25:48.213991"
+    "crawled_at": "2026-06-29T03:31:02.805095"
   },
   {
     "id": "4fb52812ab90",
@@ -89,7 +271,7 @@
     "abstract": "LLM agents are transitioning from experimental tools to permanent infrastructure -- a computational layer as enduring as the electrical grid. Like any infrastructure, they carry a cost chain from physical capital through enterprise investment to user consumption, ending at the user's most irreplaceable resource: lifetime. When unoptimized, this chain leaks, consuming user lifetime without adequate compensation. This paper proposes Pingquanqi (Equalizer), a cross-domain sociotechnical framework f",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2606.26573v1",
-    "crawled_at": "2026-06-28T03:25:48.214037"
+    "crawled_at": "2026-06-29T03:31:02.805186"
   },
   {
     "id": "9a93d5066e09",
@@ -108,7 +290,7 @@
     "abstract": "Mammalian cell-culture processes underpin the manufacture of many biopharmaceuticals, yet keeping a run on track is hard: critical process parameters drift over days, and an off-specification trend is often confirmed too late to intervene. Early-stage, multi-day forecasts could enable timely adjustment of feeding, sampling, and control, but bioprocess forecasting is challenging because measurements are sparse and irregularly sampled, operating conditions are heterogeneous across cell lines and m",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2606.26520v1",
-    "crawled_at": "2026-06-28T03:25:48.214090"
+    "crawled_at": "2026-06-29T03:31:02.805312"
   },
   {
     "id": "eaf4521bab0d",
@@ -272,7 +454,7 @@
     "abstract": "Well-documented research on physics graduate education has demonstrated long-standing issues that hinder equitable student access and participation. Addressing these challenges can be particularly difficult because they are often rooted in entrenched disciplinary and departmental cultures that tend to be rigid and resistant to change. In this work, we aim to cultivate a data-driven culture of cyclic self-reflection and action to proactively identify and address issues that affect student well-be",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2606.26405v1",
-    "crawled_at": "2026-06-28T03:25:48.214125"
+    "crawled_at": "2026-06-29T03:31:02.805386"
   },
   {
     "id": "d32b11184798",
@@ -294,7 +476,7 @@
     "abstract": "Text detoxification, the automated detection and mitigation of abusive and harmful content, is essential for ensuring the safety of online communities and protecting users. However, low resource languages such as Tatar have received little research attention. In this paper we present Tatoxa, a novel state-of-the-art system for text detoxification in the Tatar language. Comparative experiments show that the proposed approach outperforms existing open source and proprietary commercial LLMs on key ",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2606.26015v1",
-    "crawled_at": "2026-06-28T03:25:48.214171"
+    "crawled_at": "2026-06-29T03:31:02.805470"
   },
   {
     "id": "93788f729dcc",
@@ -314,7 +496,7 @@
     "abstract": "Was this person ever at that place, and if so, when? Answering such questions from noisy, multilingual historical documents is the central challenge of HIPE-2026, the third edition of the HIPE evaluation series. Moving from named entity recognition and linking (HIPE-2020, HIPE-2022) to reasoning about relationships between entities, HIPE-2026 targets two temporally grounded relation types: $at$, indicating that a person was present at a location at some point prior to a document's publication da",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2606.25935v1",
-    "crawled_at": "2026-06-28T03:25:48.214226"
+    "crawled_at": "2026-06-29T03:31:02.805572"
   },
   {
     "id": "e08363093a88",
@@ -332,7 +514,7 @@
     "abstract": "Opinions play a crucial role in shaping collective phenomena such as political polarization, cultural integration and demographic change. By continuously changing social environments in which opinions evolve, human migration serves as an important driver of collective opinion formation. While migration and opinion dynamics have both been extensively studied, the few existing models that couple the two are primarily deterministic and therefore cannot capture demographic fluctuations, finite-size ",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2606.25682v1",
-    "crawled_at": "2026-06-28T03:25:48.214278"
+    "crawled_at": "2026-06-29T03:31:02.805659"
   },
   {
     "id": "30216312f0e7",
@@ -349,7 +531,7 @@
     "abstract": "Large language models (LLMs) are increasingly deployed across languages, but their safety behavior remains uneven across linguistic and cultural contexts. This survey synthesizes work on toxicity detection and detoxification for multilingual LLMs. We first catalogue threat models that exploit language choice, translation pivots, code-switching, orthographic variation, multi-turn interaction, and post-deployment fine-tuning to weaken safety alignment. We then organize task formulations (toxic-to-",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2606.25380v1",
-    "crawled_at": "2026-06-28T03:25:48.214314"
+    "crawled_at": "2026-06-29T03:31:02.805722"
   },
   {
     "id": "dcdbb4744755",
@@ -384,7 +566,7 @@
     "abstract": "Simultaneous structural and elemental characterisation of a specimen in a non-destructive manner is an instrumental approach with applications in a variety of fields including energy materials, cultural heritage and life sciences. This is routinely performed at synchrotron facilities, e.g. by combining X-ray imaging and X-ray fluorescence. In this work we describe an approach based on a monochromatic implementation of X-ray beam tracking (XBT), a multimodal imaging technique compatible with stan",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2606.24753v1",
-    "crawled_at": "2026-06-28T03:25:55.738388"
+    "crawled_at": "2026-06-29T03:31:20.189859"
   },
   {
     "id": "c3034a5d6b64",
@@ -402,7 +584,7 @@
     "abstract": "Building on Arkhipov's proposal that technogenic artefacts may survive natural interstellar transport and accumulate on airless Solar System bodies, we examine the prospects for identifying micron-scale engineered particulate material within the lunar regolith. We analyse the transport of micron and submicron grains through the interstellar medium, including gas drag, sputtering, and ISM phase-dependent survival, and show that refractory particles with characteristic radii of order 0.3 microns m",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2606.24028v1",
-    "crawled_at": "2026-06-28T03:25:55.738455"
+    "crawled_at": "2026-06-29T03:31:20.189973"
   },
   {
     "id": "21d1133897c2",
@@ -417,7 +599,7 @@
     "abstract": "We present a spatially resolved archaeological reconstruction of the Sextans dwarf spheroidal (dSph) galaxy using deep DECam wide-field photometry and the PANCAKE CMD-fitting code. By analyzing the star formation history (SFH) and age-metallicity relationship (AMR) across four radial zones, namely: core, ring, outer body, and outskirts, we find that Sextans is a composite system formed through a minor merger approximately 13 Gyr ago. Our results reveal an inverse metallicity gradient: a primitiv",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2606.23216v1",
-    "crawled_at": "2026-06-28T03:25:55.738507"
+    "crawled_at": "2026-06-29T03:31:20.190064"
   },
   {
     "id": "614de7f3d8e4",
@@ -775,7 +957,7 @@
     "abstract": "Ancient human beings started \"external entropy production\" in a late stage of evolution, in addition to the internal entropy production by which energy was dissipated within the body of life, as previously described consistently with the birth of life by maximum entropy production principle. In this paper, the mechanism for development of external entropy production, which is strongly related with use of tools and controlling fire, is theoretically investigated. Archaeological data show that the",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2606.19066v1",
-    "crawled_at": "2026-06-28T03:25:55.738556"
+    "crawled_at": "2026-06-29T03:31:20.190152"
   },
   {
     "id": "8654d57da729",
@@ -1135,7 +1317,7 @@
     "abstract": "Unmanned Aerial Vehicle (UAV) multispectral point clouds (MPC) provide high-dimensional spatial-spectral data for sub-canopy target detection; however, their efficacy is significantly compromised by severe illumination heterogeneity caused by vegetation shadows. To address this, we propose a prior-free anomaly detection framework capable of robustly handling lighting variations. First, we formulate solar angle estimation as an inverse optimization problem. By coupling spectral indices with a ray",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2606.09111v1",
-    "crawled_at": "2026-06-28T03:25:55.738597"
+    "crawled_at": "2026-06-29T03:31:20.190227"
   },
   {
     "id": 16,
@@ -1290,7 +1472,7 @@
     "abstract": "Across the Northern Hemisphere, Indigenous hunters developed arrows capable of skipping across the water surface to strike waterfowl. Archaeological and ethnographic records reveal remarkably similar projectile designs spanning millennia and geographically distant cultures, suggesting a convergent technological solution. Despite extensive study of water-entry dynamics, the physical principles underlying this behaviour remain poorly understood. Here we show that successful water-skipping arises f",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2606.03015v1",
-    "crawled_at": "2026-06-28T03:25:55.738676"
+    "crawled_at": "2026-06-29T03:31:20.190343"
   },
   {
     "id": "f620d4879c44",
@@ -1308,7 +1490,7 @@
     "abstract": "We introduce and study a new model of correlated uniform attachment (UA) trees, where correlation is sprinkled throughout the time evolution of the process. In this model, two UA trees are grown in parallel, and at each time step a new node is added to each tree, with an edge between it and a uniformly chosen existing vertex in the respective tree. The two choices of attachment are correlated: with probability $α$, the edges attach to nodes with the same time label in both trees, and with probab",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2606.02472v1",
-    "crawled_at": "2026-06-28T03:25:55.738733"
+    "crawled_at": "2026-06-29T03:31:20.190443"
   },
   {
     "id": 22,
@@ -1353,7 +1535,7 @@
     "abstract": "Purpose: Digitization projects in the humanities produce vast, heterogeneous archives of historical documents, making manual sorting impractical at scale. This work addresses the need for an automated system to classify scanned page images based on visual content type - text, tables, and graphics - enabling content-specific downstream processing such as Optical Character Recognition (OCR) or structured data extraction. Methods: An image classification system was developed and evaluated on a data",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2606.07558v2",
-    "crawled_at": "2026-06-28T03:25:55.738786"
+    "crawled_at": "2026-06-29T03:31:20.190540"
   },
   {
     "id": "a5520a3bf9b4",
@@ -1388,7 +1570,7 @@
     "abstract": "We present a new absolute age determination for NGC 6791, one of the Milky Way's oldest and most metal-rich open clusters. Its unusual properties make it an important probe of inner-disk evolution and asteroseismic calibration, but its age has remained difficult to determine because of coupled uncertainties in reddening, distance, photometry, and stellar-model physics. Gaia DR3 photometry together with detached eclipsing binaries (DEBs) in NGC 6791 are combined with 10,000 Monte Carlo isochrone ",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2605.21682v1",
-    "crawled_at": "2026-06-28T03:25:55.738835"
+    "crawled_at": "2026-06-29T03:31:20.190629"
   },
   {
     "id": "6f68f4b19eb5",
@@ -1416,7 +1598,7 @@
     "abstract": "Theoretical models predict that subgiants within a narrow mass regime can retain detectable lithium enrichment signatures from planetary engulfment. We test this prediction using TOI-5882, selected because it occupies this favorable subgiant parameter space and hosts a massive brown dwarf ($22 \\, M_{ \\rm J}$, $P=7.1 \\,{\\rm d}$) companion capable of dynamically perturbing inner planets. We investigate whether: (1) TOI-5882 exhibits lithium enhancement among similar subgiants, (2) planetary materi",
     "source": "arXiv",
     "url": "https://arxiv.org/abs/2605.21407v1",
-    "crawled_at": "2026-06-28T03:25:55.738906"
+    "crawled_at": "2026-06-29T03:31:20.190753"
   },
   {
     "id": "cb8e213136fa",
@@ -1559,7 +1741,7 @@
     "abstract": "<jats:p>Intangible cultural heritage (ICH) remains underutilized in cultural heritage tourism (CHT), which often prioritizes tangible assets because of their visibility and ease of interpretation. This chapter presents an applied methodological framework that supports destination teams and heritage stakeholders in moving from awareness of ICH to responsible implementation in tourism contexts. Adapted from the Intangible Heritage Playbook, the framework offers a structured yet flexible process pr",
     "source": "CrossRef",
     "url": "https://doi.org/10.5772/intechopen.1014535",
-    "crawled_at": "2026-06-28T03:25:55.379545"
+    "crawled_at": "2026-06-29T03:31:19.849532"
   },
   {
     "id": "78fcd9f334c7",
@@ -1571,7 +1753,7 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.3390/books978-3-7258-6237-5",
-    "crawled_at": "2026-06-28T03:25:50.174285"
+    "crawled_at": "2026-06-29T03:31:06.854566"
   },
   {
     "id": "223cc9c80340",
@@ -1585,7 +1767,7 @@
     "abstract": "<jats:p>Between 1953 and 1975, the deserted medieval town Borgund witnessed Norway’s most extensive excavations of ordinary people’s settlements outside the still-existing towns. Yet, the substantial archaeological material recovered has remained an underexploited resource in scholarship. The first part of the paper examines the background to the large-scale excavations and explores factors contributing to the limited research on the datasets. The Borgund Kaupang Project (2019–) now seeks to rev",
     "source": "CrossRef",
     "url": "https://doi.org/10.1484/j.jua.5.153856",
-    "crawled_at": "2026-06-28T03:25:56.389670"
+    "crawled_at": "2026-06-29T03:31:21.591042"
   },
   {
     "id": "9d0e3bdb92c0",
@@ -1600,7 +1782,7 @@
     "abstract": "<jats:p> In recent years, and in their own right, urban archaeology and archive archaeology have become important and influential subdisciplines of archaeology, continuing to break new ground in discovering the past. This text and special section of the <jats:italic>Journal of Urban Archaeology</jats:italic> it introduces, is situated at the intersection between these two fields, asking how archival research in archaeology and the use of legacy data can rediscover ‘lost’ urban sites. The meaning",
     "source": "CrossRef",
     "url": "https://doi.org/10.1484/j.jua.5.153853",
-    "crawled_at": "2026-06-28T03:25:56.389715"
+    "crawled_at": "2026-06-29T03:31:21.591113"
   },
   {
     "id": "43422a0c8360",
@@ -1614,7 +1796,7 @@
     "abstract": "<jats:p>In the 1980s, massive detector finds were discovered by the long-forgotten medieval Tårnborg Castle, located at the bottom of Korsør inlet, Zealand. The impressive number of finds, especially coins, encouraged limited excavations, revealing medieval dwellings and a marketplace on the shores below an imposing castle hill. Tårnborg was replaced by the modern town of Korsør in the fourteenth century, but revitalized by detector surveys. However, by the end of the twentieth century, the muse",
     "source": "CrossRef",
     "url": "https://doi.org/10.1484/j.jua.5.153857",
-    "crawled_at": "2026-06-28T03:25:56.389750"
+    "crawled_at": "2026-06-29T03:31:21.591181"
   },
   {
     "id": "0ee7c7ce2d16",
@@ -1626,7 +1808,7 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.1484/j.jua.5.156034",
-    "crawled_at": "2026-06-28T03:25:56.389755"
+    "crawled_at": "2026-06-29T03:31:21.591192"
   },
   {
     "id": "0f06edf02c4e",
@@ -1641,7 +1823,7 @@
     "abstract": "<jats:p>This article examines the creation of one of the world’s largest collections of Palmyrene sculpture outside of Syria itself; namely the one in the Ny Carlsberg Glyptotek in Copenhagen. It does so here through the online available correspondence between the brewer Carl Jacobsen and the Danish consul in Beirut, Julius Løytved, through whom he acquired most of the Palmyrene objects in the collection between 1884 and 1888. We base the results on twelve years of research undertaken within the",
     "source": "CrossRef",
     "url": "https://doi.org/10.1484/j.jua.5.153852",
-    "crawled_at": "2026-06-28T03:25:56.389773"
+    "crawled_at": "2026-06-29T03:31:21.591240"
   },
   {
     "id": "3c522b9e472b",
@@ -1655,7 +1837,7 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.21275/sr251209113345",
-    "crawled_at": "2026-06-28T03:25:52.399720"
+    "crawled_at": "2026-06-29T03:31:11.126140"
   },
   {
     "id": "45dfce9d297a",
@@ -1686,7 +1868,7 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.1109/icsh68040.2025.11548176",
-    "crawled_at": "2026-06-27T02:46:10.156523"
+    "crawled_at": "2026-06-29T03:31:11.126247"
   },
   {
     "id": "d657fbc6a64e",
@@ -1704,7 +1886,7 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.1038/s40494-025-02150-7",
-    "crawled_at": "2026-06-28T03:25:55.379485"
+    "crawled_at": "2026-06-29T03:31:19.849441"
   },
   {
     "id": "f01631c59cd3",
@@ -1728,7 +1910,7 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.3390/books978-3-7258-5738-8",
-    "crawled_at": "2026-06-28T03:25:50.174269"
+    "crawled_at": "2026-06-29T03:31:06.854547"
   },
   {
     "id": "a7a8a94a4034",
@@ -1742,7 +1924,7 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.7767/9783205221296.348",
-    "crawled_at": "2026-06-28T03:25:52.399725"
+    "crawled_at": "2026-06-29T03:31:11.126148"
   },
   {
     "id": "0df291f62d17",
@@ -1756,7 +1938,7 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.1163/9789004753525_007",
-    "crawled_at": "2026-06-28T03:25:52.399586"
+    "crawled_at": "2026-06-29T03:31:11.126020"
   },
   {
     "id": "66fa20572d02",
@@ -1770,7 +1952,7 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.4324/9781003619550-2",
-    "crawled_at": "2026-06-28T03:25:55.379459"
+    "crawled_at": "2026-06-29T03:31:19.849408"
   },
   {
     "id": "2357fb603e98",
@@ -1784,7 +1966,7 @@
     "abstract": "<jats:p> The UNESCO Convention for the Safeguarding of the Intangible Cultural Heritage has come into effect on 2006. Since then, its complexity and its lack of constraint have generated a large number of problems and debates into the academic world. In the attempt to counter the criticism and answer some of the interrogations, this paper is dedicated to analysis of the ways how researchers and teachers could understand and transmit intangible cultural heritage. As the author has edited an acade",
     "source": "CrossRef",
     "url": "https://doi.org/10.55877/cc.vol28.615",
-    "crawled_at": "2026-06-28T03:25:55.379570"
+    "crawled_at": "2026-06-29T03:31:19.849585"
   },
   {
     "id": "dce0075e93b5",
@@ -1799,7 +1981,7 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.4324/9781003334453",
-    "crawled_at": "2026-06-28T03:25:53.824418"
+    "crawled_at": "2026-06-29T03:31:13.942416"
   },
   {
     "id": "38340fad831a",
@@ -1814,7 +1996,7 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.4324/9781003334453-6",
-    "crawled_at": "2026-06-28T03:25:53.824423"
+    "crawled_at": "2026-06-29T03:31:13.942424"
   },
   {
     "id": "83de8dc7b0d4",
@@ -1829,7 +2011,7 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.4324/9781003334453-2",
-    "crawled_at": "2026-06-28T03:25:53.824431"
+    "crawled_at": "2026-06-29T03:31:13.942438"
   },
   {
     "id": "67db5bf36462",
@@ -1844,7 +2026,7 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.4324/9781003334453-10",
-    "crawled_at": "2026-06-28T03:25:53.824440"
+    "crawled_at": "2026-06-29T03:31:13.942445"
   },
   {
     "id": "69ead5171ca3",
@@ -1859,7 +2041,7 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.4324/9781003334453-7",
-    "crawled_at": "2026-06-28T03:25:53.824444"
+    "crawled_at": "2026-06-29T03:31:13.942451"
   },
   {
     "id": "344e543a2abf",
@@ -1874,7 +2056,7 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.4324/9781003334453-13",
-    "crawled_at": "2026-06-28T03:25:53.824448"
+    "crawled_at": "2026-06-29T03:31:13.942464"
   },
   {
     "id": "3da8e14e803e",
@@ -1913,7 +2095,7 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.3724/2096-1715.2025.09.05.016",
-    "crawled_at": "2026-06-28T03:25:53.824436"
+    "crawled_at": "2026-06-29T03:31:13.942458"
   },
   {
     "id": "a24e3e63dc98",
@@ -1927,7 +2109,31 @@
     "abstract": "<jats:p>Understanding the built heritage is the first step in its conservation. In the case of the vernacular heritage, a holistic approach must be adopted. Vernacular buildings and settlements are formed by aspects that are beyond their tangible and visual characteristics and attributes. Worldviews, values, beliefs, myths and other aspects of the intangible heritage of the community have contributed to the form, style and other tangible aspects of the built vernacular heritage. The natural envi",
     "source": "CrossRef",
     "url": "https://doi.org/10.4995/heritage2025.2025.19843",
-    "crawled_at": "2026-06-28T03:25:52.399703"
+    "crawled_at": "2026-06-29T03:31:11.126114"
+  },
+  {
+    "id": "8424947cd3b7",
+    "title": "International museology II:",
+    "authors": [],
+    "journal": "Deconstituting Museums",
+    "doi": "10.2307/jj.26931934.13",
+    "publish_date": "2025-09-10",
+    "abstract": "",
+    "source": "CrossRef",
+    "url": "https://doi.org/10.2307/jj.26931934.13",
+    "crawled_at": "2026-06-29T03:31:13.942393"
+  },
+  {
+    "id": "2bc2a7807ecd",
+    "title": "International museology I:",
+    "authors": [],
+    "journal": "Deconstituting Museums",
+    "doi": "10.2307/jj.26931934.8",
+    "publish_date": "2025-09-10",
+    "abstract": "",
+    "source": "CrossRef",
+    "url": "https://doi.org/10.2307/jj.26931934.8",
+    "crawled_at": "2026-06-29T03:31:13.942431"
   },
   {
     "id": "51685542a1d6",
@@ -1945,30 +2151,6 @@
     "crawled_at": "2026-06-28T03:25:52.399836"
   },
   {
-    "id": "8424947cd3b7",
-    "title": "International museology II:",
-    "authors": [],
-    "journal": "Deconstituting Museums",
-    "doi": "10.2307/jj.26931934.13",
-    "publish_date": "2025-09-10",
-    "abstract": "",
-    "source": "CrossRef",
-    "url": "https://doi.org/10.2307/jj.26931934.13",
-    "crawled_at": "2026-06-28T03:25:53.824397"
-  },
-  {
-    "id": "2bc2a7807ecd",
-    "title": "International museology I:",
-    "authors": [],
-    "journal": "Deconstituting Museums",
-    "doi": "10.2307/jj.26931934.8",
-    "publish_date": "2025-09-10",
-    "abstract": "",
-    "source": "CrossRef",
-    "url": "https://doi.org/10.2307/jj.26931934.8",
-    "crawled_at": "2026-06-28T03:25:53.824427"
-  },
-  {
     "id": "e2196cc07cae",
     "title": "Biodynamics as Cultural Heritage",
     "authors": [
@@ -1980,7 +2162,7 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.4324/9781032026565-7",
-    "crawled_at": "2026-06-28T03:25:50.174312"
+    "crawled_at": "2026-06-29T03:31:06.854621"
   },
   {
     "id": "5ff6db24379c",
@@ -1994,7 +2176,7 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.4324/9781032026565-23",
-    "crawled_at": "2026-06-28T03:25:55.379498"
+    "crawled_at": "2026-06-29T03:31:19.849542"
   },
   {
     "id": "5fa07985fafe",
@@ -2008,7 +2190,7 @@
     "abstract": "<jats:p>Major human impacts on New Zealand’s ecology began about 800 years ago with immigration firstly from Polynesia, then Europe starting a few centuries later. The humans cleared habitat, hunted species to extinction, and introduced biota, including plants, birds, fish, invertebrates, and mammals. Over the last 70 years, government-funded campaigns have been waged against some of the introduced mammals that became considered harmful to native biota. These campaigns spread poisonous food bait",
     "source": "CrossRef",
     "url": "https://doi.org/10.3390/conservation5030047",
-    "crawled_at": "2026-06-28T03:25:52.399778"
+    "crawled_at": "2026-06-29T03:31:11.126233"
   },
   {
     "id": "0f7a62a26dcb",
@@ -2022,7 +2204,7 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.1080/03122417.2025.2562675",
-    "crawled_at": "2026-06-28T03:25:56.389784"
+    "crawled_at": "2026-06-29T03:31:21.591250"
   },
   {
     "id": "ff2809e348e7",
@@ -2048,7 +2230,7 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.2307/jj.31272198.14",
-    "crawled_at": "2026-06-28T03:25:52.399710"
+    "crawled_at": "2026-06-29T03:31:11.126124"
   },
   {
     "id": "601959a85121",
@@ -2060,7 +2242,7 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.2307/jj.31272198.11",
-    "crawled_at": "2026-06-28T03:25:52.399735"
+    "crawled_at": "2026-06-29T03:31:11.126163"
   },
   {
     "id": "9033c5751fbc",
@@ -2074,7 +2256,7 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.14293/s2199-1006.1.sor-uncat.baip1k.v1.rtodvv",
-    "crawled_at": "2026-06-28T03:25:53.824413"
+    "crawled_at": "2026-06-29T03:31:13.942409"
   },
   {
     "id": "41aa3fdb3cc9",
@@ -2086,7 +2268,7 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.58337/xmil8436",
-    "crawled_at": "2026-06-28T03:25:52.399714"
+    "crawled_at": "2026-06-29T03:31:11.126130"
   },
   {
     "id": "65f827bd5499",
@@ -2113,7 +2295,7 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.1484/j.jua.5.152119",
-    "crawled_at": "2026-06-28T03:25:56.389722"
+    "crawled_at": "2026-06-29T03:31:21.591128"
   },
   {
     "id": "fae6a50727db",
@@ -2128,7 +2310,7 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.1484/j.jua.5.151424",
-    "crawled_at": "2026-06-28T03:25:56.389779"
+    "crawled_at": "2026-06-29T03:31:21.591204"
   },
   {
     "id": "9f33c6ca989e",
@@ -2143,7 +2325,7 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.15863/tas.2025.06.146.17",
-    "crawled_at": "2026-06-28T03:25:55.379478"
+    "crawled_at": "2026-06-29T03:31:19.849429"
   },
   {
     "id": "2b2cd415fc8b",
@@ -2157,7 +2339,7 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.1016/j.culher.2025.10.006",
-    "crawled_at": "2026-06-28T03:25:50.174292"
+    "crawled_at": "2026-06-29T03:31:06.854582"
   },
   {
     "id": "7d772dcf58b5",
@@ -2169,7 +2351,7 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.1016/s1296-2074(25)00193-1",
-    "crawled_at": "2026-06-28T03:25:50.174302"
+    "crawled_at": "2026-06-29T03:31:06.854599"
   },
   {
     "id": "c4b6a61cb52a",
@@ -2181,7 +2363,7 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.1016/s1296-2074(25)00248-1",
-    "crawled_at": "2026-06-28T03:25:50.174306"
+    "crawled_at": "2026-06-29T03:31:06.854609"
   },
   {
     "id": "487d46909836",
@@ -2193,7 +2375,7 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.1016/s1296-2074(26)00023-3",
-    "crawled_at": "2026-06-28T03:25:50.174316"
+    "crawled_at": "2026-06-29T03:31:06.854629"
   },
   {
     "id": "427b36d1f148",
@@ -2205,7 +2387,7 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.58337/ffbw7493",
-    "crawled_at": "2026-06-28T03:25:52.399730"
+    "crawled_at": "2026-06-29T03:31:11.126155"
   },
   {
     "id": "ecb9200bbc80",
@@ -2220,7 +2402,7 @@
     "abstract": "",
     "source": "CrossRef",
     "url": "https://doi.org/10.1007/978-3-032-16141-3_9",
-    "crawled_at": "2026-06-28T03:25:55.379492"
+    "crawled_at": "2026-06-29T03:31:19.849452"
   },
   {
     "id": "arxiv-3b183093a62a",
