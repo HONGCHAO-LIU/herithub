@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-29T22:45:00.190691",
+  "generated_at": "2026-06-30T02:56:07.298167",
   "summary": {
-    "total_final_items": 557,
-    "total_expired_archived": 0
+    "total_final_items": 594,
+    "total_expired_archived": 2
   },
   "details": {
     "business": {
@@ -86,37 +86,37 @@
       "category": "papers",
       "raw_count": 73,
       "existing_count": 168,
-      "fresh_count": 241,
-      "expired_count": 0,
-      "duplicate_removed": 73,
-      "final_count": 168,
+      "fresh_count": 239,
+      "expired_count": 2,
+      "duplicate_removed": 53,
+      "final_count": 186,
       "sources": {
         "CrossRef": 57,
-        "arXiv": 89,
+        "arXiv": 107,
         "unknown": 22
       }
     },
     "papers_ext": {
       "category": "papers_ext",
-      "raw_count": 0,
-      "existing_count": 168,
-      "fresh_count": 168,
+      "raw_count": 1,
+      "existing_count": 186,
+      "fresh_count": 187,
       "expired_count": 0,
       "duplicate_removed": 0,
-      "final_count": 168,
+      "final_count": 187,
       "sources": {
         "CrossRef": 57,
-        "arXiv": 89,
+        "arXiv": 108,
         "unknown": 22
       }
     },
     "news": {
       "category": "news",
       "raw_count": 28,
-      "existing_count": 77,
-      "fresh_count": 105,
+      "existing_count": 89,
+      "fresh_count": 117,
       "expired_count": 0,
-      "duplicate_removed": 16,
+      "duplicate_removed": 28,
       "final_count": 89,
       "sources": {
         "中国社会科学网": 71,

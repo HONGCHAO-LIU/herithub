@@ -1,8 +1,27 @@
 {
   "metadata": {
-    "generated_at": "2026-06-29T03:31:23.265885",
-    "total_items": 0,
-    "sources": {}
+    "generated_at": "2026-06-30T02:56:07.178078",
+    "total_items": 1,
+    "sources": {
+      "arXiv": 1
+    }
   },
-  "items": []
+  "items": [
+    {
+      "id": "arxiv-d342cb4c8285",
+      "title": "How Do People Accept Robot in Public Space? A Comparative Study between Germany and Japan",
+      "authors": [
+        "Zhe Zeng, Clara Ayumi Fechner, Fei Yan, Hailong Liu"
+      ],
+      "journal": "arXiv cs.CY",
+      "abstract": "arXiv:2604.18193v3 Announce Type: replace-cross Abstract: With the increasing deployment of robots in public spaces, encounters between robots and incidentally copresent persons (InCoPs) are becoming more frequent. However, InCoPs remain largely underexplored in the literature, particularly from a cross-cultural perspective. Therefore, the present study investigates differences in InCoPs' existence acceptance (EA) of autonomous cleaning robots in public spaces among Japanese and German participa",
+      "doi": "https://arxiv.org/abs/",
+      "publishDate": "Mon, 29 Jun 2026 00:00:00 -0400",
+      "url": "https://arxiv.org/abs/2604.18193",
+      "keywords": [],
+      "source": "arXiv",
+      "year": 2026,
+      "crawledAt": "2026-06-30T02:56:05.116595"
+    }
+  ]
 }
