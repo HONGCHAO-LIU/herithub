@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-06-30T02:56:07.178078",
+    "generated_at": "2026-07-01T03:26:50.683947",
     "total_items": 1,
     "sources": {
       "arXiv": 1
@@ -8,20 +8,20 @@
   },
   "items": [
     {
-      "id": "arxiv-d342cb4c8285",
-      "title": "How Do People Accept Robot in Public Space? A Comparative Study between Germany and Japan",
+      "id": "arxiv-d801552cf3df",
+      "title": "Attribution Bias in Philosophical Knowledge Graphs: Corpus Frequency versus Temporal Sourcing",
       "authors": [
-        "Zhe Zeng, Clara Ayumi Fechner, Fei Yan, Hailong Liu"
+        "Joy Bose"
       ],
-      "journal": "arXiv cs.CY",
-      "abstract": "arXiv:2604.18193v3 Announce Type: replace-cross Abstract: With the increasing deployment of robots in public spaces, encounters between robots and incidentally copresent persons (InCoPs) are becoming more frequent. However, InCoPs remain largely underexplored in the literature, particularly from a cross-cultural perspective. Therefore, the present study investigates differences in InCoPs' existence acceptance (EA) of autonomous cleaning robots in public spaces among Japanese and German participa",
+      "journal": "arXiv cs.DL",
+      "abstract": "arXiv:2606.29070v1 Announce Type: new Abstract: Computational knowledge graphs assign philosophical concepts to traditions based on corpus frequency: the school that mentions a concept most becomes its attributed tradition. We argue this conflates three measurements: textual power, historical priority, and philosophical significance, demonstrated using the darshana-graph, a knowledge graph of 28,322 relationships across Hindu, Buddhist, and Jain traditions. Seven of the top 25 concepts by betwee",
       "doi": "https://arxiv.org/abs/",
-      "publishDate": "Mon, 29 Jun 2026 00:00:00 -0400",
-      "url": "https://arxiv.org/abs/2604.18193",
+      "publishDate": "Tue, 30 Jun 2026 00:00:00 -0400",
+      "url": "https://arxiv.org/abs/2606.29070",
       "keywords": [],
       "source": "arXiv",
       "year": 2026,
-      "crawledAt": "2026-06-30T02:56:05.116595"
+      "crawledAt": "2026-07-01T03:26:47.523388"
     }
   ]
 }
