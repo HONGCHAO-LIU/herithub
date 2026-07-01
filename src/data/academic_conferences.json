@@ -19,7 +19,9 @@
     "sourceUrl": "https://www.allconfs.org/meeting/index.asp?id=68762",
     "verified": true,
     "crawledAt": "2026-06-05T00:00:00+08:00",
-    "keywords": []
+    "keywords": [],
+    "link_status_website": "alive",
+    "link_status": "alive"
   },
   {
     "id": 4,
@@ -42,7 +44,9 @@
     "sourceUrl": "https://www.donau-uni.ac.at/en/university/faculties/education-arts-architecture/departments/arts-cultural-studies/centers/center-for-cultural-property-protection/news/2026/chnt31-call-for-papers.html",
     "verified": true,
     "crawledAt": "2026-06-04T00:00:00+08:00",
-    "keywords": []
+    "keywords": [],
+    "link_status_website": "dead",
+    "link_status": "dead"
   },
   {
     "id": 7,
@@ -63,7 +67,9 @@
     "sourceUrl": "https://www.whitr-ap.org/index.php?classid=1529&newsid=3969&t=show",
     "verified": true,
     "crawledAt": "2026-06-04T00:00:00+08:00",
-    "keywords": []
+    "keywords": [],
+    "link_status_website": "alive",
+    "link_status": "alive"
   },
   {
     "id": 11,
@@ -85,7 +91,9 @@
     "sourceUrl": "https://www.allconfs.org/mobile/index.asp?id=65680",
     "verified": true,
     "crawledAt": "2026-06-05T00:00:00+08:00",
-    "keywords": []
+    "keywords": [],
+    "link_status_website": "alive",
+    "link_status": "alive"
   },
   {
     "id": 5,
@@ -106,7 +114,9 @@
     "sourceUrl": "https://payonline.allconfs.org/list_meeting.asp?id=64969",
     "verified": true,
     "crawledAt": "2026-06-04T00:00:00+08:00",
-    "keywords": []
+    "keywords": [],
+    "link_status_website": "dead",
+    "link_status": "dead"
   },
   {
     "id": 1,
@@ -127,7 +137,9 @@
     "sourceUrl": "https://www.tmaroc.org.tw/1150312-2/amp",
     "verified": true,
     "crawledAt": "2026-06-04T00:00:00+08:00",
-    "keywords": []
+    "keywords": [],
+    "link_status_website": "alive",
+    "link_status": "alive"
   },
   {
     "id": "8af9057143d2",
@@ -143,7 +155,9 @@
     "tags": [
       "学术会议"
     ],
-    "keywords": []
+    "keywords": [],
+    "link_status_url": "alive",
+    "link_status": "alive"
   },
   {
     "id": 6,
@@ -164,7 +178,9 @@
     "sourceUrl": "https://www.allconfs.org/meeting/index.asp?id=71431",
     "verified": true,
     "crawledAt": "2026-06-04T00:00:00+08:00",
-    "keywords": []
+    "keywords": [],
+    "link_status_website": "alive",
+    "link_status": "alive"
   },
   {
     "name": "第十届中国考古学大会",
@@ -175,7 +191,9 @@
     "organizer": "中国考古网",
     "source": "中国考古网",
     "id": "e035e5f9d0f9",
-    "crawled_at": "2026-06-25T02:52:30.826386"
+    "crawled_at": "2026-06-25T02:52:30.826386",
+    "link_status_url": "dead",
+    "link_status": "dead"
   },
   {
     "name": "Intangible Cultural Heritage Safeguarding Workshop",
@@ -186,7 +204,9 @@
     "organizer": "ICOMOS & UNESCO",
     "source": "ICOMOS",
     "id": "6d99bf15f808",
-    "crawled_at": "2026-06-25T02:52:30.826394"
+    "crawled_at": "2026-06-25T02:52:30.826394",
+    "link_status_url": "alive",
+    "link_status": "alive"
   },
   {
     "id": "c0950280b6d7",
@@ -202,7 +222,9 @@
     "tags": [
       "学术会议"
     ],
-    "keywords": []
+    "keywords": [],
+    "link_status_url": "alive",
+    "link_status": "alive"
   },
   {
     "id": 3,
@@ -224,7 +246,9 @@
     "sourceUrl": "https://www.allconfs.org/list_info_view.asp?id=D71CB5581679C26E3AC2798BCDFB1D35",
     "verified": true,
     "crawledAt": "2026-06-04T00:00:00+08:00",
-    "keywords": []
+    "keywords": [],
+    "link_status_website": "alive",
+    "link_status": "alive"
   },
   {
     "name": "ICOMOS International Symposium on Heritage Impact Assessment",
@@ -235,7 +259,9 @@
     "organizer": "ICOMOS",
     "source": "ICOMOS",
     "id": "cd9fe8d89c31",
-    "crawled_at": "2026-06-25T02:52:30.826382"
+    "crawled_at": "2026-06-25T02:52:30.826382",
+    "link_status_url": "alive",
+    "link_status": "alive"
   },
   {
     "name": "文化遗产保护青年学者论坛（2025年夏季）",
@@ -246,7 +272,9 @@
     "organizer": "中国博物馆协会",
     "source": "中国博物馆协会",
     "id": "aa93d98ee11f",
-    "crawled_at": "2026-06-25T02:52:30.826390"
+    "crawled_at": "2026-06-25T02:52:30.826390",
+    "link_status_url": "alive",
+    "link_status": "alive"
   },
   {
     "id": 8,
@@ -267,7 +295,9 @@
     "sourceUrl": "https://www.allconfs.org/meeting/index.asp?id=68131",
     "verified": true,
     "crawledAt": "2026-06-04T00:00:00+08:00",
-    "keywords": []
+    "keywords": [],
+    "link_status_website": "alive",
+    "link_status": "alive"
   },
   {
     "name": "2025年度全国博物馆数字化建设研讨会",
@@ -278,7 +308,9 @@
     "organizer": "中国博物馆协会",
     "source": "中国博物馆协会",
     "id": "9bc8ba956ca7",
-    "crawled_at": "2026-06-25T02:52:30.826373"
+    "crawled_at": "2026-06-25T02:52:30.826373",
+    "link_status_url": "alive",
+    "link_status": "alive"
   },
   {
     "id": 2,
@@ -299,7 +331,9 @@
     "sourceUrl": "https://www.allconfs.org/list_info_view.asp?id=A5E5AC5AF9DB67DB2340E5542943AD51",
     "verified": true,
     "crawledAt": "2026-06-04T00:00:00+08:00",
-    "keywords": []
+    "keywords": [],
+    "link_status_website": "alive",
+    "link_status": "alive"
   },
   {
     "id": "7eb29ac7aefb",
@@ -315,7 +349,9 @@
     "tags": [
       "学术会议"
     ],
-    "keywords": []
+    "keywords": [],
+    "link_status_url": "alive",
+    "link_status": "alive"
   },
   {
     "id": "c338f6dc2add",
@@ -331,7 +367,9 @@
     "tags": [
       "学术会议"
     ],
-    "keywords": []
+    "keywords": [],
+    "link_status_url": "alive",
+    "link_status": "alive"
   },
   {
     "id": "d839beeadc55",
@@ -347,7 +385,9 @@
     "tags": [
       "学术会议"
     ],
-    "keywords": []
+    "keywords": [],
+    "link_status_url": "alive",
+    "link_status": "alive"
   },
   {
     "id": "cad6928fbde3",
@@ -363,7 +403,9 @@
     "tags": [
       "学术会议"
     ],
-    "keywords": []
+    "keywords": [],
+    "link_status_url": "alive",
+    "link_status": "alive"
   },
   {
     "id": "95395548d695",
@@ -379,7 +421,9 @@
     "tags": [
       "学术会议"
     ],
-    "keywords": []
+    "keywords": [],
+    "link_status_url": "alive",
+    "link_status": "alive"
   },
   {
     "id": "b2c2c60be429",
@@ -395,7 +439,9 @@
     "tags": [
       "学术会议"
     ],
-    "keywords": []
+    "keywords": [],
+    "link_status_url": "alive",
+    "link_status": "alive"
   },
   {
     "id": "4cce318eca3a",
@@ -411,6 +457,8 @@
     "tags": [
       "学术会议"
     ],
-    "keywords": []
+    "keywords": [],
+    "link_status_url": "alive",
+    "link_status": "alive"
   }
 ]

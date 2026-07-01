@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-01T03:26:50.802724",
+  "generated_at": "2026-07-01T20:48:19.375546",
   "summary": {
-    "total_final_items": 636,
-    "total_expired_archived": 4
+    "total_final_items": 637,
+    "total_expired_archived": 2
   },
   "details": {
     "business": {
@@ -85,24 +85,24 @@
     "papers": {
       "category": "papers",
       "raw_count": 72,
-      "existing_count": 187,
-      "fresh_count": 255,
-      "expired_count": 4,
-      "duplicate_removed": 55,
-      "final_count": 200,
+      "existing_count": 201,
+      "fresh_count": 271,
+      "expired_count": 2,
+      "duplicate_removed": 70,
+      "final_count": 201,
       "sources": {
         "CrossRef": 55,
-        "arXiv": 123,
+        "arXiv": 124,
         "unknown": 22
       }
     },
     "papers_ext": {
       "category": "papers_ext",
       "raw_count": 1,
-      "existing_count": 200,
-      "fresh_count": 201,
+      "existing_count": 201,
+      "fresh_count": 202,
       "expired_count": 0,
-      "duplicate_removed": 0,
+      "duplicate_removed": 1,
       "final_count": 201,
       "sources": {
         "CrossRef": 55,

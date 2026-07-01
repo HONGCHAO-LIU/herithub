@@ -13,7 +13,9 @@
       "专业服务"
     ],
     "crawled_at": "2026-06-22T23:10:25.227773",
-    "validation_status": "skipped"
+    "validation_status": "skipped",
+    "link_status_link": "alive",
+    "link_status": "alive"
   },
   {
     "id": "53773523ff5c",
@@ -28,7 +30,9 @@
       "文创开发"
     ],
     "crawled_at": "2026-06-22T23:10:25.227932",
-    "validation_status": "skipped"
+    "validation_status": "skipped",
+    "link_status_link": "alive",
+    "link_status": "alive"
   },
   {
     "id": "7e8a2f1ae7d3",
@@ -43,7 +47,9 @@
       "文创开发"
     ],
     "crawled_at": "2026-06-22T23:10:25.228060",
-    "validation_status": "skipped"
+    "validation_status": "skipped",
+    "link_status_link": "alive",
+    "link_status": "alive"
   },
   {
     "id": "4bb17f148ebd",
@@ -58,7 +64,9 @@
       "文创开发"
     ],
     "crawled_at": "2026-06-22T23:10:25.228193",
-    "validation_status": "skipped"
+    "validation_status": "skipped",
+    "link_status_link": "alive",
+    "link_status": "alive"
   },
   {
     "id": "5c6499acf3c4",
@@ -74,7 +82,9 @@
       "投融资与资产化"
     ],
     "crawled_at": "2026-06-22T23:10:25.228307",
-    "validation_status": "skipped"
+    "validation_status": "skipped",
+    "link_status_link": "alive",
+    "link_status": "alive"
   },
   {
     "id": "29ea505a4a56",
@@ -89,7 +99,9 @@
       "文创开发"
     ],
     "crawled_at": "2026-06-22T23:10:26.121352",
-    "validation_status": "skipped"
+    "validation_status": "skipped",
+    "link_status_link": "alive",
+    "link_status": "alive"
   },
   {
     "id": "9c0072e1e6d6",
@@ -105,7 +117,9 @@
       "内容与媒体"
     ],
     "crawled_at": "2026-06-22T23:10:26.121488",
-    "validation_status": "skipped"
+    "validation_status": "skipped",
+    "link_status_link": "alive",
+    "link_status": "alive"
   },
   {
     "id": "91f43c2ce7dc",
@@ -120,7 +134,9 @@
       "文创开发"
     ],
     "crawled_at": "2026-06-22T23:10:27.731208",
-    "validation_status": "skipped"
+    "validation_status": "skipped",
+    "link_status_link": "alive",
+    "link_status": "alive"
   },
   {
     "id": "ba94adaa7003",
@@ -135,7 +151,9 @@
       "文创开发"
     ],
     "crawled_at": "2026-06-22T23:10:27.731324",
-    "validation_status": "skipped"
+    "validation_status": "skipped",
+    "link_status_link": "alive",
+    "link_status": "alive"
   },
   {
     "id": "dbe7b572e10c",
@@ -149,7 +167,9 @@
     "sectors": [
       "文创开发"
     ],
-    "crawled_at": "2026-06-14T18:31:23.275149"
+    "crawled_at": "2026-06-14T18:31:23.275149",
+    "link_status_link": "alive",
+    "link_status": "alive"
   },
   {
     "id": "be70c081845d",
@@ -163,7 +183,9 @@
     "sectors": [
       "文创开发"
     ],
-    "crawled_at": "2026-06-14T18:31:23.275149"
+    "crawled_at": "2026-06-14T18:31:23.275149",
+    "link_status_link": "alive",
+    "link_status": "alive"
   },
   {
     "id": "b3fdc9bcbff8",
@@ -178,7 +200,9 @@
       "文创开发",
       "专业服务"
     ],
-    "crawled_at": "2026-06-14T18:31:23.275149"
+    "crawled_at": "2026-06-14T18:31:23.275149",
+    "link_status_link": "alive",
+    "link_status": "alive"
   },
   {
     "id": "1f2bbac7a146",
@@ -192,7 +216,9 @@
     "sectors": [
       "文创开发"
     ],
-    "crawled_at": "2026-06-14T18:31:23.275149"
+    "crawled_at": "2026-06-14T18:31:23.275149",
+    "link_status_link": "alive",
+    "link_status": "alive"
   },
   {
     "id": "7b375f1c24aa",
@@ -206,7 +232,9 @@
     "sectors": [
       "文创开发"
     ],
-    "crawled_at": "2026-06-14T18:31:23.275149"
+    "crawled_at": "2026-06-14T18:31:23.275149",
+    "link_status_link": "alive",
+    "link_status": "alive"
   },
   {
     "id": "1983927a33d6",
@@ -220,7 +248,9 @@
     "sectors": [
       "文创开发"
     ],
-    "crawled_at": "2026-06-14T18:31:23.838361"
+    "crawled_at": "2026-06-14T18:31:23.838361",
+    "link_status_link": "alive",
+    "link_status": "alive"
   },
   {
     "id": "acf0782ea93c",
@@ -235,7 +265,9 @@
       "文创开发",
       "内容与媒体"
     ],
-    "crawled_at": "2026-06-14T18:31:23.838361"
+    "crawled_at": "2026-06-14T18:31:23.838361",
+    "link_status_link": "alive",
+    "link_status": "alive"
   },
   {
     "id": "e2f7791019e8",
@@ -249,7 +281,9 @@
     "sectors": [
       "文创开发"
     ],
-    "crawled_at": "2026-06-14T18:31:23.838361"
+    "crawled_at": "2026-06-14T18:31:23.838361",
+    "link_status_link": "alive",
+    "link_status": "alive"
   },
   {
     "id": "b0fb727a113c",
@@ -263,7 +297,9 @@
     "sectors": [
       "文创开发"
     ],
-    "crawled_at": "2026-06-14T18:31:24.290278"
+    "crawled_at": "2026-06-14T18:31:24.290278",
+    "link_status_link": "alive",
+    "link_status": "alive"
   },
   {
     "id": "2afeb1a9bb5f",
@@ -277,7 +313,9 @@
     "sectors": [
       "文创开发"
     ],
-    "crawled_at": "2026-06-14T18:31:24.749560"
+    "crawled_at": "2026-06-14T18:31:24.749560",
+    "link_status_link": "alive",
+    "link_status": "alive"
   },
   {
     "id": 48,

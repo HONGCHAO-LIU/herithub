@@ -19,7 +19,9 @@
       "organizer": "中国博物馆协会",
       "source": "中国博物馆协会",
       "id": "9bc8ba956ca7",
-      "crawled_at": "2026-06-25T02:52:30.826373"
+      "crawled_at": "2026-06-25T02:52:30.826373",
+      "link_status_url": "alive",
+      "link_status": "alive"
     },
     {
       "name": "ICOMOS International Symposium on Heritage Impact Assessment",
@@ -30,7 +32,9 @@
       "organizer": "ICOMOS",
       "source": "ICOMOS",
       "id": "cd9fe8d89c31",
-      "crawled_at": "2026-06-25T02:52:30.826382"
+      "crawled_at": "2026-06-25T02:52:30.826382",
+      "link_status_url": "alive",
+      "link_status": "alive"
     },
     {
       "name": "第十届中国考古学大会",
@@ -41,7 +45,9 @@
       "organizer": "中国考古网",
       "source": "中国考古网",
       "id": "e035e5f9d0f9",
-      "crawled_at": "2026-06-25T02:52:30.826386"
+      "crawled_at": "2026-06-25T02:52:30.826386",
+      "link_status_url": "dead",
+      "link_status": "dead"
     },
     {
       "name": "文化遗产保护青年学者论坛（2025年夏季）",
@@ -52,7 +58,9 @@
       "organizer": "中国博物馆协会",
       "source": "中国博物馆协会",
       "id": "aa93d98ee11f",
-      "crawled_at": "2026-06-25T02:52:30.826390"
+      "crawled_at": "2026-06-25T02:52:30.826390",
+      "link_status_url": "alive",
+      "link_status": "alive"
     },
     {
       "name": "Intangible Cultural Heritage Safeguarding Workshop",
@@ -63,7 +71,9 @@
       "organizer": "ICOMOS & UNESCO",
       "source": "ICOMOS",
       "id": "6d99bf15f808",
-      "crawled_at": "2026-06-25T02:52:30.826394"
+      "crawled_at": "2026-06-25T02:52:30.826394",
+      "link_status_url": "alive",
+      "link_status": "alive"
     }
   ]
 }

@@ -21,7 +21,9 @@
       "keywords": [],
       "source": "arXiv",
       "year": 2026,
-      "crawledAt": "2026-07-01T03:26:47.523388"
+      "crawledAt": "2026-07-01T03:26:47.523388",
+      "link_status_url": "alive",
+      "link_status": "alive"
     }
   ]
 }

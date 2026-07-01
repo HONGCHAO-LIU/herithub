@@ -172,7 +172,9 @@
     "category": "AI与文化遗产",
     "publishDate": "2026-05",
     "verified": true,
-    "crawledAt": "2026-06-05T22:30:00+08:00"
+    "crawledAt": "2026-06-05T22:30:00+08:00",
+    "link_status_url": "dead",
+    "link_status": "dead"
   },
   {
     "id": 10,
@@ -195,7 +197,9 @@
     "category": "AI与文化遗产",
     "publishDate": "2026-01",
     "verified": true,
-    "crawledAt": "2026-06-05T22:30:00+08:00"
+    "crawledAt": "2026-06-05T22:30:00+08:00",
+    "link_status_url": "dead",
+    "link_status": "dead"
   },
   {
     "id": 11,
@@ -218,7 +222,9 @@
     "category": "AI与文化遗产",
     "publishDate": "2026-01",
     "verified": true,
-    "crawledAt": "2026-06-05T22:30:00+08:00"
+    "crawledAt": "2026-06-05T22:30:00+08:00",
+    "link_status_url": "alive",
+    "link_status": "alive"
   },
   {
     "id": 12,
@@ -239,7 +245,9 @@
     "category": "文物保护技术",
     "publishDate": "2026-05-30",
     "verified": true,
-    "crawledAt": "2026-06-05T22:30:00+08:00"
+    "crawledAt": "2026-06-05T22:30:00+08:00",
+    "link_status_url": "dead",
+    "link_status": "dead"
   },
   {
     "id": 13,
@@ -261,7 +269,9 @@
     "category": "AI与文化遗产",
     "publishDate": "2026-05-30",
     "verified": true,
-    "crawledAt": "2026-06-05T22:30:00+08:00"
+    "crawledAt": "2026-06-05T22:30:00+08:00",
+    "link_status_url": "dead",
+    "link_status": "dead"
   },
   {
     "id": 14,
@@ -283,7 +293,9 @@
     "category": "AI与文化遗产",
     "publishDate": "2026-05-29",
     "verified": true,
-    "crawledAt": "2026-06-05T22:30:00+08:00"
+    "crawledAt": "2026-06-05T22:30:00+08:00",
+    "link_status_url": "dead",
+    "link_status": "dead"
   },
   {
     "id": 15,
@@ -305,7 +317,9 @@
     "category": "遥感与空间分析",
     "publishDate": "2026-05-29",
     "verified": true,
-    "crawledAt": "2026-06-05T22:30:00+08:00"
+    "crawledAt": "2026-06-05T22:30:00+08:00",
+    "link_status_url": "dead",
+    "link_status": "dead"
   },
   {
     "id": 16,
@@ -326,7 +340,9 @@
       "双重机器学习"
     ],
     "url": "https://www.nature.com/articles/s40494-026-02327-8",
-    "lastChecked": "2026-06-08"
+    "lastChecked": "2026-06-08",
+    "link_status_url": "alive",
+    "link_status": "alive"
   },
   {
     "id": 17,
@@ -347,7 +363,9 @@
       "汉代"
     ],
     "url": "https://www.nature.com/articles/s40494-026-02328-7",
-    "lastChecked": "2026-06-08"
+    "lastChecked": "2026-06-08",
+    "link_status_url": "alive",
+    "link_status": "alive"
   },
   {
     "id": 18,
@@ -368,7 +386,9 @@
       "SEM-EDS"
     ],
     "url": "https://www.nature.com/articles/s40494-026-02329-6",
-    "lastChecked": "2026-06-08"
+    "lastChecked": "2026-06-08",
+    "link_status_url": "alive",
+    "link_status": "alive"
   },
   {
     "id": 19,
@@ -389,7 +409,9 @@
       "纺织品"
     ],
     "url": "https://www.nature.com/articles/s40494-026-02330-4",
-    "lastChecked": "2026-06-08"
+    "lastChecked": "2026-06-08",
+    "link_status_url": "dead",
+    "link_status": "dead"
   },
   {
     "id": 20,
@@ -410,7 +432,9 @@
       "基准测试"
     ],
     "url": "https://www.nature.com/articles/s40494-026-02325-X",
-    "lastChecked": "2026-06-08"
+    "lastChecked": "2026-06-08",
+    "link_status_url": "dead",
+    "link_status": "dead"
   },
   {
     "id": 21,
@@ -431,7 +455,9 @@
       "大连"
     ],
     "url": "https://www.nature.com/articles/s40494-026-02324-0",
-    "lastChecked": "2026-06-08"
+    "lastChecked": "2026-06-08",
+    "link_status_url": "dead",
+    "link_status": "dead"
   },
   {
     "id": 22,
@@ -457,6 +483,8 @@
       "Oseberg"
     ],
     "url": "https://www.nature.com/articles/s40494-026-02326-9",
-    "lastChecked": "2026-06-08"
+    "lastChecked": "2026-06-08",
+    "link_status_url": "alive",
+    "link_status": "alive"
   }
 ]

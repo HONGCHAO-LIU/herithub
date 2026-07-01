@@ -27,7 +27,9 @@
         "专业服务"
       ],
       "crawled_at": "2026-06-22T23:10:25.227773",
-      "validation_status": "skipped"
+      "validation_status": "skipped",
+      "link_status_link": "alive",
+      "link_status": "alive"
     },
     {
       "id": "53773523ff5c",
@@ -42,7 +44,9 @@
         "文创开发"
       ],
       "crawled_at": "2026-06-22T23:10:25.227932",
-      "validation_status": "skipped"
+      "validation_status": "skipped",
+      "link_status_link": "alive",
+      "link_status": "alive"
     },
     {
       "id": "7e8a2f1ae7d3",
@@ -57,7 +61,9 @@
         "文创开发"
       ],
       "crawled_at": "2026-06-22T23:10:25.228060",
-      "validation_status": "skipped"
+      "validation_status": "skipped",
+      "link_status_link": "alive",
+      "link_status": "alive"
     },
     {
       "id": "4bb17f148ebd",
@@ -72,7 +78,9 @@
         "文创开发"
       ],
       "crawled_at": "2026-06-22T23:10:25.228193",
-      "validation_status": "skipped"
+      "validation_status": "skipped",
+      "link_status_link": "alive",
+      "link_status": "alive"
     },
     {
       "id": "5c6499acf3c4",
@@ -88,7 +96,9 @@
         "投融资与资产化"
       ],
       "crawled_at": "2026-06-22T23:10:25.228307",
-      "validation_status": "skipped"
+      "validation_status": "skipped",
+      "link_status_link": "alive",
+      "link_status": "alive"
     },
     {
       "id": "29ea505a4a56",
@@ -103,7 +113,9 @@
         "文创开发"
       ],
       "crawled_at": "2026-06-22T23:10:26.121352",
-      "validation_status": "skipped"
+      "validation_status": "skipped",
+      "link_status_link": "alive",
+      "link_status": "alive"
     },
     {
       "id": "9c0072e1e6d6",
@@ -119,7 +131,9 @@
         "内容与媒体"
       ],
       "crawled_at": "2026-06-22T23:10:26.121488",
-      "validation_status": "skipped"
+      "validation_status": "skipped",
+      "link_status_link": "alive",
+      "link_status": "alive"
     },
     {
       "id": "91f43c2ce7dc",
@@ -134,7 +148,9 @@
         "文创开发"
       ],
       "crawled_at": "2026-06-22T23:10:27.731208",
-      "validation_status": "skipped"
+      "validation_status": "skipped",
+      "link_status_link": "alive",
+      "link_status": "alive"
     },
     {
       "id": "ba94adaa7003",
@@ -149,7 +165,9 @@
         "文创开发"
       ],
       "crawled_at": "2026-06-22T23:10:27.731324",
-      "validation_status": "skipped"
+      "validation_status": "skipped",
+      "link_status_link": "alive",
+      "link_status": "alive"
     }
   ]
 }

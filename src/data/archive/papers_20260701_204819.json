@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "archived_at": "2026-07-01T20:48:19.365988",
+    "category": "papers",
+    "total_items": 2,
+    "reason": "超出 365 天时效"
+  },
+  "items": [
+    {
+      "id": "6ec259747bd6",
+      "title": "Front Matter (“Table of Contents”, “List of Illustrations”)",
+      "authors": [],
+      "journal": "Journal of Urban Archaeology",
+      "doi": "10.1484/j.jua.5.152119",
+      "publish_date": "2025-07-01",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.1484/j.jua.5.152119",
+      "crawled_at": "2026-07-01T03:26:46.237340",
+      "link_status_url": "dead",
+      "link_status": "dead"
+    },
+    {
+      "id": "fae6a50727db",
+      "title": "‘The House We Live in’",
+      "authors": [
+        "Rubina Raja",
+        "Søren M. Sindbæk"
+      ],
+      "journal": "Journal of Urban Archaeology",
+      "doi": "10.1484/j.jua.5.151424",
+      "publish_date": "2025-07-01",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.1484/j.jua.5.151424",
+      "crawled_at": "2026-07-01T03:26:46.237401",
+      "link_status_url": "dead",
+      "link_status": "dead"
+    }
+  ]
+}
