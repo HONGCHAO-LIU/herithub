@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-01T03:26:50.683947",
+    "generated_at": "2026-07-02T02:53:28.856955",
     "total_items": 1,
     "sources": {
       "arXiv": 1
@@ -8,22 +8,20 @@
   },
   "items": [
     {
-      "id": "arxiv-d801552cf3df",
-      "title": "Attribution Bias in Philosophical Knowledge Graphs: Corpus Frequency versus Temporal Sourcing",
+      "id": "arxiv-71da24854c26",
+      "title": "DEMUN: Fast and accurate discovery of music notation in very large collections",
       "authors": [
-        "Joy Bose"
+        "Vojt\\v{e}ch Dvo\\v{r}\\'ak, Filip B\\'im, Ji\\v{r}\\'i Mayer, Martina Dvo\\v{r}\\'akov\\'a, Mark\\'eta Herzanov\\'a Vlkov\\'a, Pavel Pecina, Petr \\v{Z}abi\\v{c}ka, Jan Haji\\v{c} jr"
       ],
       "journal": "arXiv cs.DL",
-      "abstract": "arXiv:2606.29070v1 Announce Type: new Abstract: Computational knowledge graphs assign philosophical concepts to traditions based on corpus frequency: the school that mentions a concept most becomes its attributed tradition. We argue this conflates three measurements: textual power, historical priority, and philosophical significance, demonstrated using the darshana-graph, a knowledge graph of 28,322 relationships across Hindu, Buddhist, and Jain traditions. Seven of the top 25 concepts by betwee",
+      "abstract": "arXiv:2606.31956v1 Announce Type: new Abstract: Much of written musical heritage is preserved and digitised at memory institutions: libraries, museums, and archives. Owing to their collection structures, sheet music tends to be concentrated in large subsets that are defined as collections of music, with corresponding metadata that makes the music findable. However, when studying musical life as opposed to individual works, relevant documents often lie outside of these specialised collections: in",
       "doi": "https://arxiv.org/abs/",
-      "publishDate": "Tue, 30 Jun 2026 00:00:00 -0400",
-      "url": "https://arxiv.org/abs/2606.29070",
+      "publishDate": "Wed, 01 Jul 2026 00:00:00 -0400",
+      "url": "https://arxiv.org/abs/2606.31956",
       "keywords": [],
       "source": "arXiv",
       "year": 2026,
-      "crawledAt": "2026-07-01T03:26:47.523388",
-      "link_status_url": "alive",
-      "link_status": "alive"
+      "crawledAt": "2026-07-02T02:53:25.755321"
     }
   ]
 }
