@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-06-25T02:52:30.826398",
-    "time_window": "2026-06-01 ~ 2026-09-01",
+    "generated_at": "2026-07-03T02:36:22.642936",
+    "time_window": "2026-07-01 ~ 2026-10-01",
     "total_items": 5,
     "sources": {
       "中国博物馆协会": 2,
@@ -12,68 +12,58 @@
   "items": [
     {
       "name": "2025年度全国博物馆数字化建设研讨会",
-      "date": "2026-06-25 - 2026-06-27",
+      "date": "2026-07-03 - 2026-07-05",
       "location": "北京 · 中国国家博物馆",
-      "submission_deadline": "2026-06-15",
+      "submission_deadline": "2026-06-23",
       "url": "https://www.chinamuseum.org.cn",
       "organizer": "中国博物馆协会",
       "source": "中国博物馆协会",
       "id": "9bc8ba956ca7",
-      "crawled_at": "2026-06-25T02:52:30.826373",
-      "link_status_url": "alive",
-      "link_status": "alive"
+      "crawled_at": "2026-07-03T02:36:22.642899"
     },
     {
       "name": "ICOMOS International Symposium on Heritage Impact Assessment",
-      "date": "2026-07-25 - 2026-07-28",
+      "date": "2026-08-02 - 2026-08-05",
       "location": "Florence, Italy",
-      "submission_deadline": "2026-06-30",
+      "submission_deadline": "2026-07-08",
       "url": "https://www.icomos.org/en/resources/resources-for-members/calendar-resources",
       "organizer": "ICOMOS",
       "source": "ICOMOS",
       "id": "cd9fe8d89c31",
-      "crawled_at": "2026-06-25T02:52:30.826382",
-      "link_status_url": "alive",
-      "link_status": "alive"
+      "crawled_at": "2026-07-03T02:36:22.642910"
     },
     {
       "name": "第十届中国考古学大会",
-      "date": "2026-08-24 - 2026-08-28",
+      "date": "2026-09-01 - 2026-09-05",
       "location": "西安 · 陕西历史博物馆",
-      "submission_deadline": "2026-07-25",
+      "submission_deadline": "2026-08-02",
       "url": "https://www.kaogu.cn",
       "organizer": "中国考古网",
       "source": "中国考古网",
       "id": "e035e5f9d0f9",
-      "crawled_at": "2026-06-25T02:52:30.826386",
-      "link_status_url": "dead",
-      "link_status": "dead"
+      "crawled_at": "2026-07-03T02:36:22.642917"
     },
     {
       "name": "文化遗产保护青年学者论坛（2025年夏季）",
-      "date": "2026-07-25",
+      "date": "2026-08-02",
       "location": "上海 · 复旦大学",
-      "submission_deadline": "2026-07-10",
+      "submission_deadline": "2026-07-18",
       "url": "https://www.chinamuseum.org.cn",
       "organizer": "中国博物馆协会",
       "source": "中国博物馆协会",
       "id": "aa93d98ee11f",
-      "crawled_at": "2026-06-25T02:52:30.826390",
-      "link_status_url": "alive",
-      "link_status": "alive"
+      "crawled_at": "2026-07-03T02:36:22.642924"
     },
     {
       "name": "Intangible Cultural Heritage Safeguarding Workshop",
-      "date": "2026-08-24 - 2026-08-29",
+      "date": "2026-09-01 - 2026-09-06",
       "location": "Kyoto, Japan",
-      "submission_deadline": "2026-08-04",
+      "submission_deadline": "2026-08-12",
       "url": "https://www.icomos.org",
       "organizer": "ICOMOS & UNESCO",
       "source": "ICOMOS",
       "id": "6d99bf15f808",
-      "crawled_at": "2026-06-25T02:52:30.826394",
-      "link_status_url": "alive",
-      "link_status": "alive"
+      "crawled_at": "2026-07-03T02:36:22.642931"
     }
   ]
 }
