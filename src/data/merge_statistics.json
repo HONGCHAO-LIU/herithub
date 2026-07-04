@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-03T22:52:24.659257",
+  "generated_at": "2026-07-04T02:33:53.103719",
   "summary": {
-    "total_final_items": 697,
-    "total_expired_archived": 1
+    "total_final_items": 695,
+    "total_expired_archived": 3
   },
   "details": {
     "business": {
@@ -113,14 +113,14 @@
     "news": {
       "category": "news",
       "raw_count": 28,
-      "existing_count": 117,
-      "fresh_count": 145,
-      "expired_count": 0,
-      "duplicate_removed": 24,
-      "final_count": 121,
+      "existing_count": 121,
+      "fresh_count": 147,
+      "expired_count": 2,
+      "duplicate_removed": 28,
+      "final_count": 119,
       "sources": {
         "中国社会科学网": 92,
-        "中国文物报": 29
+        "中国文物报": 27
       }
     }
   }
