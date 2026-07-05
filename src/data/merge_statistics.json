@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-05T02:43:51.068741",
+  "generated_at": "2026-07-05T22:47:19.594228",
   "summary": {
     "total_final_items": 698,
-    "total_expired_archived": 2
+    "total_expired_archived": 1
   },
   "details": {
     "business": {
@@ -55,9 +55,9 @@
     "conferences": {
       "category": "conferences",
       "raw_count": 5,
-      "existing_count": 24,
+      "existing_count": 23,
       "fresh_count": 28,
-      "expired_count": 1,
+      "expired_count": 0,
       "duplicate_removed": 5,
       "final_count": 23,
       "sources": {
@@ -112,11 +112,11 @@
     },
     "news": {
       "category": "news",
-      "raw_count": 32,
+      "raw_count": 28,
       "existing_count": 124,
-      "fresh_count": 156,
+      "fresh_count": 152,
       "expired_count": 0,
-      "duplicate_removed": 32,
+      "duplicate_removed": 28,
       "final_count": 124,
       "sources": {
         "中国社会科学网": 93,
