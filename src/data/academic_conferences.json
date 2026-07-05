@@ -184,25 +184,25 @@
   },
   {
     "name": "第十届中国考古学大会",
-    "date": "2026-09-02 - 2026-09-06",
+    "date": "2026-09-03 - 2026-09-07",
     "location": "西安 · 陕西历史博物馆",
-    "submission_deadline": "2026-08-03",
+    "submission_deadline": "2026-08-04",
     "url": "https://www.kaogu.cn",
     "organizer": "中国考古网",
     "source": "中国考古网",
     "id": "e035e5f9d0f9",
-    "crawled_at": "2026-07-04T02:33:40.109359"
+    "crawled_at": "2026-07-05T02:43:32.991916"
   },
   {
     "name": "Intangible Cultural Heritage Safeguarding Workshop",
-    "date": "2026-09-02 - 2026-09-07",
+    "date": "2026-09-03 - 2026-09-08",
     "location": "Kyoto, Japan",
-    "submission_deadline": "2026-08-13",
+    "submission_deadline": "2026-08-14",
     "url": "https://www.icomos.org",
     "organizer": "ICOMOS & UNESCO",
     "source": "ICOMOS",
     "id": "6d99bf15f808",
-    "crawled_at": "2026-07-04T02:33:40.109366"
+    "crawled_at": "2026-07-05T02:43:32.991925"
   },
   {
     "id": "c0950280b6d7",
@@ -248,25 +248,25 @@
   },
   {
     "name": "ICOMOS International Symposium on Heritage Impact Assessment",
-    "date": "2026-08-03 - 2026-08-06",
+    "date": "2026-08-04 - 2026-08-07",
     "location": "Florence, Italy",
-    "submission_deadline": "2026-07-09",
+    "submission_deadline": "2026-07-10",
     "url": "https://www.icomos.org/en/resources/resources-for-members/calendar-resources",
     "organizer": "ICOMOS",
     "source": "ICOMOS",
     "id": "cd9fe8d89c31",
-    "crawled_at": "2026-07-04T02:33:40.109355"
+    "crawled_at": "2026-07-05T02:43:32.991911"
   },
   {
     "name": "文化遗产保护青年学者论坛（2025年夏季）",
-    "date": "2026-08-03",
+    "date": "2026-08-04",
     "location": "上海 · 复旦大学",
-    "submission_deadline": "2026-07-19",
+    "submission_deadline": "2026-07-20",
     "url": "https://www.chinamuseum.org.cn",
     "organizer": "中国博物馆协会",
     "source": "中国博物馆协会",
     "id": "aa93d98ee11f",
-    "crawled_at": "2026-07-04T02:33:40.109363"
+    "crawled_at": "2026-07-05T02:43:32.991921"
   },
   {
     "id": 8,
@@ -293,14 +293,14 @@
   },
   {
     "name": "2025年度全国博物馆数字化建设研讨会",
-    "date": "2026-07-04 - 2026-07-06",
+    "date": "2026-07-05 - 2026-07-07",
     "location": "北京 · 中国国家博物馆",
-    "submission_deadline": "2026-06-24",
+    "submission_deadline": "2026-06-25",
     "url": "https://www.chinamuseum.org.cn",
     "organizer": "中国博物馆协会",
     "source": "中国博物馆协会",
     "id": "9bc8ba956ca7",
-    "crawled_at": "2026-07-04T02:33:40.109347"
+    "crawled_at": "2026-07-05T02:43:32.991900"
   },
   {
     "id": 2,
@@ -426,24 +426,6 @@
     "source": "中国博物馆协会",
     "crawled_at": "2026-06-14T18:31:10.633445",
     "crawledAt": "2026-05-19",
-    "tags": [
-      "学术会议"
-    ],
-    "keywords": [],
-    "link_status_url": "alive",
-    "link_status": "alive"
-  },
-  {
-    "id": "4cce318eca3a",
-    "name": "国际博物馆日2026线上研讨会：博物馆无障碍——包容性实践与创新",
-    "date": "2026-05-06",
-    "location": "",
-    "submission_deadline": "",
-    "url": "https://www.chinamuseum.org.cn/newList.html?id=12",
-    "organizer": "中国博物馆协会",
-    "source": "中国博物馆协会",
-    "crawled_at": "2026-06-14T18:31:10.633445",
-    "crawledAt": "2026-05-06",
     "tags": [
       "学术会议"
     ],
