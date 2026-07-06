@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "archived_at": "2026-07-06T02:49:03.486764",
+    "category": "news",
+    "total_items": 3,
+    "reason": "超出 30 天时效"
+  },
+  "items": [
+    {
+      "id": "zwb-f92a19ae2866",
+      "title": "楚天阔 大江流 湖北文物保护利用气象新",
+      "url": "http://www.zhongguowenwubao.com/portal/DigitPager/paperDetail/publishdate/2026-06-06/paperId/22628/id/111870",
+      "source": "中国文物报",
+      "category": "文物新闻",
+      "date": "2026-06-06",
+      "crawledAt": "2026-06-20T22:56:52.099344",
+      "link_status_url": "alive",
+      "link_status": "alive"
+    },
+    {
+      "id": "zwb-5d5a87105215",
+      "title": "国家文物局与中央美术学院签署战略合作协议",
+      "url": "http://www.zhongguowenwubao.com/portal/DigitPager/paperDetail/publishdate/2026-06-06/paperId/22628/id/111871",
+      "source": "中国文物报",
+      "category": "文物新闻",
+      "date": "2026-06-06",
+      "crawledAt": "2026-06-20T22:56:52.099365",
+      "link_status_url": "alive",
+      "link_status": "alive"
+    },
+    {
+      "id": "zwb-62abe72cc434",
+      "title": "“文物保护看基层”（湖北行）主题宣传活动启动",
+      "url": "http://www.zhongguowenwubao.com/portal/DigitPager/paperDetail/publishdate/2026-06-06/paperId/22628/id/111872",
+      "source": "中国文物报",
+      "category": "文物新闻",
+      "date": "2026-06-06",
+      "crawledAt": "2026-06-20T22:56:52.099373",
+      "link_status_url": "alive",
+      "link_status": "alive"
+    }
+  ]
+}
