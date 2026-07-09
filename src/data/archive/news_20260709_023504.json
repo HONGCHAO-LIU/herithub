@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "archived_at": "2026-07-09T02:35:04.776500",
+    "category": "news",
+    "total_items": 2,
+    "reason": "超出 30 天时效"
+  },
+  "items": [
+    {
+      "id": "zwb-4bb9cd458430",
+      "title": "卡塔尔游牧生活与文化展在中国国家博物馆开幕",
+      "url": "http://www.zhongguowenwubao.com/portal/DigitPager/paperDetail/publishdate/2026-06-09/paperId/22632/id/111889",
+      "source": "中国文物报",
+      "category": "文物新闻",
+      "date": "2026-06-09",
+      "crawledAt": "2026-06-23T22:57:52.628673",
+      "link_status_url": "alive",
+      "link_status": "alive"
+    },
+    {
+      "id": "zwb-946fc9ba92fd",
+      "title": "第五届联合国教科文组织名录遗产与可持续发展黄山对话会举办",
+      "url": "http://www.zhongguowenwubao.com/portal/DigitPager/paperDetail/publishdate/2026-06-09/paperId/22632/id/111891",
+      "source": "中国文物报",
+      "category": "文物新闻",
+      "date": "2026-06-09",
+      "crawledAt": "2026-06-23T22:57:52.628712",
+      "link_status_url": "alive",
+      "link_status": "alive"
+    }
+  ]
+}

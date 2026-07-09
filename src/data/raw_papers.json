@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-07-02T02:53:24.758668",
-    "date_cutoff": "2025-07-02",
+    "generated_at": "2026-07-09T02:34:59.550082",
+    "date_cutoff": "2025-07-09",
     "search_keywords": [
       "cultural heritage",
       "heritage conservation",
@@ -9,212 +9,259 @@
       "intangible cultural heritage",
       "archaeology"
     ],
-    "total_items": 63,
+    "total_items": 74,
     "sources": {
-      "arXiv": 28,
-      "CrossRef": 35
+      "arXiv": 30,
+      "CrossRef": 44
     }
   },
   "items": [
     {
-      "id": "18e040468331",
-      "title": "MultiSynt/MT: Trillion-Token Multi-Parallel Pre-Training Data Translated Across 36 Languages",
+      "id": "98bdef782250",
+      "title": "Hyperlocal monitoring of urban activity reveals responses to heat exposure",
       "authors": [
-        "Maximilian Idahl",
-        "Jörg Tiedemann",
-        "Sampo Pyysalo",
-        "David Salinas",
-        "Tomasz Galica",
-        "Shenbin Qian",
-        "Tudor Nicolae Mateiu",
-        "Zihao Li",
-        "Anna Lokrantz",
-        "Fedor Vitiugin",
-        "André F. T. Martins",
-        "Jenna Kanerva",
-        "Filip Ginter",
-        "Matthias Lindemann",
-        "Tim Isbister",
-        "Birger Moell",
-        "Jonas Lindh",
-        "Jan Hajič",
-        "Jenia Jitsev",
-        "Andrey Kutuzov",
-        "Stephan Oepen",
-        "Gema Ramírez-Sánchez"
+        "Dominique Geissler",
+        "Felix Creutzig",
+        "Ramit Debnath",
+        "Stefan Feuerriegel"
       ],
       "journal": "arXiv preprint",
       "doi": "",
-      "arxiv_id": "2607.00890v1",
-      "publish_date": "2026-07-01",
-      "abstract": "Open web-scale pre-training corpora remain concentrated in English, limiting multilingual LLM development. We introduce MultiSynt/MT, an open synthetic parallel corpus with approximately 4.8 trillion target-language tokens across 36 European languages, produced by translating 100 billion high-quality Nemotron-CC tokens with Tower+ and OPUS-MT/HPLT-MT systems. For many medium- and lower-resource European languages, this is the largest openly available pre-training resource. On a broad multilingua",
+      "arxiv_id": "2607.07417v1",
+      "publish_date": "2026-07-08",
+      "abstract": "Rising temperatures create new challenges for local heat adaptation. Yet, it remains unclear how urban activity changes during hot periods and which urban environments people concentrate in as temperatures rise. Here, we perform a hyperlocal spatiotemporal analysis of urban activity across 10 German cities over a two-month period in 2024 with different levels of heat exposure. To monitor urban activity, we use fine-grained telecommunication data to map locations of people with high spatio-tempor",
       "source": "arXiv",
-      "url": "https://arxiv.org/abs/2607.00890v1",
-      "crawled_at": "2026-07-02T02:52:00.673683"
+      "url": "https://arxiv.org/abs/2607.07417v1",
+      "crawled_at": "2026-07-09T02:34:57.277422"
     },
     {
-      "id": "edb5b24b54ef",
-      "title": "MetaHOPE: A Metaphor-Oriented Evaluation Framework for Analysing MT and LLM Translation Errors",
+      "id": "5389dd1b12f2",
+      "title": "Billions of Sketches Reveal Hidden Cultural Variation in Human Concepts",
       "authors": [
-        "Jiahui Liang",
-        "Lifeng Han"
+        "Arianna Pera",
+        "Mauro Martino",
+        "Nima Dehmamy",
+        "Douglas Guilbeault",
+        "Luca Maria Aiello",
+        "Andrea Baronchelli"
       ],
       "journal": "arXiv preprint",
       "doi": "",
-      "arxiv_id": "2607.00848v1",
-      "publish_date": "2026-07-01",
-      "abstract": "In this opinion paper, we propose MetaHOPE, an error severity-aware annotation framework for evaluating metaphor translations. Metaphors present challenges for machine translation (MT) and natural language understanding and processing (NLU, NLP), because it presents the features of semantic complexity, contextual dependency, and cultural embeddings that can lead to ambiguity issues for NLP models. To investigate how state-of-the-art NLP models perform on translating metaphors, we select three re",
+      "arxiv_id": "2607.07267v1",
+      "publish_date": "2026-07-08",
+      "abstract": "Claims about the universality of human concepts have been predominantly assessed through linguistic similarity across languages and cultures. However, words are effective as communication devices because they compress rich experiential variation into shared conventions, potentially obscuring hidden individual and cultural differences in how concepts are mentally represented. Here, we analyse 2.6 billion human-made sketches of common concepts from 236 countries and territories to examine conceptu",
       "source": "arXiv",
-      "url": "https://arxiv.org/abs/2607.00848v1",
-      "crawled_at": "2026-07-02T02:52:00.673781"
+      "url": "https://arxiv.org/abs/2607.07267v1",
+      "crawled_at": "2026-07-09T02:34:57.277568"
     },
     {
-      "id": "1583f84a1c35",
-      "title": "In Memoriam: Igal Talmi (1925-2026)",
+      "id": "a74f86aa376b",
+      "title": "CompoVista: A Composition-Graph-Based Visual Analytics System for Compositional Analysis of Traditional Chinese Paintings",
       "authors": [
-        "Amiram Leviatan",
-        "Avraham Gal"
-      ],
-      "journal": "arXiv preprint",
-      "doi": "10.1080/10619127.2026.2655103",
-      "arxiv_id": "2607.00787v1",
-      "publish_date": "2026-07-01",
-      "abstract": "A brief obituary of Igal Talmi (1925-2026) focusing on his scientific heritage. Published in Nuclear Physics News 36 (2026) 39-40.",
-      "source": "arXiv",
-      "url": "https://arxiv.org/abs/2607.00787v1",
-      "crawled_at": "2026-07-02T02:52:00.673825"
-    },
-    {
-      "id": "ff9c6c348f95",
-      "title": "Which Voting Rules Are More Resilient to Coalitional Manipulation?",
-      "authors": [
-        "François Durand"
+        "Dekun Qian",
+        "Ruiqi Yu",
+        "Fengling Zheng",
+        "Li Ye",
+        "Yize Li",
+        "Weigui Zheng",
+        "Yigang Wang",
+        "Jinchang Li",
+        "Zhiguang Zhou"
       ],
       "journal": "arXiv preprint",
       "doi": "",
-      "arxiv_id": "2607.00758v1",
-      "publish_date": "2026-07-01",
-      "abstract": "Which voting rules are more resilient to coalitional manipulation? We find that a deliberately minimal model, capturing only the degree of advantage of one preference ranking over the others, can predict their relative vulnerability remarkably well. Extending prior work on three rules, we systematically analyze all standard ordinal voting rules under the Perturbed Culture model, a variant of Impartial Culture parameterized by the extra weight assigned to one ranking. Each rule exhibits a sharp p",
+      "arxiv_id": "2607.07105v1",
+      "publish_date": "2026-07-08",
+      "abstract": "Composition in Traditional Chinese Paintings (TCPs) carries spatial, narrative, and cultural-aesthetic meaning. Systematic compositional analysis is therefore important for understanding their visual language and artistic meaning. Traditional compositional analysis is mainly qualitative and interpretation-driven. It supports close reading of individual paintings, but it is difficult to discover, compare, and verify compositional patterns across large painting collections. To better understand th",
       "source": "arXiv",
-      "url": "https://arxiv.org/abs/2607.00758v1",
-      "crawled_at": "2026-07-02T02:52:00.673922"
+      "url": "https://arxiv.org/abs/2607.07105v1",
+      "crawled_at": "2026-07-09T02:34:57.277710"
     },
     {
-      "id": "de1409b6d55f",
-      "title": "MSQA: A Natively Sourced Multilingual and Multicultural SimpleQA Benchmark",
+      "id": "715938c622cc",
+      "title": "Rethinking Indic AI from a Lens of Cultural Heritage Preservation",
       "authors": [
-        "Xianru Chen",
-        "Yukai Huang",
-        "Mingxiang Chen",
-        "Xinping Lei",
-        "Fangbing Deng",
-        "Jin Chen",
-        "Ge Zhang",
-        "Wenhao Huang",
-        "Jiaheng Liu"
+        "Aparna Madva",
+        "Sharath Srivatsa",
+        "Srinath Srinivasa",
+        "Tulika Saha"
       ],
       "journal": "arXiv preprint",
       "doi": "",
-      "arxiv_id": "2607.00724v1",
-      "publish_date": "2026-07-01",
-      "abstract": "Multilingual fluency often invites a stronger assumption: a model that can speak a user's language must also understand the culture encoded by that language. We call this the Illusion of Cultural Alignment. To test this assumption directly, we introduce MSQA, a benchmark of 1,064 natively sourced questions across 11 language groups, five cultural dimensions, and three difficulty tiers. Unlike translated benchmarks, MSQA targets locally grounded knowledge and reduces shortcuts from English-centri",
+      "arxiv_id": "2607.06544v1",
+      "publish_date": "2026-07-07",
+      "abstract": "As Artificial Intelligence (AI) makes inroads into different parts of the Indian subcontinent, there is significant interest in studying how AI impacts the linguistic and cultural foundations of this civilization. AI is seen as a ''double-edged sword'' where on the one hand, it can enable access and inclusion for a large population, on the other, it can homogenize worldviews and exclude underrepresented languages and worldviews. In this paper, we try to characterize this problem by addressing th",
       "source": "arXiv",
-      "url": "https://arxiv.org/abs/2607.00724v1",
-      "crawled_at": "2026-07-02T02:52:00.674018"
+      "url": "https://arxiv.org/abs/2607.06544v1",
+      "crawled_at": "2026-07-09T02:34:57.277831"
     },
     {
-      "id": "86c5a1ea9353",
-      "title": "Open Science in Astrophysics: Citation Benefits of Open Code, Open Data, and Open Access",
+      "id": "6f1057a51c20",
+      "title": "Mitigating Domain Shift in Conditioned Floor Plan Generation: Synthetic Pre-training for Data-Efficient Adaptation",
       "authors": [
-        "Parth Joshi",
-        "Rupert Croft"
+        "Matthieu Ospici",
+        "Arnaud Gueze",
+        "Luc Bourrat",
+        "Adrien Bernhardt"
       ],
       "journal": "arXiv preprint",
       "doi": "",
-      "arxiv_id": "2607.00546v1",
-      "publish_date": "2026-07-01",
-      "abstract": "We analyze the relationship between open-accessibility in data, code, and paper text in astrophysics using a sample of 53,194 peer reviewed papers published between January 2021 and April 2025, drawn from NASA's Astrophysics Data System (ADS). We measure eleven quantities: open accessibility of text, open-code status, open-data status, number of grants received, code size, programming language, data repository size, citation count, number of authors, paper length, and publication date. We break ",
+      "arxiv_id": "2607.06483v1",
+      "publish_date": "2026-07-07",
+      "abstract": "Robustness to domain shift is a key requirement for floor plan generative models to be applicable beyond the single dataset they were trained on, as floor plans vary widely across regions due to distinct architectural cultures, spatial constraints, and construction practices, while acquiring new annotated datasets remains costly and domain-specific. Yet, no prior work has studied this robustness in the context of conditioned floor plan generation. In this paper, we evaluate state-of-the-art mode",
       "source": "arXiv",
-      "url": "https://arxiv.org/abs/2607.00546v1",
-      "crawled_at": "2026-07-02T02:52:00.674113"
+      "url": "https://arxiv.org/abs/2607.06483v1",
+      "crawled_at": "2026-07-09T02:34:57.277935"
     },
     {
-      "id": "4e97c311a719",
-      "title": "Restore3D: Breathing Life into Broken Objects with Shape and Texture Restoration",
+      "id": "4645f7e252f2",
+      "title": "Andha-Dhun: A First Look at Audio Descriptions in Hindi",
       "authors": [
-        "Xiaolong Shen",
-        "Zongxin Yang",
-        "Yi Yang"
+        "Ritabrata Chakraborty",
+        "Divy Kala",
+        "Nisheeth Bhooshan Gupta",
+        "Ganji Sreeram",
+        "Pailla Balakrishna Reddy",
+        "Makarand Tapaswi"
       ],
       "journal": "arXiv preprint",
       "doi": "",
-      "arxiv_id": "2607.00522v1",
-      "publish_date": "2026-07-01",
-      "abstract": "Restoring incomplete or damaged 3D objects is crucial for cultural heritage preservation, occluded object reconstruction, and artistic design. Existing methods primarily focus on geometric completion, often neglecting texture restoration and struggling with relatively complex and diverse objects. We introduce Restore3D, a novel framework that simultaneously restores both the shape and texture of broken objects using multi-view images. To address limited training data, we develop an automated dat",
+      "arxiv_id": "2607.06457v1",
+      "publish_date": "2026-07-07",
+      "abstract": "Audio Descriptions (ADs) narrate visual content for Blind and Low Vision (BLV) audiences during gaps in audiovisual media. There is growing momentum around ADs in movies and TV shows, and with mandates from India's Central Board of Film Certification (CBFC), there is a need to expand ADs beyond English. Yet, there is no work that generates ADs for any Indian language. To address this gap, we present the first systematic study of ADs in Hindi, contributing to aspects such as data, generation, and",
       "source": "arXiv",
-      "url": "https://arxiv.org/abs/2607.00522v1",
-      "crawled_at": "2026-07-02T02:52:00.674213"
+      "url": "https://arxiv.org/abs/2607.06457v1",
+      "crawled_at": "2026-07-09T02:34:57.278076"
     },
     {
-      "id": "a06a1a4d934e",
-      "title": "Hate Speech Detection in Turkish and Arabic Languages: A Comprehensive Study",
+      "id": "fe7b54bf47a4",
+      "title": "XRFormer: Multiscale Tokenization for XRF Representation Learning",
       "authors": [
-        "Somaiyeh Dehghan",
-        "Gökçe Uludoğan",
-        "Mehmet Umut Şen",
-        "Elif Erol",
-        "Arzucan Özgür",
-        "Berrin Yanikoglu"
+        "Sofiane Daimellah",
+        "Sylvie Le Hégarat-Mascle",
+        "Clotilde Boust"
       ],
       "journal": "arXiv preprint",
       "doi": "",
-      "arxiv_id": "2607.00143v1",
-      "publish_date": "2026-06-30",
-      "abstract": "Online hate speech has been linked to a global rise in violence against minorities, including incidents such as mass shootings, lynchings, and ethnic cleansing. Societies grappling with this issue, particularly when hate speech targets specific groups based on religion, race, ethnicity, culture, nationality, or migration status, face the challenge of balancing freedom of expression with the need for effective content moderation on widely used online platforms. In response to this challenge, we i",
+      "arxiv_id": "2607.06424v1",
+      "publish_date": "2026-07-07",
+      "abstract": "X-ray fluorescence (XRF) spectroscopy is a key modality for material analysis in cultural heritage. However, automated learning from XRF spectra remains challenging: XRF spectra are complex one-dimensional signals composed of sharp elemental peaks, broader structures, and background variations that are not taken into account by existing learning-based models. This paper introduces XRFormer, a transformer architecture tailored to XRF spectra through a multiscale convolutional tokenizer that injec",
       "source": "arXiv",
-      "url": "https://arxiv.org/abs/2607.00143v1",
-      "crawled_at": "2026-07-02T02:52:00.674308"
+      "url": "https://arxiv.org/abs/2607.06424v1",
+      "crawled_at": "2026-07-09T02:34:57.278176"
     },
     {
-      "id": "82878a9fa910",
-      "title": "Benchmarking Frontier LLMs on Arabic Cultural and Sociolinguistic Knowledge: A Cross-Evaluation Framework with Human SME Ground Truth",
+      "id": "d2a0fa1052d3",
+      "title": "VaseMuseum: Digital Intelligent Museum for Ancient Greek Pottery",
       "authors": [
-        "Sajjad Abdoli",
-        "Ghassan Al-Sumaidaee",
-        "Ahmad ElShiekh",
-        "Clayton W. Taylor",
-        "Ahmed Rashad"
+        "Jiazi Wang",
+        "Nonghai Zhang",
+        "Qiushi Xie",
+        "Zeyu Zhang",
+        "Yufeng Chen",
+        "Yang Zhao",
+        "Ling Shao",
+        "Hao Tang"
       ],
       "journal": "arXiv preprint",
       "doi": "",
-      "arxiv_id": "2607.00139v1",
-      "publish_date": "2026-06-30",
-      "abstract": "The cost of human expert evaluation is a principal bottleneck to deploying language models in specialized, high-stakes domains. This is particularly acute for Arabic sociolinguistic knowledge: credible grading requires not only linguistic fluency but deep cultural familiarity that cannot be approximated by surface-level metrics. We address this with a cross-evaluation framework instantiated on two underrepresented Arabic dialect communities: Egyptian and Iraqi Arabic. We contribute 103 validated",
+      "arxiv_id": "2607.06374v1",
+      "publish_date": "2026-07-07",
+      "abstract": "Vision-language models (VLMs) have made interactive digital museums increasingly feasible by connecting 3D digitization with natural-language artifact exploration. However, in cultural heritage domains such as ancient Greek pottery, reliable VLM assistance is limited by two challenges. First, open-ended interpretation requires grounding fine-grained 2D/3D visual evidence in specialized curatorial knowledge, yet the retrieval process may introduce weak sources and unverifiable references. Second,",
       "source": "arXiv",
-      "url": "https://arxiv.org/abs/2607.00139v1",
-      "crawled_at": "2026-07-02T02:52:00.674422"
+      "url": "https://arxiv.org/abs/2607.06374v1",
+      "crawled_at": "2026-07-09T02:34:57.278278"
     },
     {
-      "id": "a14d6e8eb4b4",
-      "title": "DEMUN: Fast and accurate discovery of music notation in very large collections",
+      "id": "4b928f66c86e",
+      "title": "Pluralis v0.1: Towards a Multicultural, Multimodal, Multilingual Benchmark for AI Risk and Reliability",
       "authors": [
-        "Vojtěch Dvořák",
-        "Filip Bím",
-        "Jiří Mayer",
-        "Martina Dvořáková",
-        "Markéta Herzanová Vlková",
-        "Pavel Pecina",
-        "Petr Žabička",
+        "Alicia Parrish",
+        "Rajat Shinde",
+        "Sanket Badhe",
+        "Xinyi Bai",
+        "Sree Bhargavi Balija",
+        "Hua-Rong Chu",
+        "Emilio Ferrara",
+        "Armstrong Foundjem",
+        "Rajat Ghosh",
+        "Aakash Gupta",
+        "Xuanli He",
+        "Ong Chen Hui",
+        "Minji Jung",
+        "Madhangi Karimanal",
+        "Faiza Khan Khattak",
+        "Boryoung Kim",
+        "Eugenia Kim",
+        "Liliya Lavitas",
+        "Seok Min Lim",
+        "Victor Lu",
+        "Jim Moirangthem",
+        "Dhivya Nagasubramanian",
+        "Deepak Pandita",
+        "Sita Rajagopal",
+        "Geetha Raju",
+        "Evgeniia Razumovskaia",
+        "Aravind Reddy",
+        "Federico Ricciuti",
+        "Nobin Sarwar",
+        "Sungpil Shin",
+        "Sunayana Sitaram",
+        "Snehal Thorat",
+        "Tharindu Cyril Weerasooriya",
+        "Jasmijn Bastings",
+        "Joachim Baumann",
+        "Kongtao Chen",
+        "Murali Emani",
+        "Mariya Hendriksen",
+        "Jiho Jin",
+        "Jun Seong Kim",
+        "Younghoon Ko",
+        "Alicja Kwasniewska",
+        "Minjae Lee",
+        "Tom Wei-cyuan Lin Kashyap Ramanandula Manjusha",
+        "Junho Myung",
+        "Junyeong Park",
+        "Roma Patel",
+        "Shyam Ratan",
+        "Sudarsun Santhiappan",
+        "Priyanka Suresh",
+        "Tuesday",
+        "Ksheeraj Sai Vepuri Laura Amortegui-Ordonez",
+        "Claire Dennis",
+        "Minsuk Kahng",
+        "Chris Knotz",
+        "Alice Oh",
+        "Balaraman Ravindran",
+        "Soojung Ryu William Bartholomew",
+        "Hiwot Tesfaye",
+        "Lora Aroyo"
+      ],
+      "journal": "arXiv preprint",
+      "doi": "",
+      "arxiv_id": "2607.06196v1",
+      "publish_date": "2026-07-07",
+      "abstract": "Current AI safety evaluation and benchmarking frameworks predominantly rely on Western-centric culture-agnostic defaults that mask critical regional laws, socio-linguistic nuances, and cultural taboos, leaving Vision-Language Models (VLMs) vulnerable in global deployments. We introduce Pluralis v0.1: a novel multimodal, multi-regional, and multilingual dataset built from a culture-first perspective. Spanning 6,448 prompts across six Asia-Pacific countries (Bangladesh, India, Korea, Pakistan, Sin",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2607.06196v1",
+      "crawled_at": "2026-07-09T02:34:57.278554"
+    },
+    {
+      "id": "f004e816380f",
+      "title": "Music I Care About: Automated Multimodal Benchmarking of LLM Music Perception Skills on (Almost) Any Music",
+      "authors": [
+        "Tomáš Sourada",
+        "Katia Vendrame",
         "Jan Hajič"
       ],
       "journal": "arXiv preprint",
       "doi": "",
-      "arxiv_id": "2606.31956v1",
-      "publish_date": "2026-06-30",
-      "abstract": "Much of written musical heritage is preserved and digitised at memory institutions: libraries, museums, and archives. Owing to their collection structures, sheet music tends to be concentrated in large subsets that are defined as collections of music, with corresponding metadata that makes the music findable. However, when studying musical life as opposed to individual works, relevant documents often lie outside of these specialised collections: in textbooks, newspapers, other periodicals, pamph",
+      "arxiv_id": "2607.06015v1",
+      "publish_date": "2026-07-07",
+      "abstract": "Music represents a cornerstone of human culture, existing digitally across diverse modalities, including audio, symbolic encodings (e.g., MIDI, MusicXML), and sheet music. Despite the advancement of Multimodal Large Language Models (MLLMs), current music benchmarks face three major limitations. First, large static benchmarks are resource-intensive to evaluate, and it remains unclear how their results transfer to diverse kinds of music beyond those included in the benchmark. Second, benchmarks cl",
       "source": "arXiv",
-      "url": "https://arxiv.org/abs/2606.31956v1",
-      "crawled_at": "2026-07-02T02:52:00.674524"
+      "url": "https://arxiv.org/abs/2607.06015v1",
+      "crawled_at": "2026-07-09T02:34:57.278645"
     },
     {
       "id": "b0208f344cb2",
@@ -226,7 +273,7 @@
       "abstract": "",
       "source": "CrossRef",
       "url": "https://doi.org/10.3390/books978-3-7258-5738-8",
-      "crawled_at": "2026-07-02T02:52:14.345277"
+      "crawled_at": "2026-07-09T02:34:57.500820"
     },
     {
       "id": "78fcd9f334c7",
@@ -238,7 +285,7 @@
       "abstract": "",
       "source": "CrossRef",
       "url": "https://doi.org/10.3390/books978-3-7258-6237-5",
-      "crawled_at": "2026-07-02T02:52:14.345294"
+      "crawled_at": "2026-07-09T02:34:57.500844"
     },
     {
       "id": "2b2cd415fc8b",
@@ -252,7 +299,7 @@
       "abstract": "",
       "source": "CrossRef",
       "url": "https://doi.org/10.1016/j.culher.2025.10.006",
-      "crawled_at": "2026-07-02T02:52:14.345307"
+      "crawled_at": "2026-07-09T02:34:57.500870"
     },
     {
       "id": "7d772dcf58b5",
@@ -264,35 +311,19 @@
       "abstract": "",
       "source": "CrossRef",
       "url": "https://doi.org/10.1016/s1296-2074(25)00193-1",
-      "crawled_at": "2026-07-02T02:52:14.345314"
+      "crawled_at": "2026-07-09T02:34:57.500888"
     },
     {
-      "id": "f10eae219d13",
-      "title": "New Narrative Visions for Cultural Heritage: Cultural Heritage Cultural Heritage Institutions as Custodians, Curators, and Co-creators",
-      "authors": [
-        "Johan Oomen"
-      ],
-      "journal": "Proceedings of the 7th International Workshop on analySis, Understanding and proMotion of heritAge Contents",
-      "doi": "10.1145/3746273.3760210",
-      "publish_date": "2025-10-26",
+      "id": "ffa8efff4342",
+      "title": "ours Elsevier",
+      "authors": [],
+      "journal": "Journal of Cultural Heritage",
+      "doi": "10.1016/s1296-2074(26)00047-6",
+      "publish_date": "2026-03",
       "abstract": "",
       "source": "CrossRef",
-      "url": "https://doi.org/10.1145/3746273.3760210",
-      "crawled_at": "2026-07-02T02:52:14.345334"
-    },
-    {
-      "id": "e2196cc07cae",
-      "title": "Biodynamics as Cultural Heritage",
-      "authors": [
-        "Clelia Viecelli"
-      ],
-      "journal": "Routledge Handbook of Food and Cultural Heritage",
-      "doi": "10.4324/9781032026565-7",
-      "publish_date": "2025-09-04",
-      "abstract": "",
-      "source": "CrossRef",
-      "url": "https://doi.org/10.4324/9781032026565-7",
-      "crawled_at": "2026-07-02T02:52:14.345344"
+      "url": "https://doi.org/10.1016/s1296-2074(26)00047-6",
+      "crawled_at": "2026-07-09T02:34:57.500911"
     },
     {
       "id": "b9cdfe8f7c32",
@@ -304,7 +335,7 @@
       "abstract": "",
       "source": "CrossRef",
       "url": "https://doi.org/10.1016/s1296-2074(26)00045-2",
-      "crawled_at": "2026-07-02T02:52:14.345352"
+      "crawled_at": "2026-07-09T02:34:57.500927"
     },
     {
       "id": "487d46909836",
@@ -316,150 +347,190 @@
       "abstract": "",
       "source": "CrossRef",
       "url": "https://doi.org/10.1016/s1296-2074(26)00023-3",
-      "crawled_at": "2026-07-02T02:52:14.345358"
+      "crawled_at": "2026-07-09T02:34:57.500942"
     },
     {
-      "id": "c0d3fc2cbc82",
-      "title": "GPU-Parallel Linearization Error Bounds for Real-Time Robust Optimal Control of Nonlinear and Neural Network Dynamics",
+      "id": "344ade8c904d",
+      "title": "Integrating Intangible Cultural Heritage into Cultural Heritage Tourism: An Applied Methodological Framework",
       "authors": [
-        "Jeffrey Fang",
-        "Keyi Shen",
-        "Anutam Srinivasan",
-        "Glen Chou"
+        "Marco Scholtz",
+        "Kaat De Ridder",
+        "Vicky Steylaerts"
+      ],
+      "journal": "Heritage Management [Working Title]",
+      "doi": "10.5772/intechopen.1014535",
+      "publish_date": "2026-02-11",
+      "abstract": "<jats:p>Intangible cultural heritage (ICH) remains underutilized in cultural heritage tourism (CHT), which often prioritizes tangible assets because of their visibility and ease of interpretation. This chapter presents an applied methodological framework that supports destination teams and heritage stakeholders in moving from awareness of ICH to responsible implementation in tourism contexts. Adapted from the Intangible Heritage Playbook, the framework offers a structured yet flexible process pr",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.5772/intechopen.1014535",
+      "crawled_at": "2026-07-09T02:34:57.501103"
+    },
+    {
+      "id": "6d01bc430917",
+      "title": "Ordering and Defect Dynamics in Passive and Active Nematopolars",
+      "authors": [
+        "Fabio Aprile",
+        "Massimiliano Semeraro",
+        "Giuseppe Gonnella"
       ],
       "journal": "arXiv preprint",
       "doi": "",
-      "arxiv_id": "2607.01203v1",
-      "publish_date": "2026-07-01",
-      "abstract": "This paper studies real-time robust optimal control for uncertain nonlinear systems, where linear time-varying (LTV) approximations make planning tractable but require sound linearization error bounds (LEBs) to guarantee robust constraint satisfaction. We develop tight, differentiable, GPU-parallel LEBs for LTV approximations of nonlinear and neural network (NN) dynamics. For analytic dynamics, we introduce path-based Hessian bounds that are tighter than standard interval methods. For NN dynamic",
+      "arxiv_id": "2607.07656v1",
+      "publish_date": "2026-07-08",
+      "abstract": "The coexistence of polar and nematic interactions, observed in a broad range of biological and synthetic active systems, gives rise to a rich phenomenology that continues to challenge our theoretical understanding of non-equilibrium collective behaviour. In this paper, we numerically investigate phase ordering and defect dynamics in a newly introduced minimal single-field model for dry nematopolar systems, where competing polar and nematic contributions enter the free energy, and activity is imp",
       "source": "arXiv",
-      "url": "https://arxiv.org/abs/2607.01203v1",
-      "crawled_at": "2026-07-02T02:52:14.662745"
+      "url": "https://arxiv.org/abs/2607.07656v1",
+      "crawled_at": "2026-07-09T02:34:57.760098"
     },
     {
-      "id": "081c901e8281",
-      "title": "TERA: A Unified Taylor Model Enabled Reachability Analysis Framework",
+      "id": "57ee50878d45",
+      "title": "Extra Invariant in Magnetohydrodynamics of Planets and Stars",
       "authors": [
-        "Salma Iraky",
-        "Andrew Sogokon"
+        "Alexander M. Balk"
       ],
       "journal": "arXiv preprint",
       "doi": "",
-      "arxiv_id": "2607.01189v1",
-      "publish_date": "2026-07-01",
-      "abstract": "Reachability analysis of safety-critical systems requires computing rigorous enclosures of all possible state trajectories. Taylor Model (TM)-based methods have proved effective at mitigating the so-called wrapping effect which leads to overly conservative enclosures of reachable sets. However, existing tools are often hard to extend or focused on narrow system classes (e.g. deterministic systems modelled by ODEs, or hybrid systems). We develop TERA: a Python-native framework for TM-based reacha",
+      "arxiv_id": "2607.07654v1",
+      "publish_date": "2026-07-08",
+      "abstract": "The paper establishes extra invariant in magnetohydrodynamics (MHD) of rotating and stratified fluid layer. This invariant is conserved adiabatically, i.e. approximately over long time. The existence of the invariant is interesting by itself, as such invariants are extremely rare. However, in addition, this invariant appears to be connected to the famous dynamo phenomenon.",
       "source": "arXiv",
-      "url": "https://arxiv.org/abs/2607.01189v1",
-      "crawled_at": "2026-07-02T02:52:14.662840"
+      "url": "https://arxiv.org/abs/2607.07654v1",
+      "crawled_at": "2026-07-09T02:34:57.760157"
     },
     {
-      "id": "874b38112b23",
-      "title": "The PICNN-Assisted Physics-Preserving Scheme for Thermodynamically Consistent Two-Phase Flow in Porous Media",
+      "id": "483b29c5dc1e",
+      "title": "Koopman Spectral Analysis of Lithium-Ion Battery Dynamics: State of Charge as a Marginally Stable Observable",
       "authors": [
-        "Yuanshuo Kong",
-        "Xue Wang",
-        "Yujing Yan"
+        "Bakhtiar Nafis",
+        "Khalid Mahmud Labib",
+        "Saad Waheed",
+        "Shabbir Ahmed"
       ],
       "journal": "arXiv preprint",
       "doi": "",
-      "arxiv_id": "2607.01020v1",
-      "publish_date": "2026-07-01",
-      "abstract": "In this paper, we develop a physics-informed convolutional neural network (PICNN) assisted physics-preserving method for a thermodynamically consistent model of incompressible and immiscible two-phase flow in porous media. Following the physics-preserving prediction-correction scheme of Li et al. \\cite{li2025class}, the prediction step is performed by a PICNN trained with finite-volume residuals, where the interfacial fluxes are evaluated by the two-point flux approximation (TPFA) using two-poin",
+      "arxiv_id": "2607.07594v1",
+      "publish_date": "2026-07-08",
+      "abstract": "Accurate state-of-charge (SOC) estimation remains a fundamental challenge in lithium-ion battery management systems because battery dynamics are highly nonlinear, operating-condition dependent, and sensitive to parameter variations caused by aging and temperature. Conventional model-based estimators, such as equivalent circuit model (ECM) and Kalman-filter-based approaches, rely heavily on repeated parameter identification and accurate electrochemical modeling, whereas purely data-driven methods",
       "source": "arXiv",
-      "url": "https://arxiv.org/abs/2607.01020v1",
-      "crawled_at": "2026-07-02T02:52:14.662929"
+      "url": "https://arxiv.org/abs/2607.07594v1",
+      "crawled_at": "2026-07-09T02:34:57.760239"
     },
     {
-      "id": "e31c3122d456",
-      "title": "Visualizing Lagrangian Heat Transport Paths and Density Structures in Unsteady Heat Transfer",
+      "id": "dc59ffe0119a",
+      "title": "Unveiling the Spin-Valley Structure of Dipolar Exciton Ladders in R-stacked WSe$_2$/WS$_2$ Moiré Heterobilayers",
       "authors": [
-        "Besm Osman",
-        "Andrei Jalba",
-        "Michel Speetjens",
-        "Anna Vilanova"
+        "Byeong Wook Cho",
+        "Tatyana V. Ivanova",
+        "Zhe Li",
+        "Takashi Taniguchi",
+        "Kenji Watanabe",
+        "Brian D. Gerardot",
+        "Mauro Brotons-Gisbert"
       ],
       "journal": "arXiv preprint",
       "doi": "",
-      "arxiv_id": "2607.00909v1",
-      "publish_date": "2026-07-01",
-      "abstract": "Convective heat transfer is traditionally visualized from a Eulerian perspective using scalar temperature fields, offering limited insight into the underlying transport mechanisms. A Lagrangian view, analogous to mass transport along fluid paths, can reveal coherent structures and transport routes invisible from a Eulerian view of temperature. However, heat transport is aperiodic and non-conservative, hampering the application of fluid mixing and transport visualization techniques, developed pri",
+      "arxiv_id": "2607.07590v1",
+      "publish_date": "2026-07-08",
+      "abstract": "Localized interlayer excitons in moiré heterobilayers can form dipolar exciton ladders, yet their internal spin-valley structure remains unresolved. Here, we use helicity-resolved magneto-photoluminescence to identify the microscopic origin of the ladder in R-stacked WSe$_2$/WS$_2$ at charge neutrality and one-electron filling of the moiré lattice. At charge neutrality, the first two emission peaks correspond to a spin-triplet interlayer exciton and a triplet-triplet two-exciton state separated ",
       "source": "arXiv",
-      "url": "https://arxiv.org/abs/2607.00909v1",
-      "crawled_at": "2026-07-02T02:52:14.663009"
+      "url": "https://arxiv.org/abs/2607.07590v1",
+      "crawled_at": "2026-07-09T02:34:57.760329"
     },
     {
-      "id": "e52a975b1b5d",
-      "title": "From Prediction Uncertainty to Conformalized Distance Fields for Safe Motion Planning",
+      "id": "fb29ff00628c",
+      "title": "Does Born Rule Imply Unitarity of Time Evolution in Quantum Mechanics?",
       "authors": [
-        "Jaeuk Shin",
-        "Yoonseok Ra",
-        "Insoon Yang"
+        "Ali Mostafazadeh"
       ],
       "journal": "arXiv preprint",
       "doi": "",
-      "arxiv_id": "2607.00776v1",
-      "publish_date": "2026-07-01",
-      "abstract": "Safe motion planning in dynamic environments requires reasoning about the uncertainty in predicted obstacle motion without sacrificing real-time performance. Existing conformal approaches conformalize a scalar score that aggregates per-obstacle prediction errors, losing spatial coherence and scaling poorly with scene density. We instead conformalize the entire predicted distance field at once. This functional conformal prediction (FCP) framework yields a distribution-free, field-level lower boun",
+      "arxiv_id": "2607.07560v1",
+      "publish_date": "2026-07-08",
+      "abstract": "The Born rule for computing probabilities of the outcomes of measurements is an indispensable ingredient of quantum mechanics. The standard textbook description of this rule gives the impression that it implies the unitarity of time evolution. This view relies on the argument that unless the dynamics is unitary, the probabilities of finding all possible outcomes of a measurement do not add up to 1, i.e., the total probability is not conserved. We show that this argument is flawed, and that the g",
       "source": "arXiv",
-      "url": "https://arxiv.org/abs/2607.00776v1",
-      "crawled_at": "2026-07-02T02:52:14.663161"
+      "url": "https://arxiv.org/abs/2607.07560v1",
+      "crawled_at": "2026-07-09T02:34:57.760389"
     },
     {
-      "id": "4a6f178a23b3",
-      "title": "Phantom References: Hallucinated Citations That Survive Peer Review at Top-Tier Conferences",
+      "id": "67a8849ca56f",
+      "title": "Entanglement Asymmetry in Random Quantum Automata",
       "authors": [
-        "Mark Russinovich",
-        "Ram Shankar Siva Kumar",
-        "Ahmed Salem"
+        "Olalla A. Castro-Alvaredo",
+        "Dávid Szász-Schagrin",
+        "Michele Mazzoni"
       ],
       "journal": "arXiv preprint",
       "doi": "",
-      "arxiv_id": "2607.00738v1",
-      "publish_date": "2026-07-01",
-      "abstract": "Large language models can generate polished scientific text that includes unsupported claims, allowing hallucinations to enter the archival record. Assessing this risk via technical statements is difficult and often requires expert judgment, but citations provide a more auditable surface: a reference either resolves to a real scholarly work with compatible authorship, or it does not. We measure citation hallucination in peer-reviewed proceedings using a conservative definition limited to identit",
+      "arxiv_id": "2607.07556v1",
+      "publish_date": "2026-07-08",
+      "abstract": "We investigate the subsystem entanglement asymmetry in random quantum automaton ensembles, which are generated by permuting the basis states in the Hilbert space and applying global phase shifts. We compute the ensemble average of the $U(1)$ subsystem asymmetry in different connectivity geometries, showing that the late-time limit of the ensemble associated to a 2-local circuit geometry coincides with the all-to-all ensemble average. By focusing on different subsystem sizes, we demonstrate that,",
       "source": "arXiv",
-      "url": "https://arxiv.org/abs/2607.00738v1",
-      "crawled_at": "2026-07-02T02:52:14.663282"
+      "url": "https://arxiv.org/abs/2607.07556v1",
+      "crawled_at": "2026-07-09T02:34:57.760453"
     },
     {
-      "id": "b0d152afb7fa",
-      "title": "A linear, decoupled and positivity-preserving time-staggered block-centered finite difference method for the multi-species Keller-Segel chemotaxis system",
+      "id": "d792d8cc9ca8",
+      "title": "Forced condensation and anti-condensation on heavy-tailed networks",
       "authors": [
-        "Ao Zhang",
-        "Bingyin Zhang",
-        "Hongfei Fu"
+        "Ashwin Bhattathiripad",
+        "Vipin P. Veetil"
       ],
       "journal": "arXiv preprint",
       "doi": "",
-      "arxiv_id": "2607.00713v1",
-      "publish_date": "2026-07-01",
-      "abstract": "In this paper, we present a linearly implicit, second-order block-centered finite difference (BCFD) prediction-then-projection scheme for the multi-species Keller-Segel chemotaxis system on non-uniform spatio-temporal grids. The proposed scheme integrates a standard Crank-Nicolson time-marching algorithm with an $L^2$ projection step to enforce positivity and mass conservation. The use of variable time stepsize and time-staggered discretization fully decouples the solutions of the multi-species ",
+      "arxiv_id": "2607.07399v1",
+      "publish_date": "2026-07-08",
+      "abstract": "We study a driven selection mechanism on a fixed heavy-tailed network. At each step fresh mass is injected, its direction is recomputed from the current mass profile by a power-normalization rule, and the combined mass is transported by a primitive mixing matrix. The exponent $θ$ controls the feedback. Positive values give more weight to larger coordinates, while negative values favor smaller ones. When $θ=0$, the injected mass is distributed uniformly. After deterministic growth of the total ma",
       "source": "arXiv",
-      "url": "https://arxiv.org/abs/2607.00713v1",
-      "crawled_at": "2026-07-02T02:52:14.663365"
+      "url": "https://arxiv.org/abs/2607.07399v1",
+      "crawled_at": "2026-07-09T02:34:57.760548"
     },
     {
-      "id": "453277f77dd7",
-      "title": "How Environment and Urbanization Shape Bird Diversity in Sri Lanka",
+      "id": "3346b4bf3465",
+      "title": "JAX-FVM: A differentiable, entropy-stable finite volume solver on unstructured meshes for compressible flows",
       "authors": [
-        "Dilusha Chandrasiri",
-        "Maneesha Herath",
-        "Yasith Hewarathna",
-        "Muditha Herath",
-        "Gishan Bandara",
-        "Madara Mendis",
-        "Nathali Athukorala",
-        "Nisansa de Silva",
-        "Sandareka Wickramanayake"
+        "Guillaume de Romémont"
       ],
       "journal": "arXiv preprint",
       "doi": "",
-      "arxiv_id": "2607.00582v1",
-      "publish_date": "2026-07-01",
-      "abstract": "This study presents a comprehensive analysis of bird diversity across Sri Lanka by integrating spatial, temporal, and environmental data. Bird observation records were combined with environmental variables, including weather conditions, air pollution, the Normalized Difference Vegetation Index (NDVI), land cover, elevation, and Artificial Light At Night (ALAN), and rigorously preprocessed to ensure data quality. Spatial analyses were conducted on multiple grid scales (2 km, 5 km, 10 km) to evalu",
+      "arxiv_id": "2607.07385v1",
+      "publish_date": "2026-07-08",
+      "abstract": "We present JAX-FVM, an open-source, fully differentiable finite volume method (FVM) for the two-dimensional compressible Euler and Navier-Stokes equations on unstructured triangular meshes. The solver is written entirely in JAX, so that every operation : mesh connectivity, flux evaluation, slope limiting, and time integration is just-in-time compiled, vectorised, and end-to-end differentiable through automatic differentiation (AD), and runs transparently on CPU or GPU. On the numerical side, JAX",
       "source": "arXiv",
-      "url": "https://arxiv.org/abs/2607.00582v1",
-      "crawled_at": "2026-07-02T02:52:14.663475"
+      "url": "https://arxiv.org/abs/2607.07385v1",
+      "crawled_at": "2026-07-09T02:34:57.760618"
+    },
+    {
+      "id": "39d6ba63b54e",
+      "title": "Implicit Predecessor-Based Region of Attraction Estimation and Robust Invariance Analysis for a Two-Wheeled Inverted Pendulum",
+      "authors": [
+        "Lorenzo Fici",
+        "Guillaume Ducard"
+      ],
+      "journal": "arXiv preprint",
+      "doi": "",
+      "arxiv_id": "2607.07231v1",
+      "publish_date": "2026-07-08",
+      "abstract": "Estimating the region of attraction (RoA) of nonlinear systems is fundamental for assessing closed-loop stability and ensuring safe operation. While Lyapunov-based approaches provide certified stability guarantees, they often yield conservative inner approximations of the RoA. This paper combines a certified Lyapunov-based positively invariant set with a predecessor-based implicit representation to compute a significantly less conservative inner approximation of the RoA while preserving formal s",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2607.07231v1",
+      "crawled_at": "2026-07-09T02:34:57.760689"
+    },
+    {
+      "id": "091d5099f0e1",
+      "title": "Higgs boson mass and thermal wino dark matter from Starobinsky supergravity with the MSSM",
+      "authors": [
+        "Daniel Frolovsky",
+        "Alexander Belyaev",
+        "Sergei V. Ketov"
+      ],
+      "journal": "arXiv preprint",
+      "doi": "",
+      "arxiv_id": "2607.07193v1",
+      "publish_date": "2026-07-08",
+      "abstract": "We propose a framework connecting cosmic microwave background (CMB) observables with high-energy particle phenomenology, based on Starobinsky supergravity coupled to the Minimal Supersymmetric Standard Model (MSSM). Cosmic inflation and supersymmetry (SUSY) breaking occur within the hidden sector emerging from Starobinsky supergravity. The inflationary scale fixes the characteristic mass scale of the hidden sector, which determines the MSSM soft terms through gravitational mediation of SUSY brea",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2607.07193v1",
+      "crawled_at": "2026-07-09T02:34:57.760792"
     },
     {
       "id": "0df291f62d17",
@@ -473,7 +544,7 @@
       "abstract": "",
       "source": "CrossRef",
       "url": "https://doi.org/10.1163/9789004753525_007",
-      "crawled_at": "2026-07-02T02:52:29.203994"
+      "crawled_at": "2026-07-09T02:34:58.031305"
     },
     {
       "id": "a24e3e63dc98",
@@ -487,7 +558,19 @@
       "abstract": "<jats:p>Understanding the built heritage is the first step in its conservation. In the case of the vernacular heritage, a holistic approach must be adopted. Vernacular buildings and settlements are formed by aspects that are beyond their tangible and visual characteristics and attributes. Worldviews, values, beliefs, myths and other aspects of the intangible heritage of the community have contributed to the form, style and other tangible aspects of the built vernacular heritage. The natural envi",
       "source": "CrossRef",
       "url": "https://doi.org/10.4995/heritage2025.2025.19843",
-      "crawled_at": "2026-07-02T02:52:29.204079"
+      "crawled_at": "2026-07-09T02:34:58.031397"
+    },
+    {
+      "id": "d98004633278",
+      "title": "Guidelines for Conservation",
+      "authors": [],
+      "journal": "Conservation of Granite in Cultural Heritage",
+      "doi": "10.2307/jj.31272198.14",
+      "publish_date": "2025-08-26",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.2307/jj.31272198.14",
+      "crawled_at": "2026-07-09T02:34:58.031410"
     },
     {
       "id": "41aa3fdb3cc9",
@@ -499,7 +582,7 @@
       "abstract": "",
       "source": "CrossRef",
       "url": "https://doi.org/10.58337/xmil8436",
-      "crawled_at": "2026-07-02T02:52:29.204087"
+      "crawled_at": "2026-07-09T02:34:58.031418"
     },
     {
       "id": "3c522b9e472b",
@@ -513,7 +596,19 @@
       "abstract": "",
       "source": "CrossRef",
       "url": "https://doi.org/10.21275/sr251209113345",
-      "crawled_at": "2026-07-02T02:52:29.204097"
+      "crawled_at": "2026-07-09T02:34:58.031430"
+    },
+    {
+      "id": "427b36d1f148",
+      "title": "การจัดการจดหมายเหตุการอนุรักษ์แหล่งมรดกโลก",
+      "authors": [],
+      "journal": "Unknown",
+      "doi": "10.58337/ffbw7493",
+      "publish_date": "2026",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.58337/ffbw7493",
+      "crawled_at": "2026-07-09T02:34:58.031437"
     },
     {
       "id": "a7a8a94a4034",
@@ -527,19 +622,7 @@
       "abstract": "",
       "source": "CrossRef",
       "url": "https://doi.org/10.7767/9783205221296.348",
-      "crawled_at": "2026-07-02T02:52:29.204105"
-    },
-    {
-      "id": "427b36d1f148",
-      "title": "การจัดการจดหมายเหตุการอนุรักษ์แหล่งมรดกโลก",
-      "authors": [],
-      "journal": "Unknown",
-      "doi": "10.58337/ffbw7493",
-      "publish_date": "2026",
-      "abstract": "",
-      "source": "CrossRef",
-      "url": "https://doi.org/10.58337/ffbw7493",
-      "crawled_at": "2026-07-02T02:52:29.204112"
+      "crawled_at": "2026-07-09T02:34:58.031448"
     },
     {
       "id": "601959a85121",
@@ -551,7 +634,7 @@
       "abstract": "",
       "source": "CrossRef",
       "url": "https://doi.org/10.2307/jj.31272198.11",
-      "crawled_at": "2026-07-02T02:52:29.204120"
+      "crawled_at": "2026-07-09T02:34:58.031457"
     },
     {
       "id": "5fa07985fafe",
@@ -565,7 +648,7 @@
       "abstract": "<jats:p>Major human impacts on New Zealand’s ecology began about 800 years ago with immigration firstly from Polynesia, then Europe starting a few centuries later. The humans cleared habitat, hunted species to extinction, and introduced biota, including plants, birds, fish, invertebrates, and mammals. Over the last 70 years, government-funded campaigns have been waged against some of the introduced mammals that became considered harmful to native biota. These campaigns spread poisonous food bait",
       "source": "CrossRef",
       "url": "https://doi.org/10.3390/conservation5030047",
-      "crawled_at": "2026-07-02T02:52:29.204184"
+      "crawled_at": "2026-07-09T02:34:58.031531"
     },
     {
       "id": "9aa4f89509bf",
@@ -584,7 +667,7 @@
       "abstract": "",
       "source": "CrossRef",
       "url": "https://doi.org/10.1109/icsh68040.2025.11548176",
-      "crawled_at": "2026-07-02T02:52:29.204217"
+      "crawled_at": "2026-07-09T02:34:58.031556"
     },
     {
       "id": "8424947cd3b7",
@@ -596,7 +679,7 @@
       "abstract": "",
       "source": "CrossRef",
       "url": "https://doi.org/10.2307/jj.26931934.13",
-      "crawled_at": "2026-07-02T02:52:41.933080"
+      "crawled_at": "2026-07-09T02:34:58.449220"
     },
     {
       "id": "9033c5751fbc",
@@ -610,7 +693,7 @@
       "abstract": "",
       "source": "CrossRef",
       "url": "https://doi.org/10.14293/s2199-1006.1.sor-uncat.baip1k.v1.rtodvv",
-      "crawled_at": "2026-07-02T02:52:41.933099"
+      "crawled_at": "2026-07-09T02:34:58.449237"
     },
     {
       "id": "dce0075e93b5",
@@ -625,7 +708,7 @@
       "abstract": "",
       "source": "CrossRef",
       "url": "https://doi.org/10.4324/9781003334453",
-      "crawled_at": "2026-07-02T02:52:41.933108"
+      "crawled_at": "2026-07-09T02:34:58.449247"
     },
     {
       "id": "38340fad831a",
@@ -640,7 +723,7 @@
       "abstract": "",
       "source": "CrossRef",
       "url": "https://doi.org/10.4324/9781003334453-6",
-      "crawled_at": "2026-07-02T02:52:41.933117"
+      "crawled_at": "2026-07-09T02:34:58.449256"
     },
     {
       "id": "2bc2a7807ecd",
@@ -652,37 +735,7 @@
       "abstract": "",
       "source": "CrossRef",
       "url": "https://doi.org/10.2307/jj.26931934.8",
-      "crawled_at": "2026-07-02T02:52:41.933126"
-    },
-    {
-      "id": "75c47c258ddd",
-      "title": "The French Museology",
-      "authors": [
-        "Bin Wang",
-        "Kai Yin"
-      ],
-      "journal": "Museum",
-      "doi": "10.3724/2096-1715.2025.09.05.016",
-      "publish_date": "2025-10-01",
-      "abstract": "",
-      "source": "CrossRef",
-      "url": "https://doi.org/10.3724/2096-1715.2025.09.05.016",
-      "crawled_at": "2026-07-02T02:52:41.933136"
-    },
-    {
-      "id": "67db5bf36462",
-      "title": "Speaking back",
-      "authors": [
-        "Sarah Kenderdine",
-        "Lily Hibberd"
-      ],
-      "journal": "Deep Fakes",
-      "doi": "10.4324/9781003334453-10",
-      "publish_date": "2025-10-20",
-      "abstract": "",
-      "source": "CrossRef",
-      "url": "https://doi.org/10.4324/9781003334453-10",
-      "crawled_at": "2026-07-02T02:52:41.933144"
+      "crawled_at": "2026-07-09T02:34:58.449266"
     },
     {
       "id": "69ead5171ca3",
@@ -697,7 +750,7 @@
       "abstract": "",
       "source": "CrossRef",
       "url": "https://doi.org/10.4324/9781003334453-7",
-      "crawled_at": "2026-07-02T02:52:41.933153"
+      "crawled_at": "2026-07-09T02:34:58.449274"
     },
     {
       "id": "83de8dc7b0d4",
@@ -712,7 +765,37 @@
       "abstract": "",
       "source": "CrossRef",
       "url": "https://doi.org/10.4324/9781003334453-2",
-      "crawled_at": "2026-07-02T02:52:41.933161"
+      "crawled_at": "2026-07-09T02:34:58.449282"
+    },
+    {
+      "id": "67db5bf36462",
+      "title": "Speaking back",
+      "authors": [
+        "Sarah Kenderdine",
+        "Lily Hibberd"
+      ],
+      "journal": "Deep Fakes",
+      "doi": "10.4324/9781003334453-10",
+      "publish_date": "2025-10-20",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.4324/9781003334453-10",
+      "crawled_at": "2026-07-09T02:34:58.449291"
+    },
+    {
+      "id": "75c47c258ddd",
+      "title": "The French Museology",
+      "authors": [
+        "Bin Wang",
+        "Kai Yin"
+      ],
+      "journal": "Museum",
+      "doi": "10.3724/2096-1715.2025.09.05.016",
+      "publish_date": "2025-10-01",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.3724/2096-1715.2025.09.05.016",
+      "crawled_at": "2026-07-09T02:34:58.449300"
     },
     {
       "id": "344e543a2abf",
@@ -727,7 +810,154 @@
       "abstract": "",
       "source": "CrossRef",
       "url": "https://doi.org/10.4324/9781003334453-13",
-      "crawled_at": "2026-07-02T02:52:41.933169"
+      "crawled_at": "2026-07-09T02:34:58.449308"
+    },
+    {
+      "id": "66fa20572d02",
+      "title": "Intangible cultural heritage law",
+      "authors": [
+        "Thiago Burckhart"
+      ],
+      "journal": "Intangible Heritage Law and Cultural Diversity",
+      "doi": "10.4324/9781003619550-2",
+      "publish_date": "2025-10-30",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.4324/9781003619550-2",
+      "crawled_at": "2026-07-09T02:34:59.139236"
+    },
+    {
+      "id": "d657fbc6a64e",
+      "title": "Generating Chinese intangible cultural heritage images with structure and color awareness",
+      "authors": [
+        "Jingjing Zou",
+        "Yingjun Du",
+        "Gangtian Liu",
+        "Ziyun Jiao",
+        "Hui Zhang"
+      ],
+      "journal": "npj Heritage Science",
+      "doi": "10.1038/s40494-025-02150-7",
+      "publish_date": "2025-11-17",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.1038/s40494-025-02150-7",
+      "crawled_at": "2026-07-09T02:34:59.139258"
+    },
+    {
+      "id": "ecb9200bbc80",
+      "title": "Intangible Cultural Heritage: Creating Cultural Resilience in Displaced Palestinian Refugee Communities",
+      "authors": [
+        "Islam A. Alshafei",
+        "Pinar Uluçay Righelato"
+      ],
+      "journal": "Cities, Heritage and Transformation",
+      "doi": "10.1007/978-3-032-16141-3_9",
+      "publish_date": "2026",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.1007/978-3-032-16141-3_9",
+      "crawled_at": "2026-07-09T02:34:59.139274"
+    },
+    {
+      "id": "5ff6db24379c",
+      "title": "Food and the Intangible Cultural Heritage Convention",
+      "authors": [
+        "Fabio Parasecoli"
+      ],
+      "journal": "Routledge Handbook of Food and Cultural Heritage",
+      "doi": "10.4324/9781032026565-23",
+      "publish_date": "2025-09-04",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.4324/9781032026565-23",
+      "crawled_at": "2026-07-09T02:34:59.139287"
+    },
+    {
+      "id": "2357fb603e98",
+      "title": "HOW AND WHY TO RECONCILE DIFFERENT DISCIPLINES TO CHARACTERIZE AND SAFEGUARD INTANGIBLE CULTURAL HERITAGE: THE CASE OF THE INTANGIBLE CULTURAL HERITAGE HANDBOOK",
+      "authors": [
+        "Françoise Lempereur"
+      ],
+      "journal": "Culture Crossroads",
+      "doi": "10.55877/cc.vol28.615",
+      "publish_date": "2025-10-27",
+      "abstract": "<jats:p> The UNESCO Convention for the Safeguarding of the Intangible Cultural Heritage has come into effect on 2006. Since then, its complexity and its lack of constraint have generated a large number of problems and debates into the academic world. In the attempt to counter the criticism and answer some of the interrogations, this paper is dedicated to analysis of the ways how researchers and teachers could understand and transmit intangible cultural heritage. As the author has edited an acade",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.55877/cc.vol28.615",
+      "crawled_at": "2026-07-09T02:34:59.139431"
+    },
+    {
+      "id": "0762da737451",
+      "title": "Copyright Protection for Art and Intangible Cultural Heritage",
+      "authors": [
+        "Paul Torremans"
+      ],
+      "journal": "Elgar Encyclopedia of Art and Cultural Heritage Law",
+      "doi": "10.4337/9781802207897.cr.protection.achl",
+      "publish_date": "2026-11-28",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.4337/9781802207897.cr.protection.achl",
+      "crawled_at": "2026-07-09T02:34:59.139446"
+    },
+    {
+      "id": "6866e520596b",
+      "title": "3. Dancing a Heritage in Horjul",
+      "authors": [
+        "Rebeka Kunej"
+      ],
+      "journal": "Sustaining Traditional Dance as Intangible Cultural Heritage",
+      "doi": "10.3986/9789610510512_03",
+      "publish_date": "2025-11-28",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.3986/9789610510512_03",
+      "crawled_at": "2026-07-09T02:34:59.139470"
+    },
+    {
+      "id": "e9af3908ff97",
+      "title": "VisTCP: A Visualization Framework to Construct Knowledge-Graph-Based Representation for Traditional Chinese Painting",
+      "authors": [
+        "Zhiguang Zhou",
+        "Fengling Zheng",
+        "Miaoxin Hu",
+        "Lina You",
+        "Jin Wen",
+        "Huan Liu",
+        "Wei Zhang",
+        "Dekun Qian",
+        "Yuhua Liu",
+        "Wei Chen",
+        "Yigang Wang",
+        "Yong Wang"
+      ],
+      "journal": "arXiv preprint",
+      "doi": "",
+      "arxiv_id": "2607.05841v1",
+      "publish_date": "2026-07-07",
+      "abstract": "Structured representation can characterize semantic objects and relationships in images. It provides a possible effective way for the semantic understanding of Traditional Chinese Paintings (TCPs) to better support archaeology and art history research. However, most image-oriented structured representation methods perform poorly on TCPs, due to two major challenges: 1) the objects and events of TCPs exhibit substantial differences from modern natural images, which results in semantic misundersta",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2607.05841v1",
+      "crawled_at": "2026-07-09T02:34:59.394952"
+    },
+    {
+      "id": "d6f01e25b959",
+      "title": "A Bayesian Joint Model for Multiple Point Processes with Application to Presence-Only Data",
+      "authors": [
+        "Laura C. M. Teixeira",
+        "Dani Gamerman",
+        "Vinicius Peripato",
+        "Carolina Levis"
+      ],
+      "journal": "arXiv preprint",
+      "doi": "",
+      "arxiv_id": "2607.02786v1",
+      "publish_date": "2026-07-02",
+      "abstract": "Joint modeling of multiple point processes is relevant in applications where relationships among processes are of interest, such as in ecological and archaeological studies. Statistical inference becomes particularly challenging when multiple processes are analyzed jointly and the observed data correspond to presence-only patterns, which are subject to preferential sampling and partial observability. This paper proposes a Bayesian joint model for multiple point processes, with application to the",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2607.02786v1",
+      "crawled_at": "2026-07-09T02:34:59.395117"
     },
     {
       "id": "bfcc8c43dc8a",
@@ -742,7 +972,7 @@
       "abstract": "[ABRIDGED] We aim to determine abundances of carbon, nitrogen, sulphur, potassium, and copper for 714 nearby F and G dwarf and subgiant stars, and to re-derive oxygen abundances using updated corrections for departures from the assumption of local thermodynamic equilibrium. These elements extend the chemical inventory of our previous studies and provide new constraints on the relative enrichment histories of the Galactic thin and thick disks. The alpha-element behaviour of oxygen is confirmed, w",
       "source": "arXiv",
       "url": "https://arxiv.org/abs/2607.01013v1",
-      "crawled_at": "2026-07-02T02:53:17.184237"
+      "crawled_at": "2026-07-09T02:34:59.395228"
     },
     {
       "id": "004a20cb18f5",
@@ -785,7 +1015,7 @@
       "abstract": "Finding the first (Population III or Pop III) stars is one of the fundamental quests of astronomy, aiming to deliver the missing link in how stars form at early cosmic times. Yet their initial mass function, formation sites and feedback remain highly uncertain, as well as the timing and topology of the transition to metal-enriched star formation. The observability of their peculiar spectral features is also debated, due to their short lifetime and faintness. This review summarizes current theore",
       "source": "arXiv",
       "url": "https://arxiv.org/abs/2607.00167v1",
-      "crawled_at": "2026-07-02T02:53:17.184414"
+      "crawled_at": "2026-07-09T02:34:59.395432"
     },
     {
       "id": "4fcc2e446e43",
@@ -805,7 +1035,7 @@
       "abstract": "Simultaneous structural and elemental characterisation of a specimen in a non-destructive manner is an instrumental approach with applications in a variety of fields including energy materials, cultural heritage and life sciences. This is routinely performed at synchrotron facilities, e.g. by combining X-ray imaging and X-ray fluorescence. In this work we describe an approach based on a monochromatic implementation of X-ray beam tracking (XBT), a multimodal imaging technique compatible with stan",
       "source": "arXiv",
       "url": "https://arxiv.org/abs/2606.24753v1",
-      "crawled_at": "2026-07-02T02:53:17.184508"
+      "crawled_at": "2026-07-09T02:34:59.395531"
     },
     {
       "id": "c3034a5d6b64",
@@ -823,7 +1053,7 @@
       "abstract": "Building on Arkhipov's proposal that technogenic artefacts may survive natural interstellar transport and accumulate on airless Solar System bodies, we examine the prospects for identifying micron-scale engineered particulate material within the lunar regolith. We analyse the transport of micron and submicron grains through the interstellar medium, including gas drag, sputtering, and ISM phase-dependent survival, and show that refractory particles with characteristic radii of order 0.3 microns m",
       "source": "arXiv",
       "url": "https://arxiv.org/abs/2606.24028v3",
-      "crawled_at": "2026-07-02T02:53:17.184603"
+      "crawled_at": "2026-07-09T02:34:59.395628"
     },
     {
       "id": "21d1133897c2",
@@ -838,7 +1068,7 @@
       "abstract": "We present a spatially resolved archaeological reconstruction of the Sextans dwarf spheroidal (dSph) galaxy using deep DECam wide-field photometry and the PANCAKE CMD-fitting code. By analyzing the star formation history (SFH) and age-metallicity relationship (AMR) across four radial zones, namely: core, ring, outer body, and outskirts, we find that Sextans is a composite system formed through a minor merger approximately 13 Gyr ago. Our results reveal an inverse metallicity gradient: a primitiv",
       "source": "arXiv",
       "url": "https://arxiv.org/abs/2606.23216v1",
-      "crawled_at": "2026-07-02T02:53:17.184691"
+      "crawled_at": "2026-07-09T02:34:59.395713"
     },
     {
       "id": "caec0baef33c",
@@ -854,7 +1084,7 @@
       "abstract": "Ancient human beings started \"external entropy production\" in a late stage of evolution, in addition to the internal entropy production by which energy was dissipated within the body of life, as previously described consistently with the birth of life by maximum entropy production principle. In this paper, the mechanism for development of external entropy production, which is strongly related with use of tools and controlling fire, is theoretically investigated. Archaeological data show that the",
       "source": "arXiv",
       "url": "https://arxiv.org/abs/2606.19066v1",
-      "crawled_at": "2026-07-02T02:53:17.184788"
+      "crawled_at": "2026-07-09T02:34:59.395805"
     },
     {
       "id": "f0fcfd3d9cd4",
@@ -871,7 +1101,7 @@
       "abstract": "Unmanned Aerial Vehicle (UAV) multispectral point clouds (MPC) provide high-dimensional spatial-spectral data for sub-canopy target detection; however, their efficacy is significantly compromised by severe illumination heterogeneity caused by vegetation shadows. To address this, we propose a prior-free anomaly detection framework capable of robustly handling lighting variations. First, we formulate solar angle estimation as an inverse optimization problem. By coupling spectral indices with a ray",
       "source": "arXiv",
       "url": "https://arxiv.org/abs/2606.09111v1",
-      "crawled_at": "2026-07-02T02:53:17.184867"
+      "crawled_at": "2026-07-09T02:34:59.395883"
     },
     {
       "id": "9a2152ee0ec0",
@@ -894,43 +1124,7 @@
       "abstract": "Across the Northern Hemisphere, Indigenous hunters developed arrows capable of skipping across the water surface to strike waterfowl. Archaeological and ethnographic records reveal remarkably similar projectile designs spanning millennia and geographically distant cultures, suggesting a convergent technological solution. Despite extensive study of water-entry dynamics, the physical principles underlying this behaviour remain poorly understood. Here we show that successful water-skipping arises f",
       "source": "arXiv",
       "url": "https://arxiv.org/abs/2606.03015v1",
-      "crawled_at": "2026-07-02T02:53:17.184965"
-    },
-    {
-      "id": "f620d4879c44",
-      "title": "Correlated uniform attachment trees",
-      "authors": [
-        "Johannes Bäumler",
-        "Miklós Z. Rácz",
-        "Nathan Ross",
-        "Anirudh Sridhar"
-      ],
-      "journal": "arXiv preprint",
-      "doi": "",
-      "arxiv_id": "2606.02472v1",
-      "publish_date": "2026-06-01",
-      "abstract": "We introduce and study a new model of correlated uniform attachment (UA) trees, where correlation is sprinkled throughout the time evolution of the process. In this model, two UA trees are grown in parallel, and at each time step a new node is added to each tree, with an edge between it and a uniformly chosen existing vertex in the respective tree. The two choices of attachment are correlated: with probability $α$, the edges attach to nodes with the same time label in both trees, and with probab",
-      "source": "arXiv",
-      "url": "https://arxiv.org/abs/2606.02472v1",
-      "crawled_at": "2026-07-02T02:53:17.185059"
-    },
-    {
-      "id": "a5520a3bf9b4",
-      "title": "Page image classifier fine-tuned on century-spanning archives of scanned documents for further content-specific processing",
-      "authors": [
-        "Kateryna Lutsai",
-        "Dana Křivánková",
-        "Pavel Straňák",
-        "David Novák"
-      ],
-      "journal": "arXiv preprint",
-      "doi": "",
-      "arxiv_id": "2606.07558v2",
-      "publish_date": "2026-05-25",
-      "abstract": "Purpose: Digitization projects in the humanities produce vast, heterogeneous archives of historical documents, making manual sorting impractical at scale. This work addresses the need for an automated system to classify scanned page images based on visual content type - text, tables, and graphics - enabling content-specific downstream processing such as Optical Character Recognition (OCR) or structured data extraction. Methods: An image classification system was developed and evaluated on a data",
-      "source": "arXiv",
-      "url": "https://arxiv.org/abs/2606.07558v2",
-      "crawled_at": "2026-07-02T02:53:17.185161"
+      "crawled_at": "2026-07-09T02:34:59.395973"
     },
     {
       "id": "223cc9c80340",
@@ -944,7 +1138,7 @@
       "abstract": "<jats:p>Between 1953 and 1975, the deserted medieval town Borgund witnessed Norway’s most extensive excavations of ordinary people’s settlements outside the still-existing towns. Yet, the substantial archaeological material recovered has remained an underexploited resource in scholarship. The first part of the paper examines the background to the large-scale excavations and explores factors contributing to the limited research on the datasets. The Borgund Kaupang Project (2019–) now seeks to rev",
       "source": "CrossRef",
       "url": "https://doi.org/10.1484/j.jua.5.153856",
-      "crawled_at": "2026-07-02T02:53:24.757264"
+      "crawled_at": "2026-07-09T02:34:59.548907"
     },
     {
       "id": "9d0e3bdb92c0",
@@ -959,7 +1153,7 @@
       "abstract": "<jats:p> In recent years, and in their own right, urban archaeology and archive archaeology have become important and influential subdisciplines of archaeology, continuing to break new ground in discovering the past. This text and special section of the <jats:italic>Journal of Urban Archaeology</jats:italic> it introduces, is situated at the intersection between these two fields, asking how archival research in archaeology and the use of legacy data can rediscover ‘lost’ urban sites. The meaning",
       "source": "CrossRef",
       "url": "https://doi.org/10.1484/j.jua.5.153853",
-      "crawled_at": "2026-07-02T02:53:24.757349"
+      "crawled_at": "2026-07-09T02:34:59.548969"
     },
     {
       "id": "0ee7c7ce2d16",
@@ -971,7 +1165,7 @@
       "abstract": "",
       "source": "CrossRef",
       "url": "https://doi.org/10.1484/j.jua.5.156034",
-      "crawled_at": "2026-07-02T02:53:24.757362"
+      "crawled_at": "2026-07-09T02:34:59.548982"
     },
     {
       "id": "43422a0c8360",
@@ -985,21 +1179,7 @@
       "abstract": "<jats:p>In the 1980s, massive detector finds were discovered by the long-forgotten medieval Tårnborg Castle, located at the bottom of Korsør inlet, Zealand. The impressive number of finds, especially coins, encouraged limited excavations, revealing medieval dwellings and a marketplace on the shores below an imposing castle hill. Tårnborg was replaced by the modern town of Korsør in the fourteenth century, but revitalized by detector surveys. However, by the end of the twentieth century, the muse",
       "source": "CrossRef",
       "url": "https://doi.org/10.1484/j.jua.5.153857",
-      "crawled_at": "2026-07-02T02:53:24.757421"
-    },
-    {
-      "id": "0f7a62a26dcb",
-      "title": "Reimagining Australian archaeology",
-      "authors": [
-        "Malcolm Connolly"
-      ],
-      "journal": "Australian Archaeology",
-      "doi": "10.1080/03122417.2025.2562675",
-      "publish_date": "2025-09-02",
-      "abstract": "",
-      "source": "CrossRef",
-      "url": "https://doi.org/10.1080/03122417.2025.2562675",
-      "crawled_at": "2026-07-02T02:53:24.757429"
+      "crawled_at": "2026-07-09T02:34:59.549065"
     },
     {
       "id": "0f06edf02c4e",
@@ -1014,7 +1194,37 @@
       "abstract": "<jats:p>This article examines the creation of one of the world’s largest collections of Palmyrene sculpture outside of Syria itself; namely the one in the Ny Carlsberg Glyptotek in Copenhagen. It does so here through the online available correspondence between the brewer Carl Jacobsen and the Danish consul in Beirut, Julius Løytved, through whom he acquired most of the Palmyrene objects in the collection between 1884 and 1888. We base the results on twelve years of research undertaken within the",
       "source": "CrossRef",
       "url": "https://doi.org/10.1484/j.jua.5.153852",
-      "crawled_at": "2026-07-02T02:53:24.757459"
+      "crawled_at": "2026-07-09T02:34:59.549106"
+    },
+    {
+      "id": "0f7a62a26dcb",
+      "title": "Reimagining Australian archaeology",
+      "authors": [
+        "Malcolm Connolly"
+      ],
+      "journal": "Australian Archaeology",
+      "doi": "10.1080/03122417.2025.2562675",
+      "publish_date": "2025-09-02",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.1080/03122417.2025.2562675",
+      "crawled_at": "2026-07-09T02:34:59.549116"
+    },
+    {
+      "id": "7c597a1d9369",
+      "title": "The Medieval Town Atlas",
+      "authors": [
+        "Charlotte Marie Brühe Jensen",
+        "Kirstine Haase",
+        "Søren Michael Sindbæk"
+      ],
+      "journal": "Journal of Urban Archaeology",
+      "doi": "10.1484/j.jua.5.153859",
+      "publish_date": "2026-01-01",
+      "abstract": "<jats:p>The article presents a current project that compiles all publicly available archaeological data on the seventy-four medieval towns in present-day Denmark. This project is the first to gather information on the history, topography, and archaeology of all Danish medieval towns, addressing the bias in research that has often disproportionately favoured larger towns over smaller ones. ‘The Medieval Town Atlas’ will serve as a foundation for future research on Danish medieval towns, both indi",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.1484/j.jua.5.153859",
+      "crawled_at": "2026-07-09T02:34:59.549166"
     },
     {
       "id": "e60e88e6d50d",
@@ -1029,22 +1239,19 @@
       "abstract": "",
       "source": "CrossRef",
       "url": "https://doi.org/10.1484/j.jua.5.153849",
-      "crawled_at": "2026-07-02T02:53:24.757468"
+      "crawled_at": "2026-07-09T02:34:59.549176"
     },
     {
-      "id": "65f827bd5499",
-      "title": "Residual Grounds: Infrastructural Archaeology and Glasgow’s Showpeople",
-      "authors": [
-        "Graham Skeate",
-        "Glasgow's Showpeople"
-      ],
-      "journal": "Industrial Archaeology Review",
-      "doi": "10.1080/03090728.2025.2618904",
-      "publish_date": "2025-07-03",
+      "id": "f01631c59cd3",
+      "title": "Society for Church Archaeology Officers 2024–25",
+      "authors": [],
+      "journal": "Church Archaeology",
+      "doi": "10.3828/churcharch.2025.25.8",
+      "publish_date": "2025-11-14",
       "abstract": "",
       "source": "CrossRef",
-      "url": "https://doi.org/10.1080/03090728.2025.2618904",
-      "crawled_at": "2026-07-02T02:53:24.757478"
+      "url": "https://doi.org/10.3828/churcharch.2025.25.8",
+      "crawled_at": "2026-07-09T02:34:59.549186"
     }
   ]
 }
