@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T22:42:52.522817",
+  "generated_at": "2026-07-14T02:06:07.545368",
   "summary": {
     "total_final_items": 816,
     "total_expired_archived": 0
@@ -113,10 +113,10 @@
     "news": {
       "category": "news",
       "raw_count": 28,
-      "existing_count": 142,
-      "fresh_count": 170,
+      "existing_count": 148,
+      "fresh_count": 176,
       "expired_count": 0,
-      "duplicate_removed": 22,
+      "duplicate_removed": 28,
       "final_count": 148,
       "sources": {
         "中国社会科学网": 128,
