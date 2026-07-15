@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-06-22T23:11:03.395104",
+    "generated_at": "2026-07-15T22:46:02.805102",
     "threshold": "±30%",
-    "total_validated": 9,
+    "total_validated": 14,
     "normal_count": 0,
     "anomaly_count": 0,
-    "skipped_count": 9
+    "skipped_count": 14
   },
   "baselines": {
     "成交公告": {
@@ -22,8 +22,19 @@
   "anomalies": [],
   "all_results": [
     {
-      "item_id": "0411346ae310",
-      "title": "昆明冶金高等专科学校文创艺术馆二期项目招标公告",
+      "item_id": "96f4d69f0d4e",
+      "title": "西安市红会医院文创产品制作项目竞争性磋商公告",
+      "type": "项目合作",
+      "amount_raw": "",
+      "amount_parsed": null,
+      "validation_status": "skipped",
+      "deviation": null,
+      "baseline_median": null,
+      "message": "无有效金额，跳过验证"
+    },
+    {
+      "item_id": "2161bd00f7f2",
+      "title": "文创IP周边产品设计与制作项目（二标段）公开招标公告",
       "type": "招标公告",
       "amount_raw": "",
       "amount_parsed": null,
@@ -33,8 +44,8 @@
       "message": "无有效金额，跳过验证"
     },
     {
-      "item_id": "53773523ff5c",
-      "title": "四川天府新区文创和会展局2026年四川天府新区第十三届全民健身运动会赛事执行服务项目中标（成交）结果公告",
+      "item_id": "6eef28fa0da5",
+      "title": "昆明冶金高等专科学校文创艺术馆二期项目中标结果公告",
       "type": "中标结果",
       "amount_raw": "",
       "amount_parsed": null,
@@ -44,8 +55,30 @@
       "message": "无有效金额，跳过验证"
     },
     {
-      "item_id": "7e8a2f1ae7d3",
-      "title": "青海君昱工程项目管理有限公司关于2026年青海福彩IP形象打造及文创产品开发（第二次）的竞争性磋商公告",
+      "item_id": "d1e1a3fdf5d2",
+      "title": "大运河文创推广活动竞争性磋商公告",
+      "type": "其他",
+      "amount_raw": "",
+      "amount_parsed": null,
+      "validation_status": "skipped",
+      "deviation": null,
+      "baseline_median": null,
+      "message": "无有效金额，跳过验证"
+    },
+    {
+      "item_id": "6ac06fda1cbe",
+      "title": "文旅宣传推介及文创IP服务（一标段）公开招标公告",
+      "type": "招标公告",
+      "amount_raw": "",
+      "amount_parsed": null,
+      "validation_status": "skipped",
+      "deviation": null,
+      "baseline_median": null,
+      "message": "无有效金额，跳过验证"
+    },
+    {
+      "item_id": "0e126186ea55",
+      "title": "广安市广安区龙安乡人民政府龙安乡勇敢村产业基地文化创意服务项目竞争性磋商公告",
       "type": "项目合作",
       "amount_raw": "",
       "amount_parsed": null,
@@ -55,8 +88,8 @@
       "message": "无有效金额，跳过验证"
     },
     {
-      "item_id": "4bb17f148ebd",
-      "title": "西安市中心血站献血文创品设计制作采购项目(二次)采购更正公告（第一次）",
+      "item_id": "b35f6a4883cb",
+      "title": "浙江智拓项目管理有限公司关于山下湖镇珍珠文化创意中心布置采购项目的竞争性磋商公告",
       "type": "采购意向",
       "amount_raw": "",
       "amount_parsed": null,
@@ -66,9 +99,9 @@
       "message": "无有效金额，跳过验证"
     },
     {
-      "item_id": "5c6499acf3c4",
-      "title": "郑州市商贸管理学校文创机房设备建设项目-中标公告",
-      "type": "中标结果",
+      "item_id": "313ffe12373b",
+      "title": "双高计划-北青政-数字媒体艺术设计专业群（二期）（AIGC数字文化创意产业学院建设）公开招标公告",
+      "type": "招标公告",
       "amount_raw": "",
       "amount_parsed": null,
       "validation_status": "skipped",
@@ -77,30 +110,8 @@
       "message": "无有效金额，跳过验证"
     },
     {
-      "item_id": "29ea505a4a56",
-      "title": "浙江豪圣建设项目管理有限公司关于数字文化创意实验教学中心建设（二次）中标(成交)结果公告",
-      "type": "中标结果",
-      "amount_raw": "",
-      "amount_parsed": null,
-      "validation_status": "skipped",
-      "deviation": null,
-      "baseline_median": null,
-      "message": "无有效金额，跳过验证"
-    },
-    {
-      "item_id": "9c0072e1e6d6",
-      "title": "2026年（第三届）“舍不得的丽江——丽江礼物”文化创意和共创产品设计征集暨文创人才大赛执行服务采购项目的竞争性磋商公告",
-      "type": "采购意向",
-      "amount_raw": "",
-      "amount_parsed": null,
-      "validation_status": "skipped",
-      "deviation": null,
-      "baseline_median": null,
-      "message": "无有效金额，跳过验证"
-    },
-    {
-      "item_id": "91f43c2ce7dc",
-      "title": "沈阳建筑大学(BIPV)绿色低碳实验平台设备更新项目—建筑美学与创意设计工坊子模块（第二次）结果公告",
+      "item_id": "99b711a213ed",
+      "title": "第十师北屯市文创产品开发制作项目竞争性磋商公告",
       "type": "项目合作",
       "amount_raw": "",
       "amount_parsed": null,
@@ -110,8 +121,52 @@
       "message": "无有效金额，跳过验证"
     },
     {
-      "item_id": "ba94adaa7003",
-      "title": "沈阳建筑大学(BIPV)绿色低碳实验平台设备更新项目—建筑美学与创意设计工坊子模块（第二次）结果公告",
+      "item_id": "998b038d321f",
+      "title": "江西合胜合招标咨询有限公司关于进贤县消防救援大队2026年消防宣传文创产品及印刷服务采购项目（项目编号：HSH2026ZC083）竞争性磋商公告",
+      "type": "招标公告",
+      "amount_raw": "",
+      "amount_parsed": null,
+      "validation_status": "skipped",
+      "deviation": null,
+      "baseline_median": null,
+      "message": "无有效金额，跳过验证"
+    },
+    {
+      "item_id": "58555dd27690",
+      "title": "吉林省畜牧业管理局-吉林优质畜产品品牌文化提升-文创产品开发制作及推广项目",
+      "type": "项目合作",
+      "amount_raw": "",
+      "amount_parsed": null,
+      "validation_status": "skipped",
+      "deviation": null,
+      "baseline_median": null,
+      "message": "无有效金额，跳过验证"
+    },
+    {
+      "item_id": "2c9acc29dd4b",
+      "title": "中国共产党北安市委员会统一战线工作部北安市主星乡旅游促进各民族交往交流交融暨创意设计产业融合项目采购更正公告（第一次）",
+      "type": "采购意向",
+      "amount_raw": "",
+      "amount_parsed": null,
+      "validation_status": "skipped",
+      "deviation": null,
+      "baseline_median": null,
+      "message": "无有效金额，跳过验证"
+    },
+    {
+      "item_id": "c41c7b4e5d88",
+      "title": "中国共产党北安市委员会统一战线工作部北安市主星乡旅游促进各民族交往交流交融暨创意设计产业融合项目采购更正公告（第一次）",
+      "type": "采购意向",
+      "amount_raw": "",
+      "amount_parsed": null,
+      "validation_status": "skipped",
+      "deviation": null,
+      "baseline_median": null,
+      "message": "无有效金额，跳过验证"
+    },
+    {
+      "item_id": "de448c041f2a",
+      "title": "河南省新闻出版学校创意设计理实一体特色教学区建设项目-竞争性磋商公告",
       "type": "项目合作",
       "amount_raw": "",
       "amount_parsed": null,

@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-07-15T02:03:32.788573",
+  "generated_at": "2026-07-15T22:46:02.902877",
   "summary": {
-    "total_final_items": 825,
-    "total_expired_archived": 1
+    "total_final_items": 839,
+    "total_expired_archived": 0
   },
   "details": {
     "business": {
       "category": "business",
-      "raw_count": 9,
+      "raw_count": 14,
       "existing_count": 84,
-      "fresh_count": 93,
+      "fresh_count": 98,
       "expired_count": 0,
-      "duplicate_removed": 9,
-      "final_count": 84,
+      "duplicate_removed": 0,
+      "final_count": 98,
       "sources": {
-        "中国政府采购网": 49,
+        "中国政府采购网": 63,
         "国家文物局": 1,
         "福建省考古研究院": 1,
         "北京古代建筑博物馆": 1,
@@ -113,9 +113,9 @@
     "news": {
       "category": "news",
       "raw_count": 30,
-      "existing_count": 158,
+      "existing_count": 157,
       "fresh_count": 187,
-      "expired_count": 1,
+      "expired_count": 0,
       "duplicate_removed": 30,
       "final_count": 157,
       "sources": {
