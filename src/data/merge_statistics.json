@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-15T22:46:02.902877",
+  "generated_at": "2026-07-16T02:12:54.902577",
   "summary": {
-    "total_final_items": 839,
-    "total_expired_archived": 0
+    "total_final_items": 831,
+    "total_expired_archived": 8
   },
   "details": {
     "business": {
       "category": "business",
       "raw_count": 14,
-      "existing_count": 84,
-      "fresh_count": 98,
+      "existing_count": 98,
+      "fresh_count": 112,
       "expired_count": 0,
-      "duplicate_removed": 0,
+      "duplicate_removed": 14,
       "final_count": 98,
       "sources": {
         "中国政府采购网": 63,
@@ -114,13 +114,13 @@
       "category": "news",
       "raw_count": 30,
       "existing_count": 157,
-      "fresh_count": 187,
-      "expired_count": 0,
+      "fresh_count": 179,
+      "expired_count": 8,
       "duplicate_removed": 30,
-      "final_count": 157,
+      "final_count": 149,
       "sources": {
-        "中国社会科学网": 137,
-        "中国文物报": 20
+        "中国社会科学网": 136,
+        "中国文物报": 13
       }
     }
   }
