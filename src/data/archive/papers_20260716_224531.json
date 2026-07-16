@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "archived_at": "2026-07-16T22:45:31.323970",
+    "category": "papers",
+    "total_items": 1,
+    "reason": "超出 365 天时效"
+  },
+  "items": [
+    {
+      "id": 7,
+      "title": "Climate Risk Assessment for UNESCO World Heritage Sites in Southeast Asia: 2025-2050 Projections",
+      "authors": "Tanawat Chaisuwan, Nguyen Thi Mai, Siti Nurhaliza, David Smith",
+      "journal": "International Journal of Heritage Studies",
+      "doi": "10.1080/13527258.2025.2345678",
+      "publishDate": "2025-07-15",
+      "abstract": "This study assesses climate change risks for 44 UNESCO World Heritage sites across Southeast Asia using CMIP6 climate projections under SSP2-4.5 and SSP5-8.5 scenarios. Key findings include: 62% of coastal heritage sites face high flood risk by 2050, traditional masonry structures show increased weathering rates due to temperature-humidity coupling, and 15 sites may require emergency adaptation measures within the next decade.",
+      "keywords": [
+        "climate change",
+        "World Heritage",
+        "Southeast Asia",
+        "risk assessment",
+        "CMIP6"
+      ],
+      "sourceUrl": "https://doi.org/10.1080/13527258.2025.2345678",
+      "verified": true,
+      "crawledAt": "2026-03-10"
+    }
+  ]
+}

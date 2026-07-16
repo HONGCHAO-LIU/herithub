@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-16T02:12:54.902577",
+  "generated_at": "2026-07-16T22:45:31.336110",
   "summary": {
-    "total_final_items": 831,
-    "total_expired_archived": 8
+    "total_final_items": 839,
+    "total_expired_archived": 1
   },
   "details": {
     "business": {
@@ -11,10 +11,10 @@
       "existing_count": 98,
       "fresh_count": 112,
       "expired_count": 0,
-      "duplicate_removed": 14,
-      "final_count": 98,
+      "duplicate_removed": 12,
+      "final_count": 100,
       "sources": {
-        "中国政府采购网": 63,
+        "中国政府采购网": 65,
         "国家文物局": 1,
         "福建省考古研究院": 1,
         "北京古代建筑博物馆": 1,
@@ -86,40 +86,40 @@
       "category": "papers",
       "raw_count": 74,
       "existing_count": 269,
-      "fresh_count": 343,
-      "expired_count": 0,
+      "fresh_count": 342,
+      "expired_count": 1,
       "duplicate_removed": 74,
-      "final_count": 269,
+      "final_count": 268,
       "sources": {
         "CrossRef": 58,
         "arXiv": 189,
-        "unknown": 22
+        "unknown": 21
       }
     },
     "papers_ext": {
       "category": "papers_ext",
       "raw_count": 0,
-      "existing_count": 269,
-      "fresh_count": 269,
+      "existing_count": 268,
+      "fresh_count": 268,
       "expired_count": 0,
       "duplicate_removed": 0,
-      "final_count": 269,
+      "final_count": 268,
       "sources": {
         "CrossRef": 58,
         "arXiv": 189,
-        "unknown": 22
+        "unknown": 21
       }
     },
     "news": {
       "category": "news",
       "raw_count": 30,
-      "existing_count": 157,
+      "existing_count": 149,
       "fresh_count": 179,
-      "expired_count": 8,
-      "duplicate_removed": 30,
-      "final_count": 149,
+      "expired_count": 0,
+      "duplicate_removed": 22,
+      "final_count": 157,
       "sources": {
-        "中国社会科学网": 136,
+        "中国社会科学网": 144,
         "中国文物报": 13
       }
     }

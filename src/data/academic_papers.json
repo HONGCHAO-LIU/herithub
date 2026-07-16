@@ -3495,6 +3495,101 @@
     "link_status": "alive"
   },
   {
+    "id": 12,
+    "title": "Research on the preservation status evaluation system of calcium glaze porcelain exposed to the ocean",
+    "journal": "npj Heritage Science",
+    "authors": "Wu H., Wang S., Lin Q.",
+    "year": 2026,
+    "doi": "",
+    "url": "https://link.springer.com/article/10.1038/s40494-026-xxxxx",
+    "sourceUrl": "https://link.springer.com/journal/40494",
+    "abstract": "研究海洋环境下钙釉瓷器的保存状态评价体系，涉及物理化学分析与保护评估。2026年5月30日在线发表。",
+    "keywords": [
+      "钙釉瓷器",
+      "海洋环境",
+      "保护评估",
+      "物化分析"
+    ],
+    "category": "文物保护技术",
+    "publishDate": "2026-05-30",
+    "verified": true,
+    "crawledAt": "2026-06-05T22:30:00+08:00",
+    "link_status_url": "dead",
+    "link_status": "dead"
+  },
+  {
+    "id": 13,
+    "title": "Mold segmentation network: automated detection of fungal defects in fine art heritage paintings using deep learning",
+    "journal": "npj Heritage Science",
+    "authors": "Razak B.A., Nordin H., Ali R.",
+    "year": 2026,
+    "doi": "",
+    "url": "https://link.springer.com/article/10.1038/s40494-026-xxxxx",
+    "sourceUrl": "https://link.springer.com/journal/40494",
+    "abstract": "基于深度学习的自动检测方法，针对美术遗产绘画中的霉菌缺陷进行分割识别。2026年5月30日在线发表。",
+    "keywords": [
+      "深度学习",
+      "霉菌检测",
+      "绘画保护",
+      "图像分割",
+      "美术遗产"
+    ],
+    "category": "AI与文化遗产",
+    "publishDate": "2026-05-30",
+    "verified": true,
+    "crawledAt": "2026-06-05T22:30:00+08:00",
+    "link_status_url": "dead",
+    "link_status": "dead"
+  },
+  {
+    "id": 14,
+    "title": "Detecting unknown and classifying known oracle bone characters via novel data augmentation",
+    "journal": "npj Heritage Science",
+    "authors": "Wu L., Liu G., Xu M.",
+    "year": 2026,
+    "doi": "",
+    "url": "https://link.springer.com/article/10.1038/s40494-026-xxxxx",
+    "sourceUrl": "https://link.springer.com/journal/40494",
+    "abstract": "通过新颖数据增强方法检测未知甲骨文字符并对已知字符进行分类。2026年5月29日在线发表。",
+    "keywords": [
+      "甲骨文",
+      "字符识别",
+      "数据增强",
+      "深度学习",
+      "分类"
+    ],
+    "category": "AI与文化遗产",
+    "publishDate": "2026-05-29",
+    "verified": true,
+    "crawledAt": "2026-06-05T22:30:00+08:00",
+    "link_status_url": "dead",
+    "link_status": "dead"
+  },
+  {
+    "id": 15,
+    "title": "Geospatial predictive modelling of anthropogenic and natural shipwreck risks using multi-source environmental data",
+    "journal": "npj Heritage Science",
+    "authors": "Chen J., Tang F., Lin X.",
+    "year": 2026,
+    "doi": "",
+    "url": "https://link.springer.com/article/10.1038/s40494-026-xxxxx",
+    "sourceUrl": "https://link.springer.com/journal/40494",
+    "abstract": "利用多源环境数据进行地理空间预测建模，评估人为与自然因素对沉船遗产的风险。2026年5月29日在线发表。",
+    "keywords": [
+      "水下遗产",
+      "沉船",
+      "GIS",
+      "预测建模",
+      "环境数据"
+    ],
+    "category": "遥感与空间分析",
+    "publishDate": "2026-05-29",
+    "verified": true,
+    "crawledAt": "2026-06-05T22:30:00+08:00",
+    "link_status_url": "dead",
+    "link_status": "dead"
+  },
+  {
     "id": "a5520a3bf9b4",
     "title": "Page image classifier fine-tuned on century-spanning archives of scanned documents for further content-specific processing",
     "authors": [
@@ -3753,6 +3848,25 @@
     "crawled_at": "2026-07-12T02:23:15.256179"
   },
   {
+    "id": 8,
+    "title": "甲骨文智能缀合：基于深度度量学习的碎片匹配算法",
+    "authors": "杨帆, 张磊, 李想, 王鑫",
+    "journal": "计算机学报",
+    "doi": "10.11897/SP.J.1016.2025.02789",
+    "publishDate": "2026-01-18",
+    "abstract": "提出了一种基于深度度量学习的甲骨碎片自动缀合算法OracleJoin-Net。通过构建包含15万张甲骨碎片图像的数据集，训练孪生网络学习碎片边缘几何特征与表面纹理特征的联合嵌入空间，实现了碎片对的自动匹配与缀合。实验表明，在Top-10召回率上达到87.3%，成功缀合了12组此前未缀合的甲骨碎片，经古文字学家验证全部正确。",
+    "keywords": [
+      "甲骨文",
+      "碎片缀合",
+      "深度度量学习",
+      "孪生网络",
+      "古文字学"
+    ],
+    "sourceUrl": "https://doi.org/10.11897/SP.J.1016.2025.02789",
+    "verified": true,
+    "crawledAt": "2026-03-10"
+  },
+  {
     "id": "223cc9c80340",
     "title": "Borgund in Western Norway and Pioneering Medieval Archaeology Reassessed",
     "authors": [
@@ -3868,6 +3982,44 @@
     "crawled_at": "2026-07-12T02:23:15.691868"
   },
   {
+    "id": 1,
+    "title": "Deep Learning-Based Automatic Detection of Murals Deterioration: A Case Study of Mogao Grottoes",
+    "authors": "Zhang Wei, Li Ming, Wang Xiaoming, Chen Jing",
+    "journal": "Journal of Cultural Heritage",
+    "doi": "10.1016/j.culher.2025.12.003",
+    "publishDate": "2025-12-15",
+    "abstract": "This study proposes a novel deep learning framework for automatic detection and classification of mural deterioration patterns in cave temples. Using high-resolution multispectral images of the Mogao Grottoes, we trained a customized ResNet-152 architecture to identify six types of deterioration including flaking, cracking, salt efflorescence, and pigment fading, achieving an overall F1-score of 0.93. The system can process one square meter of mural surface in approximately 3 seconds, making it suitable for large-scale heritage monitoring applications.",
+    "keywords": [
+      "deep learning",
+      "mural deterioration",
+      "Mogao Grottoes",
+      "ResNet",
+      "heritage monitoring"
+    ],
+    "sourceUrl": "https://doi.org/10.1016/j.culher.2025.12.003",
+    "verified": true,
+    "crawledAt": "2026-03-10"
+  },
+  {
+    "id": 6,
+    "title": "大运河文化带非物质文化遗产空间分布特征与旅游活化模式研究",
+    "authors": "黄丽萍, 孙建国, 朱峰",
+    "journal": "地理学报",
+    "doi": "10.11821/dlxb202512005",
+    "publishDate": "2025-12-10",
+    "abstract": "以大运河沿线8省市为研究区域，运用GIS空间分析与地理探测器方法，分析了大运河文化带国家级非遗项目的空间分布特征及其影响因素。结果表明，大运河沿线非遗呈现「核心-边缘」分布格局，北京、苏州、杭州为三大核心集聚区。研究提出「水上非遗走廊」旅游活化概念，并设计了串联38个非遗节点的主题旅游线路。",
+    "keywords": [
+      "大运河",
+      "非物质文化遗产",
+      "空间分布",
+      "旅游活化",
+      "GIS"
+    ],
+    "sourceUrl": "https://doi.org/10.11821/dlxb202512005",
+    "verified": true,
+    "crawledAt": "2026-03-10"
+  },
+  {
     "id": "6866e520596b",
     "title": "3. Dancing a Heritage in Horjul",
     "authors": [
@@ -3971,6 +4123,25 @@
     "crawled_at": "2026-07-12T02:23:15.691877"
   },
   {
+    "id": 3,
+    "title": "Knowledge Graph Construction for Chinese Intangible Cultural Heritage: Method and Application",
+    "authors": "Li Hua, Zhou Jing, Wu Peng, Yang Fan",
+    "journal": "Heritage Science",
+    "doi": "10.1186/s40494-025-01872-5",
+    "publishDate": "2025-11-08",
+    "abstract": "We present a comprehensive knowledge graph for Chinese Intangible Cultural Heritage (ICH-KG), integrating data from UNESCO lists, China's national ICH inventory, and local gazetteers. The graph contains over 50,000 entities and 200,000 relations across categories including traditional crafts, performing arts, and oral traditions. We demonstrate its application in ICH discovery, cross-category linkage analysis, and personalized heritage tourism recommendation systems.",
+    "keywords": [
+      "knowledge graph",
+      "intangible cultural heritage",
+      "ICH",
+      "semantic web",
+      "recommendation system"
+    ],
+    "sourceUrl": "https://doi.org/10.1186/s40494-025-01872-5",
+    "verified": true,
+    "crawledAt": "2026-03-10"
+  },
+  {
     "id": "0df291f62d17",
     "title": "Cultural Heritage Conservation",
     "authors": [
@@ -3997,6 +4168,25 @@
     "source": "CrossRef",
     "url": "https://doi.org/10.4324/9781003619550-2",
     "crawled_at": "2026-07-12T02:23:16.895818"
+  },
+  {
+    "id": 5,
+    "title": "Multi-Spectral Imaging and Machine Learning for Ancient Bronze Inscription Decipherment",
+    "authors": "Wang Tao, Liu Yang, Chen Xi, Zhang Lei",
+    "journal": "Archaeological and Anthropological Sciences",
+    "doi": "10.1007/s12520-025-02156-8",
+    "publishDate": "2025-10-30",
+    "abstract": "This paper introduces a combined approach using multi-spectral imaging (MSI) and transformer-based machine learning for the decipherment of ancient Chinese bronze inscriptions. The method was tested on 200 artifacts from the Shang and Zhou dynasties, achieving a 34% improvement in character recognition accuracy compared to traditional single-spectrum photography, particularly effective for heavily corroded or worn surfaces.",
+    "keywords": [
+      "multi-spectral imaging",
+      "bronze inscriptions",
+      "machine learning",
+      "transformer",
+      "Shang-Zhou"
+    ],
+    "sourceUrl": "https://doi.org/10.1007/s12520-025-02156-8",
+    "verified": true,
+    "crawledAt": "2026-03-10"
   },
   {
     "id": "2357fb603e98",
@@ -4160,6 +4350,25 @@
     "crawled_at": "2026-07-12T02:23:16.233543"
   },
   {
+    "id": 4,
+    "title": "从「申遗热」到「后申遗时代」：中国世界遗产管理的制度变迁与挑战",
+    "authors": "陈文斌",
+    "journal": "文物",
+    "doi": "",
+    "publishDate": "2025-09-25",
+    "abstract": "本文系统梳理了中国自1985年加入《世界遗产公约》以来40年的遗产管理历程，将其划分为「申遗驱动期」（1985-2004）、「快速增长期」（2005-2019）和「后申遗时代」（2020至今）三个阶段。文章分析了各阶段的制度特征、主要矛盾和典型案例，提出后申遗时代的核心挑战包括：监测体系薄弱、过度旅游化、社区权益保障不足等，并给出政策建议。",
+    "keywords": [
+      "世界遗产",
+      "制度变迁",
+      "遗产管理",
+      "后申遗时代",
+      "中国"
+    ],
+    "sourceUrl": "https://www.wenwu.gov.cn/",
+    "verified": true,
+    "crawledAt": "2026-03-10"
+  },
+  {
     "id": "a24e3e63dc98",
     "title": "A Holistic Approach to Vernacular Heritage Conservation",
     "authors": [
@@ -4309,6 +4518,25 @@
     "source": "CrossRef",
     "url": "https://doi.org/10.2307/jj.31272198.11",
     "crawled_at": "2026-07-12T02:23:15.691891"
+  },
+  {
+    "id": 2,
+    "title": "社区参与视角下的传统村落文化遗产活化路径研究——以皖南古村落为例",
+    "authors": "刘思远, 赵明辉",
+    "journal": "城市规划",
+    "doi": "10.11819/cpr20251608",
+    "publishDate": "2025-08-20",
+    "abstract": "本文以皖南地区西递、宏村等6个传统村落为案例，通过参与式观察与半结构化访谈，探讨社区参与在传统村落文化遗产活化中的角色与机制。研究发现，社区主导型活化模式在文化传承可持续性、居民满意度方面显著优于政府主导型和企业主导型。文章提出「社区赋权-多元共治-利益共享」三阶活化路径框架。",
+    "keywords": [
+      "传统村落",
+      "社区参与",
+      "文化遗产活化",
+      "皖南古村落",
+      "乡村振兴"
+    ],
+    "sourceUrl": "https://doi.org/10.11819/cpr20251608",
+    "verified": true,
+    "crawledAt": "2026-03-10"
   },
   {
     "id": "9033c5751fbc",
@@ -4660,158 +4888,6 @@
     "link_status": "alive"
   },
   {
-    "id": 1,
-    "title": "Deep Learning-Based Automatic Detection of Murals Deterioration: A Case Study of Mogao Grottoes",
-    "authors": "Zhang Wei, Li Ming, Wang Xiaoming, Chen Jing",
-    "journal": "Journal of Cultural Heritage",
-    "doi": "10.1016/j.culher.2025.12.003",
-    "publishDate": "2025-12-15",
-    "abstract": "This study proposes a novel deep learning framework for automatic detection and classification of mural deterioration patterns in cave temples. Using high-resolution multispectral images of the Mogao Grottoes, we trained a customized ResNet-152 architecture to identify six types of deterioration including flaking, cracking, salt efflorescence, and pigment fading, achieving an overall F1-score of 0.93. The system can process one square meter of mural surface in approximately 3 seconds, making it suitable for large-scale heritage monitoring applications.",
-    "keywords": [
-      "deep learning",
-      "mural deterioration",
-      "Mogao Grottoes",
-      "ResNet",
-      "heritage monitoring"
-    ],
-    "sourceUrl": "https://doi.org/10.1016/j.culher.2025.12.003",
-    "verified": true,
-    "crawledAt": "2026-03-10"
-  },
-  {
-    "id": 2,
-    "title": "社区参与视角下的传统村落文化遗产活化路径研究——以皖南古村落为例",
-    "authors": "刘思远, 赵明辉",
-    "journal": "城市规划",
-    "doi": "10.11819/cpr20251608",
-    "publishDate": "2025-08-20",
-    "abstract": "本文以皖南地区西递、宏村等6个传统村落为案例，通过参与式观察与半结构化访谈，探讨社区参与在传统村落文化遗产活化中的角色与机制。研究发现，社区主导型活化模式在文化传承可持续性、居民满意度方面显著优于政府主导型和企业主导型。文章提出「社区赋权-多元共治-利益共享」三阶活化路径框架。",
-    "keywords": [
-      "传统村落",
-      "社区参与",
-      "文化遗产活化",
-      "皖南古村落",
-      "乡村振兴"
-    ],
-    "sourceUrl": "https://doi.org/10.11819/cpr20251608",
-    "verified": true,
-    "crawledAt": "2026-03-10"
-  },
-  {
-    "id": 3,
-    "title": "Knowledge Graph Construction for Chinese Intangible Cultural Heritage: Method and Application",
-    "authors": "Li Hua, Zhou Jing, Wu Peng, Yang Fan",
-    "journal": "Heritage Science",
-    "doi": "10.1186/s40494-025-01872-5",
-    "publishDate": "2025-11-08",
-    "abstract": "We present a comprehensive knowledge graph for Chinese Intangible Cultural Heritage (ICH-KG), integrating data from UNESCO lists, China's national ICH inventory, and local gazetteers. The graph contains over 50,000 entities and 200,000 relations across categories including traditional crafts, performing arts, and oral traditions. We demonstrate its application in ICH discovery, cross-category linkage analysis, and personalized heritage tourism recommendation systems.",
-    "keywords": [
-      "knowledge graph",
-      "intangible cultural heritage",
-      "ICH",
-      "semantic web",
-      "recommendation system"
-    ],
-    "sourceUrl": "https://doi.org/10.1186/s40494-025-01872-5",
-    "verified": true,
-    "crawledAt": "2026-03-10"
-  },
-  {
-    "id": 4,
-    "title": "从「申遗热」到「后申遗时代」：中国世界遗产管理的制度变迁与挑战",
-    "authors": "陈文斌",
-    "journal": "文物",
-    "doi": "",
-    "publishDate": "2025-09-25",
-    "abstract": "本文系统梳理了中国自1985年加入《世界遗产公约》以来40年的遗产管理历程，将其划分为「申遗驱动期」（1985-2004）、「快速增长期」（2005-2019）和「后申遗时代」（2020至今）三个阶段。文章分析了各阶段的制度特征、主要矛盾和典型案例，提出后申遗时代的核心挑战包括：监测体系薄弱、过度旅游化、社区权益保障不足等，并给出政策建议。",
-    "keywords": [
-      "世界遗产",
-      "制度变迁",
-      "遗产管理",
-      "后申遗时代",
-      "中国"
-    ],
-    "sourceUrl": "https://www.wenwu.gov.cn/",
-    "verified": true,
-    "crawledAt": "2026-03-10"
-  },
-  {
-    "id": 5,
-    "title": "Multi-Spectral Imaging and Machine Learning for Ancient Bronze Inscription Decipherment",
-    "authors": "Wang Tao, Liu Yang, Chen Xi, Zhang Lei",
-    "journal": "Archaeological and Anthropological Sciences",
-    "doi": "10.1007/s12520-025-02156-8",
-    "publishDate": "2025-10-30",
-    "abstract": "This paper introduces a combined approach using multi-spectral imaging (MSI) and transformer-based machine learning for the decipherment of ancient Chinese bronze inscriptions. The method was tested on 200 artifacts from the Shang and Zhou dynasties, achieving a 34% improvement in character recognition accuracy compared to traditional single-spectrum photography, particularly effective for heavily corroded or worn surfaces.",
-    "keywords": [
-      "multi-spectral imaging",
-      "bronze inscriptions",
-      "machine learning",
-      "transformer",
-      "Shang-Zhou"
-    ],
-    "sourceUrl": "https://doi.org/10.1007/s12520-025-02156-8",
-    "verified": true,
-    "crawledAt": "2026-03-10"
-  },
-  {
-    "id": 6,
-    "title": "大运河文化带非物质文化遗产空间分布特征与旅游活化模式研究",
-    "authors": "黄丽萍, 孙建国, 朱峰",
-    "journal": "地理学报",
-    "doi": "10.11821/dlxb202512005",
-    "publishDate": "2025-12-10",
-    "abstract": "以大运河沿线8省市为研究区域，运用GIS空间分析与地理探测器方法，分析了大运河文化带国家级非遗项目的空间分布特征及其影响因素。结果表明，大运河沿线非遗呈现「核心-边缘」分布格局，北京、苏州、杭州为三大核心集聚区。研究提出「水上非遗走廊」旅游活化概念，并设计了串联38个非遗节点的主题旅游线路。",
-    "keywords": [
-      "大运河",
-      "非物质文化遗产",
-      "空间分布",
-      "旅游活化",
-      "GIS"
-    ],
-    "sourceUrl": "https://doi.org/10.11821/dlxb202512005",
-    "verified": true,
-    "crawledAt": "2026-03-10"
-  },
-  {
-    "id": 7,
-    "title": "Climate Risk Assessment for UNESCO World Heritage Sites in Southeast Asia: 2025-2050 Projections",
-    "authors": "Tanawat Chaisuwan, Nguyen Thi Mai, Siti Nurhaliza, David Smith",
-    "journal": "International Journal of Heritage Studies",
-    "doi": "10.1080/13527258.2025.2345678",
-    "publishDate": "2025-07-15",
-    "abstract": "This study assesses climate change risks for 44 UNESCO World Heritage sites across Southeast Asia using CMIP6 climate projections under SSP2-4.5 and SSP5-8.5 scenarios. Key findings include: 62% of coastal heritage sites face high flood risk by 2050, traditional masonry structures show increased weathering rates due to temperature-humidity coupling, and 15 sites may require emergency adaptation measures within the next decade.",
-    "keywords": [
-      "climate change",
-      "World Heritage",
-      "Southeast Asia",
-      "risk assessment",
-      "CMIP6"
-    ],
-    "sourceUrl": "https://doi.org/10.1080/13527258.2025.2345678",
-    "verified": true,
-    "crawledAt": "2026-03-10"
-  },
-  {
-    "id": 8,
-    "title": "甲骨文智能缀合：基于深度度量学习的碎片匹配算法",
-    "authors": "杨帆, 张磊, 李想, 王鑫",
-    "journal": "计算机学报",
-    "doi": "10.11897/SP.J.1016.2025.02789",
-    "publishDate": "2026-01-18",
-    "abstract": "提出了一种基于深度度量学习的甲骨碎片自动缀合算法OracleJoin-Net。通过构建包含15万张甲骨碎片图像的数据集，训练孪生网络学习碎片边缘几何特征与表面纹理特征的联合嵌入空间，实现了碎片对的自动匹配与缀合。实验表明，在Top-10召回率上达到87.3%，成功缀合了12组此前未缀合的甲骨碎片，经古文字学家验证全部正确。",
-    "keywords": [
-      "甲骨文",
-      "碎片缀合",
-      "深度度量学习",
-      "孪生网络",
-      "古文字学"
-    ],
-    "sourceUrl": "https://doi.org/10.11897/SP.J.1016.2025.02789",
-    "verified": true,
-    "crawledAt": "2026-03-10"
-  },
-  {
     "id": 9,
     "title": "OBDC-Unet: a U-shaped network leveraging wavelet dynamics and multi-scale receptive fields for oracle bone drill chisel segmentation",
     "journal": "npj Heritage Science",
@@ -4885,100 +4961,5 @@
     "crawledAt": "2026-06-05T22:30:00+08:00",
     "link_status_url": "alive",
     "link_status": "alive"
-  },
-  {
-    "id": 12,
-    "title": "Research on the preservation status evaluation system of calcium glaze porcelain exposed to the ocean",
-    "journal": "npj Heritage Science",
-    "authors": "Wu H., Wang S., Lin Q.",
-    "year": 2026,
-    "doi": "",
-    "url": "https://link.springer.com/article/10.1038/s40494-026-xxxxx",
-    "sourceUrl": "https://link.springer.com/journal/40494",
-    "abstract": "研究海洋环境下钙釉瓷器的保存状态评价体系，涉及物理化学分析与保护评估。2026年5月30日在线发表。",
-    "keywords": [
-      "钙釉瓷器",
-      "海洋环境",
-      "保护评估",
-      "物化分析"
-    ],
-    "category": "文物保护技术",
-    "publishDate": "2026-05-30",
-    "verified": true,
-    "crawledAt": "2026-06-05T22:30:00+08:00",
-    "link_status_url": "dead",
-    "link_status": "dead"
-  },
-  {
-    "id": 13,
-    "title": "Mold segmentation network: automated detection of fungal defects in fine art heritage paintings using deep learning",
-    "journal": "npj Heritage Science",
-    "authors": "Razak B.A., Nordin H., Ali R.",
-    "year": 2026,
-    "doi": "",
-    "url": "https://link.springer.com/article/10.1038/s40494-026-xxxxx",
-    "sourceUrl": "https://link.springer.com/journal/40494",
-    "abstract": "基于深度学习的自动检测方法，针对美术遗产绘画中的霉菌缺陷进行分割识别。2026年5月30日在线发表。",
-    "keywords": [
-      "深度学习",
-      "霉菌检测",
-      "绘画保护",
-      "图像分割",
-      "美术遗产"
-    ],
-    "category": "AI与文化遗产",
-    "publishDate": "2026-05-30",
-    "verified": true,
-    "crawledAt": "2026-06-05T22:30:00+08:00",
-    "link_status_url": "dead",
-    "link_status": "dead"
-  },
-  {
-    "id": 14,
-    "title": "Detecting unknown and classifying known oracle bone characters via novel data augmentation",
-    "journal": "npj Heritage Science",
-    "authors": "Wu L., Liu G., Xu M.",
-    "year": 2026,
-    "doi": "",
-    "url": "https://link.springer.com/article/10.1038/s40494-026-xxxxx",
-    "sourceUrl": "https://link.springer.com/journal/40494",
-    "abstract": "通过新颖数据增强方法检测未知甲骨文字符并对已知字符进行分类。2026年5月29日在线发表。",
-    "keywords": [
-      "甲骨文",
-      "字符识别",
-      "数据增强",
-      "深度学习",
-      "分类"
-    ],
-    "category": "AI与文化遗产",
-    "publishDate": "2026-05-29",
-    "verified": true,
-    "crawledAt": "2026-06-05T22:30:00+08:00",
-    "link_status_url": "dead",
-    "link_status": "dead"
-  },
-  {
-    "id": 15,
-    "title": "Geospatial predictive modelling of anthropogenic and natural shipwreck risks using multi-source environmental data",
-    "journal": "npj Heritage Science",
-    "authors": "Chen J., Tang F., Lin X.",
-    "year": 2026,
-    "doi": "",
-    "url": "https://link.springer.com/article/10.1038/s40494-026-xxxxx",
-    "sourceUrl": "https://link.springer.com/journal/40494",
-    "abstract": "利用多源环境数据进行地理空间预测建模，评估人为与自然因素对沉船遗产的风险。2026年5月29日在线发表。",
-    "keywords": [
-      "水下遗产",
-      "沉船",
-      "GIS",
-      "预测建模",
-      "环境数据"
-    ],
-    "category": "遥感与空间分析",
-    "publishDate": "2026-05-29",
-    "verified": true,
-    "crawledAt": "2026-06-05T22:30:00+08:00",
-    "link_status_url": "dead",
-    "link_status": "dead"
   }
 ]
