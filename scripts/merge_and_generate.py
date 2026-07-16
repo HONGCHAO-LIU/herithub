@@ -190,6 +190,54 @@ def semantic_dedup(items: list[dict]) -> list[dict]:
     return result
 
 
+def normalize_business_item(item: dict) -> dict:
+    """将爬虫输出的 snake_case 格式转换为前端 BusinessIntelligence 期望的 camelCase 格式。"""
+
+    # 推断 category: 优先使用原 category 字段，否则从 sectors 或 type 推断
+    category = item.get("category", "")
+    if not category and item.get("sectors"):
+        sector_str = " ".join(item["sectors"]) if isinstance(item["sectors"], list) else str(item["sectors"])
+        for kw in ["文创", "创意", "文旅", "数字", "教育", "培训", "媒体", "内容", "投资", "融资", "资产", "服务"]:
+            if "文创" in sector_str or "文化创意" in sector_str:
+                category = "文创开发"
+            elif "旅游" in sector_str or "文旅" in sector_str:
+                category = "文旅融合"
+            elif "数字化" in sector_str or "数字" in sector_str or "遗产" in sector_str:
+                category = "文化遗产数字化"
+            break
+        if not category:
+            # 从 type 推断
+            type_val = item.get("type", "")
+            if "服务" in type_val:
+                category = "专业服务"
+            elif "教育" in type_val or "培训" in type_val:
+                category = "教育培训"
+            elif "媒体" in type_val or "内容" in type_val:
+                category = "内容与媒体"
+            elif "投资" in type_val or "融资" in type_val or "资产" in type_val:
+                category = "投融资与资产化"
+            else:
+                category = "专业服务"  # 默认
+
+    # 转换字段
+    normalized = {
+        "id": item.get("id", ""),
+        "title": item.get("title", ""),
+        "category": category or item.get("category", "专业服务"),
+        "type": item.get("type", "其他"),
+        "amount": item.get("amount", ""),
+        "publishDate": item.get("publish_date", ""),
+        "source": item.get("source", ""),
+        "sourceUrl": item.get("link", "") or item.get("sourceUrl", ""),
+        "description": item.get("description", ""),
+        "tags": item.get("sectors", []) if isinstance(item.get("sectors"), list) else [],
+        "verified": item.get("validation_status") == "verified" if item.get("validation_status") else False,
+        "crawledAt": item.get("crawled_at", ""),
+        "lastChecked": item.get("crawled_at", ""),  # 最近一次检查时间
+    }
+    return normalized
+
+
 def parse_date(date_str: str) -> datetime | None:
     """尝试多种格式解析日期"""
     if not date_str:
@@ -211,7 +259,7 @@ def is_fresh(item: dict, category: str) -> bool:
     cutoff = NOW - threshold
 
     # 尝试多个日期字段
-    date_str = (item.get("publish_date", "") or item.get("date", "")
+    date_str = (item.get("publish_date", "") or item.get("publishDate", "") or item.get("date", "")
                 or item.get("published", "") or item.get("crawled_at", ""))
     if not date_str:
         # 无日期则保留（可能是持续有效数据）
@@ -316,7 +364,7 @@ def merge_category(category: str) -> dict:
 
     # 按日期降序排列
     deduped.sort(
-        key=lambda x: parse_date(x.get("publish_date", "") or x.get("date", "")
+        key=lambda x: parse_date(x.get("publish_date", "") or x.get("publishDate", "") or x.get("date", "")
                                   or x.get("published", "") or x.get("crawled_at", ""))
         or datetime.min,
         reverse=True,
@@ -327,6 +375,11 @@ def merge_category(category: str) -> dict:
     for item in deduped:
         src = item.get("source", "unknown")
         source_count[src] = source_count.get(src, 0) + 1
+
+    # 业务数据字段规范化：snake_case → camelCase（适配前端 BusinessIntelligence 类型）
+    if category == "business":
+        deduped = [normalize_business_item(item) for item in deduped]
+        logger.info(f"  业务字段规范化: {len(deduped)} 条已转换")
 
     # 写入合并文件（直接输出数组，保持与前端 import 兼容）
     logger.info(f"  已写入: {merged_file} ({len(deduped)} 条)")
