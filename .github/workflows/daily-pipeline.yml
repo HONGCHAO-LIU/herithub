@@ -88,6 +88,7 @@ jobs:
           git config user.name "HeritageBot"
           git config user.email "bot@heritage.example.com"
           git add src/data/ scripts/logs/
+          git pull --rebase origin master
           git diff --cached --quiet || git commit -m "Auto: 商业情报更新 $(date +%Y-%m-%d)"
           git push
 
@@ -155,6 +156,7 @@ jobs:
           git config user.name "HeritageBot"
           git config user.email "bot@heritage.example.com"
           git add src/data/ scripts/logs/
+          git pull --rebase origin master
           git diff --cached --quiet || git commit -m "Auto: 会议信息更新 $(date +%Y-%m-%d)"
           git push
 
@@ -222,6 +224,7 @@ jobs:
           git config user.name "HeritageBot"
           git config user.email "bot@heritage.example.com"
           git add src/data/ scripts/logs/
+          git pull --rebase origin master
           git diff --cached --quiet || git commit -m "Auto: 论文数据更新 $(date +%Y-%m-%d)"
           git push
 
@@ -285,6 +288,7 @@ jobs:
           git config user.name "HeritageBot"
           git config user.email "bot@heritage.example.com"
           git add src/data/ scripts/logs/
+          git pull --rebase origin master
           git diff --cached --quiet || git commit -m "Auto: 文化遗产资讯更新 $(date +%Y-%m-%d)"
           git push
 
@@ -348,6 +352,7 @@ jobs:
           git config user.name "HeritageBot"
           git config user.email "bot@heritage.example.com"
           git add src/data/ scripts/logs/
+          git pull --rebase origin master
           git diff --cached --quiet || git commit -m "Auto: 链接检查 + 数据更新 $(date +%Y-%m-%d)"
           git push
 
