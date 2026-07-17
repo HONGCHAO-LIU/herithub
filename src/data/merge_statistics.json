@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-16T22:45:31.336110",
+  "generated_at": "2026-07-17T02:16:05.761548",
   "summary": {
-    "total_final_items": 839,
+    "total_final_items": 838,
     "total_expired_archived": 1
   },
   "details": {
     "business": {
       "category": "business",
       "raw_count": 14,
-      "existing_count": 98,
-      "fresh_count": 112,
+      "existing_count": 100,
+      "fresh_count": 114,
       "expired_count": 0,
-      "duplicate_removed": 12,
+      "duplicate_removed": 14,
       "final_count": 100,
       "sources": {
         "中国政府采购网": 65,
@@ -85,9 +85,9 @@
     "papers": {
       "category": "papers",
       "raw_count": 74,
-      "existing_count": 269,
+      "existing_count": 268,
       "fresh_count": 342,
-      "expired_count": 1,
+      "expired_count": 0,
       "duplicate_removed": 74,
       "final_count": 268,
       "sources": {
@@ -113,13 +113,13 @@
     "news": {
       "category": "news",
       "raw_count": 30,
-      "existing_count": 149,
-      "fresh_count": 179,
-      "expired_count": 0,
-      "duplicate_removed": 22,
-      "final_count": 157,
+      "existing_count": 157,
+      "fresh_count": 186,
+      "expired_count": 1,
+      "duplicate_removed": 30,
+      "final_count": 156,
       "sources": {
-        "中国社会科学网": 144,
+        "中国社会科学网": 143,
         "中国文物报": 13
       }
     }
