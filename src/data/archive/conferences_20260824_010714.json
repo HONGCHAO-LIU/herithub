@@ -1,0 +1,141 @@
+{
+  "metadata": {
+    "archived_at": "2026-08-24T01:07:14.219660",
+    "category": "conferences",
+    "total_items": 7,
+    "reason": "超出 60 天时效"
+  },
+  "items": [
+    {
+      "id": 2,
+      "name": "2026文化遗产、历史与文化传播国际会议 (ICCHHCC 2026)",
+      "date": "2026-06-20 ~ 2026-06-22",
+      "location": "昆明·线上+线下",
+      "deadline": "2026-06-10",
+      "website": "https://www.allconfs.org/list_info_view.asp?id=A5E5AC5AF9DB67DB2340E5542943AD51",
+      "organizer": "ICCHHCC组委会",
+      "tags": [
+        "文化遗产",
+        "历史",
+        "文化传播",
+        "数字化保护",
+        "非物质文化遗产"
+      ],
+      "description": "国际学术会议，主题涵盖文化遗产数字化保护技术、历史建筑修复维护、非物质文化遗产传承、文化传播与跨文化交际等，所有录用论文以会议论文集发表并提交EI、CPCI、Google Scholar索引。",
+      "sourceUrl": "https://www.allconfs.org/list_info_view.asp?id=A5E5AC5AF9DB67DB2340E5542943AD51",
+      "verified": true,
+      "crawledAt": "2026-06-04T00:00:00+08:00",
+      "keywords": [],
+      "link_status_website": "alive",
+      "link_status": "alive"
+    },
+    {
+      "id": "7eb29ac7aefb",
+      "name": "CIPA Summer School 2026",
+      "date": "2026-06-19",
+      "location": "Byurakan, Armenia",
+      "submission_deadline": "",
+      "url": "https://www.icomos.org/en/agenda",
+      "organizer": "ICOMOS",
+      "source": "ICOMOS",
+      "crawled_at": "2026-06-14T18:31:10.633445",
+      "crawledAt": "2026-06-19",
+      "tags": [
+        "学术会议"
+      ],
+      "keywords": [],
+      "link_status_url": "alive",
+      "link_status": "alive"
+    },
+    {
+      "id": "c338f6dc2add",
+      "name": "第五届中国博物馆协会民族博物馆专业委员会青年学术研讨会成功举办",
+      "date": "2026-06-02",
+      "location": "",
+      "submission_deadline": "",
+      "url": "https://www.chinamuseum.org.cn/newList.html?id=12",
+      "organizer": "中国博物馆协会",
+      "source": "中国博物馆协会",
+      "crawled_at": "2026-06-14T18:31:10.633445",
+      "crawledAt": "2026-06-02",
+      "tags": [
+        "学术会议"
+      ],
+      "keywords": [],
+      "link_status_url": "alive",
+      "link_status": "alive"
+    },
+    {
+      "id": "d839beeadc55",
+      "name": "2026年度中国博协陶瓷专业委员会古陶瓷修复培训班在山西博物院圆满结业",
+      "date": "2026-05-30",
+      "location": "",
+      "submission_deadline": "",
+      "url": "https://www.chinamuseum.org.cn/newList.html?id=12",
+      "organizer": "中国博物馆协会",
+      "source": "中国博物馆协会",
+      "crawled_at": "2026-06-14T18:31:10.633445",
+      "crawledAt": "2026-05-30",
+      "tags": [
+        "学术会议"
+      ],
+      "keywords": [],
+      "link_status_url": "alive",
+      "link_status": "alive"
+    },
+    {
+      "id": "cad6928fbde3",
+      "name": "国际博协亚太地区联盟2026年大会暨学术研讨会在马来西亚举行",
+      "date": "2026-05-22",
+      "location": "",
+      "submission_deadline": "",
+      "url": "https://www.chinamuseum.org.cn/newList.html?id=12",
+      "organizer": "中国博物馆协会",
+      "source": "中国博物馆协会",
+      "crawled_at": "2026-06-14T18:31:10.633445",
+      "crawledAt": "2026-05-22",
+      "tags": [
+        "学术会议"
+      ],
+      "keywords": [],
+      "link_status_url": "alive",
+      "link_status": "alive"
+    },
+    {
+      "id": "95395548d695",
+      "name": "2026年度古陶瓷修复培训班在山西博物院开班",
+      "date": "2026-05-21",
+      "location": "",
+      "submission_deadline": "",
+      "url": "https://www.chinamuseum.org.cn/newList.html?id=12",
+      "organizer": "中国博物馆协会",
+      "source": "中国博物馆协会",
+      "crawled_at": "2026-06-14T18:31:10.633445",
+      "crawledAt": "2026-05-21",
+      "tags": [
+        "学术会议"
+      ],
+      "keywords": [],
+      "link_status_url": "alive",
+      "link_status": "alive"
+    },
+    {
+      "id": "b2c2c60be429",
+      "name": "第七届博物馆青年论坛在呼和浩特成功举办",
+      "date": "2026-05-19",
+      "location": "",
+      "submission_deadline": "",
+      "url": "https://www.chinamuseum.org.cn/newList.html?id=12",
+      "organizer": "中国博物馆协会",
+      "source": "中国博物馆协会",
+      "crawled_at": "2026-06-14T18:31:10.633445",
+      "crawledAt": "2026-05-19",
+      "tags": [
+        "学术会议"
+      ],
+      "keywords": [],
+      "link_status_url": "alive",
+      "link_status": "alive"
+    }
+  ]
+}
