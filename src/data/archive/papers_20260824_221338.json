@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "archived_at": "2026-08-24T22:13:38.019818",
+    "category": "papers",
+    "total_items": 5,
+    "reason": "超出 365 天时效"
+  },
+  "items": [
+    {
+      "id": "41aa3fdb3cc9",
+      "title": "Managing world heritage conservation archives",
+      "authors": [],
+      "journal": "Unknown",
+      "doi": "10.58337/xmil8436",
+      "publish_date": "2025-07-29",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.58337/xmil8436",
+      "crawled_at": "2026-07-12T02:23:15.691858"
+    },
+    {
+      "id": "9033c5751fbc",
+      "title": "Review of \"Museum Studies / Museology\"",
+      "authors": [
+        "Asena Ozge Yasar"
+      ],
+      "journal": "Unknown",
+      "doi": "10.14293/s2199-1006.1.sor-uncat.baip1k.v1.rtodvv",
+      "publish_date": "2025-08-05",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.14293/s2199-1006.1.sor-uncat.baip1k.v1.rtodvv",
+      "crawled_at": "2026-07-12T02:23:16.233481"
+    },
+    {
+      "id": 2,
+      "title": "社区参与视角下的传统村落文化遗产活化路径研究——以皖南古村落为例",
+      "authors": "刘思远, 赵明辉",
+      "journal": "城市规划",
+      "doi": "10.11819/cpr20251608",
+      "publishDate": "2025-08-20",
+      "abstract": "本文以皖南地区西递、宏村等6个传统村落为案例，通过参与式观察与半结构化访谈，探讨社区参与在传统村落文化遗产活化中的角色与机制。研究发现，社区主导型活化模式在文化传承可持续性、居民满意度方面显著优于政府主导型和企业主导型。文章提出「社区赋权-多元共治-利益共享」三阶活化路径框架。",
+      "keywords": [
+        "传统村落",
+        "社区参与",
+        "文化遗产活化",
+        "皖南古村落",
+        "乡村振兴"
+      ],
+      "sourceUrl": "https://doi.org/10.11819/cpr20251608",
+      "verified": true,
+      "crawledAt": "2026-03-10"
+    },
+    {
+      "id": "9033c5751fbc",
+      "title": "Review of \"Museum Studies / Museology\"",
+      "authors": [
+        "Asena Ozge Yasar"
+      ],
+      "journal": "Unknown",
+      "doi": "10.14293/s2199-1006.1.sor-uncat.baip1k.v1.rtodvv",
+      "publish_date": "2025-08-05",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.14293/s2199-1006.1.sor-uncat.baip1k.v1.rtodvv",
+      "crawled_at": "2026-07-12T02:23:16.233481"
+    },
+    {
+      "id": "41aa3fdb3cc9",
+      "title": "Managing world heritage conservation archives",
+      "authors": [],
+      "journal": "Unknown",
+      "doi": "10.58337/xmil8436",
+      "publish_date": "2025-07-29",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.58337/xmil8436",
+      "crawled_at": "2026-07-12T02:23:15.691858"
+    }
+  ]
+}
