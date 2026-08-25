@@ -1,0 +1,139 @@
+{
+  "metadata": {
+    "archived_at": "2026-08-25T01:08:29.995465",
+    "category": "papers",
+    "total_items": 8,
+    "reason": "超出 365 天时效"
+  },
+  "items": [
+    {
+      "title": "Deep Learning Approaches for Cultural Heritage Image Classification: A Survey",
+      "authors": [
+        "Zhang Wei",
+        "Li Xiaoming",
+        "Chen Jie"
+      ],
+      "journal": "Journal of Cultural Heritage",
+      "doi": "10.1016/j.culher.2025.01.001",
+      "publish_date": "2025-01-15",
+      "abstract": "This paper provides a comprehensive survey of deep learning approaches applied to cultural heritage image classification, covering CNN, transformer, and multimodal methods.",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.1016/j.culher.2025.01.001",
+      "id": "a3354079360b",
+      "crawled_at": "2026-08-25T01:08:16.527629",
+      "arxiv_id": ""
+    },
+    {
+      "title": "Sustainable Heritage Conservation in Urban Contexts: A Framework for Chinese Historic Cities",
+      "authors": [
+        "Wang Fang",
+        "Liu Yang"
+      ],
+      "journal": "Heritage Science",
+      "doi": "10.1186/s40494-024-01523-8",
+      "publish_date": "2024-12-20",
+      "abstract": "This study proposes a sustainability framework for heritage conservation in rapidly urbanizing Chinese historic cities, integrating economic, social, and environmental dimensions.",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.1186/s40494-024-01523-8",
+      "id": "be8befc380ed",
+      "crawled_at": "2026-08-25T01:08:16.527643",
+      "arxiv_id": ""
+    },
+    {
+      "title": "Museology in the Digital Age: Visitor Experience Design with Mixed Reality",
+      "authors": [
+        "Martinez C.",
+        "Johnson A.",
+        "Kim S."
+      ],
+      "journal": "Museum Management and Curatorship",
+      "doi": "10.1080/09647775.2025.2345678",
+      "publish_date": "2025-03-01",
+      "abstract": "Exploring how mixed reality technologies transform museum visitor experiences and the implications for museological practice.",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.1080/09647775.2025.2345678",
+      "id": "d9a74da6a038",
+      "crawled_at": "2026-08-25T01:08:16.527648",
+      "arxiv_id": ""
+    },
+    {
+      "title": "Intangible Cultural Heritage Documentation Using Blockchain Technology",
+      "authors": [
+        "Park H.",
+        "Lee J.",
+        "Tanaka Y."
+      ],
+      "journal": "arXiv preprint",
+      "doi": "",
+      "publish_date": "2025-02-10",
+      "abstract": "We propose a blockchain-based system for immutable documentation and provenance tracking of intangible cultural heritage practices.",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2502.12345",
+      "id": "a560db17e298",
+      "crawled_at": "2026-08-25T01:08:16.527652",
+      "arxiv_id": ""
+    },
+    {
+      "title": "Archaeological Site Detection Using Satellite Imagery and Deep Learning",
+      "authors": [
+        "Brown R.",
+        "Garcia M.",
+        "Ahmed S."
+      ],
+      "journal": "Journal of Archaeological Science",
+      "doi": "10.1016/j.jas.2025.105987",
+      "publish_date": "2025-04-05",
+      "abstract": "We present a novel deep learning pipeline for detecting archaeological sites from high-resolution satellite imagery across diverse geographic regions.",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.1016/j.jas.2025.105987",
+      "id": "b32313dd75fe",
+      "crawled_at": "2026-08-25T01:08:16.527656",
+      "arxiv_id": ""
+    },
+    {
+      "id": 2,
+      "title": "社区参与视角下的传统村落文化遗产活化路径研究——以皖南古村落为例",
+      "authors": "刘思远, 赵明辉",
+      "journal": "城市规划",
+      "doi": "10.11819/cpr20251608",
+      "publishDate": "2025-08-20",
+      "abstract": "本文以皖南地区西递、宏村等6个传统村落为案例，通过参与式观察与半结构化访谈，探讨社区参与在传统村落文化遗产活化中的角色与机制。研究发现，社区主导型活化模式在文化传承可持续性、居民满意度方面显著优于政府主导型和企业主导型。文章提出「社区赋权-多元共治-利益共享」三阶活化路径框架。",
+      "keywords": [
+        "传统村落",
+        "社区参与",
+        "文化遗产活化",
+        "皖南古村落",
+        "乡村振兴"
+      ],
+      "sourceUrl": "https://doi.org/10.11819/cpr20251608",
+      "verified": true,
+      "crawledAt": "2026-03-10"
+    },
+    {
+      "id": "9033c5751fbc",
+      "title": "Review of \"Museum Studies / Museology\"",
+      "authors": [
+        "Asena Ozge Yasar"
+      ],
+      "journal": "Unknown",
+      "doi": "10.14293/s2199-1006.1.sor-uncat.baip1k.v1.rtodvv",
+      "publish_date": "2025-08-05",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.14293/s2199-1006.1.sor-uncat.baip1k.v1.rtodvv",
+      "crawled_at": "2026-07-12T02:23:16.233481"
+    },
+    {
+      "id": "41aa3fdb3cc9",
+      "title": "Managing world heritage conservation archives",
+      "authors": [],
+      "journal": "Unknown",
+      "doi": "10.58337/xmil8436",
+      "publish_date": "2025-07-29",
+      "abstract": "",
+      "source": "CrossRef",
+      "url": "https://doi.org/10.58337/xmil8436",
+      "crawled_at": "2026-07-12T02:23:15.691858"
+    }
+  ]
+}
