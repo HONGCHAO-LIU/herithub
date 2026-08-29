@@ -1,0 +1,135 @@
+{
+  "metadata": {
+    "archived_at": "2026-08-29T23:41:22.746762",
+    "category": "business",
+    "total_items": 8,
+    "reason": "超出 90 天时效"
+  },
+  "items": [
+    {
+      "title": "故宫博物院2024年度文创产品设计招标公告",
+      "type": "招标公告",
+      "amount": "500万元",
+      "publish_date": "2024-11-15",
+      "source": "中国政府采购网",
+      "link": "https://www.ccgp.gov.cn",
+      "description": "故宫博物院拟对2024年度文创产品设计服务进行公开招标，预算金额500万元。",
+      "sectors": [
+        "文创开发"
+      ],
+      "id": "de33bf20ac53",
+      "crawled_at": "2026-08-29T23:41:22.608354",
+      "validation_status": "anomaly"
+    },
+    {
+      "title": "敦煌研究院文旅融合示范项目招标公告",
+      "type": "招标公告",
+      "amount": "1200万元",
+      "publish_date": "2024-12-01",
+      "source": "中国政府采购网",
+      "link": "https://www.ccgp.gov.cn",
+      "description": "敦煌研究院拟建设文旅融合示范区，包含数字展陈和游客服务中心。",
+      "sectors": [
+        "文旅融合",
+        "文化遗产数字化"
+      ],
+      "id": "725feb4a9737",
+      "crawled_at": "2026-08-29T23:41:22.608365",
+      "validation_status": "anomaly"
+    },
+    {
+      "title": "三星堆博物馆新馆展陈设计中标结果公告",
+      "type": "中标结果",
+      "amount": "860万元",
+      "publish_date": "2025-01-10",
+      "source": "中国政府采购网",
+      "link": "https://www.ccgp.gov.cn",
+      "description": "三星堆博物馆新馆展陈设计与施工一体化项目中标结果公示。",
+      "sectors": [
+        "专业服务",
+        "内容与媒体"
+      ],
+      "id": "38c4b648b2c6",
+      "crawled_at": "2026-08-29T23:41:22.608368",
+      "validation_status": "no_baseline"
+    },
+    {
+      "title": "全国文博系统数字化培训班（2025年第1期）通知",
+      "type": "政策发布",
+      "amount": "",
+      "publish_date": "2025-01-20",
+      "source": "国家文物局",
+      "link": "https://www.ncha.gov.cn",
+      "description": "国家文物局组织开展全国文博系统数字化培训班，面向各级博物馆技术人员。",
+      "sectors": [
+        "教育培训",
+        "文化遗产数字化"
+      ],
+      "id": "5cb686fdbb88",
+      "crawled_at": "2026-08-29T23:41:22.608371",
+      "validation_status": "skipped"
+    },
+    {
+      "title": "国家文物局关于进一步加强文物安全工作指导意见",
+      "type": "政策发布",
+      "amount": "",
+      "publish_date": "2025-02-05",
+      "source": "国家文物局",
+      "link": "https://www.ncha.gov.cn",
+      "description": "发布最新文物安全工作指导意见，涉及安防升级与文物保护单位管理规范。",
+      "sectors": [
+        "专业服务"
+      ],
+      "id": "f286c76ab5ef",
+      "crawled_at": "2026-08-29T23:41:22.608374",
+      "validation_status": "skipped"
+    },
+    {
+      "title": "中国考古博物馆年度特展策展招标",
+      "type": "招标公告",
+      "amount": "350万元",
+      "publish_date": "2025-02-20",
+      "source": "弘博网",
+      "link": "https://www.hongbowang.net",
+      "description": "中国考古博物馆拟对年度特展策展服务进行招标，聚焦中华文明探源。",
+      "sectors": [
+        "内容与媒体",
+        "专业服务"
+      ],
+      "id": "10ebd487ee2c",
+      "crawled_at": "2026-08-29T23:41:22.608377",
+      "validation_status": "anomaly"
+    },
+    {
+      "title": "秦始皇帝陵博物院文创产品开发合作征集",
+      "type": "项目合作",
+      "amount": "",
+      "publish_date": "2025-03-01",
+      "source": "弘博网",
+      "link": "https://www.hongbowang.net",
+      "description": "秦始皇帝陵博物院面向社会征集文创产品设计方案与合作伙伴。",
+      "sectors": [
+        "文创开发"
+      ],
+      "id": "dcf1e1dba630",
+      "crawled_at": "2026-08-29T23:41:22.608380",
+      "validation_status": "skipped"
+    },
+    {
+      "title": "大运河文化遗产数字化保护与利用项目成交公告",
+      "type": "成交公告",
+      "amount": "1560万元",
+      "publish_date": "2025-03-15",
+      "source": "中国政府采购网",
+      "link": "https://www.ccgp.gov.cn",
+      "description": "大运河文化遗产数字化保护与利用综合平台建设项目成交结果公告。",
+      "sectors": [
+        "文化遗产数字化",
+        "文旅融合"
+      ],
+      "id": "90fefe8447ca",
+      "crawled_at": "2026-08-29T23:41:22.608387",
+      "validation_status": "anomaly"
+    }
+  ]
+}
