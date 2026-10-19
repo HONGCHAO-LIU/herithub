@@ -1,0 +1,272 @@
+{
+  "metadata": {
+    "archived_at": "2026-10-19T03:08:50.353347",
+    "category": "conferences",
+    "total_items": 16,
+    "reason": "超出 60 天时效"
+  },
+  "items": [
+    {
+      "name": "2025年度全国博物馆数字化建设研讨会",
+      "date": "2026-07-17 - 2026-07-19",
+      "location": "北京 · 中国国家博物馆",
+      "submission_deadline": "2026-07-07",
+      "url": "https://www.chinamuseum.org.cn",
+      "organizer": "中国博物馆协会",
+      "source": "中国博物馆协会",
+      "id": "9bc8ba956ca7",
+      "crawled_at": "2026-07-17T02:15:51.586896"
+    },
+    {
+      "name": "ICOMOS International Symposium on Heritage Impact Assessment",
+      "date": "2026-08-16 - 2026-08-19",
+      "location": "Florence, Italy",
+      "submission_deadline": "2026-07-22",
+      "url": "https://www.icomos.org/en/resources/resources-for-members/calendar-resources",
+      "organizer": "ICOMOS",
+      "source": "ICOMOS",
+      "id": "cd9fe8d89c31",
+      "crawled_at": "2026-07-17T02:15:51.586906"
+    },
+    {
+      "name": "文化遗产保护青年学者论坛（2025年夏季）",
+      "date": "2026-08-16",
+      "location": "上海 · 复旦大学",
+      "submission_deadline": "2026-08-01",
+      "url": "https://www.chinamuseum.org.cn",
+      "organizer": "中国博物馆协会",
+      "source": "中国博物馆协会",
+      "id": "aa93d98ee11f",
+      "crawled_at": "2026-07-17T02:15:51.586915"
+    },
+    {
+      "id": "c0950280b6d7",
+      "name": "Global Dissonant Modernities: Designing the Future for 20th-Century Architectural Monuments and Sites",
+      "date": "2026-08-17",
+      "location": "Almaty, Kazakhstan",
+      "submission_deadline": "",
+      "url": "https://www.icomos.org/en/agenda",
+      "organizer": "ICOMOS",
+      "source": "ICOMOS",
+      "crawled_at": "2026-06-14T18:31:10.633445",
+      "crawledAt": "2026-08-17",
+      "tags": [
+        "学术会议"
+      ],
+      "keywords": [],
+      "link_status_url": "alive",
+      "link_status": "alive"
+    },
+    {
+      "name": "ICOMOS International Symposium on Heritage Impact Assessment",
+      "date": "2026-08-16 - 2026-08-19",
+      "location": "Florence, Italy",
+      "submission_deadline": "2026-07-22",
+      "url": "https://www.icomos.org/en/resources/resources-for-members/calendar-resources",
+      "organizer": "ICOMOS",
+      "source": "ICOMOS",
+      "id": "cd9fe8d89c31",
+      "crawled_at": "2026-07-17T02:15:51.586906"
+    },
+    {
+      "name": "文化遗产保护青年学者论坛（2025年夏季）",
+      "date": "2026-08-16",
+      "location": "上海 · 复旦大学",
+      "submission_deadline": "2026-08-01",
+      "url": "https://www.chinamuseum.org.cn",
+      "organizer": "中国博物馆协会",
+      "source": "中国博物馆协会",
+      "id": "aa93d98ee11f",
+      "crawled_at": "2026-07-17T02:15:51.586915"
+    },
+    {
+      "id": 3,
+      "name": "2026数字人文、文化遗产保护与教育技术国际会议 (DHCHPET 2026)",
+      "date": "2026-08-15 ~ 2026-08-17",
+      "location": "成都",
+      "deadline": "2026-07-20",
+      "website": "https://www.allconfs.org/list_info_view.asp?id=D71CB5581679C26E3AC2798BCDFB1D35",
+      "organizer": "DHCHPET组委会",
+      "tags": [
+        "数字人文",
+        "文化遗产保护",
+        "教育技术",
+        "三维建模",
+        "虚拟修复",
+        "AI"
+      ],
+      "description": "聚焦文化遗产数字化采集与三维建模、文物虚拟修复与智能保护技术、数字人文文本挖掘、VR/AR文化展示、人工智能文化遗产分类识别等前沿议题，推动文化资源可持续保护与创新型教育发展。",
+      "sourceUrl": "https://www.allconfs.org/list_info_view.asp?id=D71CB5581679C26E3AC2798BCDFB1D35",
+      "verified": true,
+      "crawledAt": "2026-06-04T00:00:00+08:00",
+      "keywords": [],
+      "link_status_website": "alive",
+      "link_status": "alive"
+    },
+    {
+      "name": "2025年度全国博物馆数字化建设研讨会",
+      "date": "2026-07-17 - 2026-07-19",
+      "location": "北京 · 中国国家博物馆",
+      "submission_deadline": "2026-07-07",
+      "url": "https://www.chinamuseum.org.cn",
+      "organizer": "中国博物馆协会",
+      "source": "中国博物馆协会",
+      "id": "9bc8ba956ca7",
+      "crawled_at": "2026-07-17T02:15:51.586896"
+    },
+    {
+      "id": 8,
+      "name": "2026文化遗产、旅游管理与可持续发展国际会议 (CHTMSD 2026)",
+      "date": "2026-07-15 ~ 2026-07-17",
+      "location": "西安",
+      "deadline": "2026-05-20",
+      "website": "https://www.allconfs.org/meeting/index.asp?id=68131",
+      "organizer": "CHTMSD组委会",
+      "tags": [
+        "文化遗产",
+        "旅游管理",
+        "可持续发展",
+        "文旅融合",
+        "社区参与"
+      ],
+      "description": "聚焦全球化与数字化背景下遗产保护、文旅融合与社区发展的创新路径。议题涵盖文化遗产活化利用、可持续旅游规划、遗产地韧性管理、文旅科技融合、社区参与及政策治理等。论文提交Ei Compendex、CPCI、CNKI、Google Scholar检索。",
+      "sourceUrl": "https://www.allconfs.org/meeting/index.asp?id=68131",
+      "verified": true,
+      "crawledAt": "2026-06-04T00:00:00+08:00",
+      "keywords": [],
+      "link_status_website": "alive",
+      "link_status": "alive"
+    },
+    {
+      "id": 2,
+      "name": "2026文化遗产、历史与文化传播国际会议 (ICCHHCC 2026)",
+      "date": "2026-06-20 ~ 2026-06-22",
+      "location": "昆明·线上+线下",
+      "deadline": "2026-06-10",
+      "website": "https://www.allconfs.org/list_info_view.asp?id=A5E5AC5AF9DB67DB2340E5542943AD51",
+      "organizer": "ICCHHCC组委会",
+      "tags": [
+        "文化遗产",
+        "历史",
+        "文化传播",
+        "数字化保护",
+        "非物质文化遗产"
+      ],
+      "description": "国际学术会议，主题涵盖文化遗产数字化保护技术、历史建筑修复维护、非物质文化遗产传承、文化传播与跨文化交际等，所有录用论文以会议论文集发表并提交EI、CPCI、Google Scholar索引。",
+      "sourceUrl": "https://www.allconfs.org/list_info_view.asp?id=A5E5AC5AF9DB67DB2340E5542943AD51",
+      "verified": true,
+      "crawledAt": "2026-06-04T00:00:00+08:00",
+      "keywords": [],
+      "link_status_website": "alive",
+      "link_status": "alive"
+    },
+    {
+      "id": "7eb29ac7aefb",
+      "name": "CIPA Summer School 2026",
+      "date": "2026-06-19",
+      "location": "Byurakan, Armenia",
+      "submission_deadline": "",
+      "url": "https://www.icomos.org/en/agenda",
+      "organizer": "ICOMOS",
+      "source": "ICOMOS",
+      "crawled_at": "2026-06-14T18:31:10.633445",
+      "crawledAt": "2026-06-19",
+      "tags": [
+        "学术会议"
+      ],
+      "keywords": [],
+      "link_status_url": "alive",
+      "link_status": "alive"
+    },
+    {
+      "id": "c338f6dc2add",
+      "name": "第五届中国博物馆协会民族博物馆专业委员会青年学术研讨会成功举办",
+      "date": "2026-06-02",
+      "location": "",
+      "submission_deadline": "",
+      "url": "https://www.chinamuseum.org.cn/newList.html?id=12",
+      "organizer": "中国博物馆协会",
+      "source": "中国博物馆协会",
+      "crawled_at": "2026-06-14T18:31:10.633445",
+      "crawledAt": "2026-06-02",
+      "tags": [
+        "学术会议"
+      ],
+      "keywords": [],
+      "link_status_url": "alive",
+      "link_status": "alive"
+    },
+    {
+      "id": "d839beeadc55",
+      "name": "2026年度中国博协陶瓷专业委员会古陶瓷修复培训班在山西博物院圆满结业",
+      "date": "2026-05-30",
+      "location": "",
+      "submission_deadline": "",
+      "url": "https://www.chinamuseum.org.cn/newList.html?id=12",
+      "organizer": "中国博物馆协会",
+      "source": "中国博物馆协会",
+      "crawled_at": "2026-06-14T18:31:10.633445",
+      "crawledAt": "2026-05-30",
+      "tags": [
+        "学术会议"
+      ],
+      "keywords": [],
+      "link_status_url": "alive",
+      "link_status": "alive"
+    },
+    {
+      "id": "cad6928fbde3",
+      "name": "国际博协亚太地区联盟2026年大会暨学术研讨会在马来西亚举行",
+      "date": "2026-05-22",
+      "location": "",
+      "submission_deadline": "",
+      "url": "https://www.chinamuseum.org.cn/newList.html?id=12",
+      "organizer": "中国博物馆协会",
+      "source": "中国博物馆协会",
+      "crawled_at": "2026-06-14T18:31:10.633445",
+      "crawledAt": "2026-05-22",
+      "tags": [
+        "学术会议"
+      ],
+      "keywords": [],
+      "link_status_url": "alive",
+      "link_status": "alive"
+    },
+    {
+      "id": "95395548d695",
+      "name": "2026年度古陶瓷修复培训班在山西博物院开班",
+      "date": "2026-05-21",
+      "location": "",
+      "submission_deadline": "",
+      "url": "https://www.chinamuseum.org.cn/newList.html?id=12",
+      "organizer": "中国博物馆协会",
+      "source": "中国博物馆协会",
+      "crawled_at": "2026-06-14T18:31:10.633445",
+      "crawledAt": "2026-05-21",
+      "tags": [
+        "学术会议"
+      ],
+      "keywords": [],
+      "link_status_url": "alive",
+      "link_status": "alive"
+    },
+    {
+      "id": "b2c2c60be429",
+      "name": "第七届博物馆青年论坛在呼和浩特成功举办",
+      "date": "2026-05-19",
+      "location": "",
+      "submission_deadline": "",
+      "url": "https://www.chinamuseum.org.cn/newList.html?id=12",
+      "organizer": "中国博物馆协会",
+      "source": "中国博物馆协会",
+      "crawled_at": "2026-06-14T18:31:10.633445",
+      "crawledAt": "2026-05-19",
+      "tags": [
+        "学术会议"
+      ],
+      "keywords": [],
+      "link_status_url": "alive",
+      "link_status": "alive"
+    }
+  ]
+}
